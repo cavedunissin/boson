@@ -1,6 +1,6 @@
 # 彩色灯带（固定颜色）
 ## 实物图片
-![](boson_彩色灯带(固定颜色)_实物图.jpg "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_实物图.jpg "Optional title")
 
 ## 基本信息
 中文名称：彩色灯带（固定颜色）
@@ -14,7 +14,7 @@ SKU  号：BOS0019
 ## 模块简介                                                                  
 彩色灯带（固定颜色）属于简单的发光模块，由数字信号控制。彩色灯带（固定颜色）可广泛应用于装点房间、布置会场、烘托气氛等场景。
 
-![](boson_彩色灯带(固定颜色)_实例.png "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_实例.png "Optional title")
 
 ## 使用说明
 当使用数字信号控制彩色灯带时，
@@ -25,7 +25,7 @@ SKU  号：BOS0019
 
 按照下图所示连接电路，即可通过按钮模块控制灯带的点亮和熄灭。
 
-![](boson_彩色灯带(固定颜色)_使用说明.png "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_使用说明.png "Optional title")
 
 ## 原理介绍 
 彩色灯带（固定颜色）由一系列的彩色LED灯组成，支持5V供电，采用晶体管开关，配上4米40灯的彩色柔性灯带。向彩色灯带（固定颜色）输出高电平表示点亮灯带，向彩色灯带（固定颜色）输出低电平表示熄灭灯带。彩色灯带（固定颜色）也可以通过模拟信号来控制，输入信号越大，灯带越亮。
@@ -39,7 +39,7 @@ SKU  号：BOS0019
 
 **连线图：** 
 
-![](boson_彩色灯带(固定颜色)_制作皇冠1连线图.png "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_制作皇冠1连线图.png "Optional title")
 
 ####**(2) 制作皇冠（编程）**
 
@@ -49,7 +49,7 @@ SKU  号：BOS0019
 
 **连线图：** 将倾斜开关连接至micro:bit扩展板引脚P0，彩色灯带连接至micro:bit扩展板引脚P8。
 
-![](boson_彩色灯带(固定颜色)_制作皇冠2连线图.png "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_制作皇冠2连线图.png "Optional title")
 
 **执行流程：**
 
@@ -73,7 +73,7 @@ SKU  号：BOS0019
 
 **连线图：** 将彩色灯带连接至micro:bit扩展板引脚P8。
 
-![](boson_彩色灯带(固定颜色)_小夜灯连线图.png "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_小夜灯连线图.png "Optional title")
 
 **执行流程：**
 
@@ -83,11 +83,11 @@ SKU  号：BOS0019
 
 **程序示意图（中文版）：**
 
-![](boson_彩色灯带(固定颜色)_小夜灯程序示意图中文版.png "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_小夜灯程序示意图中文版.png "Optional title")
 
 **程序示意图（英文版）：**
 
-![](boson_彩色灯带(固定颜色)_小夜灯程序示意图英文版.png "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_小夜灯程序示意图英文版.png "Optional title")
 
 ####**(4) 声光互动蛋糕**
 
@@ -97,11 +97,11 @@ SKU  号：BOS0019
 
 **连线图：** 
 
-![](boson_彩色灯带(固定颜色)_声光互动蛋糕连线图.png "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_声光互动蛋糕连线图.png "Optional title")
 
 ## 规格参数
 引脚说明：
-![](boson_彩色灯带(固定颜色)_引脚说明.png "Optional title")
+![](https://raw.githubusercontent.com/rjc945tc/Boson/master/boson_彩色灯带(固定颜色)_引脚说明.png "Optional title")
 
 尺寸: 26mm*22mm
 
