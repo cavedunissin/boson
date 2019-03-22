@@ -1,8 +1,8 @@
-# 按钮模块
+# 按鈕模組
 
 ## 實體照片
 
-![](.gitbook/assets/button_module.jpg)
+![](.gitbook/assets/button_modulebutton_module.jpg)
 
 ## 基本信息
 
