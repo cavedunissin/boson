@@ -1,8 +1,8 @@
-# 自锁开关
+# 自鎖開關 (Self Locking Switch)
 
-## 实物图片
+## 實體照片
 
-![](.gitbook/assets/boson-zi-suo-kai-guan-shi-wu-tu-pian.jpg)
+![](.gitbook/assets/self_locking_switch.jpg)
 
 ## 基本信息
 
