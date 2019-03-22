@@ -130,7 +130,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 引脚说明：
 
-![](.gitbook/assets/boson-an-niu-mo-kuai-yin-jiao-shuo-ming.png)
+![](.gitbook/assets/button_module/button_module_pin.png)
 
 重量： （g）
 
