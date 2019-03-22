@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Boson](README.md)
-* [自锁开关](boson-zi-suo-kai-guan.md)
+* [自鎖開關](self_locking_switch.md)
 * [电机控制模块](boson-dian-ji-kong-zhi-mo-kuai.md)
 * [舵机控制模块](boson-duo-ji-kong-zhi-mo-kuai.md)
 * [阈值模块](boson-yu-zhi-mo-kuai.md)
