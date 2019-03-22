@@ -6,19 +6,19 @@
 
 ## 基本信息
 
-中文名称：自锁开关
+中文名稱：自鎖開關
 
-英文名称：Self Locking Switch
+英文名稱：Self Locking Switch
 
 序号：i3
 
 SKU：BOS0003
 
-## 功能简介
+## 功能簡介
 
 自锁开关，是一种常见的按钮开关，它和按钮模块不同的地方在于它可以把开关锁定在一种状态下，当它的按键被按下以后可以保持，直到第二次被按以后弹起。这种巧妙的技术广泛应用于我们的家用电器中，比如电饭煲、电热水壶等。
 
-![](.gitbook/assets/boson-zi-suo-kai-guan-mo-kuai-jian-jie.png)
+![](.gitbook/assets/self_locking_switch_intro.png)
 
 ## 使用说明
 
@@ -33,9 +33,9 @@ SKU：BOS0003
 
 ## 原理介绍
 
-无
+無
 
-## 应用样例
+## 應用案例
 
 ### \(1\) 点亮LED灯（非编程）
 
@@ -91,7 +91,7 @@ SKU：BOS0003
 
 引脚说明：
 
-![](.gitbook/assets/boson-zi-suo-kai-guan-yin-jiao-shuo-ming.png)
+![](.gitbook/assets/self_locking_switch_pin.png)
 
 重量： （g）
 
