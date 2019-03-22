@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](/.gitbook/assets/self_locking_switch.jpg)
+![](.gitbook/assets/self_locking_switch.jpg)
 
 ## 基本信息
 
@@ -59,11 +59,11 @@ SKU：BOS0003
 
 **执行流程：**① 如果引脚P0输出高电平（“1”），即自锁开关被按下，则LED模块亮起；② 如果引脚P0输出低电平（“0”），即自锁开关被松开，则LED模块熄灭。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![](.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Sample program:**
 
 ![](.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
@@ -97,7 +97,7 @@ SKU：BOS0003
 
 尺寸：26mm\*22mm
 
-工作电压：3.0-5.5V
+工作電壓：3.0-5.5V
 
-工作电流：不大于5mA@5V
+工作電流：不大于5mA@5V
 
