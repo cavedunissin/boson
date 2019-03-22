@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](.gitbook/assets/self_locking_switch.jpg)
+![](https://github.com/cavedunissin/boson/tree/f690a364f62b061236b58fefd813f42210473dec/.gitbook/assets/self_locking_switch.jpg)
 
 ## 基本信息
 
