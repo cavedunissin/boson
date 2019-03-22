@@ -1,8 +1,8 @@
-# 自锁开关
+# 自鎖開關
 
 ## 實體照片
 
-![](https://github.com/cavedunissin/boson/tree/fd1521350bf7817e5d16c256072c74d98e6f81c2/.gitbook/assets/self_locking_switch.jpg)
+![](/.gitbook/assets/self_locking_switch.jpg)
 
 ## 基本信息
 
