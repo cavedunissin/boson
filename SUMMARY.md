@@ -18,7 +18,7 @@
 * [七彩灯带](boson-qi-cai-deng-dai.md)
 * [pH传感器](bosonph-chuan-gan-qi.md)
 * [智能灰度传感器](boson-zhi-neng-hui-du-chuan-gan-qi.md)
-* [按钮模块](boson-an-niu-mo-kuai.md)
+* [按钮模块](button_module.md)
 * [电导开关](boson-dian-dao-kai-guan.md)
 * [旋钮模块](boson-xuan-niu-mo-kuai.md)
 * [持续模块（0~6秒）](boson-chi-xu-mo-kuai-06-miao.md)
