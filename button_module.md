@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](.gitbook/assets/boson_module.jpg)
+![](.gitbook/assets/button_module.jpg)
 
 ## 基本信息
 
