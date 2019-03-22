@@ -39,4 +39,6 @@
 * [逻辑“或”模块](boson-luo-ji-huo-mo-kuai.md)
 * [风扇模块](boson-feng-shan-mo-kuai.md)
 * [LED模块](bosonled-mo-kuai.md)
+* [test](test/README.md)
+  * [test-sub1](test/test-sub1.md)
 
