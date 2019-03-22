@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](.gitbook/assets/button_modulebutton_module.jpg)
+![](.gitbook/assets/button_module/button_module.jpg)
 
 ## 基本信息
 
