@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](.gitbook/assets/self_locking_switchself_locking_switch.jpg)
+![](.gitbook/assets/self_locking_switch/self_locking_switch.jpg)
 
 ## 基本資料
 
