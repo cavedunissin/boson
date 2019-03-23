@@ -2,13 +2,13 @@
 
 ## 實體照片
 
-![](.gitbook/assets/button_module/button_module.jpg)
+![](.gitbook/assets/button_module%20%281%29.jpg)
 
 ## 基本信息
 
-中文名称：按钮模块
+中文名稱：按鈕模組
 
-英文名称：Push Button
+英文名稱：Push Button
 
 序号：i2b; i2r; i2y
 
@@ -130,7 +130,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 引脚说明：
 
-![](.gitbook/assets/button_module/button_module_pin.png)
+![](.gitbook/assets/button_module_pin.png)
 
 重量： （g）
 

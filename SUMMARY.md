@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Boson](README.md)
+* [BOSON電子積木套件簡介](boson_intro.md)
 * [自鎖開關](self_locking_switch.md)
 * [电机控制模块](boson-dian-ji-kong-zhi-mo-kuai.md)
 * [舵机控制模块](boson-duo-ji-kong-zhi-mo-kuai.md)
@@ -18,7 +19,7 @@
 * [七彩灯带](boson-qi-cai-deng-dai.md)
 * [pH传感器](bosonph-chuan-gan-qi.md)
 * [智能灰度传感器](boson-zhi-neng-hui-du-chuan-gan-qi.md)
-* [按钮模块](button_module.md)
+* [按鈕模組](button_module.md)
 * [电导开关](boson-dian-dao-kai-guan.md)
 * [旋钮模块](boson-xuan-niu-mo-kuai.md)
 * [持续模块（0~6秒）](boson-chi-xu-mo-kuai-06-miao.md)

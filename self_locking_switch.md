@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](.gitbook/assets/self_locking_switch/self_locking_switch.jpg)
+![](.gitbook/assets/self_locking_switch.jpg)
 
 ## 基本資料
 
@@ -18,7 +18,7 @@ SKU：BOS0003
 
 自鎖開關是一種常見的按鈕開關。與按鈕模組不同的地方在於它可以把開關鎖定在某個狀態。直到第二次被按以后弹起。这种巧妙的技术广泛应用于我们的家用电器中，比如电饭煲、电热水壶等。
 
-![](.gitbook/assets/self_locking_switch/self_locking_switch_intro.png)
+![](.gitbook/assets/self_locking_switch_intro.png)
 
 ## 使用说明
 
@@ -91,7 +91,7 @@ SKU：BOS0003
 
 引脚说明：
 
-![](.gitbook/assets/self_locking_switch/self_locking_switch_pin.png)
+![](.gitbook/assets/self_locking_switch_pin.png)
 
 重量： （g）
 
