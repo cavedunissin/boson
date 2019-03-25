@@ -3,7 +3,7 @@
 * [Boson](README.md)
 * [BOSON電子積木套件簡介](boson_intro.md)
 * [自鎖開關](self_locking_switch.md)
-* [电机控制模块](boson-dian-ji-kong-zhi-mo-kuai.md)
+* [馬達模組](motor_controller_module.md)
 * [舵机控制模块](boson-duo-ji-kong-zhi-mo-kuai.md)
 * [阈值模块](boson-yu-zhi-mo-kuai.md)
 * [土壤湿度传感器](boson-tu-rang-shi-du-chuan-gan-qi.md)
