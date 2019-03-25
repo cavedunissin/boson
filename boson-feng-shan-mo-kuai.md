@@ -1,22 +1,22 @@
-# 风扇模块
+# 風扇模組
 
-## 实物图片
+## 實體照片
 
 ![Optional title](.gitbook/assets/boson-feng-shan-mo-kuai-shi-wu-tu.jpg)
 
-## 基本信息
+## 基本資料
 
-中文名称：风扇模块
+中文名稱：風扇模組
 
-英文名称：Fan Module
+英文名稱：Fan Module
 
 序号：o6
 
 SKU 号：BOS0021
 
-## 模块简介
+## 模組簡介
 
-风扇模块是一款利用直流电机将电能转化为机械能，驱动扇叶旋转的模块。风扇模块已被广泛应用于电风扇、散热器、螺旋桨、吸油烟机等场景中。
+風扇模組是一款利用直流馬達將電能轉換為機械能，藉此帶動葉片轉動的模組。風扇模組已被廣泛應用於各類電風扇、散熱器、螺旋槳與抽油煙機等場景中。
 
 ![Optional title](.gitbook/assets/boson-feng-shan-mo-kuai-shi-li.png)
 
@@ -42,17 +42,17 @@ SKU 号：BOS0021
 
 **样例说明：** 利用micro:bit自带的A、B按钮控制风扇的开启和关闭。当A按钮被按下时，风扇打开；当B按钮被按下时，风扇关闭。
 
-**元件清单：** 风扇模块；micro:bit；micro:bit BOSON扩展板。
+**元件清单：** 風扇模組；micro:bit；micro:bit BOSON扩展板。
 
-**连线图：** 将风扇模块连接至micro:bit扩展板引脚P8。
+**连线图：** 将風扇模組连接至micro:bit扩展板引脚P8。
 
 ![Optional title](.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-lian-xian-tu.png)
 
 **执行流程：**
 
-① 当按钮A被按下时，引脚P8输出高电平（“1”），风扇启动。
+① 当按钮A被按下时，P8腳位輸出高電位（“1”），風扇轉動。
 
-② 当按钮B被按下时，引脚P8输出低电平（“0”），风扇关闭。
+② 当按钮B被按下时，P8腳位輸出低電位（“0”），風扇停止。
 
 **程序示意图（中文版）：**
 
@@ -74,7 +74,7 @@ SKU 号：BOS0021
 
 **执行流程：**
 
-① 读取引脚P0的模拟值。 ② 将读取到的模拟值赋给引脚P8。
+① 讀取P0腳位的類比數值。 ② 將讀取到的數值指定給P8腳位。
 
 **程序示意图（中文版）：**
 
@@ -94,21 +94,21 @@ SKU 号：BOS0021
 
 ![Optional title](.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu.png)
 
-### **\(4\) 声控风扇**
+### **\(4\) 聲控風扇**
 
-**样例说明：** 使用声音传感器控制风扇模块的启动和关闭。
+**样例说明：** 使用聲音感測器控制風扇模組是否轉動。
 
-**元件清单：** 声音传感器；风扇模块；电源主板-三路。
+**元件清单：** 聲音感測器；風扇模組；电源主板-三路。
 
 **连线图：**
 
 ![Optional title](.gitbook/assets/boson-feng-shan-mo-kuai-sheng-kong-feng-shan-lian-xian-tu.png)
 
-## 规格参数
+## 規格參數
 
 引脚说明： ![Optional title](.gitbook/assets/boson-feng-shan-mo-kuai-yin-jiao-shuo-ming.png)
 
 尺寸: 26mm\*22mm
 
-工作电压:3.0-5.0V
+工作電壓:3.0-5.0V
 
