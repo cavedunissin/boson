@@ -6,7 +6,7 @@
 
 ## 基本信息
 
-中文名称：电机控制模块
+中文名称：馬達模組
 
 英文名称：Motor Controller Module
 
