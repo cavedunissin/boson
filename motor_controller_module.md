@@ -22,7 +22,7 @@ SKU 号：BOS0024
 
 ## 使用说明
 
-电机控制模块预设了四种不同的控制模式（如下表所示），可以通过拨动开关进行切换。
+馬達模組预设了四种不同的控制模式（如下表所示），可以通过拨动开关进行切换。
 
 ![Optional title](.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming-1.png)
 
