@@ -63,7 +63,7 @@ SKU：BOS0003
 
 ![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**Sample program:**
+**Example program(English):**
 
 ![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
