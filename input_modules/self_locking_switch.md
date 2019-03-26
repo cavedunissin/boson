@@ -4,7 +4,7 @@
 
 ![](../.gitbook/assets/self_locking_switch.jpg)
 
-## 基本資料
+## 基本信息
 
 中文名稱：自鎖開關
 
@@ -87,7 +87,7 @@ SKU：BOS0003
 
 ![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-4-lian-xian-tu.png)
 
-## 參數規格
+## 商品規格
 
 腳位說明：
 
