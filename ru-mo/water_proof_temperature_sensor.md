@@ -1,6 +1,6 @@
 # i19防水温度感測器
 
-## 实物图片
+##  实物图片
 
 ![](../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-shi-wu-tu-pian.jpg)
 
