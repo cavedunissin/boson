@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/rotation_sensor.jpg)
+![](../.gitbook/assets/rotation_sensor/rotation_sensor.jpg)
 
 ## 基本信息
 
