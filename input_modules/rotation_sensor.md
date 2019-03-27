@@ -18,7 +18,7 @@ SKU：BOS0001
 
 旋鈕模組是基于电位器的旋转角度传感器，旋转角度从0到300度，可以非常容易地实现与旋转位置相关的互动效果。旋钮可广泛应用于调速风扇、换挡汽车、家用洗衣机等场景。这是一款非常基本的類比訊號輸入設備，你可以通过它来学习模拟信号的处理，进而学习更多類比感測器。
 
-![](../.gitbook/assets/rotation_sensor_intro.png)
+![](../.gitbook/assets/rotation_sensor/rotation_sensor_intro.png)
 
 ## 使用說明
 
@@ -26,7 +26,7 @@ SKU：BOS0001
 
 > * 顺时针旋转代表類比訊號增强，風扇會轉得愈來愈快；逆时针旋转代表類比訊號减弱，風扇會變慢。
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor/rotation_sensor_ui.png)
+![](../.gitbook/assets//rotation_sensor/rotation_sensor_ui.png)
 
 ## 原理介绍
 
