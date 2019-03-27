@@ -2,7 +2,7 @@
 
 ##  實體照片
 
-![](../.gitbook/assets//push_button/push_button.jpg)
+![](../.gitbook/assets/push_button/push_button.jpg)
 
 ## 基本信息
 
