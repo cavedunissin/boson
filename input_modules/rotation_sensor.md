@@ -4,7 +4,7 @@
 
 ![](../.gitbook/assets/rotation_sensor/rotation_sensor.jpg)
 
-## 基本資訊
+## 基本信息
 
 中文名稱：旋鈕模組
 
