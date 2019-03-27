@@ -6,25 +6,23 @@ BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件
 
 根據模組類型可以分為輸入、輸出與功能等三種模組，分別說明如下：
 
-### 輸入
+## 輸入
 
 * [按鈕模組](https://cavedu.gitbook.io/boson/button_module)
 * 聲音感測器
 * [自鎖開關](https://cavedu.gitbook.io/boson/self_locking_switch)
 * 土壤濕度感測器
 
-### 輸出
+## 輸出
 
 * LED燈光模組
 * 聲音播放模組
 * 伺服機模組
 * N20減速直流馬達模組
 
-### 功能
+## 功能
 
 * AND閘
 * OR閘
 * NOT閘
-
-
 

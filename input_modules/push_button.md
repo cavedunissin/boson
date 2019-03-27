@@ -1,6 +1,6 @@
 # i2r按鈕模組
 
-## 實體照片
+##  實體照片
 
 ![](../.gitbook/assets/button_module.jpg)
 
