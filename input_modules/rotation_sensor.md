@@ -60,7 +60,7 @@ SKU：BOS0001
 
 ![](../.gitbook/assets/rotation_sensor/rotation_sensor_prg_ch_tw.png)
 
-**Example program \(English\):**
+**Example program(English):**
 
 ![](../.gitbook/assets/rotation_sensor/rotation_sensor_prg_en.png)
 
