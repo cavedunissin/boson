@@ -63,7 +63,7 @@ SKU：BOS0003
 
 ![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**Example program(English):**
+**Example program\(English\):**
 
 ![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
@@ -92,8 +92,6 @@ SKU：BOS0003
 腳位說明：
 
 ![](../.gitbook/assets/self_locking_switch_pin.png)
-
-
 
 重量： （g）
 

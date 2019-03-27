@@ -1,8 +1,8 @@
 # i2r按鈕模組
 
-## 實體照片
+##  實體照片
 
-![](../.gitbook/assets/button_module.jpg)
+![](../.gitbook/assets//push_button/push_button.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 按钮模块是最简单的按键模块，包括红色按钮模块、蓝色按钮模块和黄色按钮模块，按钮可以广泛应用于门铃、台灯、空调遥控器、按摩浴缸、电梯、消防报警等场景。
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/push_button/push_button_intro.png)
 
 ## 使用说明
 
