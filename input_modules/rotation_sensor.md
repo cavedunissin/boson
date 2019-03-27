@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor.jpg)
+![](../.gitbook/assets/rotation_sensor.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU：BOS0001
 
 旋鈕模組是基于电位器的旋转角度传感器，旋转角度从0到300度，可以非常容易地实现与旋转位置相关的互动效果。旋钮可广泛应用于调速风扇、换挡汽车、家用洗衣机等场景。这是一款非常基本的類比訊號輸入設備，你可以通过它来学习模拟信号的处理，进而学习更多類比感測器。
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor_intro.png)
+![](../.gitbook/assets/rotation_sensor_intro.png)
 
 ## 使用說明
 
@@ -26,7 +26,7 @@ SKU：BOS0001
 
 > * 顺时针旋转代表類比訊號增强，風扇會轉得愈來愈快；逆时针旋转代表類比訊號减弱，風扇會變慢。
 
-![](../.gitbook/assets//rotation_sensor/rotation_sensor_ui.png)
+![](../.gitbook/assets/rotation_sensor_ui.png)
 
 ## 原理介绍
 
@@ -42,7 +42,7 @@ SKU：BOS0001
 
 **連線圖：**
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor_example1.png)
+![](../.gitbook/assets/rotation_sensor_example1.png)
 
 ### \(2\) 旋鈕檯燈
 
@@ -52,17 +52,17 @@ SKU：BOS0001
 
 **連線圖：**將旋鈕模組连接至Micro:bit擴充板的P0腳位，LED模組連接到Micro:bit擴充板的P8腳位。
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor_example2.png)
+![](../.gitbook/assets/rotation_sensor_example2.png)
 
 **程式說明：**① 讀取P0腳位的類比值；② 将读取到的類比值赋给P8腳位。
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor_prg_ch_tw.png)
+![](../.gitbook/assets/rotation_sensor_prg_ch_tw.png)
 
 **Example program \(English\):**
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor_prg_en.png)
+![](../.gitbook/assets/rotation_sensor_prg_en.png)
 
 ### \(3\) 調速打蛋器
 
@@ -72,13 +72,13 @@ SKU：BOS0001
 
 **連線圖：**
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor_example3.png)
+![](../.gitbook/assets/rotation_sensor_example3.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor_spec.png)
+![](../.gitbook/assets/rotation_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
@@ -93,3 +93,4 @@ SKU：BOS0001
 工作電壓：3.0-5.5V
 
 工作電流：\(Max\)1mA@5V
+
