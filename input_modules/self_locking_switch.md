@@ -51,9 +51,9 @@ SKU：BOS0003
 
 **範例說明：**通過自鎖開關控制LED燈的亮滅。第一次按下自鎖開關，LED燈被點亮，第二次按下自鎖開關，LED燈被熄滅。
 
-**元件清單：**自鎖開關；LED燈模組；Micro:bit；Micro:bit BOSON擴展板。
+**元件清單：**自鎖開關；LED燈模組；Micro:bit；Micro:bit BOSON擴充板。
 
-**連線圖：**將自鎖開關連接至Micro:bit擴展板P0腳位，LED燈模組連接至Micro:bit擴展板P8腳位。
+**連線圖：**將自鎖開關連接至Micro:bit擴充板P0腳位，LED燈模組連接至Micro:bit擴充板P8腳位。
 
 ![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-lian-xian-tu.png)
 
@@ -63,7 +63,7 @@ SKU：BOS0003
 
 ![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**Example program\(English\):**
+**Example program(English):**
 
 ![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
@@ -92,6 +92,8 @@ SKU：BOS0003
 腳位說明：
 
 ![](../.gitbook/assets/self_locking_switch_pin.png)
+
+
 
 重量： （g）
 
