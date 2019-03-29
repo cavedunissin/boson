@@ -50,9 +50,9 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **範例說明：**使用按鈕控制LED燈的點亮和熄滅。當按鈕按下時，LED燈模組被點亮；當按鈕鬆開時，LED燈模組被熄滅。
 
-**元件清單：**按鈕模組；LED燈模組；Micro:bit；Micro:bit BOSON擴展板。
+**元件清單：**按鈕模組；LED燈模組；Micro:bit；Micro:bit BOSON擴充板。
 
-**連線圖：**將按鈕模組連接至Micro:bit擴展板P0腳位，LED燈模組連接至Micro:bit擴展板P8腳位。
+**連線圖：**將按鈕模組連接至Micro:bit擴充板P0腳位，LED燈模組連接至Micro:bit擴充板P8腳位。
 
 ![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-2-lian-xian-tu.png)
 
@@ -80,9 +80,9 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **範例說明：**防盜展示台的功能是當展示物品離開展示台，展示台自動報警。將展示物品放在按鈕上，相當於按下按鈕。當展示物品被拿開時，按鈕彈起，蜂鳴器發出警報。
 
-**元件清單：**按鈕模組；蜂鳴器模組；Micro:bit；Micro:bit BOSON擴展板。
+**元件清單：**按鈕模組；蜂鳴器模組；Micro:bit；Micro:bit BOSON擴充板。
 
-**連線圖：**將按鈕模組連接至Micro:bit擴展板P0腳位，蜂鳴器模組連接至Micro:bit擴展板P8腳位。
+**連線圖：**將按鈕模組連接至Micro:bit擴充板P0腳位，蜂鳴器模組連接至Micro:bit擴充板P8腳位。
 
 ![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-4-lian-xian-tu.png)
 
