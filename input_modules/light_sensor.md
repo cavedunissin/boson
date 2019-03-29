@@ -80,7 +80,7 @@ SKU：BOS0004
 
 **範例說明：**環境光感測器測量光強度，Micro:bit讀取測量值並將光的強度值顯示在LED燈點陣上。
 
-**元件清單：**環境光感測器；Micro:bit；Micro:bit BOSON擴展板。
+**元件清單：**環境光感測器；Micro:bit；Micro:bit BOSON擴充板。
 
 **連線圖：**
 
