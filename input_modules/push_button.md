@@ -126,7 +126,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 ![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-7-lian-xian-tu.png)
 
-## 參數規格
+## 商品規格
 
 腳位說明：
 
