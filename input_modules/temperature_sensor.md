@@ -34,7 +34,7 @@ SKU：BOS0011
 
 ## 原理介紹
 
-溫度感測器利用NTC的阻值隨溫度變化的特性，將非電學的物理量轉換為電學量，從而進行溫度的精確測量與自動控制。 來源：[https://baike.baidu.com/item/溫度感測器/1202879?fr=aladdin\#2](https://baike.baidu.com/item/溫度感測器/1202879?fr=aladdin#2)
+溫度感測器利用NTC的阻值隨溫度變化的特性，將非電學的物理量轉換為電學量，從而進行溫度的精確測量與自動控制。 來源：[https://baike.baidu.com/item/温度传感器/1202879?fr=aladdin\#2](https://baike.baidu.com/item/温度传感器/1202879?fr=aladdin#2)
 
 ## 應用範例
 
