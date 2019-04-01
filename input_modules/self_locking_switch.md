@@ -93,7 +93,11 @@ SKU：BOS0003
 
 ![](../.gitbook/assets/self_locking_switch_pin.png)
 
-
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | D | 數位訊號 |
 
 重量： （g）
 
