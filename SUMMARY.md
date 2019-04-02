@@ -6,7 +6,7 @@
   * [i1旋鈕模組](input_modules/rotation_sensor.md)
   * [i2r按鈕模組](input_modules/push_button.md)
   * [i3自鎖開關](input_modules/self_locking_switch.md)
-  * [i4環境光感測器](input_modules/light_sensor.md)
+  * [i4光感測器](input_modules/light_sensor.md)
   * [i5傾斜感測器](input_modules/tilt_switch.md)
   * [i6水分感測器](input_modules/steam_sensor.md)
   * [i7火焰感測器](input_modules/flame_sensor.md)
