@@ -78,6 +78,14 @@ SKU：BOS0012
 
 ![](../.gitbook/assets/boson-dian-dao-kai-guan-yin-jiao-shuo-ming.png)
 
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | D | 數位訊號 |
+| 4 | LED燈 | 動作指示 |
+| 5 | 開關 | 開關接口 |
+
 重量： （g）
 
 尺寸：26mm\*22mm
