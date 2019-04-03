@@ -28,7 +28,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 >
 >   以按鈕控制LED燈為例，按下按鈕，輸出高電位，LED燈被點亮；鬆開按鈕，輸出低電位，LED燈熄滅。
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/push_button/push_button_ui.png)
 
 ## 原理介紹
 
@@ -44,7 +44,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/push_button/push_button_example1.png)
 
 ### \(2\) 按鈕檯燈（程式設計）
 
@@ -54,17 +54,17 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**將按鈕模組連接至Micro:bit擴充板P0腳位，LED燈模組連接至Micro:bit擴充板P8腳位。
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/push_button/push_button_example2.png)
 
 **執行流程：**① 如果P0腳位輸出高電位（“1”），即按鈕被按下，則LED燈模組亮起；② 如果P0腳位輸出低電位（“0”），即按鈕鬆開，則LED燈模組熄滅。
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/push_button/push_button_prg1_ch_tw.png)
 
 **Example program(English)**
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/push_button/push_button_prg1_en.png)
 
 ### \(3\) 防盜展示台（非程式設計）
 
@@ -74,7 +74,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/push_button_example3.png)
 
 ### \(4\) 防盜展示台（程式設計）
 
@@ -84,17 +84,17 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**將按鈕模組連接至Micro:bit擴充板P0腳位，蜂鳴器模組連接至Micro:bit擴充板P8腳位。
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-4-lian-xian-tu.png)
+![](../.gitbook/assets/push_button/push_button_example4.png)
 
 **執行流程：**① 如果P0腳位輸出高電位（“1”），即按鈕被按下，展示物品沒有離開展示台，則蜂鳴器不報警；② 如果P0腳位輸出低電位（“0”），即按鈕彈起，展示物品離開展示台，則蜂鳴器報警。
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-4-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/push_button/push_button_prg2_ch_tw.png)
 
 **Example program(English)**
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-4-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/push_button/push_button_prg2_en.png)
 
 ### \(5\) 密碼鎖
 
@@ -104,7 +104,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-5-lian-xian-tu.png)
+![](../.gitbook/assets/push_button/push_button_example5.png)
 
 ### \(6\) 搶答器
 
@@ -114,7 +114,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-6-lian-xian-tu.png)
+![](../.gitbook/assets/push_button/push_button_example6.png)
 
 ### \(7\) 找朋友機
 
@@ -124,13 +124,13 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-7-lian-xian-tu.png)
+![](../.gitbook/assets/push_button/push_button_example7.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/button_module_pin.png)
+![](../.gitbook/assets/push_button/push_button_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
