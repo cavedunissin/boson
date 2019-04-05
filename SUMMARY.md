@@ -16,7 +16,7 @@
   * [i11溫度感測器](input_modules/temperature_sensor.md)
   * [i12導電感測開關](input_modules/conductivity_sensor_switch.md)
   * [i13動作感測器](input_modules/motion_sensor.md)
-  * [i16土壤溼度感測器](input_modules/soil_moisture_sensor.md)
+  * [i16土壤濕度感測器](input_modules/soil_moisture_sensor.md)
   * [i17酸鹼值感測器](input_modules/ph_sensor.md)
   * [i18空氣濕度感測器](input_modules/humidity_sensor.md)
   * [i19防水溫度感測器](input_modules/water_proof_temperature_sensor.md)
