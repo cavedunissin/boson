@@ -1,150 +1,150 @@
 # o5蜂鳴器模組
 
-## 实物图片
+## 實體照片
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-shi-wu-tu.jpg)
 
 ## 基本信息
 
-中文名称：蜂鸣器模块
+中文名稱：蜂鳴器模組
 
-英文名称：Buzzer Module
+英文名稱：Buzzer Module
 
-序号：o5
+序號：o5
 
-SKU 号：BOS0020
+SKU 號：BOS0020
 
-## 模块简介
+## 模組簡介
 
-蜂鸣器模块属于简单的发声装置，可以在模拟传感器的控制下发出不同的声音。蜂鸣器模块可广泛应用于计算机、打印机、复印机、报警器、电子玩具、汽车电子设备、电话机、定时器等电子产品中作发声器件。
+蜂鳴器模組屬於簡單的發聲裝置，可以在類比感測器的控制下發出不同的聲音。蜂鳴器模組可廣泛應用於電腦、印表機、影印機、報警器、電子玩具、汽車電子設備、電話機、計時器等電子產品中作發聲器件。
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-shi-li.png)
 
-## 使用说明
+## 使用說明
 
-当使用数字信号控制蜂鸣器模块时， 输入高电平，蜂鸣器开始鸣叫；输入低电平，蜂鸣器停止鸣叫。
+當使用數位信號控制蜂鳴器模組時， 輸入高電位，蜂鳴器開始鳴叫；輸入低電位，蜂鳴器停止鳴叫。
 
-当使用模拟信号控制蜂鸣器模块时， 输入信号越大，蜂鸣器鸣叫的声音越大；输入信号越小，蜂鸣器鸣叫的声音越小。
+當使用類比信號控制蜂鳴器模組時， 輸入信號越大，蜂鳴器鳴叫的聲音越大；輸入信號越小，蜂鳴器鳴叫的聲音越小。
 
-按照下图所示连接电路，即可通过按钮模块控制蜂鸣器模块的鸣叫。
+按照下圖所示連接電路，即可通過按鈕模組控制蜂鳴器模組的鳴叫。
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-shi-yong-shuo-ming.png)
 
-## 原理介绍
+## 原理介紹
 
-蜂鸣器模块由振动装置和谐振装置组成，当输入高电平时，蜂鸣器模块开始鸣叫；当输入低电平时，蜂鸣器停止鸣叫。蜂鸣器模块也可以通过模拟信号来控制，输入信号越大，蜂鸣器鸣叫的声音越响亮。
+蜂鳴器模組由振動裝置和諧振裝置組成，當輸入高電位時，蜂鳴器模組開始鳴叫；當輸入低電位時，蜂鳴器停止鳴叫。蜂鳴器模組也可以通過類比信號來控制，輸入信號越大，蜂鳴器鳴叫的聲音越響亮。
 
-## 应用样例
+## 應用範例
 
-### **\(1\) 报晓公鸡**
+### **\(1\) 報曉公雞**
 
-**样例说明：** micro:bit自带环境光传感器，可以用来检测周围的环境光。环境光越强，蜂鸣器叫声越大；环境光越弱，蜂鸣器叫声越小。
+**範例說明：** micro:bit自帶環境光感測器，可以用來檢測周圍的環境光。環境光越強，蜂鳴器叫聲越大；環境光越弱，蜂鳴器叫聲越小。
 
-**元件清单：** 蜂鸣器模块；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 蜂鳴器模組；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将蜂鸣器模块连接至micro:bit扩展板引脚P8。
+**連線圖：** 將蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-xiao-gong-ji-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
-① 利用micro:bit自带的环境光传感器检测环境光强度。
+① 利用micro:bit自帶的環境光感測器檢測環境光強度。
 
-② 将光强模拟值赋给引脚P8，实现蜂鸣器叫声随光强的变化而变化。
+② 將光強模擬值賦給P8腳位，實現蜂鳴器叫聲隨光強的變化而變化。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-xiao-gong-ji-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-xiao-gong-ji-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(2\) 智能防火装置**
+### **\(2\) 智慧防火裝置**
 
-**样例说明：** 当火焰传感器感知到火焰后，便会传递出电信号，这样便可以控制蜂鸣器模块发出警报。
+**範例說明：** 當火焰感測器感知到火焰後，便會傳遞出電信號，這樣便可以控制蜂鳴器模組發出警報。
 
-**元件清单：** 火焰传感器；蜂鸣器模块；电源主板-三路。
+**元件清單：** 火焰感測器；蜂鳴器模組；主控板：3組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-zhi-neng-fang-huo-zhuang-zhi-lian-xian-tu.png)
 
-### **\(3\) 下雨报警器**
+### **\(3\) 下雨報警器**
 
-**样例说明：** 下雨报警器可以检测有无下雨：蜂鸣器下雨时鸣叫，天气晴朗时不鸣叫。
+**範例說明：** 下雨報警器可以檢測有無下雨：蜂鳴器下雨時鳴叫，天氣晴朗時不鳴叫。
 
-**元件清单：** 蜂鸣器模块；水分传感器；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 蜂鳴器模組；水分感測器；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将水分传感器连接至micro:bit扩展板引脚P0，蜂鸣器模块连接至micro:bit扩展板引脚P8。
+**連線圖：** 將水分感測器連接至micro:bit擴充板P0腳位，蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
-① 如果引脚P0输出高电平（“1”），即水分传感器检测到雨水，则蜂鸣器报警。
+① 如果P0腳位輸出高電位（“1”），即水分感測器檢測到雨水，則蜂鳴器報警。
 
-② 如果引脚P0输出低电平（“0”），即水分传感器未检测到雨水，则蜂鸣器不报警。
+② 如果P0腳位輸出低電位（“0”），即水分感測器未檢測到雨水，則蜂鳴器不報警。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(4\) 暴躁的小猪**
+### **\(4\) 暴躁的小豬**
 
-**样例说明：** 制作一个小猪，将触摸传感器放在小猪的耳朵上，当触摸小猪的耳朵时，小猪发出叫声。
+**範例說明：** 製作一個小豬，將觸碰感測器放在小豬的耳朵上，當觸摸小豬的耳朵時，小豬發出叫聲。
 
-**元件清单：** 触摸传感器；蜂鸣器模块；电源主板-单路。
+**元件清單：** 觸碰感測器；蜂鳴器模組；主控板：1組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-zao-de-xiao-zhu-lian-xian-tu.png)
 
-### **\(5\) 防盗展台**
+### **\(5\) 防盜展示臺**
 
-**样例说明：** 防盗展台的功能是当展品离开展台，展台自动报警。将展品放在按钮上，相当于按下按钮。当展品被拿开时，按钮弹起，蜂鸣器发出警报。
+**範例說明：** 防盜展示臺的功能是當展品離開展示臺，展示臺自動報警。將展品放在按鈕上，相當於按下按鈕。當展品被拿開時，按鈕彈起，蜂鳴器發出警報。
 
-**元件清单：** 按钮模块；蜂鸣器模块；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 按鈕模組；蜂鳴器模組；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将按钮模块连接至micro:bit扩展板引脚P0，蜂鸣器模块连接至micro:bit扩展板引脚P8。
+**連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
-① 如果引脚P0输出高电平（“1”），即按钮被按下，展品没有离开展台，则蜂鸣器不报警。
+① 如果P0腳位輸出高電位（“1”），即按鈕被按下，展品沒有離開展示臺，則蜂鳴器不報警。
 
-② 如果引脚P0输出低电平（“0”），即按钮弹起，展品离开展台，则蜂鸣器报警。
+② 如果P0腳位輸出低電位（“0”），即按鈕彈起，展品離開展示臺，則蜂鳴器報警。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(6\) 密码锁**
+### **\(6\) 密碼鎖**
 
-**样例说明：** 设置三个按钮，只有按照正确的顺序按下三个按钮，才能解锁；同时小灯模块也会亮起来，蜂鸣器发出警报，即告诉别人，密码锁已被打开。
+**範例說明：** 設置三個按鈕，只有按照正確的順序按下三個按鈕，才能解鎖；同時小燈模組也會亮起來，蜂鳴器發出警報，即告訴別人，密碼鎖已被打開。
 
-**元件清单：** 蓝色按钮模块；红色按钮模块；黄色按钮模块；LED模块；蜂鸣器模块；持续模块（0-6秒）；持续模块（0-60秒）；逻辑“与”模块；分支模块；电源主板-三路。
+**元件清單：** 藍色按鈕模組；紅色按鈕模組；黃色按鈕模組；LED燈模組；蜂鳴器模組；計時模組（0-6秒）；計時模組（0-60秒）；運算邏輯模組 AND；分配模組；主控板：3組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu.png)
 
-## 规格参数
+## 商品參數
 
-引脚说明： ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-yin-jiao-shuo-ming.png)
 
 尺寸：26mm\*22 mm
 
-工作电压：5.0V
+工作電壓：5.0V
 
-工作电流：\(Max\)30mA@5V
+工作電流：\(Max\)30mA@5V
 
