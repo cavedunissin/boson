@@ -1,146 +1,146 @@
-# o2LED模組
+# o2LED燈模組
 
-## 实物图片
+## 實體照片
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-shi-wu-tu.png)
 
 ## 基本信息
 
-中文名称：LED模块
+中文名稱：LED燈模組
 
-英文名称：LED Module
+英文名稱：LED Module
 
-序号：o2r\o2g\o2b
+序號：o2r\o2g\o2b
 
-SKU 号：BOS0017-R\BOS0017-G\BOS0017-B
+SKU 號：BOS0017-R\BOS0017-G\BOS0017-B
 
-## 模块简介
+## 模組簡介
 
-LED模块是最简单的发光模块，根据LED灯的颜色可将LED模块进一步区分为红色LED模块、绿色LED模块和蓝色LED模块。LED模块目前已广泛应用于LED显示屏、指示灯、交通灯、汽车灯、照明灯、装饰灯等方面。
+LED燈模組是最簡單的發光模組，根據LED燈的顏色可將LED燈模組進一步區分為紅色LED燈模組、綠色LED燈模組和藍色LED燈模組。LED燈模組目前已廣泛應用於LED顯示螢幕、指示燈、交通燈、汽車燈、照明燈、裝飾燈等方面。
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-shi-li.png)
 
-## 使用说明
+## 使用說明
 
-当使用数字信号控制LED模块时， 输入高电平，LED灯被点亮；输入低电平，LED灯被熄灭。
+當使用數位信號控制LED燈模組時， 輸入高電位，LED燈被點亮；輸入低電位，LED燈被熄滅。
 
-当使用模拟信号控制LED模块时， 输入信号越大，LED灯亮度越大；输入信号越小，LED灯亮度越小。
+當使用類比信號控制LED燈模組時， 輸入信號越大，LED燈亮度越大；輸入信號越小，LED燈亮度越小。
 
-按照下图所示连接电路，即可通过按钮模块控制LED灯的点亮和熄灭。
+按照下圖所示連接電路，即可通過按鈕模組控制LED燈的點亮和熄滅。
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-shi-yong-shuo-ming.png)
 
-## 原理介绍
+## 原理介紹
 
-LED模块主要由透明环氧树脂封装、LED芯片、楔形支架、阳极杆、有发射碗的阴极杆、针脚（又称引线架）等部分构成（见下图）。向LED模块输出高电平表示点亮LED灯，向LED模块输出低电平表示熄灭LED灯。LED模块也可以通过模拟信号来控制，输入信号越大，LED灯越亮。
+LED燈模組主要由透明環氧樹脂封裝、LED燈晶片、楔形支架、陽極桿、有發射碗的陰極桿、針腳（又稱引線架）等部分構成（見下圖）。向LED燈模組輸出高電位表示點亮LED燈，向LED燈模組輸出低電位表示熄滅LED燈。LED燈模組也可以通過類比信號來控制，輸入信號越大，LED燈越亮。
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-yuan-li-jie-shao.jpg)
 
-## 应用样例
+## 應用範例
 
-### **\(1\) 按钮台灯（非编程）**
+### **\(1\) 按鈕檯燈（非程式設計）**
 
-**样例说明：** 使用按钮控制LED灯的点亮和熄灭。当按钮按下时，LED模块被点亮；当按钮松开时，LED模块被熄灭。
+**範例說明：** 使用按鈕控制LED燈的點亮和熄滅。當按鈕按下時，LED燈模組被點亮；當按鈕鬆開時，LED燈模組被熄滅。
 
-**元件清单：** 按钮模块；LED模块；电源主板-三路。
+**元件清單：** 按鈕模組；LED燈模組；主控板：3組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu.png)
 
-### **\(2\) 按钮台灯（编程）**
+### **\(2\) 按鈕檯燈（程式設計）**
 
-**样例说明：** 使用按钮控制LED灯的点亮和熄灭。当按钮按下时，LED模块被点亮；当按钮松开时，LED模块被熄灭。
+**範例說明：** 使用按鈕控制LED燈的點亮和熄滅。當按鈕按下時，LED燈模組被點亮；當按鈕鬆開時，LED燈模組被熄滅。
 
-**元件清单：** 按钮模块；LED模块；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 按鈕模組；LED燈模組；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将按钮模块连接至micro:bit扩展板引脚P0，LED模块连接至micro:bit扩展板引脚P8。
+**連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
-① 如果引脚P0输出高电平（“1”），即按钮被按下，则LED模块亮起。
+① 如果P0腳位輸出高電位（“1”），即按鈕被按下，則LED燈模組亮起。
 
-② 如果引脚P0输出低电平（“0”），即按钮松开，则LED模块熄灭。
+② 如果P0腳位輸出低電位（“0”），即按鈕鬆開，則LED燈模組熄滅。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(3\) 旋钮台灯**
+### **\(3\) 旋鈕檯燈**
 
-**样例说明：** 使用旋钮控制LED模块的亮度。顺时针转动旋钮，LED模块越来越亮，逆时针转动旋钮，LED模块越来越暗。
+**範例說明：** 使用旋鈕控制LED燈模組的亮度。順時針轉動旋鈕，LED燈模組越來越亮，逆時針轉動旋鈕，LED燈模組越來越暗。
 
-**元件清单：** 旋钮模块；LED模块；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 旋鈕模組；LED燈模組；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将旋钮模块连接至micro:bit扩展板引脚P0，LED模块连接至micro:bit扩展板引脚P8。
+**連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
-① 读取引脚P0的模拟值。 ② 将读取到的模拟值赋给引脚P8。
+① 讀取P0腳位的類比值。 ② 將讀取到的類比值賦給P8腳位。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(4\) 感应发光小屋**
+### **\(4\) 感應發光小屋**
 
-**样例说明：** 制作一个感应发光小屋，当有人经过时，运动传感器检测到人，LED灯亮起。
+**範例說明：** 製作一個感應發光小屋，當有人經過時，動作感測器偵測到人，LED燈亮起。
 
-**元件清单：** 运动传感器；LED模块；电源主板-三路。
+**元件清單：** 動作感測器；LED燈模組；主控板：3組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-gan-ying-fa-guang-xiao-wu-lian-xian-tu.png)
 
-### **\(5\) 智能路灯**
+### **\(5\) 智慧路燈**
 
-**样例说明：** 将模块按下图连接后可以实现如下功能：只有在晚上的时候，听到有人来了，路灯才会亮起。这一设计大大节约了电力资源。
+**範例說明：** 將模組按下圖連接後可以實現如下功能：只有在晚上的時候，聽到有人來了，路燈才會亮起。這一設計大大節約了電力資源。
 
-**元件清单：** 环境光传感器；声音传感器；逻辑“非”模块；逻辑“与”模块；LED模块；电源主板-单路。
+**元件清單：** 光感測器；聲音感測器；運算邏輯模組 NOT；運算邏輯模組 AND；LED燈模組；主控板：1組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-zhi-neng-lu-deng-lian-xian-tu.png)
 
-### **\(6\) 复古烛台**
+### **\(6\) 復古燭臺**
 
-**样例说明：** 用光代替火，环境光传感器感受到光后使小灯泡点亮，小灯泡一旦被“点火”成功，就保持着不灭的状态。
+**範例說明：** 用光代替火，光感測器感受到光後使小燈泡點亮，小燈泡一旦被“點火”成功，就保持著不滅的狀態。
 
-**元件清单：** 环境光传感器；逻辑“或”模块；分支模块；LED模块；电源主板-单路。
+**元件清單：** 光感測器；運算邏輯模組 OR；分支模組；LED燈模組；主控板：1組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-fu-gu-zhu-tai-lian-xian-tu.png)
 
-### **\(7\) 找朋友机**
+### **\(7\) 找朋友機**
 
-**样例说明：** 做一个有趣的找朋友机，轻轻按下一个或几个按钮，看看哪些小朋友志趣相投。
+**範例說明：** 做一個有趣的找朋友機，輕輕按下一個或幾個按鈕，看看哪些小朋友志趣相投。
 
-**元件清单：** 红色按钮模块；蓝色按钮模块；逻辑“或”模块；逻辑“与”模块；红色LED模块；蓝色LED模块；电源主板-三路。
+**元件清單：** 紅色按鈕模組；藍色按鈕模組；運算邏輯模組 OR；運算邏輯模組 AND；紅色LED燈模組；藍色LED燈模組；主控板：3組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-zhao-peng-you-ji-lian-xian-tu.png)
 
-## 规格参数
+## 商品參數
 
-引脚说明： ![Optional title](../.gitbook/assets/bosonled-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： ![Optional title](../.gitbook/assets/bosonled-mo-kuai-yin-jiao-shuo-ming.png)
 
 尺寸: 26mm\*22mm
 
-工作电压:3.0-5.5V
+工作電壓:3.0-5.5V
 
-工作电流：\(Max\)5mA@5V
+工作電流：\(Max\)5mA@5V
 
