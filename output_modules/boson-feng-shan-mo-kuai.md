@@ -4,109 +4,109 @@
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-shi-wu-tu.jpg)
 
-## 基本資料
+## 基本信息
 
 中文名稱：風扇模組
 
 英文名稱：Fan Module
 
-序号：o6
+序號：o6
 
-SKU 号：BOS0021
+SKU 號：BOS0021
 
 ## 模組簡介
 
-風扇模組是一款利用直流馬達將電能轉換為機械能，藉此帶動葉片轉動的模組。風扇模組已被廣泛應用於各類電風扇、散熱器、螺旋槳與抽油煙機等場景中。
+風扇模組是一款利用直流馬達將電能轉換為機械能，藉此帶動葉片轉動的模組。風扇模組已被廣泛應用於各類電風扇、散熱器、螺旋槳與抽油煙機等設備中。
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-shi-li.png)
 
-## 使用说明
+## 使用說明
 
-风扇模块在通电后即可转动，还可以搭配旋钮模块来改变风扇控制脚的电压大小使扇叶旋转的速度提高或降低，从而实现换档功能。
+風扇模組在通電後即可轉動，還可以搭配旋鈕模組來改變風扇控制腳位的電壓大小使扇葉旋轉的速度提高或降低，從而實現換檔功能。
 
-当使用数字信号控制风扇模块时， 输入高电平，风扇开始转动；输入低电平，风扇停止转动。
+當使用數位信號控制風扇模組時， 輸入高電位，風扇開始轉動；輸入低電位，風扇停止轉動。
 
-当使用模拟信号控制风扇模块时， 输入信号越大，风扇的转速越快；输入信号越小，风扇的转速越慢。
+當使用類比信號控制風扇模組時， 輸入信號越大，風扇的轉速越快；輸入信號越小，風扇的轉速越慢。
 
-按照下图所示连接电路，即可通过按钮模块控制风扇模块。
+按照下圖所示連接電路，即可通過按鈕模組控制風扇模組。
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-shi-yong-shuo-ming.png)
 
-## 原理介绍
+## 原理介紹
 
-风扇主要由定子和转子两大部分组成，定子主要包括控制电路、轴承、线圈。转子主要由扇叶、磁铁和轴三个部分构成。风扇的工作原理简单的来讲就是电流通过控制电路，在定子线圈处和电磁铁处产生旋转磁场，推动转子上的磁铁朝特定方向旋转，从而带动整个扇叶高速旋转，推动空气快速从扇叶处通过，已到达特定的风量和风压。
+風扇主要由定子和轉子兩大部分組成，定子主要包括控制電路、軸承、線圈。轉子主要由扇葉、磁鐵和軸三個部分構成。風扇的工作原理簡單的來講就是電流通過控制電路，在定子線圈處和電磁鐵處產生旋轉磁場，推動轉子上的磁鐵朝特定方向旋轉，從而帶動整個扇葉高速旋轉，推動空氣快速從扇葉處通過，以達到特定的風量和風壓。
 
-## 应用样例
+## 應用範例
 
-### **\(1\) 按钮风扇**
+### **\(1\) 按鈕風扇**
 
-**样例说明：** 利用micro:bit自带的A、B按钮控制风扇的开启和关闭。当A按钮被按下时，风扇打开；当B按钮被按下时，风扇关闭。
+**範例說明：** 利用micro:bit自帶的A、B按鈕控制風扇的開啟和關閉。當A按鈕被按下時，風扇打開；當B按鈕被按下時，風扇關閉。
 
-**元件清单：** 風扇模組；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 風扇模組；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将風扇模組连接至micro:bit扩展板引脚P8。
+**連線圖：** 將風扇模組連接至micro:bit擴充板P8腳位。
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
-① 当按钮A被按下时，P8腳位輸出高電位（“1”），風扇轉動。
+① 當按鈕A被按下時，P8腳位輸出高電位（“1”），風扇轉動。
 
-② 当按钮B被按下时，P8腳位輸出低電位（“0”），風扇停止。
+② 當按鈕B被按下時，P8腳位輸出低電位（“0”），風扇停止。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(2\) 调速风扇**
+### **\(2\) 調速風扇**
 
-**样例说明：** 使用旋钮控制风扇转速。顺时针转动旋钮，风扇转速越来越快；逆时针转动旋钮，风扇转速越来越慢。
+**範例說明：** 使用旋鈕控制風扇轉速。順時針轉動旋鈕，風扇轉速越來越快；逆時針轉動旋鈕，風扇轉速越來越慢。
 
-**元件清单：** 旋钮模块；风扇模块；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 旋鈕模組；風扇模組；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将旋钮模块连接至micro:bit扩展板引脚P0，风扇模块连接至micro:bit扩展板引脚P8。
+**連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，風扇模組連接至micro:bit擴充板P8腳位。
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
 ① 讀取P0腳位的類比數值。 ② 將讀取到的數值指定給P8腳位。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(3\) 温控风扇**
+### **\(3\) 溫控風扇**
 
-**样例说明：** 当温度较高时，自动开启风扇，温度较低时，自动关闭。
+**範例說明：** 當溫度較高時，自動開啟風扇，溫度較低時，自動關閉。
 
-**元件清单：** 温度传感器；风扇模块；电源主板-单路。
+**元件清單：** 溫度感測器；風扇模組；主控板：1組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu.png)
 
 ### **\(4\) 聲控風扇**
 
-**样例说明：** 使用聲音感測器控制風扇模組是否轉動。
+**範例說明：** 使用聲音感測器控制風扇模組是否轉動。
 
-**元件清单：** 聲音感測器；風扇模組；电源主板-三路。
+**元件清單：** 聲音感測器；風扇模組；主控板：3組輸入/輸出端。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-sheng-kong-feng-shan-lian-xian-tu.png)
 
-## 規格參數
+## 商品規格
 
-引脚说明： ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-yin-jiao-shuo-ming.png)
 
 尺寸: 26mm\*22mm
 
