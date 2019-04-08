@@ -98,6 +98,12 @@ SKU：BOS0041
 
 ![](../.gitbook/assets/humidity_sensor/humidity_sensor_spec.png)
 
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | A | 類比訊號 |
+
 重量： （g）
 
 尺寸：26mm\*22mm
