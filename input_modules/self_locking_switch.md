@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/self_locking_switch.jpg)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU：BOS0003
 
 自鎖開關是一種常見的按鈕開關。與按鈕模組不同的地方在於它可以把開關鎖定在某個狀態。直到第二次被按以後彈起。這種巧妙的技術廣泛應用於我們的家用電器中，比如電鍋、電熱水壺等。
 
-![](../.gitbook/assets/self_locking_switch_intro.png)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch_intro.png)
 
 ## 使用說明
 
@@ -29,7 +29,7 @@ SKU：BOS0003
 
 以自鎖開關控制LED燈為例，第一次按下按鍵，持續輸出高電位，小燈恆亮；第二次按下按鍵，按鍵被彈起，輸出低電位，小燈熄滅。
 
-![](../.gitbook/assets/boson-zi-suo-kai-guan-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch_ui.png)
 
 ## 原理介紹
 
@@ -45,7 +45,7 @@ SKU：BOS0003
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch_example1.png)
 
 ### \(2\) 點亮LED燈（程式設計）
 
@@ -55,17 +55,17 @@ SKU：BOS0003
 
 **連線圖：**將自鎖開關連接至Micro:bit擴充板P0腳位，LED燈模組連接至Micro:bit擴充板P8腳位。
 
-![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch_example2.png)
 
 **執行流程：**① 如果P0腳位輸出高電位（“1”），即自鎖開關被按下，則LED燈模組亮起；② 如果P0腳位輸出低電位（“0”），即自鎖開關被鬆開，則LED燈模組熄滅。
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch_prg_ch_tw.png)
 
 **Example program(English):**
 
-![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch_prg_en.png)
 
 ### \(3\) 開啟風扇
 
@@ -75,7 +75,7 @@ SKU：BOS0003
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch_example3.png)
 
 ### \(4\) 毛毛蟲
 
@@ -85,13 +85,13 @@ SKU：BOS0003
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-zi-suo-kai-guan-ying-yong-yang-li-4-lian-xian-tu.png)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch_example4.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/self_locking_switch_pin.png)
+![](../.gitbook/assets/self_locking_switch_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
