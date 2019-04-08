@@ -28,7 +28,11 @@ SKU：BOS0039
 
 pH值與溶液酸鹼性對應表：
 
-![](../.gitbook/assets/bosonph-chuan-gan-qi-shi-yong-shuo-ming-2.png)
+| **pH值** | **酸鹼度** | 
+| :--- | :--- | 
+| 0-7 | 酸性 | 
+| 7 | 中性 | 
+| 7-14 | 鹼性 | 
 
 **維修保養注意事項：**
 
