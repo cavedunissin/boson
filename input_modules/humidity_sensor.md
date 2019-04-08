@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor.jpg)
 
 ## 基本信息
 
@@ -18,19 +18,19 @@ SKU：BOS0041
 
 濕度感測器可以檢測空氣中的水分，並轉換成可用的輸出信號，它與水分感測器的區別在於前者主要用於檢測空氣中的水蒸氣含量，而後者主要用於檢測水滴。濕度感測器可用於氣象觀測、環境控制、露點測量、乾燥處理、暖房、植物栽培、博物館、展覽會（館）、紙張製造、存儲、程序控制、養殖控制、紡織製造等場所中。
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor_intro.png)
 
 ## 使用說明
 
 濕度感測器可以感知空氣中水分的多少，按照下圖所示連接電路，通電後即可通過OLED顯示模組直接讀取空氣濕度值。
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-shi-yong-shuo-ming-1.png)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor_ui1.png)
 
 也可以將濕度感測器與其他輸出模組相連，實現各種功能。
 
 > * 當空氣濕度升高時，輸出信號增強；當空氣濕度降低時，輸出信號減弱。
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-shi-yong-shuo-ming-2.png)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor_ui2.png)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor_example1.png)
 
 ### \(2\) 糧倉溫濕度檢測
 
@@ -56,7 +56,7 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor_example2.png)
 
 ### \(3\) 植物培育箱
 
@@ -66,7 +66,7 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor_example3.png)
 
 **設計意圖：**使用土壤濕度感測器、溫度感測器、濕度感測器分別檢測植物培育箱中的土壤濕度、溫度和空氣濕度。若其中某一環境因素不在設定區間範圍內，則表示培育箱內的當前環境不適宜種子生長，此時讓LED燈和蜂鳴器發出警報。
 
@@ -86,17 +86,17 @@ SKU：BOS0041
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor_prg_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/humidity_sensor/humidity_sensor_spec.png)
 
 重量： （g）
 
