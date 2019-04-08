@@ -32,7 +32,7 @@ LED燈模組是最簡單的發光模組，根據LED燈的顏色可將LED燈模�
 
 ## 原理介紹
 
-LED燈模組主要由透明環氧樹脂封裝、LED燈晶片、楔形支架、陽極桿、有發射碗的陰極桿、針腳（又稱引線架）等部分構成（見下圖）。向LED燈模組輸出高電位表示點亮LED燈，向LED燈模組輸出低電位表示熄滅LED燈。LED燈模組也可以通過類比信號來控制，輸入信號越大，LED燈越亮。
+LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽極桿、有發射碗的陰極桿、針腳（又稱引線架）等部分構成（見下圖）。向LED燈模組輸出高電位表示點亮LED燈，向LED燈模組輸出低電位表示熄滅LED燈。LED燈模組也可以通過類比信號來控制，輸入信號越大，LED燈越亮。
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-yuan-li-jie-shao.jpg)
 
@@ -134,7 +134,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED燈晶片、楔形支架、�
 
 ![Optional title](../.gitbook/assets/bosonled-mo-kuai-zhao-peng-you-ji-lian-xian-tu.png)
 
-## 商品參數
+## 商品規格
 
 腳位說明： ![Optional title](../.gitbook/assets/bosonled-mo-kuai-yin-jiao-shuo-ming.png)
 
