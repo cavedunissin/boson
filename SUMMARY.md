@@ -21,7 +21,7 @@
   * [i18濕度感測器](input_modules/humidity_sensor.md)
   * [i19防水溫度感測器](input_modules/water_proof_temperature_sensor.md)
   * [i20心律監測感測器](input_modules/heartrate_monitor_sensor.md)
-  * [i22超音波距離感測器](input_modules/ultrasonic_sensor.md)
+  * [i22超音波感測器](input_modules/ultrasonic_sensor.md)
 * [輸出模組](output_modules/README.md)
   * [o2LED模組](output_modules/bosonled-mo-kuai.md)
   * [o5蜂鳴器模組](output_modules/boson-feng-ming-qi-mo-kuai.md)
