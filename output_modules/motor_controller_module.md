@@ -1,112 +1,112 @@
 # o9馬達模組
 
-## 實體圖片
+## 實體照片
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-wu-tu.jpg)
 
-## 基本資訊
+## 基本信息
 
 中文名稱：馬達模組
 
 英文名稱：Motor Controller Module
 
-序号：o9
+序號：o9
 
-SKU 号：BOS0024
+SKU 號：BOS0024
 
 ## 模組介紹
 
-馬達模組可以控制小車移動、推動輸送帶、帶動滑輪裝置。與風扇模組中的馬達相比，在實現複雜功能時，僅僅依靠馬達的單方向轉動是不夠的，我們需要通過馬達模組來設定馬達的轉速與方向。馬達模組已被廣泛應用於空調、吸塵器、鼓風機、壓縮機、驅動機床、電扇、電冰箱、水泵等場景中。
+馬達模組可以控制小車移動、推動輸送帶、帶動滑輪裝置。與風扇模組中的馬達相比，在實現複雜功能時，僅僅依靠馬達的單方向轉動是不夠的，我們需要通過馬達模組來設定馬達的轉速與方向。馬達模組已被廣泛應用於空調、吸塵器、鼓風機、壓縮機、驅動機床、電扇、電冰箱、水泵等方面中。
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-li.png)
 
-## 使用说明
+## 使用說明
 
-馬達模組预设了四种不同的控制模式（如下表所示），可以通过拨动开关进行切换。
+馬達模組預設了四種不同的控制模式（如下表所示），可以通過撥動開關進行切換。
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming-1.png)
 
-电机的转动方向如下图所示：
+馬達的轉動方向如下圖所示：
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming-2.png)
 
-按照下图所示连接电路，通电后即可通过电机控制模块上的拨动开关控制电机的转速和方向。
+按照下圖所示連接電路，通電後即可通過馬達模組上的撥動開關控制馬達的轉速和方向。
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming-3.png)
 
-## 原理介绍
+## 原理介紹
 
-电机驱动物体运动的过程是一个电能转化为动能的过程，需要耗费较大的能量，而输入模块与电机直接相连无法直接提供足够的功率。为了保证有足够能量维持电机转动，在使用时我们需要通过电机控制模块将信号转化为电机的驱动电流。
+馬達驅動物體運動的過程是一個電能轉化為動能的過程，需要耗費較大的能量，而輸入模組與馬達直接相連無法直接提供足夠的功率。為了保證有足夠能量維持馬達轉動，在使用時我們需要通過馬達模組將信號轉化為馬達的驅動電流。
 
 ## 應用範例
 
-### **\(1\) 制作风车**
+### **\(1\) 製作風車**
 
-**範例说明：** 用声音传感器和电机控制模块模拟风车，当人对着声音传感器说话或吹气时，观察电机的转速和转动方向。
+**範例說明：** 用聲音感測器和馬達模組類比風車，當人對著聲音感測器說話或吹氣時，觀察馬達的轉速和轉動方向。
 
-**元件清单：** 声音传感器；电机控制模块；N20减速电机模块；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 聲音感測器；馬達模組；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将声音传感器连接至micro:bit扩展板引脚P0，电机控制模块及电机模块连接至micro:bit扩展板引脚P8。
+**連線圖：** 將聲音感測器連接至micro:bit擴充板P0腳位，馬達模組連接至micro:bit擴充板P8腳位。
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-zhi-zuo-feng-che-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
-① 读取引脚P0的声音强度值。
+① 讀取P0腳位的聲音強度值。
 
-② 将读取到的强度值赋给引脚P8，通过开关切换4种控制模式，观察不同模式下电机的转速与方向，制作不同转速与方向的风车。
+② 將讀取到的強度值賦給P8腳位，通過開關切換4種控制模式，觀察不同模式下馬達的轉速與方向，製作不同轉速與方向的風車。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-zhi-zuo-feng-che-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-zhi-zuo-feng-che-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(2\) 调速打蛋器（非编程）**
+### **\(2\) 調速打蛋器（非程式設計）**
 
-**样例说明：** 制作一个打蛋器，打蛋器的打蛋头固定在电机的转轴上，使用旋钮模块控制电机的转速和转动方向。
+**範例說明：** 製作一個打蛋器，打蛋器的攪拌棒固定在馬達的轉軸上，使用旋鈕模組控制馬達的轉速和轉動方向。
 
-**元件清单：** 旋钮模块；电机控制模块；N20减速电机模块；电源主板-单路。
+**元件清單：** 旋鈕模組；馬達模組；電源主機板-單路。
 
-**连线图：**
+**連線圖：**
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-1-lian-xian-tu.png)
 
-### **\(3\) 调速打蛋器（编程）**
+### **\(3\) 調速打蛋器（程式設計）**
 
-**样例说明：** 制作一个打蛋器，打蛋器的打蛋头固定在电机的转轴上，使用旋钮模块控制电机的转速和转动方向。
+**範例說明：** 製作一個打蛋器，打蛋器的攪拌棒固定在馬達的轉軸上，使用旋鈕模組控制馬達的轉速和轉動方向。
 
-**元件清单：** 旋钮模块；电机控制模块；N20减速电机模块；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 旋鈕模組；馬達模組；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将旋钮模块连接至micro:bit扩展板引脚P0，电机控制模块及电机模块连接至micro:bit扩展板引脚P8。
+**連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，馬達模組連接至micro:bit擴充板P8腳位。
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-2-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
-① 读取引脚P0的声音强度值。
+① 讀取P0腳位的旋鈕類比強度值。
 
-② 将读取到的强度值赋给引脚P8，通过开关切换4种控制模式，观察不同模式下电机的转速与方向，制作不同转速与方向的打蛋器。
+② 將讀取到的類比強度值賦給P8腳位，通過開關切換4種控制模式，觀察不同模式下馬達的轉速與方向，製作不同轉速與方向的打蛋器。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-## 规格参数
+## 商品規格
 
-引脚说明：
+腳位說明：
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-yin-jiao-shuo-ming.png)
 
 尺寸: 26mm\*22mm
 
-工作电压:3.3V-5.0V
+工作電壓:3.3V-5.0V
 
-工作电流：10mA
+工作電流：10mA
 
