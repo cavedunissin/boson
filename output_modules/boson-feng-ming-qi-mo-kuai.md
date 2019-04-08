@@ -138,7 +138,7 @@ SKU 號：BOS0020
 
 ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu.png)
 
-## 商品參數
+## 商品規格
 
 腳位說明： ![Optional title](../.gitbook/assets/boson-feng-ming-qi-mo-kuai-yin-jiao-shuo-ming.png)
 
