@@ -18,7 +18,7 @@
   * [i13動作感測器](input_modules/motion_sensor.md)
   * [i16土壤濕度感測器](input_modules/soil_moisture_sensor.md)
   * [i17酸鹼值感測器](input_modules/ph_sensor.md)
-  * [i18空氣濕度感測器](input_modules/humidity_sensor.md)
+  * [i18濕度感測器](input_modules/humidity_sensor.md)
   * [i19防水溫度感測器](input_modules/water_proof_temperature_sensor.md)
   * [i20心律監測感測器](input_modules/heartrate_monitor_sensor.md)
   * [i22超音波距離感測器](input_modules/ultrasonic_sensor.md)
