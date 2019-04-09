@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-shi-wu-tu.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-shi-wu-tu.png)
 
 ## 基本信息
 
@@ -18,13 +18,13 @@ SKU 號：BOS0022
 
 錄音是將聲音信號記錄在介質上的過程，將介質上記錄的信號重放出來的過程稱為放音。錄音機模組/喇叭通過收音器可以錄製聲音，通過喇叭還可以播放出這段錄製好的聲音。錄音機模組/喇叭在錄音筆、答錄機、手機、電腦、調音台等設備中都有應用。
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-shi-li.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-shi-li.png)
 
 ## 使用說明
 
 按下錄音機模組/喇叭上的錄音按鈕就可以開始錄製聲音，BOSON的錄音機模組/喇叭最長支援錄製時長10s的聲音。通過按鈕模組可以控制喇叭播放出預先錄製好的聲音，達成錄音-放音的過程。按照下圖所示連接電路，通電後按住錄音機模組/喇叭上的錄音按鈕即可錄製最長為10s的聲音，再通過按鈕模組就可以控制喇叭播放這段錄製好的聲音。
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-shi-yong-shuo-ming.png)
 
 ## 原理介紹
 
@@ -40,7 +40,7 @@ SKU 號：BOS0022
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，錄音機模組/喇叭連接至micro:bit擴充板P8腳位。
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-liu-yan-ji-lian-xian-tu.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-liu-yan-ji-lian-xian-tu.png)
 
 **執行流程：**
 
@@ -52,11 +52,11 @@ SKU 號：BOS0022
 
 **程式示意圖（中文版）：**
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-liu-yan-ji-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-liu-yan-ji-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
 **Example program(English)：**
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-liu-yan-ji-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-liu-yan-ji-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ### **\(2\) 倒車雷達**
 
@@ -66,7 +66,7 @@ SKU 號：BOS0022
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu.png)
 
 ### **\(3\) 教師節的禮物**
 
@@ -76,7 +76,7 @@ SKU 號：BOS0022
 
 **連線圖：** 將動作感測器連接至micro:bit擴充板P0腳位，聲音感測器連接至micro:bit擴充板P2腳位，錄音機模組/喇叭連接至micro:bit擴充板P8腳位，LED燈模組連接至micro:bit擴充板P16腳位。
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-lian-xian-tu.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-lian-xian-tu.png)
 
 **執行流程：**
 
@@ -86,15 +86,25 @@ SKU 號：BOS0022
 
 **程式示意圖（中文版）：**
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
 **Example program(English)：**
 
-![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ## 商品規格
 
-腳位說明： ![Optional title](../.gitbook/assets/boson-lu-yin-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： 
+
+![](../.gitbook/assets/boson-lu-yin-mo-kuai-yin-jiao-shuo-ming.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | D | 數位訊號 |
+| 2 | VCC | 電源正極 |
+| 3 | GND | 電源接地 |
+| 4 | 喇叭訊號 | 輸出喇叭訊號 |
+| 5 | 喇叭訊號 | 輸出喇叭訊號 |
 
 尺寸: 38mm\*32mm
 
