@@ -137,7 +137,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 ## 商品規格
 
 腳位說明： 
-![](../.gitbook/assets/output_modules/led_module/led_module_spec.png)
+![image](../.gitbook/assets/output_modules/led_module/led_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
