@@ -22,7 +22,7 @@ SKU 號：019.00268
 
 ## 使用說明
 
-在使用七彩燈條之前，需要擴展燈條的指令庫。打開makecode程式設計平臺，滾動至指令區最底部，依次點擊進階----擴展----neopixel，完成Neopixel指令的調用，此時指令區會出現neopixel模組。完成以上步驟以後，將燈條連接至micro:bit板，即可通過程式設計控制燈條效果。
+在使用七彩燈條之前，需要擴展燈條的指令庫。打開makecode程式設計平臺，滾動至指令區最底部，依次點擊進階----擴展----neopixel，完成Neopixel指令的調用，此時指令區會出現Neopixel模組。完成以上步驟以後，將燈條連接至micro:bit板，即可通過程式設計控制燈條效果。
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-shi-yong-shuo-ming.png)
 
