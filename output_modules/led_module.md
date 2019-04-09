@@ -136,7 +136,14 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 ## 商品規格
 
-腳位說明： ![Optional title](../.gitbook/assets/bosonled-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： 
+![](../.gitbook/assets/bosonled-mo-kuai-yin-jiao-shuo-ming.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | A | 類比訊號 |
 
 尺寸: 26mm\*22mm
 
