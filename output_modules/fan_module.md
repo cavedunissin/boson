@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-shi-wu-tu.jpg)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-shi-wu-tu.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU 號：BOS0021
 
 風扇模組是一款利用直流馬達將電能轉換為機械能，藉此帶動葉片轉動的模組。風扇模組已被廣泛應用於各類電風扇、散熱器、螺旋槳與抽油煙機等設備中。
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-shi-li.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-shi-li.png)
 
 ## 使用說明
 
@@ -30,7 +30,7 @@ SKU 號：BOS0021
 
 按照下圖所示連接電路，即可通過按鈕模組控制風扇模組。
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-shi-yong-shuo-ming.png)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ SKU 號：BOS0021
 
 **連線圖：** 將風扇模組連接至micro:bit擴充板P8腳位。
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-lian-xian-tu.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-lian-xian-tu.png)
 
 **執行流程：**
 
@@ -56,11 +56,11 @@ SKU 號：BOS0021
 
 **程式示意圖（中文版）：**
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
 **Example program(English)：**
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ### **\(2\) 調速風扇**
 
@@ -70,7 +70,7 @@ SKU 號：BOS0021
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，風扇模組連接至micro:bit擴充板P8腳位。
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-lian-xian-tu.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-lian-xian-tu.png)
 
 **執行流程：**
 
@@ -78,11 +78,11 @@ SKU 號：BOS0021
 
 **程式示意圖（中文版）：**
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
 **Example program(English)：**
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ### **\(3\) 溫控風扇**
 
@@ -92,7 +92,7 @@ SKU 號：BOS0021
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu.png)
 
 ### **\(4\) 聲控風扇**
 
@@ -102,11 +102,19 @@ SKU 號：BOS0021
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-sheng-kong-feng-shan-lian-xian-tu.png)
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-sheng-kong-feng-shan-lian-xian-tu.png)
 
 ## 商品規格
 
-腳位說明： ![Optional title](../.gitbook/assets/boson-feng-shan-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： 
+
+![](../.gitbook/assets/boson-feng-shan-mo-kuai-yin-jiao-shuo-ming.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | A | 類比訊號 |
 
 尺寸: 26mm\*22mm
 
