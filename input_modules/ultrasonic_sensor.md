@@ -8,7 +8,7 @@
 
 中文名稱：超音波感測器
 
-英文名稱：Ultrasonic Distance Sensor
+英文名稱：Ultrasonic Sensor
 
 序號：i22
 
@@ -93,6 +93,14 @@ SKU：BOS0045
 腳位說明：
 
 ![](../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-yin-jiao-shuo-ming.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | A | 類比訊號 |
+| 4 | LED燈 | 距離指示 |
+| 5 | 超音波探頭 | 發射 |
 
 重量：\(g\)
 
