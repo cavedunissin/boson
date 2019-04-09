@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-wu-tu.jpg)
+![](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-wu-tu.jpg)
 
 ## 基本信息
 
@@ -18,17 +18,27 @@ SKU 號：BOS0044
 
 OLED顯示模組能夠為其他模組資訊提供視覺化效果，方便查看實驗效果。在日常生活中，電視機、電腦、洗衣機、手機、儀表板等電子設備都會使用OLED顯示模組。
 
-![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-li.png)
+![](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-li.png)
 
 ## 使用說明
 
 OLED顯示模組共預設了八種不同模組的資訊顯示（見下表），可以通過按鈕切換到相應的模組編號查看。
 
-![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-yong-shuo-ming-1.png)
+| **編號** | **名稱** | **功能說明** | **數值說明** |
+| :---: | :---: | :---: | :---: |
+| 1 | i04 | 光感測器| 數值隨環境光線的增強而增加|
+| 2 | i11 | 溫度感測器 | 環境溫度值|
+| 3 | i12 | 導電感測開關 | 物體是否有導電性|
+| 4 | i16 | 土壤溼度感測器 | 數值隨土壤溼度增加而上升|
+| 5 | i17 | 酸鹼值感測器 | 酸性溶液數值愈小；鹼性溶液數值愈大|
+| 6 | i18 | 濕度感測器 | 數值隨空氣濕度上升而增加|
+| 7 | i19 | 防水溫度感測器 | 數值隨溶液溫度上升而增加|
+| 8 | i20 | 心律監測感測器 | 數值為心率值|
+
 
 按照下圖所示連接電路，通電後即可通過OLED顯示模組上的按鈕切換到濕度感測器模組查看空氣濕度。
 
-![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-yong-shuo-ming-2.png)
+![](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-yong-shuo-ming-2.png)
 
 ## 原理介紹
 
@@ -44,7 +54,7 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-xin-shuai-jian-ce-lian-xian-tu.png)
+![](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-xin-shuai-jian-ce-lian-xian-tu.png)
 
 ### **\(2\) 探究光照強度對植物生長的影響**
 
@@ -54,7 +64,7 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu.png)
+![](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu.png)
 
 ### **\(3\) 檢測物體的導電性**
 
@@ -64,7 +74,7 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-jian-ce-wu-ti-de-dao-dian-xing-lian-xian-tu.png)
+![](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-jian-ce-wu-ti-de-dao-dian-xing-lian-xian-tu.png)
 
 ### **\(4\) 探究土壤濕度對種子發芽率的影響**
 
@@ -74,7 +84,7 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-tu-rang-dui-zhong-zi-fa-ya-shuai-de-ying-xiang-lian-xian-tu.png)
+![](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-tu-rang-dui-zhong-zi-fa-ya-shuai-de-ying-xiang-lian-xian-tu.png)
 
 ### **\(5\) 飲品大調查**
 
@@ -84,11 +94,21 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-yin-pin-da-tiao-cha-lian-xian-tu.png)
+![](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-yin-pin-da-tiao-cha-lian-xian-tu.png)
 
 ## 商品規格
 
-腳位說明： ![Optional title](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： 
+
+![](../.gitbook/assets/boson-xian-shi-ping-mo-kuai-yin-jiao-shuo-ming.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | A | 類比訊號 |
+| 4 | 顯示螢幕 | 顯示輸入訊息 |
+| 5 | 按鈕 | 切換顯示內容 |
 
 尺寸: 38mm\*32mm
 
