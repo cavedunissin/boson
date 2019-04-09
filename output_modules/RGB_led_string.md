@@ -1,104 +1,104 @@
 # 七彩燈條
 
-## 实物图片
+## 實體照片
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-shi-wu-tu.jpg)
 
 ## 基本信息
 
-中文名称：七彩灯带
+中文名稱：七彩燈條
 
-英文名称：RGB LED strip
+英文名稱：RGB LED Strip
 
-序号：
+序號：
 
-SKU 号：019.00268
+SKU 號：019.00268
 
-## 模块简介
+## 模組簡介
 
-七彩灯带属于简单的发光模块，可以通过调节色彩调出不同颜色的灯效，可广泛应用于建筑物、桥梁、道路、花园、庭院、地板等领域的装饰照明与会场布置、圣诞节、万圣节、情人节、复活节、国庆节等节日期间烘托气氛等场景。
+七彩燈條屬於簡單的發光模組，可以通過調節色彩調出不同顏色的燈效，可廣泛應用於建築物、橋樑、道路、花園、庭院、地板等領域的裝飾照明與會場佈置、耶誕節、萬聖節、情人節、復活節、國慶日等節日期間營造氣氛等方面。
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-shi-li.png)
 
-## 使用说明
+## 使用說明
 
-在使用七彩灯带之前，需要扩展灯带的指令库。打开makecode编程平台，滚动至指令区最底部，依次点击高级----添加软件包----neopixel，完成Neopixel指令的调用，此时指令区会出现neopixel模块。完成以上步骤以后，将灯带连接至micro:bit板，即可通过编程控制灯带效果。
+在使用七彩燈條之前，需要擴展燈條的指令庫。打開makecode程式設計平臺，滾動至指令區最底部，依次點擊進階----擴展----neopixel，完成Neopixel指令的調用，此時指令區會出現neopixel模組。完成以上步驟以後，將燈條連接至micro:bit板，即可通過程式設計控制燈條效果。
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-shi-yong-shuo-ming.png)
 
-## 原理介绍
+## 原理介紹
 
-七彩灯带由7颗彩色LED灯组成，采用柔性线路板即FPC来做载体，灯泡与电路被完全包覆在柔性塑料中，绝缘、防水性能好，使用安全，支持5V供电。
+七彩燈條由7顆彩色LED燈組成，採用柔性線路板即FPC來做載體，燈泡與電路被完全包覆在柔性塑膠中，絕緣、防水性能好，使用安全，支援5V供電。
 
-## 应用样例
+## 應用範例
 
-### **\(1\) 点亮七彩灯带**
+### **\(1\) 點亮七彩燈條**
 
-**样例说明：** 通过编写程序，将程序烧录至板子后，可以控制七彩灯带点亮并呈现七彩的效果。
+**範例說明：** 通過編寫程式，將程式燒錄至micro:bit；micro:bit BOSON擴充板後，可以控制七彩燈條點亮並呈現七彩的效果。
 
-**元件清单：** 七彩灯带；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 七彩燈條；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将七彩灯带连接至micro:bit扩展板引脚P0。
+**連線圖：** 將七彩燈條連接至micro:bit擴充板P0腳位。
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-lian-xian-tu.png)
 
-**设计意图：** 控制七彩灯带点亮并呈现七彩的效果。
+**設計意圖：** 控制七彩燈條點亮並呈現七彩的效果。
 
-① 选定七彩灯带连接micro:bit的引脚、灯带LED灯的数目及颜色模式，指令语句如下图。此处七彩灯带至micro:bit扩展板引脚P0，灯带LED灯数目为7盏，颜色模式为RGB模式。
+① 選定七彩燈條連接micro:bit的腳位、燈條LED燈的數目及顏色模式，指令語句如下圖。此處七彩燈條至micro:bit擴充板P0腳位，燈條LED燈數目為7盞，顏色模式為RGB模式。
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-she-ji-yi-tu-1.png)
 
-② 确定七彩灯带中LED灯使用的范围，需要调用的指令如下图。此处七彩灯带中LED灯使用范围为0-7。
+② 確定七彩燈條中LED燈使用的範圍，需要調用的指令如下圖。此處七彩燈條中LED燈使用範圍為0-7。
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-she-ji-yi-tu-2.png)
 
-③ 确定七彩灯带色调范围，需要调用的指令如下图。此处色调范围为1-360（红色-绿色-蓝色）。
+③ 確定七彩燈條色調範圍，需要調用的指令如下圖。此處色調範圍為1-360（紅色-綠色-藍色）。
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-she-ji-yi-tu-3.png)
 
-最终程序如下。
+最終程式如下。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(2\) 声控灯带**
+### **\(2\) 聲控燈條**
 
-**样例说明：** 通过声音控制七彩灯带中LED灯的点亮数目。
+**範例說明：** 通過聲音控制七彩燈條中LED燈的點亮數目。
 
-**元件清单：** 七彩灯带；声音传感器；micro:bit；micro:bit BOSON扩展板。
+**元件清單：** 七彩燈條；聲音感測器；micro:bit；micro:bit BOSON擴充板。
 
-**连线图：** 将七彩灯带连接至micro:bit扩展板引脚P0，声音传感器连接至micro:bit扩展板引脚P2。
+**連線圖：** 將七彩燈條連接至micro:bit擴充板P0腳位，聲音感測器連接至micro:bit擴充板P2腳位。
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-sheng-kong-deng-dai-lian-xian-tu.png)
 
-**执行流程：**
+**執行流程：**
 
-① 设置七彩灯带最初为熄灭状态。
+① 設置七彩燈條最初為熄滅狀態。
 
-② 判断点亮LED灯的数目是否小于等于7盏，满足条件则继续判断声音传感器检测到的声音强度是否大于等于40。
+② 判斷點亮LED燈的數目是否小於等於7盞，滿足條件則繼續判斷聲音感測器檢測到的聲音強度是否大於等於40。
 
-③ 如果以上条件均满足，则点亮一盏LED灯，暂停1秒。否则，灯带保持点亮部分小灯状态不变。
+③ 如果以上條件均滿足，則點亮一盞LED燈，暫停1秒。否則，燈條保持點亮部分小燈狀態不變。
 
-④ 重复第②步，继续判断②中的条件是否满足。
+④ 重複第②步，繼續判斷②中的條件是否滿足。
 
-**程序示意图（中文版）：**
+**程式示意圖（中文版）：**
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-sheng-kong-deng-dai-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
-**程序示意图（英文版）：**
+**Example program(English)：**
 
 ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-sheng-kong-deng-dai-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-## 规格参数
+## 商品規格
 
-引脚说明： ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-yin-jiao-shuo-ming.png)
+腳位說明： ![Optional title](../.gitbook/assets/boson-qi-cai-deng-dai-yin-jiao-shuo-ming.png)
 
 尺寸:
 
-工作电压:
+工作電壓:
 
