@@ -91,7 +91,7 @@ SKU：BOS0003
 
 腳位說明：
 
-![](../.gitbook/assets/self_locking_switch_spec.png)
+![](../.gitbook/assets/self_locking_switch/self_locking_switch_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
