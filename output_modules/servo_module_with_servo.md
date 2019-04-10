@@ -18,7 +18,7 @@ SKU 號：BOS0025
 
 伺服機模組是一種位置（角度）伺服的驅動器，適用於那些需要角度不斷變化並可以保持的控制系統。目前，伺服機模組在高檔遙控玩具，如飛行器、機械手臂、潛艇模型、遙控機器人等方面中已經得到了普遍應用。
 
-![Optional title](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-li.png)
+![](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-li.png)
 
 ## 使用說明
 
@@ -30,7 +30,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 這兩種模式可以通過伺服機模組上的撥動開關進行切換。按照下圖所示連接電路，通電後即可通過伺服機模組上的撥動開關控制伺服機。
 
-![Optional title](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming.png)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-pa-pa-chong-lian-xian-tu.png)
+![](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-pa-pa-chong-lian-xian-tu.png)
 
 ### **\(2\) 自動澆花裝置**
 
@@ -56,7 +56,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：** 將土壤濕度感測器連接至micro:bit擴充板P0腳位，9g金屬伺服機模組連接至micro:bit擴充板P8腳位。
 
-![Optional title](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-lian-xian-tu.png)
+![](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-lian-xian-tu.png)
 
 **執行流程：**
 
@@ -66,17 +66,28 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **程式示意圖（中文版）：**
 
-![Optional title](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
 **Example program(English)：**
 
-![Optional title](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ## 商品規格
 
 腳位說明：
 
-![Optional title](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-yin-jiao-shuo-ming.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | A | 類比訊號輸入 |
+| 2 | VCC | 電源正極 |
+| 3 | GND | 電源接地 |
+| 4 | A | 類比訊號輸出 |
+| 5 | VCC | 伺服機電源正極 |
+| 6 | GND | 伺服機電源負極 |
+| 7 | 電位器 | 伺服機擺動頻率控制 |
+| 8 | 撥動開關 | 伺服機模式選擇 |
 
 尺寸: 26mm\*22mm
 
