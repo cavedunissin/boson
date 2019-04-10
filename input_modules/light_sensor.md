@@ -89,7 +89,6 @@ SKU：BOS0004
 **設計意圖：**光感測器會把檢測到的光強度直接轉換為類比值輸出，輸出範圍為0~1023，因此在製作光強度檢測儀時，只需把光感測器的輸出類比值直接讀取出來並顯示在Micro:bit的LED燈點陣上即可。
 
 **程式示意圖（中文版）：**
-
 ![](../.gitbook/assets/light_sensor/light_sensor_prg_ch_tw.png)
 
 ** Example program(English)：**
