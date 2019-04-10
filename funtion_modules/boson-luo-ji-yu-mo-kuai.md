@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-wu-tu.png)
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-wu-tu.png)
 
 ## 基本信息
 
@@ -18,13 +18,13 @@ SKU 號：BOS0027
 
 運算邏輯模組 AND是功能模組中的一種，可以用來進行簡單的邏輯運算，還可以和其他邏輯模組組合使用，達到更為複雜的功能，如數據的運算和存儲。運算邏輯模組 AND可廣泛應用於日常生活中的簡單防盜警報器、電熱水器等電路。
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-li.png)
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-li.png)
 
 ## 使用說明
 
 運算邏輯模組 AND既可以放在輸入端，也可以放在輸出端，但該模組不能直接作為輸入或輸出模組使用，需要將輸入模組分別連接在運算邏輯模組 AND的兩個輸入口，輸出模組連接在運算邏輯模組 AND的輸出口，通過改變兩個輸入口的信號來控制輸出口。運算邏輯模組 AND的輸入口和輸出口如下圖所示。
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-yong-shuo-ming-1.png)
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-yong-shuo-ming-1.png)
 
 運算邏輯模組 AND既可以輸入數位信號，也可以輸入類比信號，但該模組只能輸出數位信號。運算邏輯模組 AND能夠將兩個輸入的信號處理後合併輸出成一個信號，其輸入輸出機制如下：
 
@@ -34,11 +34,16 @@ SKU 號：BOS0027
 
 下圖列出了運算邏輯模組 AND的真值表。
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-yong-shuo-ming-2.png)
+| **輸入A** | **輸入B** | **輸出** |
+| :---: | :---: | :---: |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 |  |
 
 按照下圖所示連接電路，通電後只有同時按下紅色按鈕和黃色按鈕才能點亮紅色LED燈。
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-yong-shuo-ming-3.png)
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-yong-shuo-ming-3.png)
 
 ## 原理介紹
 
@@ -54,7 +59,7 @@ SKU 號：BOS0027
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-zhi-neng-lu-deng-lian-xian-tu.png)
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-zhi-neng-lu-deng-lian-xian-tu.png)
 
 ### **\(2\) 找朋友機**
 
@@ -64,7 +69,7 @@ SKU 號：BOS0027
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-zhao-peng-you-ji-lian-xian-tu.png)
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-zhao-peng-you-ji-lian-xian-tu.png)
 
 ### **\(3\) 密碼鎖**
 
@@ -74,7 +79,7 @@ SKU 號：BOS0027
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-mi-ma-suo-lian-xian-tu.png)
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-mi-ma-suo-lian-xian-tu.png)
 
 ### **\(4\) 搶答器**
 
@@ -84,11 +89,21 @@ SKU 號：BOS0027
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-qiang-da-qi-lian-xian-tu.png)
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-qiang-da-qi-lian-xian-tu.png)
 
 ## 商品規格
 
-腳位說明： ![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： 
+
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-yin-jiao-shuo-ming.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | INA | 類比輸入A |
+| 4 | INB | 類比輸入B |
+| 5 | OUT | 數位訊號 |
 
 尺寸: 26mm\*22mm
 
