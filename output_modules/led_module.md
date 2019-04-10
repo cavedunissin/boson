@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-shi-wu-tu.png)
+![](../.gitbook/assets/bosonled-mo-kuai-shi-wu-tu.png)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU 號：BOS0017-R\BOS0017-G\BOS0017-B
 
 LED燈模組是最簡單的發光模組，根據LED燈的顏色可將LED燈模組進一步區分為紅色LED燈模組、綠色LED燈模組和藍色LED燈模組。LED燈模組目前已廣泛應用於LED顯示螢幕、指示燈、交通燈、汽車燈、照明燈、裝飾燈等方面。
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-shi-li.png)
+![](../.gitbook/assets/bosonled-mo-kuai-shi-li.png)
 
 ## 使用說明
 
@@ -28,13 +28,13 @@ LED燈模組是最簡單的發光模組，根據LED燈的顏色可將LED燈模�
 
 按照下圖所示連接電路，即可通過按鈕模組控制LED燈的點亮和熄滅。
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/bosonled-mo-kuai-shi-yong-shuo-ming.png)
 
 ## 原理介紹
 
 LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽極桿、有發射碗的陰極桿、針腳（又稱引線架）等部分構成（見下圖）。向LED燈模組輸出高電位表示點亮LED燈，向LED燈模組輸出低電位表示熄滅LED燈。LED燈模組也可以通過類比信號來控制，輸入信號越大，LED燈越亮。
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-yuan-li-jie-shao.jpg)
+![](../.gitbook/assets/bosonled-mo-kuai-yuan-li-jie-shao.jpg)
 
 ## 應用範例
 
@@ -46,7 +46,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu.png)
+![](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu.png)
 
 ### **\(2\) 按鈕檯燈（程式設計）**
 
@@ -56,7 +56,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-lian-xian-tu.png)
+![](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-lian-xian-tu.png)
 
 **執行流程：**
 
@@ -66,11 +66,11 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **程式示意圖（中文版）：**
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
 **Example program(English)：**
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ### **\(3\) 旋鈕檯燈**
 
@@ -80,7 +80,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu.png)
+![](../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu.png)
 
 **執行流程：**
 
@@ -88,11 +88,11 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **程式示意圖（中文版）：**
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
 
 **Example program(English)：**
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ### **\(4\) 感應發光小屋**
 
@@ -102,7 +102,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-gan-ying-fa-guang-xiao-wu-lian-xian-tu.png)
+![](../.gitbook/assets/bosonled-mo-kuai-gan-ying-fa-guang-xiao-wu-lian-xian-tu.png)
 
 ### **\(5\) 智慧路燈**
 
@@ -112,7 +112,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-zhi-neng-lu-deng-lian-xian-tu.png)
+![](../.gitbook/assets/bosonled-mo-kuai-zhi-neng-lu-deng-lian-xian-tu.png)
 
 ### **\(6\) 復古燭臺**
 
@@ -122,7 +122,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-fu-gu-zhu-tai-lian-xian-tu.png)
+![](../.gitbook/assets/bosonled-mo-kuai-fu-gu-zhu-tai-lian-xian-tu.png)
 
 ### **\(7\) 找朋友機**
 
@@ -132,11 +132,19 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/bosonled-mo-kuai-zhao-peng-you-ji-lian-xian-tu.png)
+![](../.gitbook/assets/bosonled-mo-kuai-zhao-peng-you-ji-lian-xian-tu.png)
 
 ## 商品規格
 
-腳位說明： ![Optional title](../.gitbook/assets/bosonled-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： 
+
+![](../.gitbook/assets/bosonled-mo-kuai-yin-jiao-shuo-ming.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | A | 類比訊號 |
 
 尺寸: 26mm\*22mm
 
