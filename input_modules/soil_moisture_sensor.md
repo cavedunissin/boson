@@ -104,6 +104,12 @@ SKU：BOS0038
 
 ![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-yin-jiao-shuo-ming.png)
 
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | A | 類比訊號 |
+
 重量： （g）
 
 尺寸：26mm\*22mm
