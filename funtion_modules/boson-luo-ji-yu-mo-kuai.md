@@ -94,6 +94,7 @@ SKU 號：BOS0027
 ## 商品規格
 
 腳位說明： 
+
 ![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-yin-jiao-shuo-ming.png)
 
 | **編號** | **名稱** | **功能說明** |
