@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/light_sensor/light_sensor.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU：BOS0004
 
 光感測器能夠檢測光線強度並把光線強弱信號轉換成可用的輸出信號，其輸出值為類比信號，可以用來製作感光的互動裝置，普遍應用於智慧手機、筆記本、平板電腦、GPS等移動手持設備中。
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/light_sensor/light_sensor_intro.png)
 
 ## 使用說明
 
@@ -28,7 +28,7 @@ SKU：BOS0004
 
 按照下圖所示連接電路，通電後即可達成讓蜂鳴器模組的聲音隨光感測器的輸出信號大小而改變。
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/light_sensor/light_sensor_ui.png)
 
 ## 原理介紹
 
@@ -44,7 +44,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/light_sensor/light_sensor_example1.png)
 
 ### \(2\) 探究光照強度對植物生長的影響
 
@@ -54,7 +54,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/light_sensor/light_sensor_example2.png)
 
 ### \(3\) 智慧路燈
 
@@ -64,7 +64,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/light_sensor/light_sensor_example3.png)
 
 ### \(4\) 復古燭臺
 
@@ -74,7 +74,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-4-lian-xian-tu.png)
+![](../.gitbook/assets/light_sensor/light_sensor_example4.png)
 
 ### \(5\) 光強度檢測儀
 
@@ -84,17 +84,17 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-5-lian-xian-tu.png)
+![](../.gitbook/assets/light_sensor/light_sensor_example5.png)
 
 **設計意圖：**光感測器會把檢測到的光強度直接轉換為類比值輸出，輸出範圍為0~1023，因此在製作光強度檢測儀時，只需把光感測器的輸出類比值直接讀取出來並顯示在Micro:bit的LED燈點陣上即可。
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-5-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/light_sensor/light_sensor_prg_ch_tw.png)
 
 ** Example program(English)：**
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-5-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/light_sensor/light_sensor_prg_en.png)
 
 ## 商品規格
 
