@@ -104,6 +104,15 @@ SKU 號：BOS0024
 
 ![Optional title](../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-yin-jiao-shuo-ming.png)
 
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | A | 類比訊號 |
+| 2 | VCC | 電源正極 |
+| 3 | GND | 電源接地 |
+| 4 | 馬達電源正極 | 馬達電源正極 |
+| 5 | 馬達電源負極 | 馬達電源負極 |
+| 6 | 撥動開關 | 馬達模式選擇 |
+
 尺寸: 26mm\*22mm
 
 工作電壓:3.3V-5.0V
