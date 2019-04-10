@@ -34,7 +34,12 @@ SKU 號：BOS0027
 
 下圖列出了運算邏輯模組 AND的真值表。
 
-![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-shi-yong-shuo-ming-2.png)
+| **輸入A** | **輸入B** | **輸出** |
+| :---: | :---: | :---: |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
 
 按照下圖所示連接電路，通電後只有同時按下紅色按鈕和黃色按鈕才能點亮紅色LED燈。
 
@@ -88,7 +93,16 @@ SKU 號：BOS0027
 
 ## 商品規格
 
-腳位說明： ![Optional title](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-yin-jiao-shuo-ming.png)
+腳位說明： 
+![](../.gitbook/assets/boson-luo-ji-yu-mo-kuai-yin-jiao-shuo-ming.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :--- | :--- | :--- |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | INA | 輸入A |
+| 4 | INB | 輸入B |
+| 5 | OUT | 數位輸出 |
 
 尺寸: 26mm\*22mm
 
