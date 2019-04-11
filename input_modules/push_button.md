@@ -32,7 +32,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 ## 原理介紹
 
-按鈕也稱為按鍵，是一種電閘（switch，或稱開關），用來控制機械或程式的某些功能。一般而言，紅色按鈕是用來使某一功能停止，而綠色按鈕，則通常可開始某一項功能。按鈕的形狀通常是圓形或方形。來源：[https://zh.wikipedia.org/wiki/%E6%8C%89%E9%92%AE](https://zh.wikipedia.org/wiki/%E6%8C%89%E9%92%AE)
+按鈕也稱為按鍵，是一種電閘（switch，或稱開關），用來控制機械或程式的某些功能。一般而言，紅色按鈕是用來使某一功能停止，而綠色按鈕，則通常可開始某一項功能。按鈕的形狀通常是圓形或方形。來源：[1https://zh.wikipedia.org/wiki/%E6%8C%89%E9%92%AE](https://zh.wikipedia.org/wiki/%E6%8C%89%E9%92%AE)
 
 ## 應用範例
 
