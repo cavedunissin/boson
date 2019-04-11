@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/sound_sensor/sound_sensor.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU：BOS0009
 
 聲音感測器相當於一個麥克風，它能感受到聲音，並將感受到的聲音大小轉換成相應的類比信號輸出，被廣泛應用於手機、答錄機、聲控照明燈、醫療器械、深海測量、交通幹道雜訊監測、工業企業雜訊檢測等設備中。
 
-![](../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/sound_sensor/sound_sensor_intro.png)
 
 ## 使用說明
 
@@ -28,7 +28,7 @@ SKU：BOS0009
 
 按照下圖所示連接電路，通電後即可通過聲音感測器控制LED燈：檢測到聲音時點亮LED燈，否則熄滅LED燈。
 
-![](../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/sound_sensor/sound_sensor_ui.png)
 
 ## 原理介紹
 
@@ -44,7 +44,7 @@ SKU：BOS0009
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/sound_sensor/sound_sensor_example1.png)
 
 ### \(2\) 智慧路燈
 
@@ -54,7 +54,7 @@ SKU：BOS0009
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/sound_sensor/sound_sensor_example2.png)
 
 ### \(3\) 聲控風扇
 
@@ -64,7 +64,7 @@ SKU：BOS0009
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/sound_sensor/sound_sensor_example3.png)
 
 **設計意圖：**由於聲音感測器的輸出訊號是類比值，這裡設定一個類比值50（該類比值可根據實際情況彈性調整），當聲音感測器輸出類比值大於50時開啟風扇，否則關閉風扇。
 
@@ -72,20 +72,20 @@ SKU：BOS0009
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/sound_sensor/sound_sensor_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/sound_sensor/sound_sensor_prg_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/sound_sensor/sound_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 1 | GND | 電源接地 |
 | 2 | VCC | 電源正極 |
 | 3 | A | 類比訊號 |
