@@ -54,7 +54,7 @@ SKU：BOS0012
 
 **連線圖：**
 
-![](../.gitbook/assets/conductivity_sensor_switch/conductivity_sensor_switch_exmaple3.png)
+![](../.gitbook/assets/conductivity_sensor_switch/conductivity_sensor_switch_example3.png)
 
 **設計意圖：**將導電感測開關連接至P0腳位，根據P0腳位輸出的數位訊號判斷物體是否具有導電性。
 
