@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor.jpg)
 
 ## 基本信息
 
@@ -20,17 +20,17 @@ SKU：BOS0038
 
 **知識補充：**土壤濕度指的是土壤的含水量，能直接影響到作物的水分供應狀況。土壤濕度過低將形成土壤乾旱，降低光合作用效率，影響作物的產量和品質。嚴重缺水甚至會導致作物凋萎和死亡。土壤濕度過高會惡化土壤通氣性，影響土壤微生物的活動，使作物根系的呼吸、生長等生命活動受到阻礙，從而影響作物地上部分的正常生長，造成徒長、倒伏、病害滋生等。土壤水分的多少還影響田間耕作措施和播種品質，並影響土壤溫度的高低。
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor_intro.png)
 
 ## 使用說明
 
 土壤濕度感測器可以搭配Micro:bit、Arduino使用，實現非常有趣的互動作品。土壤濕度感測器在使用時需要將金屬部分充分插入土壤中，並等待數秒直至資料穩定，通過OLED顯示模組或Micro:bit可以讀取土壤濕度數值，也可以通過土壤濕度感測器製作自動裝置，控制其他輸出模組。按照下圖所示連接電路，通電後即可通過OLED顯示模組即時監測土壤濕度。
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-yong-shuo-ming-1.png)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor_ui1.png)
 
 土壤濕度數值參考：
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-yong-shuo-ming-2.png)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor_ui2.png)
 
 **注意：**
 
@@ -52,7 +52,7 @@ SKU：BOS0038
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor_example1.png)
 
 ### \(2\) 自動澆花裝置
 
@@ -62,7 +62,7 @@ SKU：BOS0038
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor_example2.png)
 
 ### \(3\) 種子發芽箱
 
@@ -72,7 +72,7 @@ SKU：BOS0038
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor_example3.png)
 
 **設計意圖：**使用土壤濕度感測器、溫度感測器、光感測器分別檢測種子發芽箱中的土壤濕度、溫度和光照強度。若其中某一環境因素不在設定區間範圍內，則表示發芽箱內的當前環境不適宜種子生長，此時讓LED燈和蜂鳴器發出警報。
 
@@ -92,20 +92,20 @@ SKU：BOS0038
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor_prg_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/soil_moisture_sensor/soil_moisture_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 1 | GND | 電源接地 |
 | 2 | VCC | 電源正極 |
 | 3 | A | 類比訊號 |
