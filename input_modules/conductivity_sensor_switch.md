@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-dian-dao-kai-guan-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/conductivity_sensor_switch/conductivity_sensor_switch.jpg)
 
 ## 基本信息
 
@@ -22,7 +22,7 @@ SKU：BOS0012
 
 在圖示①處，通過觸摸導電感測開關的正負極，可以改變模組的輸出狀態；也可以通過導線外接一個水果或蔬菜從而產生開關控制訊號。
 
-![](../.gitbook/assets/boson-dian-dao-kai-guan-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/conductivity_sensor_switch/conductivity_sensor_switch_ui.png)
 
 ## 原理介紹
 
@@ -38,7 +38,7 @@ SKU：BOS0012
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-dian-dao-kai-guan-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/conductivity_sensor_switch/conductivity_sensor_switch_example1.png)
 
 ### \(2\) 炫彩風鈴
 
@@ -54,7 +54,7 @@ SKU：BOS0012
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-dian-dao-kai-guan-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/conductivity_sensor_switch/conductivity_sensor_switch_exmaple3.png)
 
 **設計意圖：**將導電感測開關連接至P0腳位，根據P0腳位輸出的數位訊號判斷物體是否具有導電性。
 
@@ -66,20 +66,20 @@ SKU：BOS0012
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-dian-dao-kai-guan-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/conductivity_sensor_switch/conductivity_sensor_switch_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-dian-dao-kai-guan-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/conductivity_sensor_switch/conductivity_sensor_switch_prg_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/boson-dian-dao-kai-guan-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/conductivity_sensor_switch/conductivity_sensor_switch_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 1 | GND | 電源接地 |
 | 2 | VCC | 電源正極 |
 | 3 | D | 數位訊號 |
