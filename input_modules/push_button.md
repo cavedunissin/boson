@@ -74,7 +74,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../.gitbook/assets/push_button_example3.png)
+![](../.gitbook/assets/push_button/push_button_example3.png)
 
 ### \(4\) 防盜展示台（程式設計）
 
@@ -133,7 +133,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 ![](../.gitbook/assets/push_button/push_button_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 1 | GND | 電源接地 |
 | 2 | VCC | 電源正極 |
 | 3 | D | 數位訊號 |
