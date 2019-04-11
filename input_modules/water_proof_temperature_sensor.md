@@ -2,7 +2,7 @@
 
 ##  實體照片
 
-![](../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/waterproof_temperature_sensor/waterproof_temperature_sensor.jpg)
 
 ## 基本信息
 
@@ -18,13 +18,13 @@ SKU：BOS0042
 
 防水溫度感測器是一款防水的溫度感測器，在測量遠處溫度和環境比較潮濕的情況下，該感測器能發揮極大的作用，適用於電冰箱等冷凍、冷藏環境中的溫度檢測、室內和機電設備溫度檢測、土壤溫度檢測、熱水箱溫度控制等設備中。
 
-![](../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/waterproof_temperature_sensor/waterproof_temperature_sensor_intro.png)
 
 ## 使用說明
 
 防水溫度感測器可以與Arduino結合使用。使用時，必須連接上拉電阻，與可插拔感測器轉接器配合使用。按照下圖所示連接電路，通電後將防水溫度感測器的探頭放入待測量的物體中，則測量物體的溫度值可以通過OLED顯示模組直接讀取。防水溫度感測器的感溫範圍在-55℃~+125℃之間，溫度顯示範圍為-10°C~+85°C（誤差±0.5°C）。
 
-![](../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/waterproof_temperature_sensor/waterproof_temperature_sensor_ui.png)
 
 **\*注意：**雖然該產品能夠在125°C下正常工作，但由於纜線是由聚氯乙烯（PVC）材料製成的，沒有感測器耐熱，因此我們建議不要將其放在溫度高於100°C的地方。\*
 
@@ -42,7 +42,7 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/waterproof_temperature_sensor/waterproof_temperature_sensor_example1.png)
 
 ### \(2\) 糧倉溫濕度檢測
 
@@ -52,7 +52,7 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/waterproof_temperature_sensor/waterproof_temperature_sensor_example2.png)
 
 ### \(3\) 液體溫度檢測儀
 
@@ -62,7 +62,7 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/waterproof_temperature_sensor/waterproof_temperature_sensor_example3.png)
 
 **設計意圖：**
 
