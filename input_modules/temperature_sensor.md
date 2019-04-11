@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-wen-du-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/temperature_sensor/temperature_sensor.jpg)
 
 ## 基本信息
 
@@ -20,7 +20,7 @@ SKU：BOS0011
 
 **知識補充：**測量溫度常用的感測器包括熱電偶、鉑電阻、熱敏電阻和半導體測溫晶片，其中熱電偶常用於高溫測量，鉑電阻用於中溫測量（攝氏800度左右），而熱敏電阻和半導體溫度感測器適合於100-200度以下的溫度測量，其中半導體溫度感測器的應用簡單，有較高的靈敏度。
 
-![](../.gitbook/assets/boson-wen-du-chuan-gan-qi-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/temperature_sensor/temperature_sensor_intro.png)
 
 ## 使用說明
 
@@ -30,7 +30,7 @@ SKU：BOS0011
 
 按照下圖所示連接電路，通電後即可通過溫度感測器控制LED燈的亮度：溫度升高，LED燈變亮；溫度降低，LED燈變弱。
 
-![](../.gitbook/assets/boson-wen-du-chuan-gan-qi-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/temperature_sensor/temperature_sensor_ui.png)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/temperature_sensor/temperature_sensor_example1.png)
 
 ### \(2\) 探究外界環境溫度對植物生長狀況的影響
 
@@ -56,7 +56,7 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/temperature_sensor/temperature_sensor_example2.png)
 
 ### \(3\) 空氣溫度檢測儀
 
@@ -66,7 +66,7 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/temperature_sensor/temperature_sensor_example3.png)
 
 **設計意圖：**溫度感測器的轉換係數為33.33℃/V，即溫度（單位：℃）=輸出電壓（單位：V）×33.33。在套用公式前，首先要把溫度感測器輸出的類比值（範圍：0~1023）轉換為電壓值（範圍：0~3.3V）。例如，若溫度感測器輸出類比值500，則對應電壓約為1.6V，結合溫度感測器的轉換係數可算出即時溫度約為53.3℃。
 
@@ -86,20 +86,20 @@ SKU：BOS0011
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/temperature_sensor/temperature_sensor_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/temperature_sensor/temperature_sensor_prg_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/boson-wen-du-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/temperature_sensor/temperature_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 1 | GND | 電源接地 |
 | 2 | VCC | 電源正極 |
 | 3 | A | 類比訊號 |
