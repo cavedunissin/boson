@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-shui-fen-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/steam_sensor/steam_sensor.jpg)
 
 ## 基本信息
 
@@ -26,7 +26,7 @@ SKU：BOS0006
 
 按照下圖所示連接電路，通電後即可通過水分感測器的輸出信號控制蜂鳴器模組，當檢測到下雨時，蜂鳴器開始鳴叫；否則蜂鳴器停止鳴叫。
 
-![](../.gitbook/assets/boson-shui-fen-chuan-gan-qi-shi-yong-shuo-ming.png)
+![](../.gitbook/assets/steam_sensor/steam_sensor_ui.png)
 
 **\*注意：**該產品並不完全防水，請勿將3P線介面浸入水中。\*
 
@@ -44,7 +44,7 @@ SKU：BOS0006
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-shui-fen-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/steam_sensor/steam_sensor_example1.png)
 
 ### \(2\) 雨天自動關窗
 
@@ -54,7 +54,7 @@ SKU：BOS0006
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-shui-fen-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/steam_sensor/steam_sensor_example2.png)
 
 ### \(3\) 簡易防汛預警儀
 
@@ -64,7 +64,7 @@ SKU：BOS0006
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-shui-fen-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/steam_sensor/steam_sensor_example3.png)
 
 **設計意圖：**根據水分感測器輸出類比值的大小判斷雨況，進而給出不同的汛情預警信號。
 
@@ -80,20 +80,20 @@ SKU：BOS0006
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-shui-fen-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/steam_sensor/steam_sensor_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-shui-fen-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/steam_sensor/steam_sensor_prg_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/boson-shui-fen-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/steam_sensor/steam_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 1 | GND | 電源接地 |
 | 2 | VCC | 電源正極 |
 | 3 | A | 類比訊號 |
