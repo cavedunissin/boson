@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/bosonph-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/ph_sensor/ph_sensor.jpg)
 
 ## 基本信息
 
@@ -18,18 +18,18 @@ SKU：BOS0039
 
 酸鹼值感測器是一款用來檢測被測物中氫離子濃度並轉換成相應的可用輸出信號的感測器，通常由化學部分和信號傳輸部分構成。通過酸鹼值感測器，可以快速準確的獲取pH值，得知溶液的酸鹼度，便於對pH進行調節，免去了使用pH試紙的繁瑣。酸鹼值感測器可以用於廢水污水設備pH值測量、電鍍廢水設備pH值測量、高溫設備pH值測量、發酵設備pH值測量、高壓設備pH值測量等多種設備pH值的測量。
 
-![](../.gitbook/assets/bosonph-chuan-gan-qi-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/ph_sensor/ph_sensor_intro.png)
 
 ## 使用說明
 
 使用酸鹼值感測器時，需要將探頭部分放入溶液，其pH測量範圍為0-14pH，測量誤差為±0.1pH\(25℃\)。按照下圖所示連接電路，通電後即可通過OLED顯示模組直接讀取pH值。
 
-![](../.gitbook/assets/bosonph-chuan-gan-qi-shi-yong-shuo-ming-1.png)
+![](../.gitbook/assets/ph_sensor/ph_sensor_ui1.png)
 
 pH值與溶液酸鹼性對應表：
 
 | **pH值** | **酸鹼度** | 
-| :--- | :--- | 
+| :---: | :---: | 
 | 0-7 | 酸性 | 
 | 7 | 中性 | 
 | 7-14 | 鹼性 | 
@@ -66,7 +66,7 @@ pH是指溶液中氫離子的總數和總物質的量的比，表現為酸鹼度
 
 **連線圖：**
 
-![](../.gitbook/assets/bosonph-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/ph_sensor/ph_sensor_example1.png)
 
 ### \(2\) 魚缸水質監測儀
 
@@ -76,7 +76,7 @@ pH是指溶液中氫離子的總數和總物質的量的比，表現為酸鹼度
 
 **連線圖：**
 
-![](../.gitbook/assets/bosonph-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/ph_sensor/ph_sensor_example2.png)
 
 **設計意圖：**pH值的計算公式為pH=輸出電壓（單位：V）×14÷3.3。在套用公式前，首先要把酸鹼值感測器輸出的類比值（範圍：0~1023）轉換為類比電壓值（範圍：0~3.3V）。例如，若酸鹼值感測器輸出類比值500，則對應電壓約為1.6V，結合pH值的轉換公式可算出pH值約為6.7。
 
@@ -98,20 +98,20 @@ pH是指溶液中氫離子的總數和總物質的量的比，表現為酸鹼度
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/bosonph-chuan-gan-qi-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/ph_sensor/ph_sensor_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/bosonph-chuan-gan-qi-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/ph_sensor/ph_sensor_prg_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/bosonph-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/ph_sensor/ph_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 1 | GND | 電源接地 |
 | 2 | VCC | 電源正極 |
 | 3 | A | 類比訊號 |
