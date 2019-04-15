@@ -35,9 +35,9 @@
   * [f1運算邏輯模組AND](funtion_modules/logic_module_and.md)
   * [f2運算邏輯模組OR](funtion_modules/logic_module_or.md)
   * [f3運算邏輯模組NOT](funtion_modules/logic_module_not.md)
-  * [f4分岔模組](funtion_modules/splitter_module.md)
-  * [f5延時模組（0~6秒）](funtion_modules/boson-chi-xu-mo-kuai-06-miao.md)
-  * [f6閾模組](funtion_modules/threshold_module.md)
+  * [f4分配模組](funtion_modules/splitter_module.md)
+  * [f5計時模組（0-6秒）](funtion_modules/boson-chi-xu-mo-kuai-06-miao.md)
+  * [f6閥模組](funtion_modules/threshold_module.md)
   * [f7計數模組](funtion_modules/reversible_counter_module.md)
-  * [f8延時模組（0~60秒）](funtion_modules/duration_module_0-60s.md)
+  * [f8計時模組（0-60秒）](funtion_modules/duration_module_0-60s.md)
 
