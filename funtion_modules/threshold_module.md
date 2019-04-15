@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/function_modules/threshold_module/threshold_module.png)
+![](../.gitbook/assets/function_modules/threshold_module/threshold_module.png)
 
 ## 基本信息
 
