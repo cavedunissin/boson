@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/function_modules/splitter_module.png)
+![Optional title](../.gitbook/assets/function_modules/splitter_module/splitter_module.png)
 
 ## 基本資訊
 
@@ -22,7 +22,7 @@ SKU 號：BOS0030
 
 分配模組既可以放在輸入端，也可以放在輸出端，但該模組不能直接作為輸入或輸出模組使用，需要將輸入模組連接在分配模組的輸入口，兩個輸出模組分別連接在分配模組的兩個輸出口，通過改變輸入口的信號來控制兩個輸出口。分配模組的輸入口和輸出口如下圖所示。
 
-![Optional title](../.gitbook/assets/function_modules/splitter_module_ui1.png)
+![Optional title](../.gitbook/assets/function_modules/splitter_module/splitter_module_ui1.png)
 
 分配模組的輸入輸出機制如下：
 
@@ -32,11 +32,11 @@ SKU 號：BOS0030
 
 下圖列出了分配模組的真值表。
 
-![Optional title](../.gitbook/assets/function_modules/splitter_module_ui2.png)
+![Optional title](../.gitbook/assets/function_modules/splitter_module/splitter_module_ui2.png)
 
 分配模組除了可以輸入輸出數位信號外，還可以將一路類比輸入信號轉換為兩路相同的類比輸出信號。按照下圖所示連接電路，通電後按下紅色按鈕即可同時點亮兩盞LED燈。
 
-![Optional title](../.gitbook/assets/function_modules/splitter_module_ui3.png)
+![Optional title](../.gitbook/assets/function_modules/splitter_module/splitter_module_ui3.png)
 
 ## 原理介紹
 
@@ -52,7 +52,7 @@ SKU 號：BOS0030
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/splitter_module_example1.png)
+![Optional title](../.gitbook/assets/function_modules/splitter_module/splitter_module_example1.png)
 
 ### **\(2\) 密碼鎖**
 
@@ -62,7 +62,7 @@ SKU 號：BOS0030
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/splitter_module_example2.png)
+![Optional title](../.gitbook/assets/function_modules/splitter_module/splitter_module_example2.png)
 
 ### **\(3\) 搶答器**
 
@@ -72,13 +72,13 @@ SKU 號：BOS0030
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/splitter_module_example3.png)
+![Optional title](../.gitbook/assets/function_modules/splitter_module/splitter_module_example3.png)
 
 ## 商品規格
 
 腳位說明： 
 
-![Optional title](../.gitbook/assets/function_modules/splitter_module_spec.png)
+![Optional title](../.gitbook/assets/function_modules/splitter_module/splitter_module_spec.png)
 
 尺寸: 26mm\*22mm
 
