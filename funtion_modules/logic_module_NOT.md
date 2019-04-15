@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/function_modules/logic_module_NOT/logic_module_NOT.jpg)
+![](../.gitbook/assets/function_modules/logic_module_NOT/logic_module_NOT.jpg)
 
 ## 基本信息
 
