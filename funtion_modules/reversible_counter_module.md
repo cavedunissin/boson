@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module.png)
+![](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module.png)
 
 ## 基本信息
 
@@ -32,11 +32,11 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 計數模組的輸入輸出口如下圖所示：
 
-![Optional title](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_ui1.png)
+![](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_ui1.png)
 
 按照下圖所示連接電路即可達到每按一次鍵，計數器加1。
 
-![Optional title](../.gitbook/assets/bfunction_modules/reversible_counter_module/reversible_counter_module_ui2.png)
+![](../.gitbook/assets/bfunction_modules/reversible_counter_module/reversible_counter_module_ui2.png)
 
 ## 原理介紹
 
@@ -52,7 +52,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_example1.png)
+![](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_example1.png)
 
 ### **\(2\) 製作存錢罐**
 
@@ -62,7 +62,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_example2.png)
+![](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_example2.png)
 
 ### **\(3\) 風景區遊客流量計數器**
 
@@ -72,13 +72,21 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_example3.png)
+![](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_example3.png)
 
 ## 商品規格
 
 腳位說明： 
 
-![Optional title](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_spec.png)
+![](../.gitbook/assets/function_modules/reversible_counter_module/reversible_counter_module_spec.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :---: | :---: | :---: |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | INA | 類比輸入A |
+| 4 | INB | 類比輸入B |
+| 5 | OUT | 數位輸出 |
 
 尺寸：38mm\*32mm
 
