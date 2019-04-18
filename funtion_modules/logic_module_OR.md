@@ -24,7 +24,7 @@ SKU 號：BOS0028
 
 運算邏輯模組 OR既可以放在輸入端，也可以放在輸出端，但該模組不能直接作為輸入或輸出模組使用，需要將輸入模組分別連接在運算邏輯模組 OR的兩個輸入口，輸出模組連接在運算邏輯模組 OR的輸出口，通過改變兩個輸入口的信號來控制輸出口。運算邏輯模組 OR的輸入口和輸出口如下圖所示。
 
-![Optional title](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_ui1.png)
+![](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_ui1.png)
 
 運算邏輯模組 OR既可以輸入數位信號，也可以輸入類比信號，但該模組只能輸出數位信號。運算邏輯模組 OR能夠將兩個輸入的信號處理後合併輸出成一個信號，其輸入輸出機制如下：
 
@@ -34,11 +34,17 @@ SKU 號：BOS0028
 
 下圖列出了運算邏輯模組 OR的真值表。
 
-![Optional title](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_ui2.png)
+| ** ** | **運算邏輯模組OR真值表** | ** ** |
+| :---: | :---: | :---: |
+| 輸入A | 輸入B | 輸出 |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
 
 按照下圖所示連接電路，通電後按下紅色按鈕和黃色按鈕中的任意一個，或同時按下兩個按鈕都能點亮紅色LED燈。
 
-![Optional title](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_ui3.png)
+![](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_ui3.png)
 
 ## 原理介紹
 
@@ -54,7 +60,7 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_example1.png)
+![](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_example1.png)
 
 ### **\(2\) 畫廊展示品防盜警報器**
 
@@ -64,7 +70,7 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_example2.png)
+![](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_example2.png)
 
 ### **\(3\) 糧倉溫濕度檢測**
 
@@ -74,7 +80,7 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_example3.png)
+![](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_example3.png)
 
 ### **\(4\) 找朋友機**
 
@@ -84,13 +90,21 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_example4.png)
+![](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_example4.png)
 
 ## 商品規格
 
 腳位說明： 
 
-![Optional title](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_spec.png)
+![](../.gitbook/assets/function_modules/logic_module_OR/logic_module_OR_spec.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :---: | :---: | :---: |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | INA | 類比輸入A |
+| 4 | INB | 類比輸入B |
+| 5 | OUT | 數位輸出 |
 
 尺寸: 26mm\*22mm
 
