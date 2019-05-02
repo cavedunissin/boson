@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU：BOS0043
 
 心律監測感測器採用光學技術通過皮下毛細血管內的血氧量變化來檢測人體的心率，心率檢測可廣泛應用於可穿戴設備、健身輔助器材等場景。
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_intro.png)
 
 ## 使用說明
 
@@ -28,7 +28,7 @@ SKU：BOS0043
 
 按照下圖所示連接電路，通電後將手指放在心律監測感測器指定位置處即可通過OLED顯示模組查看測量者的心率。
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-shi-yong-shuo-ming-2.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_ui.png)
 
 **心律監測感測器在使用時需注意以下四點事項：**
 
@@ -54,7 +54,7 @@ SKU：BOS0043
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_example1.png)
 
 **設計意圖：**當心律監測感測器輸出高電位時，Micro:bit在LED燈點陣上顯示圖示“大愛心”；否則，Micro:bit在LED燈點陣上顯示圖示“小愛心”。將程式上傳到Micro:bit後，當手指沒有放在心律監測感測器的感應位置時，你會發現愛心閃爍的頻率會很快，而當你把手指放在心律監測感測器的感應位置上時，你會發現愛心閃爍的頻率變小了，這是因為心律監測感測器正在根據你的心跳週期有節奏地輸出高低脈衝。
 
@@ -66,11 +66,11 @@ SKU：BOS0043
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-1-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_prg1_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-1-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_prg1_en.png)
 
 ### \(2\) 使用OLED顯示模組監測心率
 
@@ -80,7 +80,7 @@ SKU：BOS0043
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_example2.png)
 
 ### \(3\) 使用Micro:bit監測心率
 
@@ -90,7 +90,7 @@ SKU：BOS0043
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_example3.png)
 
 **範例程式一：通過累計一定時間的心跳次數測量心率**
 
@@ -106,11 +106,11 @@ SKU：BOS0043
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-zhong-wen-ban-1.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_prg2_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-1.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_prg2_en.png)
 
 **範例程式二：通過計算最近三次心跳發生的時間間隔來測量心率**
 
@@ -130,11 +130,11 @@ SKU：BOS0043
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-zhong-wen-ban-2.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_prg3_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-2.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_prg3_en.png)
 
 **範例程式三：通過計算最近十次心跳發生的時間間隔來測量心率**
 
@@ -152,20 +152,20 @@ SKU：BOS0043
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-zhong-wen-ban-3.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_prg4_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-3.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_prg4_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 1 | GND | 電源接地 |
 | 2 | VCC | 電源正極 |
 | 3 | D | 數位訊號 |
