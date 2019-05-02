@@ -82,7 +82,7 @@ SKU：BOS0005
 
 腳位說明：
 
-![](../.gitbook/assets/boson-qing-xie-kai-guan-yin-jiao-shuo-ming.png) 
+![](../.gitbook/assets/tilt_switch/tilt_switch_spec.png) 
 
 | **編號** | **名稱** | **功能說明** |
 | :---: | :---: | :---: |
