@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-zhi-neng-hui-du-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/infrared_proximity_sensor/infrared_proximity_sensor.jpg)
 
 ## 基本信息
 
@@ -26,7 +26,7 @@ SKU：BOS0010
 
 紅外線接近度感測器可以識別不同的顏色並返回不同的電壓值，用三用電表可以觀察到電壓值會發生線性變化，同時LED燈的明暗程度也隨著電壓值的變化而變化。
 
-![](../.gitbook/assets/boson-zhi-neng-hui-du-chuan-gan-qi-shi-yong-shuo-ming-1.png)
+![](../.gitbook/assets/infrared_proximity_sensor/infrared_proximity_sensor_ui.png)
 
 **（2）數位值輸出**
 
@@ -60,7 +60,7 @@ SKU：BOS0010
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-zhi-neng-hui-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/infrared_proximity_sensor/infrared_proximity_sensor_example1.png)
 
 ### \(2\) 貨物分類系統
 
@@ -70,7 +70,7 @@ SKU：BOS0010
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-zhi-neng-hui-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/infrared_proximity_sensor/infrared_proximity_sensor_example2.png)
 
 **設計意圖：**使用紅外線接近度感測器識別傳送帶上的貨物顏色，當測得的電壓值位於相應顏色電壓值的範圍內，即已識別出指定顏色的貨物時，透過蜂鳴器鳴叫提示工人分類貨物。
 
@@ -82,17 +82,23 @@ SKU：BOS0010
 
 **程式示意圖（中文版）：**
 
-![](../.gitbook/assets/boson-zhi-neng-hui-du-chuan-gan-qi-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../.gitbook/assets/infrared_proximity_sensor/infrared_proximity_sensor_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](../.gitbook/assets/boson-zhi-neng-hui-du-chuan-gan-qi-ying-yong-yang-li-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../.gitbook/assets/infrared_proximity_sensor/infrared_proximity_sensor_prg_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/boson-zhi-neng-hui-du-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/infrared_proximity_sensor/infrared_proximity_sensor_spec.png)
+
+| **編號** | **名稱** | **功能說明** |
+| :---: | :---: | :---: |
+| 1 | GND | 電源接地 |
+| 2 | VCC | 電源正極 |
+| 3 | A-D | 類比/數位訊號 |
 
 重量： （g）
 
