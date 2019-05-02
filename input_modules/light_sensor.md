@@ -99,7 +99,7 @@ SKU：BOS0004
 
 腳位說明：
 
-![](../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/light_sensor/light_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :---: | :---: | :---: |
