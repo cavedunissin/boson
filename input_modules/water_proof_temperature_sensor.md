@@ -70,11 +70,11 @@ SKU：BOS0042
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/rjc945tc/Boson/tree/88e6dccf62eea8b97a7567f44872f4efb1ec7462/boson_防水溫度感測器_應用範例3_程式示意圖中文版.png)
+![](https://github.com/assets/water_proof_temperature_sensor/water_proof_temperature_sensor_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](https://github.com/rjc945tc/Boson/tree/88e6dccf62eea8b97a7567f44872f4efb1ec7462/boson_防水溫度感測器_應用範例3_程式示意圖英文版.png)
+![](https://github.com/assets/water_proof_temperature_sensor/water_proof_temperature_sensor_prg_en.png)
 
 ## 商品規格
 
