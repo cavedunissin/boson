@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](../.gitbook/assets/ultrasonic_sensor/ultrasonic_sensor.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU：BOS0045
 
 人耳朵能聽到的音波頻率為20Hz～20000Hz，當音波的振動頻率大於20000Hz或小於20Hz時，人耳無法聽到。我們把頻率高於20000赫茲的音波稱為超音波。超音波在測距、測速、測障、清洗牙齒、醫療透視儀、殺菌消毒、焊接鋁金屬等設備中均有廣泛應用。
 
-![](../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-mo-kuai-jian-jie.png)
+![](../.gitbook/assets/ultrasonic_sensor/ultrasonic_sensor_intro.png)
 
 ## 使用說明
 
@@ -35,7 +35,7 @@ SKU：BOS0045
 
 按照下圖所示連接電路，通電後再將超音波感測器正對待測物體即可通過OLED顯示模組查看待測物體與超音波感測器之間的距離。
 
-![](../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-shi-yong-shuo-ming-2.png)
+![](../.gitbook/assets/ultrasonic_sensor/ultrasonic_sensor_ui.png)
 
 ## 原理介紹
 
@@ -51,7 +51,7 @@ SKU：BOS0045
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
+![](../.gitbook/assets/ultrasonic_sensor/ultrasonic_sensor_example1.png)
 
 ### \(2\) 守衛安全
 
@@ -61,7 +61,7 @@ SKU：BOS0045
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../.gitbook/assets/ultrasonic_sensor/ultrasonic_sensor_example2.png)
 
 ### \(3\) 帶距離感應的智慧風扇
 
@@ -71,7 +71,7 @@ SKU：BOS0045
 
 **連線圖：**
 
-![](../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](../.gitbook/assets/ultrasonic_sensor/ultrasonic_sensor_example3.png)
 
 **設計意圖：**使用超音波感測器感知人離風扇的距離（假設風扇周圍沒有其他障礙物），根據超音波感測器感知的距離值調節風扇的轉速。
 
@@ -89,20 +89,20 @@ SKU：BOS0045
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/rjc945tc/Boson/tree/88e6dccf62eea8b97a7567f44872f4efb1ec7462/boson_超音波感測器_應用範例3_程式示意圖中文版.png)
+![](https://github.com/assets/ultrasonic_sensor/ultrasonic_sensor_prg_ch_tw.png)
 
 **Example program(English)：**
 
-![](https://github.com/rjc945tc/Boson/tree/88e6dccf62eea8b97a7567f44872f4efb1ec7462/boson_超音波感測器_應用範例3_程式示意圖英文版.png)
+![](https://github.com/assets/ultrasonic_sensor/ultrasonic_sensor_prg_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-yin-jiao-shuo-ming.png)
+![](../.gitbook/assets/ultrasonic_sensor/ultrasonic_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | 1 | GND | 電源接地 |
 | 2 | VCC | 電源正極 |
 | 3 | A | 類比訊號 |
