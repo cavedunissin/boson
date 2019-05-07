@@ -34,7 +34,7 @@ SKU：BOS0011
 
 ## 原理介紹
 
-溫度感測器利用NTC的阻值隨溫度變化的特性，將非電學的物理量轉換為電學量，從而進行溫度的精確測量與自動控制。 來源：[https://baike.baidu.com/item/温度传感器/1202879?fr=aladdin\#2](https://baike.baidu.com/item/温度传感器/1202879?fr=aladdin#2)
+熱電偶、RTD與熱敏電阻進行溫度感測的原理各有不同。熱電偶屬於被動式感測器，可隨著溫度變化產生小幅度電壓波動，通過對電壓的讀數從而得知溫度。電阻溫度偵測器(RTD)與熱敏電阻則是主動式溫度感測器，其電阻會隨著溫度變化，再對電阻進行量測從而測量溫度。來源：[溫度感測器概述-NI國家儀器](http://www.ni.com/zh-tw/innovations/white-papers/06/overview-of-temperature-sensors.html)
 
 ## 應用範例
 
