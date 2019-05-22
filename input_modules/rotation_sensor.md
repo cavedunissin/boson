@@ -32,9 +32,10 @@ SKU：BOS0001
 
 旋鈕模組通過調節旋鈕，在一定範圍內改變電阻值，從而改變輸出訊號的大小。
 
-## 應用範例
+## 實作範例教學
 
-### \(1\) 變速風扇
+## 基本篇
+### 變速風扇
 
 **範例說明：**通過轉動旋鈕到不同的角度來控制風扇轉動速度。順時針旋轉，風扇轉速增大；逆時針旋轉，風扇轉速降低。
 
@@ -44,6 +45,17 @@ SKU：BOS0001
 
 ![](../.gitbook/assets/rotation_sensor/rotation_sensor_example1.png)
 
+### 調速打蛋器
+
+**範例說明：**製作一個打蛋器，打蛋器的打蛋頭固定在馬達的轉軸上，使用旋鈕模組控制馬達的轉速。
+
+**元件清單：**旋鈕模組；馬達模組；主控板：1組輸入/輸出端。
+
+**連線圖：**
+
+![](../.gitbook/assets/rotation_sensor/rotation_sensor_example3.png)
+
+## Micro:bit篇
 ### \(2\) 旋鈕檯燈
 
 **範例說明：**使用旋鈕控制LED燈模組的亮度。順時針轉動旋鈕，LED燈模組越來越亮，逆時針轉動旋鈕，LED燈模組越來越暗。
@@ -64,15 +76,31 @@ SKU：BOS0001
 
 ![](../.gitbook/assets/rotation_sensor/rotation_sensor_prg_en.png)
 
-### \(3\) 調速打蛋器
+## LinkIt 7697篇
 
-**範例說明：**製作一個打蛋器，打蛋器的打蛋頭固定在馬達的轉軸上，使用旋鈕模組控制馬達的轉速。
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Push Button 按鈕模組」, 讀取按鈕模組按下或放開的狀態。
+此Push Button 按鈕模組包含於「Starter Kit for micro:bit」內。
 
-**元件清單：**旋鈕模組；馬達模組；主控板：1組輸入/輸出端。
+**元件清單：**
 
-**連線圖：**
+**連線圖：**按鈕模組是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
 
-![](../.gitbook/assets/rotation_sensor/rotation_sensor_example3.png)
+**程式說明：**每1秒鐘會讀取按鈕模組狀態一次， 並可透過序列埠監控視窗看到按鈕模組的狀態 。
+
+void setup()
+{
+
+  pinMode(5, INPUT);
+  Serial.begin(9600);
+
+}
+
+
+void loop()
+{
+  Serial.println(digitalRead(5));
+  delay(1000);
+}
 
 ## 商品規格
 
