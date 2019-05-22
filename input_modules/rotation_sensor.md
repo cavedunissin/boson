@@ -32,9 +32,7 @@ SKU：BOS0001
 
 旋鈕模組通過調節旋鈕，在一定範圍內改變電阻值，從而改變輸出訊號的大小。
 
-## 實作範例教學
-
-## 基本篇
+## 實作範例教學-基本篇
 ### 變速風扇
 
 **範例說明：**通過轉動旋鈕到不同的角度來控制風扇轉動速度。順時針旋轉，風扇轉速增大；逆時針旋轉，風扇轉速降低。
@@ -55,7 +53,7 @@ SKU：BOS0001
 
 ![](../.gitbook/assets/rotation_sensor/rotation_sensor_example3.png)
 
-## Micro:bit篇
+## 實作範例教學-Micro:bit篇
 ### \(2\) 旋鈕檯燈
 
 **範例說明：**使用旋鈕控制LED燈模組的亮度。順時針轉動旋鈕，LED燈模組越來越亮，逆時針轉動旋鈕，LED燈模組越來越暗。
@@ -76,7 +74,7 @@ SKU：BOS0001
 
 ![](../.gitbook/assets/rotation_sensor/rotation_sensor_prg_en.png)
 
-## LinkIt 7697篇
+## 實作範例教學-LinkIt 7697篇
 
 **範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Push Button 按鈕模組」, 讀取按鈕模組按下或放開的狀態。
 此Push Button 按鈕模組包含於「Starter Kit for micro:bit」內。
