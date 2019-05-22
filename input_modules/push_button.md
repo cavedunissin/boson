@@ -144,6 +144,8 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 ![](../.gitbook/assets/push_button/push_button_7697_3.png)
 
+產生的Arduino程式碼如下：
+
 void setup()
 {
 
