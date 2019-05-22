@@ -150,6 +150,7 @@ void setup()
 {
 
   pinMode(5, INPUT);
+  
   Serial.begin(9600);
 
 }
@@ -158,6 +159,7 @@ void setup()
 void loop()
 {
   Serial.println(digitalRead(5));
+  
   delay(1000);
 }
 
