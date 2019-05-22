@@ -136,7 +136,13 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**按鈕模組是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
 
+![](../.gitbook/assets/push_button/push_button_7697_1png)
+
 **程式說明：**每1秒鐘會讀取按鈕模組狀態一次， 並可透過序列埠監控視窗看到按鈕模組的狀態 。
+
+![](../.gitbook/assets/push_button/push_button_7697_2.png)
+
+![](../.gitbook/assets/push_button/push_button_7697_3.png)
 
 void setup()
 {
