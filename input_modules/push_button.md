@@ -147,6 +147,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 產生的Arduino程式碼如下：
 
 void setup()
+
 {
 
   pinMode(5, INPUT);
@@ -157,10 +158,13 @@ void setup()
 
 
 void loop()
+
 {
+
   Serial.println(digitalRead(5));
   
   delay(1000);
+  
 }
 
 ## 商品規格
