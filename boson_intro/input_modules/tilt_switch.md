@@ -84,13 +84,19 @@ SKU：BOS0005
 
 ## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Tilt Sensor 傾斜感測器」, 讀取傾斜感測器的狀態。此Tilt Sensor 傾斜感測器包含於「Boson 發明家套件 Inventor kit」內。
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「傾斜感測器」, 讀取傾斜感測器的狀態。
 
-**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
+**元件清單：**傾斜感測器；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**傾斜感測器是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
+**連線圖：**傾斜感測器是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
+
+![](../../.gitbook/assets/tilt_switch_7697_1.jpg)
 
 **程式說明：**每1秒鐘會讀取傾斜感測器狀態一次， 並可透過序列埠監控視窗看到傾斜感測器的狀態 。
+
+![](../../.gitbook/assets/tilt_switch_7697_2.png)
+
+![](../../.gitbook/assets/tilt_switch_7697_3.png)
 
 產生出的Arduino程式如下：
 

@@ -140,13 +140,21 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 ## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「LED Light 燈模組」, 每一秒控制LED亮和暗。此LED Light 燈模組包含於「Starter Kit for micro:bit」內。
+**範例說明：**使用「LinkIt 7697 開發板」控制「LED Light 燈模組」，每一秒控制LED亮和暗 （需搭配 LinkIt 7697 NANO 擴充板）。
 
 **元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**LED模組是數位/類比訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANOBreakout訊號端上。本範例連接到「D7」
+**連線圖：**LED模組是數位/類比訊號輸出，可以接「D0～D13」的LinkIt 7697 NANO 擴充板訊號端上（本範例連接到「D7」）。
+
+![](../../.gitbook/assets/led_module_7697_1.jpg)
 
 **程式說明：**將7號腳位的電位拉高、拉低，每一秒鐘會切換LED的亮暗一次。
+
+![](../../.gitbook/assets/led_module_7697_2.jpg)
+
+![](../../.gitbook/assets/led_module_7697_3.jpg)
+
+![](../../.gitbook/assets/led_module_7697_4.jpg)
 
 產生出的Arduino程式如下：
 

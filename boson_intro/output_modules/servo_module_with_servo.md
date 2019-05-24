@@ -52,7 +52,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 ## 實作範例教學-Micro:bit篇
 
-### **\(2\) 自動澆花裝置**
+### **自動澆花裝置**
 
 **範例說明：** 利用土壤濕度感測器即時監測花盆中土壤的含水量，當土壤濕度值較小時，伺服機帶動軟管口降低，達到自動澆水的目的。
 
@@ -78,13 +78,21 @@ turn模式：伺服機轉到指定角度後靜止。
 
 ## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Mini Servo 伺服機模組」,控制伺服機順時針轉和逆時針轉。此Mini Servo 伺服機模組包含於「Starter Kit for micro:bit」內。
+**範例說明：**使用「LinkIt 7697 開發板」控制「 伺服機模組」，控制伺服機順時針轉和逆時針轉（需搭配 LinkIt 7697 NANO 擴充板）。
 
-**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
+**元件清單：**伺服機模組；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**伺服機是脈衝寬度調變\(Pulse Width Modulation\)訊號輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D2」
+**連線圖：**伺服機是脈衝寬度調變\(Pulse Width Modulation\)訊號輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上（ 本範例連接到「D2」）。
+
+![](../../.gitbook/assets/servo_module_7697_1.jpg)
 
 **程式說明：**控制伺服機順時針旋轉及逆時旋轉。
+
+![](../../.gitbook/assets/servo_module_7697_2.jpg)
+
+![](../../.gitbook/assets/servo_module_7697_3.jpg)
+
+![](../../.gitbook/assets/servo_module_7697_4.jpg)
 
 產生出的Arduino程式如下：
 

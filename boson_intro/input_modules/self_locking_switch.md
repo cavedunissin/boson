@@ -1,5 +1,15 @@
 # i3自鎖開關
 
+**範例說明：**使用「LinkIt 7697 開發板」讀取「自鎖開關」，自鎖開關是一種常見的按鈕開關。與按鈕模組不同的地方在於它可以把開關鎖定在某個狀態，直到第二次被按以後彈起。自鎖開關按下或放開的狀態（需搭配 LinkIt 7697 NANO 擴充板）。
+
+**連線圖：**自鎖開關是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
+
+![](../../.gitbook/assets/self_locking_7697_1.jpg)
+
+![](../../.gitbook/assets/self_locking_7697_2.png)
+
+![](../../.gitbook/assets/self_locking_7697_3.png)
+
 ## 實體照片
 
 ![](../../.gitbook/assets/self_locking_switch.jpg)
@@ -30,8 +40,6 @@ SKU：BOS0003
 以自鎖開關控制LED燈為例，第一次按下按鍵，持續輸出高電位，小燈恆亮；第二次按下按鍵，按鍵被彈起，輸出低電位，小燈熄滅。
 
 \*\*\*\*
-
-
 
 ![](../../.gitbook/assets/self_locking_switch_ui.png)
 
@@ -97,7 +105,7 @@ SKU：BOS0003
 
 **範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Self Locking Switch自鎖開關」,自鎖開關是一種常見的按鈕開關。與按鈕模組不同的地方在於它可以把開關鎖定在某個狀態，直到第二次被按以後彈起。讀取自鎖開關按下或放開的狀態。此Self Locking Switch自鎖開關包含於「Boson 發明家套件 Inventor kit」內。
 
-![](../../.gitbook/assets/self_locking_switch_7697_1.jpg)
+![](https://github.com/cavedunissin/boson/tree/284f9227054dfea96fc848f9f1a0455d1a9ae318/.gitbook/assets/self_locking_switch_7697_1.jpg)
 
 **元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
@@ -105,9 +113,9 @@ SKU：BOS0003
 
 **程式說明：**每1秒鐘會讀取自鎖開關狀態一次， 並可透過序列埠監控視窗看到自鎖開關的狀態 。
 
-![](../../.gitbook/assets/self_locking_switch_7697_2.png)
+![](https://github.com/cavedunissin/boson/tree/284f9227054dfea96fc848f9f1a0455d1a9ae318/.gitbook/assets/self_locking_switch_7697_2.png)
 
-![](../../.gitbook/assets/self_locking_switch_7697_3.png)
+![](https://github.com/cavedunissin/boson/tree/284f9227054dfea96fc848f9f1a0455d1a9ae318/.gitbook/assets/self_locking_switch_7697_3.png)
 
 產生出的Arduino程式如下：
 
@@ -125,8 +133,6 @@ void loop()
    delay(1000);
 }
 ```
-
-### 
 
 ## 商品規格
 

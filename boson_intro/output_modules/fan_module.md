@@ -108,13 +108,21 @@ SKU 號：BOS0021
 
 ## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Mini Fan 風扇模組」, 每五秒鐘會切換風扇停止，風扇風速中等，風扇風速強一次。此Mini Fan 風扇模組包含於「Starter Kit for micro:bit」內。
+**範例說明：**使用「LinkIt 7697 開發板」控制「 風扇模組」， 每五秒鐘會切換風扇停止，風扇風速中等，風扇風速強一次（需搭配 LinkIt 7697 NANO 擴充板）。
 
-**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
+**元件清單：**風扇模組；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**Mini Fan 風扇模組是數位/類比訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANOBreakout訊號端上。本範例連接到「D7」
+**連線圖：**風扇模組是數位/類比訊號輸出，可以接「D0～D13」的LinkIt 7697 NANO擴充板訊號端上（本範例連接到「D7」）。
+
+![](../../.gitbook/assets/fan_module_7697_1.jpg)
 
 **程式說明：**將7號腳位PWM類比寫入訊號，每五秒鐘會切換風扇停止，風扇風速中等，風扇風速強一次。
+
+![](../../.gitbook/assets/fan_module_7697_2.jpg)
+
+![](../../.gitbook/assets/fan_module_7697_3.jpg)
+
+![](../../.gitbook/assets/fan_module_7697_4.jpg)
 
 產生出的Arduino程式如下：
 

@@ -94,13 +94,19 @@ SKU：BOS0013
 
 ## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Motion Sensor 動作感測器」, 每1秒讀取動作感測器數值。此Motion Sensor 動作感測器包含於「Starter Kit for micro:bit」內。
+**範例說明：**使用「LinkIt 7697 開發板」讀取「Motion Sensor 動作感測器」，每1秒動作感測器數值（需搭配 LinkIt 7697 NANO 擴充板）。
 
 **元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
 **連線圖：**動作感測器是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
 
+![](../../.gitbook/assets/motion_sensor_7697_1.jpg)
+
 **程式說明：**每1秒鐘會讀取動作感測器狀態一次， 並可透過序列埠監控視窗看到動作感測器狀態 。
+
+![](../../.gitbook/assets/motion_sensor_7697_2.jpg)
+
+![](../../.gitbook/assets/motion_sensor_7697_3.png)
 
 產生出的Arduino程式如下：
 

@@ -78,13 +78,19 @@ SKU：BOS0012
 
 ## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Conductivity Switch 導電感測開關」, 每1秒讀取導電感測開關是否導電。此Conductivity Switch 導電感測開關包含於「Boson 科學家套件 Science kit」內。
+**範例說明：**使用「LinkIt 7697 開發板」讀取「導電感測開關」,，每1秒導電感測開關是否導電（需搭配 LinkIt 7697 NANO 擴充板）。
 
 **元件清單：**導電感測開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
 **連線圖：**導電感測開關是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D6」
 
+![](../../.gitbook/assets/conductivity_sensor_switch_7697_1.jpg)
+
 **程式說明：**每1秒鐘會讀取導電感測開關的導電係數一次，並顯示在序列埠監控視窗上。
+
+![](../../.gitbook/assets/conductivity_sensor_switch_7697_2.png)
+
+![](../../.gitbook/assets/conductivity_sensor_switch_7697_3.png)
 
 產生出的Arduino程式如下：
 

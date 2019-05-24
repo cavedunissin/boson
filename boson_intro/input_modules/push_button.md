@@ -130,15 +130,15 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 ## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Push Button 按鈕模組」, 讀取按鈕模組按下或放開的狀態。 此Push Button 按鈕模組包含於「Starter Kit for micro:bit」內。
+**範例說明：**使用「LinkIt 7697 開發板」讀取「按鈕模組」，按鈕模組按下或放開的狀態（需搭配 LinkIt 7697 NANO 擴充板）。
 
-**元件清單：**
+**元件清單：**按鈕模組；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**按鈕模組是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
+**連線圖：**按鈕模組是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
 
 ![](../../.gitbook/assets/push_button_7697_1.jpg)
 
-**程式說明：**每1秒鐘會讀取按鈕模組狀態一次， 並可透過序列埠監控視窗看到按鈕模組的狀態 。
+**程式說明：**每1秒鐘會讀取按鈕模組狀態一次，並可透過序列埠監控視窗看到按鈕模組的狀態。
 
 ![](../../.gitbook/assets/push_button_7697_2.jpg)
 

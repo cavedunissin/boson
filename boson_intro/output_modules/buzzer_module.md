@@ -142,13 +142,17 @@ SKU 號：BOS0020
 
 ## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Buzzer Module 蜂鳴器模組」, 每一秒控制蜂鳴器模組發出逼的聲音和靜音。此Buzzer Module 蜂鳴器模組包含於「Boson 發明家套件 Inventor kit」內。
+**範例說明：**使用「LinkIt 7697 擴充板」控制「蜂鳴器模組」，每一秒控制蜂鳴器模組發出逼的聲音和靜音（需搭配 LinkIt 7697 NANO 擴充板）。
 
-**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
+**元件清單：**蜂鳴器模組；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**蜂鳴器模組是數位訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANOBreakout訊號端上。本範例連接到「D7」
+**連線圖：**蜂鳴器模組是數位訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANO擴充板訊號端上（本範例連接到「D7」）。
+
+![](../../.gitbook/assets/buzzer_module_7697_1.jpg)
 
 **程式說明：**每一秒控制無源蜂鳴器模組發出逼的聲音和靜音 。
+
+![](../../.gitbook/assets/buzzer_module_7697_2.jpg)
 
 產生出的Arduino程式如下：
 
