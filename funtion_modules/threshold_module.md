@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../.gitbook/assets/threshold_module.png)
+![](../.gitbook/assets/threshold_module.png)
 
 ## 基本信息
 
@@ -22,7 +22,7 @@ SKU 號：BOS0032
 
 閾模組既可以放在輸入端，也可以放在輸出端，但該模組不能直接作為輸入或輸出模組使用，需要將輸入模組連接在閾模組的輸入口，輸出模組連接在閾模組的輸出口，通過改變輸入口的信號來控制輸出口。閾模組的輸入口和輸出口如下圖所示。
 
-![Optional title](../../.gitbook/assets/threshold_module_ui1.png)
+![Optional title](../.gitbook/assets/threshold_module_ui1.png)
 
 閾模組能夠輸入數位信號或類比信號，但該模組只能輸出數位信號。閾模組的輸入輸出機制如下：
 
@@ -32,7 +32,7 @@ SKU 號：BOS0032
 
 按照下圖所示連接電路，通電後即可通過調節閾模組的設定值來控制LED燈的點亮和熄滅。
 
-![Optional title](../../.gitbook/assets/threshold_module_ui2.png)
+![Optional title](../.gitbook/assets/threshold_module_ui2.png)
 
 ## 原理介紹
 
@@ -48,7 +48,7 @@ SKU 號：BOS0032
 
 **連線圖：**
 
-![Optional title](../../.gitbook/assets/threshold_module_example1.png)
+![Optional title](../.gitbook/assets/threshold_module_example1.png)
 
 ### **\(2\) 糧倉溫濕度檢測**
 
@@ -58,13 +58,13 @@ SKU 號：BOS0032
 
 **連線圖：**
 
-![Optional title](../../.gitbook/assets/threshold_module_example2.png)
+![Optional title](../.gitbook/assets/threshold_module_example2.png)
 
 ## 商品規格
 
 腳位說明：
 
-![Optional title](../../.gitbook/assets/threshold_module_spec.png)
+![Optional title](../.gitbook/assets/threshold_module_spec.png)
 
 尺寸: 26mm\*22mm
 
