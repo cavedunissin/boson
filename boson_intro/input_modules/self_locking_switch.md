@@ -97,7 +97,7 @@ SKU：BOS0003
 
 **範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Self Locking Switch自鎖開關」,自鎖開關是一種常見的按鈕開關。與按鈕模組不同的地方在於它可以把開關鎖定在某個狀態，直到第二次被按以後彈起。讀取自鎖開關按下或放開的狀態。此Self Locking Switch自鎖開關包含於「Boson 發明家套件 Inventor kit」內。
 
-![](../../.gitbook/assets/push_button_7697_1.jpg)
+![](../../.gitbook/assets/self_locking_switch_7697_1.jpg)
 
 **元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
@@ -107,9 +107,9 @@ SKU：BOS0003
 
 **程式說明：**每1秒鐘會讀取自鎖開關狀態一次， 並可透過序列埠監控視窗看到自鎖開關的狀態 。
 
-![](../../.gitbook/assets/push_button_7697_2.jpg)
+![](../../.gitbook/assets/self_locking_switch_7697_2.jpg)
 
-![](../../.gitbook/assets/push_button_7697_3.png)
+![](../../.gitbook/assets/self_locking_switch_7697_3.png)
 
 產生出的Arduino程式如下：
 
