@@ -124,6 +124,8 @@ SKU 號：BOS0021
 
 ![](../../.gitbook/assets/fan_module_7697_4.jpg)
 
+範例影片：[https://youtu.be/Itl6lUYf9Ws](https://youtu.be/Itl6lUYf9Ws)
+
 產生出的Arduino程式如下：
 
 ```text

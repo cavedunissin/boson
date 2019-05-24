@@ -94,6 +94,8 @@ turn模式：伺服機轉到指定角度後靜止。
 
 ![](../../.gitbook/assets/servo_module_7697_4.jpg)
 
+範例影片：[https://youtu.be/fXI07tbq-yU](https://youtu.be/fXI07tbq-yU)
+
 產生出的Arduino程式如下：
 
 ```text

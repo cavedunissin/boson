@@ -102,15 +102,21 @@ SKU 號：BOS0024
 
 ## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Motor Module 馬達模組」, 每五秒鐘會切換馬達停止，馬達轉動速度中等，馬達轉動速度快一次。
+**範例說明：**使用「LinkIt 7697 NANO 開發板」控制「馬達模組」， 每五秒鐘會切換馬達停止，馬達轉動速度中等，馬達轉動速度快一次。
 
 **元件清單：**馬達模組；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
 **連線圖：**馬達控制模組是數位/類比訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANO 擴充板訊號端上（本範例連接到「D7」）。
 
-\*\*\*\*
+![](../../.gitbook/assets/motor_controller_7697_1.jpg)
 
 **程式說明：**將7號腳位PWM類比寫入訊號，每五秒鐘會切換馬達停止，馬達轉動速度中等，馬達轉動速度快一次。
+
+![](../../.gitbook/assets/motor_controller_7697_2.jpg)
+
+![](../../.gitbook/assets/motor_controller_7697_3.jpg)
+
+範例影片：[https://youtu.be/IxhS6b4INUw](https://youtu.be/IxhS6b4INUw)
 
 產生出的Arduino程式如下：
 

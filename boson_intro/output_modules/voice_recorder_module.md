@@ -104,7 +104,7 @@ SKU 號：BOS0022
 
 **連線圖：**錄音機模組是數位訊號輸出，可以接「D0～D13」的LinkIt 7697 NANO 擴充板訊號端上（本範例連接到「D7」，並利用7697內建的開關D6來控制喇叭是否撥放錄製的聲音）。
 
-![](../../.gitbook/assets/voice_recorder_7697_1.jpg)
+![](../../.gitbook/assets/voice_recorder_7697_1%20%281%29.jpg)
 
 **程式說明：**
 

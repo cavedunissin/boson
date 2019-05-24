@@ -156,6 +156,8 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 ![](../../.gitbook/assets/led_module_7697_4.jpg)
 
+範例影片：[https://youtu.be/MQcgr6GPaSo](https://youtu.be/MQcgr6GPaSo)
+
 產生出的Arduino程式如下：
 
 ```text
