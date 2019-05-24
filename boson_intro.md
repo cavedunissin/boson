@@ -8,7 +8,7 @@ BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件
 
 另外，我們也使用了LinkIt 7697來連接Boson模組，可使用的感測器分類在下列的項目
 
-使用LinkIt 7697的感測器
+## 使用LinkIt 7697的感測器
 * [輸入模組]
   * [i2r按鈕模組](input_modules/push_button.md)
   * [i3自鎖開關](input_modules/self_locking_switch.md)
@@ -22,7 +22,7 @@ BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件
   * [o9馬達模組](output_modules/motor_controller_module.md)
   * [o10伺服機模組](output_modules/servo_module_with_servo.md)
  
- 使用micro:bit的感測器
+ ## 使用micro:bit的感測器
 * [輸入模組]
   * [i1旋鈕模組](input_modules/rotation_sensor.md)
   * [i2r按鈕模組](input_modules/push_button.md)
@@ -51,12 +51,3 @@ BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件
   * [o9馬達模組](output_modules/motor_controller_module.md)
   * [o10伺服機模組](output_modules/servo_module_with_servo.md)
   * [七彩燈條](output_modules/RGB_led_string.md)
-
-
-
-
-
-
-
-
-
