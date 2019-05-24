@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/reversible_counter_module.png)
+![](../../.gitbook/assets/reversible_counter_module.png)
 
 ## 基本信息
 
@@ -32,7 +32,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 計數模組的輸入輸出口如下圖所示：
 
-![](../.gitbook/assets/reversible_counter_module_ui1.png)
+![](../../.gitbook/assets/reversible_counter_module_ui1.png)
 
 按照下圖所示連接電路即可達到每按一次鍵，計數器加1。
 
@@ -52,7 +52,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 **連線圖：**
 
-![](../.gitbook/assets/reversible_counter_module_example1.png)
+![](../../.gitbook/assets/reversible_counter_module_example1.png)
 
 ### **\(2\) 製作存錢罐**
 
@@ -62,7 +62,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 **連線圖：**
 
-![](../.gitbook/assets/reversible_counter_module_example2.png)
+![](../../.gitbook/assets/reversible_counter_module_example2.png)
 
 ### **\(3\) 風景區遊客流量計數器**
 
@@ -72,13 +72,13 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 **連線圖：**
 
-![](../.gitbook/assets/reversible_counter_module_example3.png)
+![](../../.gitbook/assets/reversible_counter_module_example3.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/reversible_counter_module_spec.png)
+![](../../.gitbook/assets/reversible_counter_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :---: | :---: | :---: |

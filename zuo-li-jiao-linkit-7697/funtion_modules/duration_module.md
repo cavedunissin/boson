@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../.gitbook/assets/duration_module.png)
+![Optional title](../../.gitbook/assets/duration_module.png)
 
 ## 基本信息
 
@@ -22,7 +22,7 @@ SKU 號：BOS0033
 
 計時模組（0-60秒）不能直接作為輸入或輸出模組使用，需要將輸入模組連接在計時模組（0-60秒）的輸入口，輸出模組連接在計時模組（0-60秒）的輸出口。計時模組（0-60秒）的持續時間由旋鈕調節，模式由開關切換，通過改變輸入口信號來控制輸出口。計時模組（0-60秒）的輸入口和輸出口如下圖所示。
 
-![Optional title](../.gitbook/assets/duration_module_ui1.png)
+![Optional title](../../.gitbook/assets/duration_module_ui1.png)
 
 計時模組（0-60秒）的輸入輸出機制如下：
 
@@ -32,7 +32,7 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 按照下圖所示連接電路並設定好計時模組（0-60秒）的時間值，通電後按下按鈕即可點亮LED燈並持續到設定的時間。
 
-![Optional title](../.gitbook/assets/duration_module_ui2.png)
+![Optional title](../../.gitbook/assets/duration_module_ui2.png)
 
 ## 原理介紹
 
@@ -48,7 +48,7 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/duration_module_example1.png)
+![Optional title](../../.gitbook/assets/duration_module_example1.png)
 
 ### **\(2\) 密碼鎖**
 
@@ -58,13 +58,13 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 **連線圖：**
 
-![Optional title](../.gitbook/assets/duration_module_example2.png)
+![Optional title](../../.gitbook/assets/duration_module_example2.png)
 
 ## 商品規格
 
 腳位說明：
 
-![Optional title](../.gitbook/assets/duration_module_spec.png)
+![Optional title](../../.gitbook/assets/duration_module_spec.png)
 
 尺寸：38mm\*32mm
 

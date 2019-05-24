@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../.gitbook/assets/logic_module_or.png)
+![](../../.gitbook/assets/logic_module_or.png)
 
 ## 基本信息
 
@@ -18,13 +18,13 @@ SKU 號：BOS0028
 
 運算邏輯模組 OR是功能模組中的一種，可以用來進行簡單的邏輯運算，還可以和其他邏輯模組組合使用，達到更為複雜的功能，如數據的運算和存儲。運算邏輯模組 OR可廣泛應用於日常生活中的簡單車門警報器等電路。
 
-![Optional title](../.gitbook/assets/logic_module_or_intro.png)
+![Optional title](../../.gitbook/assets/logic_module_or_intro.png)
 
 ## 使用說明
 
 運算邏輯模組 OR既可以放在輸入端，也可以放在輸出端，但該模組不能直接作為輸入或輸出模組使用，需要將輸入模組分別連接在運算邏輯模組 OR的兩個輸入口，輸出模組連接在運算邏輯模組 OR的輸出口，通過改變兩個輸入口的信號來控制輸出口。運算邏輯模組 OR的輸入口和輸出口如下圖所示。
 
-![](../.gitbook/assets/logic_module_or_ui1.png)
+![](../../.gitbook/assets/logic_module_or_ui1.png)
 
 運算邏輯模組 OR既可以輸入數位信號，也可以輸入類比信號，但該模組只能輸出數位信號。運算邏輯模組 OR能夠將兩個輸入的信號處理後合併輸出成一個信號，其輸入輸出機制如下：
 
@@ -44,7 +44,7 @@ SKU 號：BOS0028
 
 按照下圖所示連接電路，通電後按下紅色按鈕和黃色按鈕中的任意一個，或同時按下兩個按鈕都能點亮紅色LED燈。
 
-![](../.gitbook/assets/logic_module_or_ui3.png)
+![](../../.gitbook/assets/logic_module_or_ui3.png)
 
 ## 原理介紹
 
@@ -60,7 +60,7 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![](../.gitbook/assets/logic_module_or_example1.png)
+![](../../.gitbook/assets/logic_module_or_example1.png)
 
 ### **\(2\) 畫廊展示品防盜警報器**
 
@@ -70,7 +70,7 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![](../.gitbook/assets/logic_module_or_example2.png)
+![](../../.gitbook/assets/logic_module_or_example2.png)
 
 ### **\(3\) 糧倉溫濕度檢測**
 
@@ -80,7 +80,7 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![](../.gitbook/assets/logic_module_or_example3.png)
+![](../../.gitbook/assets/logic_module_or_example3.png)
 
 ### **\(4\) 找朋友機**
 
@@ -90,13 +90,13 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![](../.gitbook/assets/logic_module_or_example4.png)
+![](../../.gitbook/assets/logic_module_or_example4.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../.gitbook/assets/logic_module_or_spec.png)
+![](../../.gitbook/assets/logic_module_or_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :---: | :---: | :---: |
