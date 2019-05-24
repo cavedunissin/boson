@@ -107,7 +107,7 @@ SKU：BOS0003
 
 **程式說明：**每1秒鐘會讀取自鎖開關狀態一次， 並可透過序列埠監控視窗看到自鎖開關的狀態 。
 
-![](../../.gitbook/assets/self_locking_switch_7697_2.jpg)
+![](../../.gitbook/assets/self_locking_switch_7697_2.png)
 
 ![](../../.gitbook/assets/self_locking_switch_7697_3.png)
 
