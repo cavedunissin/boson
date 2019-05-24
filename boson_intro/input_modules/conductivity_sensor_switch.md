@@ -28,9 +28,9 @@ SKU：BOS0012
 
 導電感測開關通過檢測微弱電流的存在，輸出開關訊號。
 
-## 應用範例
+## 實作範例教學-基本篇
 
-### \(1\) 檢測物體的導電性
+### 檢測物體的導電性
 
 **範例說明：**通過導線外接物體，通過顯示模組查看該物體是否導電。
 
@@ -38,15 +38,19 @@ SKU：BOS0012
 
 **連線圖：**
 
+
+
 ![](../../.gitbook/assets/conductivity_sensor_switch_example1.png)
 
-### \(2\) 炫彩風鈴
+### 炫彩風鈴
 
 **範例說明：**將導電感測開關置於風鈴中，彩色小燈盤繞在風鈴上。當風鈴下擺相互觸碰時，導電感測開關通電，輸出高電位，彩色小燈亮起。
 
 **元件清單：**導電感測開關；主控板：1組輸入/輸出端；七彩燈條。
 
-### \(3\) 物體導電性檢測儀
+## 實作範例教學-Micro:bit篇
+
+### 物體導電性檢測儀
 
 **範例說明：**導電感測開關檢測物體的導電性，Micro:bit讀取埠上電壓的高低並將導電性顯示在LED點陣上，導電顯示“√”，不導電顯示“×”。
 
@@ -71,6 +75,36 @@ SKU：BOS0012
 **Example program\(English\)：**
 
 ![](../../.gitbook/assets/conductivity_sensor_switch_prg_en.png)
+
+## 實作範例教學-LinkIt 7697篇
+
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Conductivity Switch 導電感測開關」, 每1秒讀取導電感測開關是否導電。此Conductivity Switch 導電感測開關包含於「Boson 科學家套件 Science kit」內。
+
+**元件清單：**導電感測開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
+
+**連線圖：**導電感測開關是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D6」
+
+**程式說明：**每1秒鐘會讀取導電感測開關的導電係數一次，並顯示在序列埠監控視窗上。
+
+產生出的Arduino程式如下：
+
+```text
+void setup()
+{
+
+  Serial.begin(9600);
+
+  pinMode(6, INPUT);
+}
+
+
+void loop()
+{
+  Serial.print("導電係數:");
+  Serial.println(digitalRead(6));
+  delay(1000);
+}
+```
 
 ## 商品規格
 

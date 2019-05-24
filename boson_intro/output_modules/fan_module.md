@@ -36,9 +36,31 @@ SKU 號：BOS0021
 
 風扇主要由定子和轉子兩大部分組成，定子主要包括控制電路、軸承、線圈。轉子主要由扇葉、磁鐵和軸三個部分構成。風扇的工作原理簡單的來講就是電流通過控制電路，在定子線圈處和電磁鐵處產生旋轉磁場，推動轉子上的磁鐵朝特定方向旋轉，從而帶動整個扇葉高速旋轉，推動空氣快速從扇葉處通過，以達到特定的風量和風壓。
 
-## 應用範例
+## 實作範例教學-基本篇
 
-### **\(1\) 按鈕風扇**
+### **\(3\) 溫控風扇**
+
+**範例說明：** 當溫度較高時，自動開啟風扇，溫度較低時，自動關閉。
+
+**元件清單：** 溫度感測器；風扇模組；主控板：1組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu.png)
+
+### **\(4\) 聲控風扇**
+
+**範例說明：** 使用聲音感測器控制風扇模組是否轉動。
+
+**元件清單：** 聲音感測器；風扇模組；主控板：3組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/boson-feng-shan-mo-kuai-sheng-kong-feng-shan-lian-xian-tu.png)
+
+## 實作範例教學-Micro:bit篇
+
+### **按鈕風扇**
 
 **範例說明：** 利用micro:bit自帶的A、B按鈕控制風扇的開啟和關閉。當A按鈕被按下時，風扇打開；當B按鈕被按下時，風扇關閉。
 
@@ -84,25 +106,37 @@ SKU 號：BOS0021
 
 ![](../../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(3\) 溫控風扇**
+## 實作範例教學-LinkIt 7697篇
 
-**範例說明：** 當溫度較高時，自動開啟風扇，溫度較低時，自動關閉。
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Mini Fan 風扇模組」, 每五秒鐘會切換風扇停止，風扇風速中等，風扇風速強一次。此Mini Fan 風扇模組包含於「Starter Kit for micro:bit」內。
 
-**元件清單：** 溫度感測器；風扇模組；主控板：1組輸入/輸出端。
+**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**
+**連線圖：**Mini Fan 風扇模組是數位/類比訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANOBreakout訊號端上。本範例連接到「D7」
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu.png)
+**程式說明：**將7號腳位PWM類比寫入訊號，每五秒鐘會切換風扇停止，風扇風速中等，風扇風速強一次。
 
-### **\(4\) 聲控風扇**
+產生出的Arduino程式如下：
 
-**範例說明：** 使用聲音感測器控制風扇模組是否轉動。
+```text
+void setup()
+{
 
-**元件清單：** 聲音感測器；風扇模組；主控板：3組輸入/輸出端。
+  pinMode(7, OUTPUT);
+}
 
-**連線圖：**
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-sheng-kong-feng-shan-lian-xian-tu.png)
+void loop()
+{
+  analogWrite(7, 0);
+  delay(5000);
+  analogWrite(7, 150);
+  delay(5000);
+  analogWrite(7, 255);
+  delay(5000);
+}
+
+```
 
 ## 商品規格
 

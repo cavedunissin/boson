@@ -36,9 +36,9 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 ![](../../.gitbook/assets/bosonled-mo-kuai-yuan-li-jie-shao.jpg)
 
-## 應用範例
+## 實作範例教學-基本篇
 
-### **\(1\) 按鈕檯燈（非程式設計）**
+### **按鈕檯燈（非程式設計）**
 
 **範例說明：** 使用按鈕控制LED燈的點亮和熄滅。當按鈕按下時，LED燈模組被點亮；當按鈕鬆開時，LED燈模組被熄滅。
 
@@ -48,7 +48,49 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 ![](../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu.png)
 
-### **\(2\) 按鈕檯燈（程式設計）**
+### **感應發光小屋**
+
+**範例說明：** 製作一個感應發光小屋，當有人經過時，動作感測器偵測到人，LED燈亮起。
+
+**元件清單：** 動作感測器；LED燈模組；主控板：3組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/bosonled-mo-kuai-gan-ying-fa-guang-xiao-wu-lian-xian-tu.png)
+
+### **智慧路燈**
+
+**範例說明：** 將模組按下圖連接後可以實現如下功能：只有在晚上的時候，聽到有人來了，路燈才會亮起。這一設計大大節約了電力資源。
+
+**元件清單：** 光感測器；聲音感測器；運算邏輯模組 NOT；運算邏輯模組 AND；LED燈模組；主控板：1組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/bosonled-mo-kuai-zhi-neng-lu-deng-lian-xian-tu.png)
+
+### **復古燭臺**
+
+**範例說明：** 用光代替火，光感測器感受到光後使小燈泡點亮，小燈泡一旦被“點火”成功，就保持著不滅的狀態。
+
+**元件清單：** 光感測器；運算邏輯模組 OR；分支模組；LED燈模組；主控板：1組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/bosonled-mo-kuai-fu-gu-zhu-tai-lian-xian-tu.png)
+
+### **找朋友機**
+
+**範例說明：** 做一個有趣的找朋友機，輕輕按下一個或幾個按鈕，看看哪些小朋友志趣相投。
+
+**元件清單：** 紅色按鈕模組；藍色按鈕模組；運算邏輯模組 OR；運算邏輯模組 AND；紅色LED燈模組；藍色LED燈模組；主控板：3組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/bosonled-mo-kuai-zhao-peng-you-ji-lian-xian-tu.png)
+
+## 實作範例教學-Micro:bit篇
+
+### **按鈕檯燈（程式設計）**
 
 **範例說明：** 使用按鈕控制LED燈的點亮和熄滅。當按鈕按下時，LED燈模組被點亮；當按鈕鬆開時，LED燈模組被熄滅。
 
@@ -72,7 +114,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 ![](../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(3\) 旋鈕檯燈**
+### **旋鈕檯燈**
 
 **範例說明：** 使用旋鈕控制LED燈模組的亮度。順時針轉動旋鈕，LED燈模組越來越亮，逆時針轉動旋鈕，LED燈模組越來越暗。
 
@@ -94,45 +136,36 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 ![](../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(4\) 感應發光小屋**
+### \*\*\*\*
 
-**範例說明：** 製作一個感應發光小屋，當有人經過時，動作感測器偵測到人，LED燈亮起。
+## 實作範例教學-LinkIt 7697篇
 
-**元件清單：** 動作感測器；LED燈模組；主控板：3組輸入/輸出端。
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「LED Light 燈模組」, 每一秒控制LED亮和暗。此LED Light 燈模組包含於「Starter Kit for micro:bit」內。
 
-**連線圖：**
+**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-![](../../.gitbook/assets/bosonled-mo-kuai-gan-ying-fa-guang-xiao-wu-lian-xian-tu.png)
+**連線圖：**LED模組是數位/類比訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANOBreakout訊號端上。本範例連接到「D7」
 
-### **\(5\) 智慧路燈**
+**程式說明：**將7號腳位的電位拉高、拉低，每一秒鐘會切換LED的亮暗一次。
 
-**範例說明：** 將模組按下圖連接後可以實現如下功能：只有在晚上的時候，聽到有人來了，路燈才會亮起。這一設計大大節約了電力資源。
+產生出的Arduino程式如下：
 
-**元件清單：** 光感測器；聲音感測器；運算邏輯模組 NOT；運算邏輯模組 AND；LED燈模組；主控板：1組輸入/輸出端。
+```text
+void setup()
+{
 
-**連線圖：**
+  pinMode(7, OUTPUT);
+}
 
-![](../../.gitbook/assets/bosonled-mo-kuai-zhi-neng-lu-deng-lian-xian-tu.png)
 
-### **\(6\) 復古燭臺**
-
-**範例說明：** 用光代替火，光感測器感受到光後使小燈泡點亮，小燈泡一旦被“點火”成功，就保持著不滅的狀態。
-
-**元件清單：** 光感測器；運算邏輯模組 OR；分支模組；LED燈模組；主控板：1組輸入/輸出端。
-
-**連線圖：**
-
-![](../../.gitbook/assets/bosonled-mo-kuai-fu-gu-zhu-tai-lian-xian-tu.png)
-
-### **\(7\) 找朋友機**
-
-**範例說明：** 做一個有趣的找朋友機，輕輕按下一個或幾個按鈕，看看哪些小朋友志趣相投。
-
-**元件清單：** 紅色按鈕模組；藍色按鈕模組；運算邏輯模組 OR；運算邏輯模組 AND；紅色LED燈模組；藍色LED燈模組；主控板：3組輸入/輸出端。
-
-**連線圖：**
-
-![](../../.gitbook/assets/bosonled-mo-kuai-zhao-peng-you-ji-lian-xian-tu.png)
+void loop()
+{
+  digitalWrite(7, HIGH);
+  delay(1000);
+  digitalWrite(7, LOW);
+  delay(1000);
+}
+```
 
 ## 商品規格
 

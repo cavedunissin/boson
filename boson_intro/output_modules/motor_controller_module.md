@@ -38,9 +38,21 @@ SKU 號：BOS0024
 
 馬達驅動物體運動的過程是一個電能轉化為動能的過程，需要耗費較大的能量，而輸入模組與馬達直接相連無法直接提供足夠的功率。為了保證有足夠能量維持馬達轉動，在使用時我們需要通過馬達模組將信號轉化為馬達的驅動電流。
 
-## 應用範例
+## 實作範例教學-基本篇
 
-### **\(1\) 製作風車**
+### **調速打蛋器（非程式設計）**
+
+**範例說明：** 製作一個打蛋器，打蛋器的攪拌棒固定在馬達的轉軸上，使用旋鈕模組控制馬達的轉速和轉動方向。
+
+**元件清單：** 旋鈕模組；馬達模組；電源主機板-單路。
+
+**連線圖：**
+
+![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-1-lian-xian-tu.png)
+
+## 實作範例教學-Micro:bit篇
+
+### **製作風車**
 
 **範例說明：** 用聲音感測器和馬達模組類比風車，當人對著聲音感測器說話或吹氣時，觀察馬達的轉速和轉動方向。
 
@@ -63,16 +75,6 @@ SKU 號：BOS0024
 **Example program\(English\)：**
 
 ![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-zhi-zuo-feng-che-cheng-xu-shi-yi-tu-ying-wen-ban.png)
-
-### **\(2\) 調速打蛋器（非程式設計）**
-
-**範例說明：** 製作一個打蛋器，打蛋器的攪拌棒固定在馬達的轉軸上，使用旋鈕模組控制馬達的轉速和轉動方向。
-
-**元件清單：** 旋鈕模組；馬達模組；電源主機板-單路。
-
-**連線圖：**
-
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-1-lian-xian-tu.png)
 
 ### **\(3\) 調速打蛋器（程式設計）**
 
@@ -97,6 +99,37 @@ SKU 號：BOS0024
 **Example program\(English\)：**
 
 ![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+
+## 實作範例教學-LinkIt 7697篇
+
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Motor Module 馬達模組」, 每五秒鐘會切換馬達停止，馬達轉動速度中等，馬達轉動速度快一次。此Motor Module馬達模組包含於「Boson 發明家套件 Inventor kit」內。
+
+**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
+
+**連線圖：**
+
+**程式說明：**將7號腳位PWM類比寫入訊號，每五秒鐘會切換馬達停止，馬達轉動速度中等，馬達轉動速度快一次。
+
+產生出的Arduino程式如下：
+
+```text
+void setup()
+{
+
+  pinMode(7, OUTPUT);
+}
+
+
+void loop()
+{
+  analogWrite(7, 0);
+  delay(5000);
+  analogWrite(7, 125);
+  delay(5000);
+  analogWrite(7, 255);
+  delay(5000);
+}
+```
 
 ## 商品規格
 

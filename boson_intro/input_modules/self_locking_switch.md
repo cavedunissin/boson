@@ -29,15 +29,19 @@ SKU：BOS0003
 
 以自鎖開關控制LED燈為例，第一次按下按鍵，持續輸出高電位，小燈恆亮；第二次按下按鍵，按鍵被彈起，輸出低電位，小燈熄滅。
 
+\*\*\*\*
+
+
+
 ![](../../.gitbook/assets/self_locking_switch_ui.png)
 
 ## 原理介紹
 
 無
 
-## 應用範例
+## 實作範例教學-基本篇
 
-### \(1\) 點亮LED燈（非程式設計）
+### 點亮LED燈（非程式設計）
 
 **範例說明：**通過自鎖開關控制LED燈的亮滅。第一次按下自鎖開關，LED燈被點亮，第二次按下自鎖開關，LED燈被熄滅。
 
@@ -47,7 +51,29 @@ SKU：BOS0003
 
 ![](../../.gitbook/assets/self_locking_switch_example1.png)
 
-### \(2\) 點亮LED燈（程式設計）
+### 開啟風扇
+
+**範例說明：**通過自鎖開關控制風扇的開啟與關閉。第一次按下自鎖開關，風扇開始轉動，第二次按下自鎖開關，風扇停止轉動。
+
+**元件清單：**自鎖開關；風扇模組；主控板：1組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/self_locking_switch_example3.png)
+
+### 毛毛蟲
+
+**範例說明：**通過自鎖開關和伺服機模組控制馬達模組像毛毛蟲一樣向前爬動。
+
+**元件清單：**自鎖開關；伺服機模組；馬達模組；主控板：1組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/self_locking_switch_example4.png)
+
+## 實作範例教學-Micro:bit篇
+
+### 點亮LED燈（程式設計）
 
 **範例說明：**通過自鎖開關控制LED燈的亮滅。第一次按下自鎖開關，LED燈被點亮，第二次按下自鎖開關，LED燈被熄滅。
 
@@ -67,25 +93,42 @@ SKU：BOS0003
 
 ![](../../.gitbook/assets/self_locking_switch_prg_en.png)
 
-### \(3\) 開啟風扇
+## 實作範例教學-LinkIt 7697篇
 
-**範例說明：**通過自鎖開關控制風扇的開啟與關閉。第一次按下自鎖開關，風扇開始轉動，第二次按下自鎖開關，風扇停止轉動。
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Self Locking Switch自鎖開關」,自鎖開關是一種常見的按鈕開關。與按鈕模組不同的地方在於它可以把開關鎖定在某個狀態，直到第二次被按以後彈起。讀取自鎖開關按下或放開的狀態。此Self Locking Switch自鎖開關包含於「Boson 發明家套件 Inventor kit」內。
 
-**元件清單：**自鎖開關；風扇模組；主控板：1組輸入/輸出端。
 
-**連線圖：**
 
-![](../../.gitbook/assets/self_locking_switch_example3.png)
+**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-### \(4\) 毛毛蟲
+**連線圖：**自鎖開關是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
 
-**範例說明：**通過自鎖開關和伺服機模組控制馬達模組像毛毛蟲一樣向前爬動。
 
-**元件清單：**自鎖開關；伺服機模組；馬達模組；主控板：1組輸入/輸出端。
 
-**連線圖：**
+**程式說明：**每1秒鐘會讀取自鎖開關狀態一次， 並可透過序列埠監控視窗看到自鎖開關的狀態 。
 
-![](../../.gitbook/assets/self_locking_switch_example4.png)
+![](../../.gitbook/assets/push_button_7697_2.jpg)
+
+![](../../.gitbook/assets/push_button_7697_3.png)
+
+產生出的Arduino程式如下：
+
+```text
+void setup()
+{
+   Serial.begin(9600);
+   pinMode(5, INPUT);
+}
+
+void loop()
+{
+   Serial.print("自鎖開關狀態:");
+   Serial.println(digitalRead(5));
+   delay(1000);
+}
+```
+
+### 
 
 ## 商品規格
 

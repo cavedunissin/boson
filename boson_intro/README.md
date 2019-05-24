@@ -1,8 +1,12 @@
+---
+description: BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件。不需要編寫任何程式即可上手，與孩子們一起來探索週遭的世界吧！
+---
+
 # 認識BOSON
 
-BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件。不需要編寫任何程式即可上手，與孩子們一起來探索週遭的世界吧！
+依照套件內容分成Boson Inventor Kit 、 Boson Science Kit 以及 Boson Kit for micro:bit。
 
-依照套件內容分成Boson Inventor Kit 、 Boson Science Kit 以及 Boson Kit for micro:bit。前兩者無需寫程式，開盒即可開始玩！後者需搭配BBC micro:bit開發板與擴充板來連接BOSON元件，會有更多變化喔！
+前兩者無需寫程式，開盒即可開始玩！後者需搭配BBC micro:bit開發板與擴充板來連接BOSON元件，會有更多變化喔！
 
 根據模組類型可以分為輸入、輸出與功能等三種模組，請根據畫面左側選單找到您喜歡的模組吧！
 
@@ -48,7 +52,9 @@ BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件
 * [i20心律監測感測器](input_modules/heartrate_monitor_sensor.md)
 * [i22超音波感測器](input_modules/ultrasonic_sensor.md)
 
-  **輸出模組**
+
+
+### **輸出模組**
 
 * [o2LED燈模組](output_modules/led_module.md)
 * [o5蜂鳴器模組](output_modules/buzzer_module.md)

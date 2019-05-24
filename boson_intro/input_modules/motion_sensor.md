@@ -30,9 +30,9 @@ SKU：BOS0013
 
 人體都有恆定的體溫，一般在37度，所以會發出特定波長10UM左右的紅外線，動作感測器內置的紅外線鏡頭剛好可以探測到人體發射的10UM左右的紅外線。人體發射的10UM左右的紅外線通過菲涅爾透鏡增強後聚集到紅外感應源上，紅外感應源通常採用熱釋電元件，這種元件在接收到人體紅外輻射溫度發生變化時就會失去電荷平衡，向外釋放電荷，產生電號。 來源：[https://baike.baidu.com/item/热释电红外线传感器/578786](https://baike.baidu.com/item/热释电红外线传感器/578786)
 
-## 應用範例
+## 實作範例教學-基本篇
 
-### \(1\) 感應發光小屋
+### 感應發光小屋
 
 **範例說明：**製作一個感應發光小屋，當有人經過時，動作感測器檢測到人，LED燈亮起。
 
@@ -42,7 +42,7 @@ SKU：BOS0013
 
 ![](../../.gitbook/assets/motion_sensor_example1.png)
 
-### \(2\) 節能風扇
+### 節能風扇
 
 **範例說明：**利用聲音感測器與動作感測器作為雙重開關，控制風扇的啟動與停止。有人時，風扇啟動，無人時，風扇停止，達到節約能源的目的。
 
@@ -52,7 +52,7 @@ SKU：BOS0013
 
 ![](../../.gitbook/assets/motion_sensor_example2.png)
 
-### \(3\) 教師節的禮物
+### 教師節的禮物
 
 **範例說明：**提前錄製10秒鐘的教師節祝福語，當老師走進教室時，動作感測器感受到老師，LED燈亮起，光感測器感受到光，控制揚聲器播放祝福語。
 
@@ -62,7 +62,9 @@ SKU：BOS0013
 
 ![](../../.gitbook/assets/motion_sensor_example3.png)
 
-### \(4\) 智慧路燈
+## 實作範例教學-Micro:bit篇
+
+### 智慧路燈
 
 **範例說明：**製作一個智慧路燈，當夜間有人經過或有聲音時路燈自動點亮並持續10秒。
 
@@ -89,6 +91,35 @@ SKU：BOS0013
 **Example program\(English\)：**
 
 ![](../../.gitbook/assets/motion_sensor_prg_en.png)
+
+## 實作範例教學-LinkIt 7697篇
+
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Motion Sensor 動作感測器」, 每1秒讀取動作感測器數值。此Motion Sensor 動作感測器包含於「Starter Kit for micro:bit」內。
+
+**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
+
+**連線圖：**動作感測器是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
+
+**程式說明：**每1秒鐘會讀取動作感測器狀態一次， 並可透過序列埠監控視窗看到動作感測器狀態 。
+
+產生出的Arduino程式如下：
+
+```text
+void setup()
+{
+
+  pinMode(5, INPUT);
+  Serial.begin(9600);
+
+}
+
+
+void loop()
+{
+  Serial.println(digitalRead(5));
+  delay(1000);
+}
+```
 
 ## 商品規格
 

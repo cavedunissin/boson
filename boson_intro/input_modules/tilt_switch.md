@@ -34,9 +34,9 @@ SKU：BOS0005
 
 傾斜感測器是基於鋼珠開關的數位模組，利用鋼珠的特性，當傾斜感測器受到外力作用偏離水平位置時，內部鋼珠受到重力作用向低處滾落，從而使開關閉合或斷開，因此也可以作為簡單的傾角感測器使用。
 
-## 應用範例
+## 實作範例教學-基本篇
 
-### \(1\) 製作存錢罐
+### 製作存錢罐
 
 **範例說明：**每次投幣時，硬幣會使得傾斜感測器傾斜，傾斜感測器每傾斜一次，計數模組計數加1。
 
@@ -44,9 +44,11 @@ SKU：BOS0005
 
 **連線圖：**
 
+
+
 ![](../../.gitbook/assets/tilt_switch_example1.png)
 
-### \(2\) 畫廊展示品防盜警報器
+### 畫廊展示品防盜警報器
 
 **範例說明：**當有人觸摸展品或者展品發生傾斜時，自動發出警報。
 
@@ -56,7 +58,9 @@ SKU：BOS0005
 
 ![](../../.gitbook/assets/tilt_switch_example2.png)
 
-### \(3\) 傾斜警報器
+## 實作範例教學-Micro:bit篇
+
+### 傾斜警報器
 
 **範例說明：**若傾斜感測器檢測到發生傾斜，蜂鳴器模組開始鳴叫並持續3秒鐘。
 
@@ -77,6 +81,36 @@ SKU：BOS0005
  **Example program\(English\)：**
 
 ![](../../.gitbook/assets/tilt_switch_prg_en.png)
+
+## 實作範例教學-LinkIt 7697篇
+
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Tilt Sensor 傾斜感測器」, 讀取傾斜感測器的狀態。此Tilt Sensor 傾斜感測器包含於「Boson 發明家套件 Inventor kit」內。
+
+**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
+
+**連線圖：**傾斜感測器是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
+
+**程式說明：**每1秒鐘會讀取傾斜感測器狀態一次， 並可透過序列埠監控視窗看到傾斜感測器的狀態 。
+
+產生出的Arduino程式如下：
+
+```text
+void setup()
+{
+
+   Serial.begin(9600);
+
+   pinMode(5, INPUT);
+}
+
+
+void loop()
+{
+   Serial.print("傾斜感測器狀態:");
+   Serial.println(digitalRead(5));
+   delay(1000);
+}
+```
 
 ## 商品規格
 

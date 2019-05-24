@@ -146,25 +146,19 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 產生的Arduino程式碼如下：
 
-void setup\(\)
-
+```text
+void setup()
 {
-
-pinMode\(5, INPUT\);
-
-Serial.begin\(9600\);
-
+   pinMode(5, INPUT);
+   Serial.begin(9600);
 }
 
-void loop\(\)
-
+void loop()
 {
-
-Serial.println\(digitalRead\(5\)\);
-
-delay\(1000\);
-
+   Serial.println(digitalRead(5));
+   delay(1000);
 }
+```
 
 ## 商品規格
 

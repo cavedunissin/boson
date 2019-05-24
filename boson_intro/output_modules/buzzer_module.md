@@ -34,9 +34,41 @@ SKU 號：BOS0020
 
 蜂鳴器模組由振動裝置和諧振裝置組成，當輸入高電位時，蜂鳴器模組開始鳴叫；當輸入低電位時，蜂鳴器停止鳴叫。蜂鳴器模組也可以通過類比信號來控制，輸入信號越大，蜂鳴器鳴叫的聲音越響亮。
 
-## 應用範例
+## 實作範例教學-基本篇
 
-### **\(1\) 報曉公雞**
+### **智慧防火裝置**
+
+**範例說明：** 當火焰感測器感知到火焰後，便會傳遞出電信號，這樣便可以控制蜂鳴器模組發出警報。
+
+**元件清單：** 火焰感測器；蜂鳴器模組；主控板：3組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-zhi-neng-fang-huo-zhuang-zhi-lian-xian-tu.png)
+
+### **暴躁的小豬**
+
+**範例說明：** 製作一個小豬，將觸碰感測器放在小豬的耳朵上，當觸摸小豬的耳朵時，小豬發出叫聲。
+
+**元件清單：** 觸碰感測器；蜂鳴器模組；主控板：1組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-zao-de-xiao-zhu-lian-xian-tu.png)
+
+### **密碼鎖**
+
+**範例說明：** 設置三個按鈕，只有按照正確的順序按下三個按鈕，才能解鎖；同時小燈模組也會亮起來，蜂鳴器發出警報，即告訴別人，密碼鎖已被打開。
+
+**元件清單：** 藍色按鈕模組；紅色按鈕模組；黃色按鈕模組；LED燈模組；蜂鳴器模組；計時模組（0-6秒）；計時模組（0-60秒）；運算邏輯模組 AND；分配模組；主控板：3組輸入/輸出端。
+
+**連線圖：**
+
+![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu.png)
+
+## 實作範例教學-Micro:bit篇
+
+### **報曉公雞**
 
 **範例說明：** micro:bit自帶環境光感測器，可以用來檢測周圍的環境光。環境光越強，蜂鳴器叫聲越大；環境光越弱，蜂鳴器叫聲越小。
 
@@ -60,17 +92,7 @@ SKU 號：BOS0020
 
 ![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-xiao-gong-ji-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(2\) 智慧防火裝置**
-
-**範例說明：** 當火焰感測器感知到火焰後，便會傳遞出電信號，這樣便可以控制蜂鳴器模組發出警報。
-
-**元件清單：** 火焰感測器；蜂鳴器模組；主控板：3組輸入/輸出端。
-
-**連線圖：**
-
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-zhi-neng-fang-huo-zhuang-zhi-lian-xian-tu.png)
-
-### **\(3\) 下雨警報器**
+### **下雨警報器**
 
 **範例說明：** 下雨警報器可以檢測有無下雨：蜂鳴器下雨時鳴叫，天氣晴朗時不鳴叫。
 
@@ -94,17 +116,7 @@ SKU 號：BOS0020
 
 ![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(4\) 暴躁的小豬**
-
-**範例說明：** 製作一個小豬，將觸碰感測器放在小豬的耳朵上，當觸摸小豬的耳朵時，小豬發出叫聲。
-
-**元件清單：** 觸碰感測器；蜂鳴器模組；主控板：1組輸入/輸出端。
-
-**連線圖：**
-
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-zao-de-xiao-zhu-lian-xian-tu.png)
-
-### **\(5\) 防盜展示臺**
+### **防盜展示臺**
 
 **範例說明：** 防盜展示臺的功能是當展品離開展示臺，展示臺自動發出聲音。將展品放在按鈕上，相當於按下按鈕。當展品被拿開時，按鈕彈起，蜂鳴器發出聲音。
 
@@ -128,15 +140,34 @@ SKU 號：BOS0020
 
 ![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
-### **\(6\) 密碼鎖**
+## 實作範例教學-LinkIt 7697篇
 
-**範例說明：** 設置三個按鈕，只有按照正確的順序按下三個按鈕，才能解鎖；同時小燈模組也會亮起來，蜂鳴器發出警報，即告訴別人，密碼鎖已被打開。
+**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Buzzer Module 蜂鳴器模組」, 每一秒控制蜂鳴器模組發出逼的聲音和靜音。此Buzzer Module 蜂鳴器模組包含於「Boson 發明家套件 Inventor kit」內。
 
-**元件清單：** 藍色按鈕模組；紅色按鈕模組；黃色按鈕模組；LED燈模組；蜂鳴器模組；計時模組（0-6秒）；計時模組（0-60秒）；運算邏輯模組 AND；分配模組；主控板：3組輸入/輸出端。
+**元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**
+**連線圖：**蜂鳴器模組是數位訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANOBreakout訊號端上。本範例連接到「D7」
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu.png)
+**程式說明：**每一秒控制無源蜂鳴器模組發出逼的聲音和靜音 。
+
+產生出的Arduino程式如下：
+
+```text
+void setup()
+{
+
+  pinMode(7, OUTPUT);
+}
+
+
+void loop()
+{
+  digitalWrite(7, HIGH);
+  delay(1000);
+  digitalWrite(7, LOW);
+  delay(1000);
+}
+```
 
 ## 商品規格
 

@@ -76,24 +76,6 @@ SKU：BOS0001
 
 ![](../../.gitbook/assets/rotation_sensor_prg_en%20%281%29.png)
 
-## 實作範例教學-LinkIt 7697篇
-
-**範例說明：**使用「LinkIt 7697 NANO Breakout」連接「Push Button 按鈕模組」, 讀取按鈕模組按下或放開的狀態。 此Push Button 按鈕模組包含於「Starter Kit for micro:bit」內。
-
-**元件清單：**
-
-**連線圖：**按鈕模組是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
-
-**程式說明：**每1秒鐘會讀取按鈕模組狀態一次， 並可透過序列埠監控視窗看到按鈕模組的狀態 。
-
-void setup\(\) {
-
-pinMode\(5, INPUT\); Serial.begin\(9600\);
-
-}
-
-void loop\(\) { Serial.println\(digitalRead\(5\)\); delay\(1000\); }
-
 ## 商品規格
 
 腳位說明：
