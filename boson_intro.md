@@ -9,7 +9,7 @@ BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件
 另外，我們也使用了LinkIt 7697來連接Boson模組，可使用的感測器分類在下列的項目
 
 ## 使用LinkIt 7697的感測器
-* [輸入模組]
+### 輸入模組
   * [i2r按鈕模組](input_modules/push_button.md)
   * [i3自鎖開關](input_modules/self_locking_switch.md)
   * [i5傾斜感測器](input_modules/tilt_switch.md)
@@ -22,8 +22,8 @@ BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件
   * [o9馬達模組](output_modules/motor_controller_module.md)
   * [o10伺服機模組](output_modules/servo_module_with_servo.md)
  
- ## 使用micro:bit的感測器
-* [輸入模組]
+## 使用micro:bit的感測器
+### 輸入模組
   * [i1旋鈕模組](input_modules/rotation_sensor.md)
   * [i2r按鈕模組](input_modules/push_button.md)
   * [i3自鎖開關](input_modules/self_locking_switch.md)
@@ -43,7 +43,7 @@ BOSON電子積木套件為一簡易操作又功能豐富的積木式教學套件
   * [i19防水溫度感測器](input_modules/water_proof_temperature_sensor.md)
   * [i20心律監測感測器](input_modules/heartrate_monitor_sensor.md)
   * [i22超音波感測器](input_modules/ultrasonic_sensor.md)
-* [輸出模組]
+### 輸出模組
   * [o2LED燈模組](output_modules/led_module.md)
   * [o5蜂鳴器模組](output_modules/buzzer_module.md)
   * [o6風扇模組](output_modules/fan_module.md)
