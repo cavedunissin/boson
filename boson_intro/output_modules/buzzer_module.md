@@ -86,7 +86,7 @@ SKU 號：BOS0020
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/buzzer_module/buzzer_module_prg1_ch_tw.png)
+![](../../.gitbook/assets/buzzer_module_prg1_ch_tw.png)
 
 **Example program\(English\)：**
 
@@ -156,6 +156,22 @@ SKU 號：BOS0020
 
 產生出的Arduino程式如下：
 
+```text
+void setup()
+{
+
+  pinMode(7, OUTPUT);
+}
+
+
+void loop()
+{
+  digitalWrite(7, HIGH);
+  delay(1000);
+  digitalWrite(7, LOW);
+  delay(1000);
+}
+```
 
 ## 商品規格
 
