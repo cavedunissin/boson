@@ -86,7 +86,7 @@ SKU 號：BOS0020
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-xiao-gong-ji-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/buzzer_module/buzzer_module_prg1_ch_tw.png)
 
 **Example program\(English\)：**
 
