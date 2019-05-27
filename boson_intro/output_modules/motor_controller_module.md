@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-wu-tu.jpg)
+![Optional title](../../.gitbook/assets/motor_controller_module.jpg)
 
 ## 基本信息
 
@@ -18,21 +18,21 @@ SKU 號：BOS0024
 
 馬達模組可以控制小車移動、推動輸送帶、帶動滑輪裝置。與風扇模組中的馬達相比，在實現複雜功能時，僅僅依靠馬達的單方向轉動是不夠的，我們需要通過馬達模組來設定馬達的轉速與方向。馬達模組已被廣泛應用於空調、吸塵器、鼓風機、壓縮機、驅動機床、電扇、電冰箱、水泵等方面中。
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-li.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_intro.png)
 
 ## 使用說明
 
 馬達模組預設了四種不同的控制模式（如下表所示），可以通過撥動開關進行切換。
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming-1.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_ui1.png)
 
 馬達的轉動方向如下圖所示：
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming-2.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_ui2.png)
 
 按照下圖所示連接電路，通電後即可通過馬達模組上的撥動開關控制馬達的轉速和方向。
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming-3.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_ui3.png)
 
 ## 原理介紹
 
@@ -48,7 +48,7 @@ SKU 號：BOS0024
 
 **連線圖：**
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-1-lian-xian-tu.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_exampl1.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -60,7 +60,7 @@ SKU 號：BOS0024
 
 **連線圖：** 將聲音感測器連接至micro:bit擴充板P0腳位，馬達模組連接至micro:bit擴充板P8腳位。
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-zhi-zuo-feng-che-lian-xian-tu.png)
+![Optional title](../../.gitbook/motor_controller_module_example_m1.png)
 
 **執行流程：**
 
@@ -70,13 +70,13 @@ SKU 號：BOS0024
 
 **程式示意圖（中文版）：**
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-zhi-zuo-feng-che-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_prg1_ch_tw.png)
 
 **Example program\(English\)：**
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-zhi-zuo-feng-che-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_prg1_en.png)
 
-### **\(3\) 調速打蛋器（程式設計）**
+### **調速打蛋器（程式設計）**
 
 **範例說明：** 製作一個打蛋器，打蛋器的攪拌棒固定在馬達的轉軸上，使用旋鈕模組控制馬達的轉速和轉動方向。
 
@@ -84,7 +84,7 @@ SKU 號：BOS0024
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，馬達模組連接至micro:bit擴充板P8腳位。
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-2-lian-xian-tu.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_example_m2.png)
 
 **執行流程：**
 
@@ -94,11 +94,11 @@ SKU 號：BOS0024
 
 **程式示意圖（中文版）：**
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_prg2_ch_tw.png)
 
 **Example program\(English\)：**
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-tiao-su-da-dan-qi-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_prg2_en.png)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -143,7 +143,7 @@ void loop()
 
 腳位說明：
 
-![Optional title](../../.gitbook/assets/boson-dian-ji-kong-zhi-mo-kuai-yin-jiao-shuo-ming.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
