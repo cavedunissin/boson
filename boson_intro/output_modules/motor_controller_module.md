@@ -48,7 +48,7 @@ SKU 號：BOS0024
 
 **連線圖：**
 
-![Optional title](../../.gitbook/assets/motor_controller_module_exampl1.png)
+![Optional title](../../.gitbook/assets/motor_controller_module_example1.png)
 
 ## 實作範例教學-Micro:bit篇
 
