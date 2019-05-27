@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-wu-tu.jpg)
+![](../../.gitbook/assets/OLED_module.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU 號：BOS0044
 
 OLED顯示模組能夠為其他模組資訊提供視覺化效果，方便查看實驗效果。在日常生活中，電視機、電腦、洗衣機、手機、儀表板等電子設備都會使用OLED顯示模組。
 
-![](../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-li.png)
+![](../../.gitbook/assets/OLED_module_intro.png)
 
 ## 使用說明
 
@@ -37,7 +37,7 @@ OLED顯示模組共預設了八種不同模組的資訊顯示（見下表），�
 
 按照下圖所示連接電路，通電後即可通過OLED顯示模組上的按鈕切換到濕度感測器模組查看空氣濕度。
 
-![](../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-yong-shuo-ming-2.png)
+![](../../.gitbook/assets/OLED_module_ui2.png)
 
 ## 原理介紹
 
@@ -53,7 +53,8 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-xin-shuai-jian-ce-lian-xian-tu.png)
+![](../../.gitbook/assets/OLED_module_example1.png)
+
 
 ### **\(2\) 探究光照強度對植物生長的影響**
 
@@ -63,7 +64,7 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu.png)
+![](../../.gitbook/assets/OLED_module_example2.png)
 
 ### **\(3\) 檢測物體的導電性**
 
@@ -73,7 +74,7 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-jian-ce-wu-ti-de-dao-dian-xing-lian-xian-tu.png)
+![](../../.gitbook/assets/OLED_module_example3.png)
 
 ### **\(4\) 探究土壤濕度對種子發芽率的影響**
 
@@ -83,7 +84,7 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-tu-rang-dui-zhong-zi-fa-ya-shuai-de-ying-xiang-lian-xian-tu.png)
+![](../../.gitbook/assets/OLED_module_example4.png)
 
 ### **\(5\) 飲品大調查**
 
@@ -93,13 +94,13 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-yin-pin-da-tiao-cha-lian-xian-tu.png)
+![](../../.gitbook/assets/OLED_module_example5.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-yin-jiao-shuo-ming.png)
+![](../../.gitbook/assets/OLED_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
