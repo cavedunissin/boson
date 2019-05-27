@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-shi-wu-tu.jpg)
+![](../../.gitbook/assets/buzzer_module.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU 號：BOS0020
 
 蜂鳴器模組屬於簡單的發聲裝置，可以在類比感測器的控制下發出不同的聲音。蜂鳴器模組可廣泛應用於電腦、印表機、影印機、警報器、電子玩具、汽車電子設備、電話機、計時器等電子產品中作發聲器件。
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-shi-li.png)
+![](../../.gitbook/assets/buzzer_module_intro.png)
 
 ## 使用說明
 
@@ -28,7 +28,7 @@ SKU 號：BOS0020
 
 按照下圖所示連接電路，即可通過按鈕模組控制蜂鳴器模組的鳴叫。
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-shi-yong-shuo-ming.png)
+![](../../.gitbook/assets/buzzer_module_ui.png)
 
 ## 原理介紹
 
@@ -44,7 +44,7 @@ SKU 號：BOS0020
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-zhi-neng-fang-huo-zhuang-zhi-lian-xian-tu.png)
+![](../../.gitbook/assets/buzzer_module_example1.png)
 
 ### **暴躁的小豬**
 
@@ -54,7 +54,7 @@ SKU 號：BOS0020
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-zao-de-xiao-zhu-lian-xian-tu.png)
+![](../../.gitbook/assets/buzzer_module_example2.png)
 
 ### **密碼鎖**
 
@@ -64,7 +64,7 @@ SKU 號：BOS0020
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu.png)
+![](../../.gitbook/assets/buzzer_module_example3.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -76,7 +76,7 @@ SKU 號：BOS0020
 
 **連線圖：** 將蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-xiao-gong-ji-lian-xian-tu.png)
+![](../../.gitbook/assets/buzzer_module_example_m1.png)
 
 **執行流程：**
 
@@ -90,7 +90,7 @@ SKU 號：BOS0020
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-xiao-gong-ji-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/buzzer_module_prg1_en.png)
 
 ### **下雨警報器**
 
@@ -100,7 +100,7 @@ SKU 號：BOS0020
 
 **連線圖：** 將水分感測器連接至micro:bit擴充板P0腳位，蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-lian-xian-tu.png)
+![](../../.gitbook/assets/buzzer_module_example_m2.png)
 
 **執行流程：**
 
@@ -110,11 +110,11 @@ SKU 號：BOS0020
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/buzzer_module_prg2_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/buzzer_module_prg2_en.png)
 
 ### **防盜展示臺**
 
@@ -124,7 +124,7 @@ SKU 號：BOS0020
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu.png)
+![](../../.gitbook/assets/buzzer_module_example_m3.png)
 
 **執行流程：**
 
@@ -134,11 +134,11 @@ SKU 號：BOS0020
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/buzzer_module_prg3_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/buzzer_module_prg3_en.png)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -177,7 +177,7 @@ void loop()
 
 腳位說明：
 
-![](../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-yin-jiao-shuo-ming.png)
+![](../../.gitbook/assets/buzzer_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
