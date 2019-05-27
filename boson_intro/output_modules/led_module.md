@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../.gitbook/assets/bosonled-mo-kuai-shi-wu-tu.png)
+![](../../.gitbook/assets/led_module.png)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU 號：BOS0017-R\BOS0017-G\BOS0017-B
 
 LED燈模組是最簡單的發光模組，根據LED燈的顏色可將LED燈模組進一步區分為紅色LED燈模組、綠色LED燈模組和藍色LED燈模組。LED燈模組目前已廣泛應用於LED顯示螢幕、指示燈、交通燈、汽車燈、照明燈、裝飾燈等方面。
 
-![](../../.gitbook/assets/bosonled-mo-kuai-shi-li.png)
+![](../../.gitbook/assets/led_module_intro.png)
 
 ## 使用說明
 
@@ -28,13 +28,13 @@ LED燈模組是最簡單的發光模組，根據LED燈的顏色可將LED燈模�
 
 按照下圖所示連接電路，即可通過按鈕模組控制LED燈的點亮和熄滅。
 
-![](../../.gitbook/assets/bosonled-mo-kuai-shi-yong-shuo-ming.png)
+![](../../.gitbook/assets/led_module_ui.png)
 
 ## 原理介紹
 
 LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽極桿、有發射碗的陰極桿、針腳（又稱引線架）等部分構成（見下圖）。向LED燈模組輸出高電位表示點亮LED燈，向LED燈模組輸出低電位表示熄滅LED燈。LED燈模組也可以通過類比信號來控制，輸入信號越大，LED燈越亮。
 
-![](../../.gitbook/assets/bosonled-mo-kuai-yuan-li-jie-shao.jpg)
+![](../../.gitbook/assets/led_module_theo.jpg)
 
 ## 實作範例教學-基本篇
 
@@ -46,7 +46,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu.png)
+![](../../.gitbook/assets/led_module_example1.png)
 
 ### **感應發光小屋**
 
@@ -56,7 +56,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../.gitbook/assets/bosonled-mo-kuai-gan-ying-fa-guang-xiao-wu-lian-xian-tu.png)
+![](../../.gitbook/assets/led_module_example2.png)
 
 ### **智慧路燈**
 
@@ -66,7 +66,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../.gitbook/assets/bosonled-mo-kuai-zhi-neng-lu-deng-lian-xian-tu.png)
+![](../../.gitbook/assets/led_module_example3.png)
 
 ### **復古燭臺**
 
@@ -76,7 +76,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../.gitbook/assets/bosonled-mo-kuai-fu-gu-zhu-tai-lian-xian-tu.png)
+![](../../.gitbook/assets/led_module_example4.png)
 
 ### **找朋友機**
 
@@ -86,7 +86,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../.gitbook/assets/bosonled-mo-kuai-zhao-peng-you-ji-lian-xian-tu.png)
+![](../../.gitbook/assets/led_module_example5.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -98,7 +98,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-lian-xian-tu.png)
+![](../../.gitbook/assets/led_module_example_m1.png)
 
 **執行流程：**
 
@@ -108,11 +108,11 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/led_module_prg1_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-2-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/led_module_prg1_en.png)
 
 ### **旋鈕檯燈**
 
@@ -122,7 +122,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu.png)
+![](../../.gitbook/assets/led_module_example_m2.png)
 
 **執行流程：**
 
@@ -130,11 +130,11 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/led_module_prg2_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/led_module_prg2_en.png)
 
 ### \*\*\*\*
 
@@ -181,7 +181,7 @@ void loop()
 
 腳位說明：
 
-![](../../.gitbook/assets/bosonled-mo-kuai-yin-jiao-shuo-ming.png)
+![](../../.gitbook/assets/led_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
