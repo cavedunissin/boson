@@ -12,7 +12,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 
 另外，我們也使用了LinkIt 7697來連接Boson模組，可使用的感測器分類在下列的項目
 
-## 使用LinkIt 7697的感測器
+## 跟LinkIt 7697一起使用的感測器
 
 ### 輸入模組
 
@@ -28,7 +28,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [o9馬達模組](output_modules/motor_controller_module.md)
 * [o10伺服機模組](output_modules/servo_module_with_servo.md)
 
-## 使用micro:bit的感測器
+## 跟micro:bit一起使用的感測器
 
 ### 輸入模組
 
