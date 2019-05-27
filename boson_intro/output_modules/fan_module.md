@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-shi-wu-tu.jpg)
+![](../../.gitbook/assets/fan_module.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU 號：BOS0021
 
 風扇模組是一款利用直流馬達將電能轉換為機械能，藉此帶動葉片轉動的模組。風扇模組已被廣泛應用於各類電風扇、散熱器、螺旋槳與抽油煙機等設備中。
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-shi-li.png)
+![](../../.gitbook/assets/fan_module_intro.png)
 
 ## 使用說明
 
@@ -30,7 +30,7 @@ SKU 號：BOS0021
 
 按照下圖所示連接電路，即可通過按鈕模組控制風扇模組。
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-shi-yong-shuo-ming.png)
+![](../../.gitbook/assets/fan_module_ui.png)
 
 ## 原理介紹
 
@@ -38,7 +38,7 @@ SKU 號：BOS0021
 
 ## 實作範例教學-基本篇
 
-### **\(3\) 溫控風扇**
+### **溫控風扇**
 
 **範例說明：** 當溫度較高時，自動開啟風扇，溫度較低時，自動關閉。
 
@@ -46,9 +46,9 @@ SKU 號：BOS0021
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu.png)
+![](../../.gitbook/assets/fan_module_example1.png)
 
-### **\(4\) 聲控風扇**
+### **聲控風扇**
 
 **範例說明：** 使用聲音感測器控制風扇模組是否轉動。
 
@@ -56,7 +56,7 @@ SKU 號：BOS0021
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-sheng-kong-feng-shan-lian-xian-tu.png)
+![](../../.gitbook/assets/fan_module_example2.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -68,7 +68,7 @@ SKU 號：BOS0021
 
 **連線圖：** 將風扇模組連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-lian-xian-tu.png)
+![](../../.gitbook/assets/fan_module_example_m1.png)
 
 **執行流程：**
 
@@ -78,13 +78,13 @@ SKU 號：BOS0021
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/fan_module_prg1_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/fan_module_prg1_en.png)
 
-### **\(2\) 調速風扇**
+### **調速風扇**
 
 **範例說明：** 使用旋鈕控制風扇轉速。順時針轉動旋鈕，風扇轉速越來越快；逆時針轉動旋鈕，風扇轉速越來越慢。
 
@@ -92,7 +92,7 @@ SKU 號：BOS0021
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，風扇模組連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-lian-xian-tu.png)
+![](../../.gitbook/assets/fan_module_example_m2.png)
 
 **執行流程：**
 
@@ -100,11 +100,11 @@ SKU 號：BOS0021
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/fan_module_prg2_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-tiao-su-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/fan_module_prg2_en.png)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -152,7 +152,7 @@ void loop()
 
 腳位說明：
 
-![](../../.gitbook/assets/boson-feng-shan-mo-kuai-yin-jiao-shuo-ming.png)
+![](../../.gitbook/assets/fan_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
