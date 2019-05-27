@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-shi-wu-tu.jpg)
+![](../../.gitbook/assets/RGB_LED_string.jpg)
 
 ## 基本信息
 
@@ -18,21 +18,21 @@ SKU 號：019.00268
 
 七彩燈條屬於簡單的發光模組，可以通過調節色彩調出不同顏色的燈效，可廣泛應用於建築物、橋樑、道路、花園、庭院、地板等領域的裝飾照明與會場佈置、耶誕節、萬聖節、情人節、復活節、國慶日等節日期間營造氣氛等方面。
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-shi-li.png)
+![](../../.gitbook/assets/RGB_LED_string_intro.png)
 
 ## 使用說明
 
 在使用七彩燈條之前，需要擴展燈條的指令庫。打開makecode程式設計平臺，滾動至指令區最底部，依次點擊進階----擴展----neopixel，完成Neopixel指令的調用，此時指令區會出現Neopixel模組。完成以上步驟以後，將燈條連接至micro:bit板，即可通過程式設計控制燈條效果。
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-shi-yong-shuo-ming.png)
+![](../../.gitbook/assets/RGB_LED_string_ui.png)
 
 ## 原理介紹
 
 七彩燈條由7顆彩色LED燈組成，採用柔性線路板即FPC來做載體，燈泡與電路被完全包覆在柔性塑膠中，絕緣、防水性能好，使用安全，支援5V供電。
 
-## 應用範例
+## 實作範例教學-Micro:bit篇
 
-### **\(1\) 點亮七彩燈條**
+### **點亮七彩燈條**
 
 **範例說明：** 通過編寫程式，將程式燒錄至micro:bit；micro:bit BOSON擴充板後，可以控制七彩燈條點亮並呈現七彩的效果。
 
@@ -40,33 +40,33 @@ SKU 號：019.00268
 
 **連線圖：** 將七彩燈條連接至micro:bit擴充板P0腳位。
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-lian-xian-tu.png)
+![](../../.gitbook/assets/RGB_LED_string_example_m1.png)
 
 **設計意圖：** 控制七彩燈條點亮並呈現七彩的效果。
 
 ① 選定七彩燈條連接micro:bit的腳位、燈條LED燈的數目及顏色模式，指令語句如下圖。此處七彩燈條至micro:bit擴充板P0腳位，燈條LED燈數目為7盞，顏色模式為RGB模式。
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-she-ji-yi-tu-1.png)
+![](../../.gitbook/assets/RGB_LED_string_de1.png)
 
 ② 確定七彩燈條中LED燈使用的範圍，需要調用的指令如下圖。此處七彩燈條中LED燈使用範圍為0-7。
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-she-ji-yi-tu-2.png)
+![](../../.gitbook/assets/RGB_LED_string_de2.png)
 
 ③ 確定七彩燈條色調範圍，需要調用的指令如下圖。此處色調範圍為1-360（紅色-綠色-藍色）。
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-she-ji-yi-tu-3.png)
+![](../../.gitbook/assets/RGB_LED_string_de3.png)
 
 最終程式如下。
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/RGB_LED_string_prg1_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/RGB_LED_string_prg1_en.png)
 
-### **\(2\) 聲控燈條**
+### **聲控燈條**
 
 **範例說明：** 通過聲音控制七彩燈條中LED燈的點亮數目。
 
@@ -74,7 +74,7 @@ SKU 號：019.00268
 
 **連線圖：** 將七彩燈條連接至micro:bit擴充板P0腳位，聲音感測器連接至micro:bit擴充板P2腳位。
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-sheng-kong-deng-dai-lian-xian-tu.png)
+![](../../.gitbook/assets/RGB_LED_string_example_m2.png)
 
 **執行流程：**
 
@@ -88,17 +88,17 @@ SKU 號：019.00268
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-sheng-kong-deng-dai-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/RGB_LED_string_prg2_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-sheng-kong-deng-dai-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/RGB_LED_string_prg2_en.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../../.gitbook/assets/boson-qi-cai-deng-dai-yin-jiao-shuo-ming.png)
+![](../../.gitbook/assets/RGB_LED_string_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
