@@ -4,6 +4,24 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 
 # 認識BOSON
 
+## 發明家套件 Inventor Kit 
+
+* 實際控制創作\(無需使用電腦\)，立即了解邏 輯流程。
+* 將AND、OR、NOT等邏輯運算子實體化。
+* 創作素材不設限。
+
+## 科學家套件 Science Kit 
+
+* 擁有10種以上不同功能的感測器。
+* 不受限於只能在學校實驗室進行實驗。
+* 體驗科學實驗與進行科展創作的新武器。
+
+## 程式套件Boson Kit for micro:bit
+
+* 程式入門上手推薦，虛實整合完美搭配。
+* 實際體驗更多物聯網主題。
+* 能夠更加自由創作。
+
 依照套件內容分成Boson Inventor Kit 、 Boson Science Kit 以及 Boson Kit for micro:bit。
 
 前兩者無需寫程式，開盒即可開始玩！後者需搭配BBC micro:bit開發板與擴充板來連接BOSON元件，會有更多變化喔！

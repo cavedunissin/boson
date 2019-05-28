@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../.gitbook/assets/oled_module.jpg)
+![](../../.gitbook/assets/oled_module%20%281%29.jpg)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU 號：BOS0044
 
 OLED顯示模組能夠為其他模組資訊提供視覺化效果，方便查看實驗效果。在日常生活中，電視機、電腦、洗衣機、手機、儀表板等電子設備都會使用OLED顯示模組。
 
-![](../../.gitbook/assets/oled_module_intro.png)
+![](../../.gitbook/assets/oled_module_intro%20%281%29.png)
 
 ## 使用說明
 
@@ -63,7 +63,7 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![](../../.gitbook/assets/oled_module_example2.png)
+![](../../.gitbook/assets/oled_module_example2%20%281%29.png)
 
 ### **\(3\) 檢測物體的導電性**
 
