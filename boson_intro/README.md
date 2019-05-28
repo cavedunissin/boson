@@ -8,13 +8,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 
 ![](../.gitbook/assets/boson-product-2.jpg)
 
-依照套件內容分成發明家套件 Inventor Kit 、科學家套件 Science Kit 以及 程式套件Boson Kit for micro:bit。
-
-前兩者無需寫程式，開盒即可開始玩！後者需搭配BBC micro:bit開發板與擴充板來連接BOSON元件，會有更多變化喔！
-
-根據模組類型可以分為輸入、輸出與功能等三種模組，請根據畫面左側選單找到您喜歡的模組吧！
-
-另外，我們也使用了LinkIt 7697來連接Boson模組，可使用的感測器分類在下列的項目。
+依照套件內容分成[**發明家套件 Inventor Kit**](https://cavedu.gitbook.io/boson/boson_intro#wei-tui-ming-jia-tao-jian-inventor-kit) ****、[**科學家套件 Science Kit** ](https://cavedu.gitbook.io/boson/boson_intro#ke-tui-ke-jia-tao-jian-science-kit)以及 [**程式套件Boson Kit for micro:bit**](https://cavedu.gitbook.io/boson/boson_intro#cheng-shi-tui-cheng-shi-tao-jian-boson-kit-for-microbit)。發明家與科學家套件無需寫程式，開盒即可開始使用！程式套件則需搭配BBC micro:bit開發板與擴充板來連接BOSON元件，提供更多專題變化，根據模組類型可以分為輸入、輸出與功能等三種模組，請根據畫面左側選單找到您喜歡的模組吧！另外，我們也使用了LinkIt 7697來連接BOSON電子積木，可使用的感測器分類在下列的項目。
 
 ## 【數位邏輯推薦】發明家套件 Inventor Kit 
 
@@ -33,7 +27,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [傾斜感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/tilt_switch)x 1
 * [聲音感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/sound_sensor)x 1
 
-#### 輸出模組
+#### [輸出模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules)
 
 * LED燈模組 x 1
 * Light燈條 x 1
@@ -42,7 +36,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [馬達模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/motor_controller_module) x 1
 * [伺服機模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/servo_module_with_servo) x1
 
-#### 功能模組
+#### [功能模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules)
 
 * [運算邏輯模組 AND](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_and)x 3
 * [運算邏輯模組 OR](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_or)x 3
@@ -64,12 +58,46 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 
 #### 輸入模組
 
-* 
+* 光感測器 x1
+* 濕度感測器x1
+* 土壤濕度感測器 x1
+* 溫度感測器x1
+* 防水溫度感測器x1
+* 酸鹼值感應器x1
+* 導電感測開關x1
+* 心律監測感測器x1
+
+#### 輸出模組
+
+* OLED顯示模組
+
+購買連結：[https://www.robotkingdom.com.tw/product/boson-science-kit/](https://www.robotkingdom.com.tw/product/boson-science-kit/)
+
 ## 【程式設計推薦】程式套件Boson Kit for micro:bit
 
 * 程式入門上手推薦，虛實整合完美搭配。
 * 實際體驗更多物聯網主題。
 * 能夠更加自由創作。
+
+#### 輸入模組
+
+* LED 模組（紅色）x 1
+* 旋鈕模組 x 1
+* 聲音感測器 x 1
+* 動作感測器 x 1
+
+#### 輸出模組
+
+* 按鈕模組（紅色）x 1
+* 風扇模組x 1
+* 伺服機模組x 1
+* 七彩燈條 x 1
+
+#### 擴充板
+
+* Micro:bit for BOSON擴充板 x 1
+
+購買連結：[https://www.robotkingdom.com.tw/product/boson-starter-kit-for-microbit/](https://www.robotkingdom.com.tw/product/boson-starter-kit-for-microbit/)
 
 ## 跟LinkIt 7697一起使用的感測器
 
