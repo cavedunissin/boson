@@ -4,31 +4,72 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 
 # 認識BOSON
 
-## 發明家套件 Inventor Kit 
+![](../.gitbook/assets/boson-product-1.jpg)
 
-* 實際控制創作\(無需使用電腦\)，立即了解邏 輯流程。
-* 將AND、OR、NOT等邏輯運算子實體化。
-* 創作素材不設限。
+![](../.gitbook/assets/boson-product-2.jpg)
 
-## 科學家套件 Science Kit 
-
-* 擁有10種以上不同功能的感測器。
-* 不受限於只能在學校實驗室進行實驗。
-* 體驗科學實驗與進行科展創作的新武器。
-
-## 程式套件Boson Kit for micro:bit
-
-* 程式入門上手推薦，虛實整合完美搭配。
-* 實際體驗更多物聯網主題。
-* 能夠更加自由創作。
-
-依照套件內容分成Boson Inventor Kit 、 Boson Science Kit 以及 Boson Kit for micro:bit。
+依照套件內容分成發明家套件 Inventor Kit 、科學家套件 Science Kit 以及 程式套件Boson Kit for micro:bit。
 
 前兩者無需寫程式，開盒即可開始玩！後者需搭配BBC micro:bit開發板與擴充板來連接BOSON元件，會有更多變化喔！
 
 根據模組類型可以分為輸入、輸出與功能等三種模組，請根據畫面左側選單找到您喜歡的模組吧！
 
-另外，我們也使用了LinkIt 7697來連接Boson模組，可使用的感測器分類在下列的項目
+另外，我們也使用了LinkIt 7697來連接Boson模組，可使用的感測器分類在下列的項目。
+
+## 【數位邏輯推薦】發明家套件 Inventor Kit 
+
+* 實際控制創作\(無需使用電腦\)，立即了解邏 輯流程。
+* 將AND、OR、NOT等邏輯運算子實體化。
+* 創作素材不設限。
+
+### 感測器清單：
+
+#### [輸入模組](https://cavedu.gitbook.io/boson/boson_intro/input_modules)
+
+* [旋鈕模組](https://cavedu.gitbook.io/boson/boson_intro/input_modules/rotation_sensor) x 1
+* [按鈕模組（藍色）](https://cavedu.gitbook.io/boson/boson_intro/input_modules/push_button) x 1
+* [自鎖開關 ](https://cavedu.gitbook.io/boson/boson_intro/input_modules/self_locking_switch)x 1
+* [光感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/light_sensor)x 1
+* [傾斜感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/tilt_switch)x 1
+* [聲音感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/sound_sensor)x 1
+
+#### 輸出模組
+
+* LED燈模組 x 1
+* Light燈條 x 1
+* [蜂鳴器模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/buzzer_module)x 1
+* [錄音機模組/喇叭](https://cavedu.gitbook.io/boson/boson_intro/output_modules/voice_recorder_module) x 1
+* [馬達模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/motor_controller_module) x 1
+* [伺服機模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/servo_module_with_servo) x1
+
+#### 功能模組
+
+* [運算邏輯模組 AND](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_and)x 3
+* [運算邏輯模組 OR](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_or)x 3
+* [運算邏輯模組 NOT](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_not) x 3
+* [分配模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/splitter_module)x 3
+* [閥模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/threshold_module)x 2
+* [計數模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/reversible_counter_module) x 2
+* [計時模組\(0-60秒\)](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/duration_module) x 2
+
+購買連結：[https://www.robotkingdom.com.tw/product/boson-inventor-kit/](https://www.robotkingdom.com.tw/product/boson-inventor-kit/)
+
+## 【科學實驗推薦】科學家套件 Science Kit 
+
+* 擁有10種以上不同功能的感測器。
+* 不受限於只能在學校實驗室進行實驗。
+* 體驗科學實驗與進行科展創作的新武器。
+
+### 感測器清單：
+
+#### 輸入模組
+
+* 
+## 【程式設計推薦】程式套件Boson Kit for micro:bit
+
+* 程式入門上手推薦，虛實整合完美搭配。
+* 實際體驗更多物聯網主題。
+* 能夠更加自由創作。
 
 ## 跟LinkIt 7697一起使用的感測器
 
