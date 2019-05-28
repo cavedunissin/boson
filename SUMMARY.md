@@ -40,5 +40,5 @@
     * [f7計數模組](boson_intro/funtion_modules/reversible_counter_module.md)
     * [f8計時模組（0-60秒）](boson_intro/funtion_modules/duration_module.md)
 * [實作範例教學](zuo-li-jiao-linkit-7697.md)
-* [資源連結](yuan.md)
+* [資源鏈結](yuan.md)
 

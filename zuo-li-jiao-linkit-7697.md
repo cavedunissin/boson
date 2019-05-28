@@ -4,7 +4,7 @@ description: '本篇透過實際案例，來學習如何使用 micro:bit與 Link
 
 # 實作範例教學
 
-## 使用micro:bit的感測器
+## 跟micro:bit一起使用的感測器
 
 ### 輸入模組
 
@@ -38,7 +38,7 @@ description: '本篇透過實際案例，來學習如何使用 micro:bit與 Link
 * [o10伺服機模組](boson_intro/output_modules/servo_module_with_servo.md)
 * [七彩燈條](boson_intro/output_modules/rgb_led_string.md)
 
-## 使用LinkIt 7697的感測器
+## 跟LinkIt 7697一起使用的感測器
 
 ### 輸入模組
 

@@ -145,7 +145,6 @@ void loop()
   analogWrite(7, 255);
   delay(5000);
 }
-
 ```
 
 ## 商品規格

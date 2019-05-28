@@ -52,8 +52,6 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [i20心律監測感測器](input_modules/heartrate_monitor_sensor.md)
 * [i22超音波感測器](input_modules/ultrasonic_sensor.md)
 
-
-
 ### **輸出模組**
 
 * [o2LED燈模組](output_modules/led_module.md)

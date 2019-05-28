@@ -1,8 +1,29 @@
-# 資源連結
+# 資源鏈結
 
 ## 硬體
 
 * 販售通路：[機器人王國](https://www.robotkingdom.com.tw/product-category/board/boson/?fbclid=IwAR1QjwJrriK041lZ65aMUrER3liW_a1yQzLHyJU_IOGWQ8FqWlErZBYGBT8)｜[iC Shop](https://www.icshop.com.tw/advanced_search_result.php?keywords=BOSON&x=0&y=0)
+
+## 合作夥伴
+
+* **李芝瑩 老師**｜
+  * 大台北、桃園地區各大幼兒學校樂高積木模型創意課程老師、國語日報樂高積木模型創意課程老師、基隆仁壽社區親子樂高講師。
+  * 聯絡方式：0920-542-516，LINE：8501117
+* **林殿富 老師**｜
+  * CAVEDU教學團隊 特約講師、普立爾基金會視障生樂高 課程老師、啟明學校特教生樂高 課程講師、板橋戴爾科學樂高機器人 講師。
+  * 聯絡方式：0953-06555
+* **許兆芳 老師**｜
+  * 魁科坊科學原型工坊 負責人、中華大眾科學推廣協會 科學講師。
+  * 聯絡方式：0953-312090
+* **陳佩君 老師**｜
+  * Let's Play 創意樂高教學 負責人、CAVEDU教學團隊 特約講師、魁科坊科學原型工坊 科學講師。
+  * 聯絡方式LINE：purple160
+* **廖偉仁 老師**｜
+  * CAVEDU教育團隊 講師。
+  * 聯絡方式：
+* **鄭鴻旗 老師**｜
+  * Open Lab 創辦人，擁有豐富動手作相關工作坊經驗講師。
+  * 聯絡方式：0939-958808
 
 ## 文章分享
 
