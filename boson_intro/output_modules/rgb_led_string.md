@@ -98,7 +98,7 @@ SKU 號：019.00268
 
 腳位說明：
 
-![](https://github.com/cavedunissin/boson/tree/0700b5f57a9a2b35ad8b2170fd142861559f45ed/.gitbook/assets/RGB_LED_string_spec.png)
+![](/.gitbook/assets/RGB_LED_string_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
