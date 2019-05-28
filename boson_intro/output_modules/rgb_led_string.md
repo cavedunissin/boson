@@ -98,7 +98,7 @@ SKU 號：019.00268
 
 腳位說明：
 
-![](/.gitbook/assets/RGB_LED_string_spec.png)
+![](../../.gitbook/assets/RGB_LED_string_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
