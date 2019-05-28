@@ -18,7 +18,7 @@ SKU 號：019.00268
 
 七彩燈條屬於簡單的發光模組，可以通過調節色彩調出不同顏色的燈效，可廣泛應用於建築物、橋樑、道路、花園、庭院、地板等領域的裝飾照明與會場佈置、耶誕節、萬聖節、情人節、復活節、國慶日等節日期間營造氣氛等方面。
 
-![](https://github.com/cavedunissin/boson/tree/0700b5f57a9a2b35ad8b2170fd142861559f45ed/.gitbook/assets/RGB_LED_string_intro.png)
+![](../../.gitbook/assets/RGB_LED_string_intro.png)
 
 ## 使用說明
 
