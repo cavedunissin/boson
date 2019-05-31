@@ -110,7 +110,7 @@ SKU 號：BOS0020
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/cavedunissin/boson/tree/1d1f6ca5199b7b7e1ed9914a8369568dbc3b0e2f/.gitbook/assets/buzzer_module_prg2_ch_tw.png)
+![](../../.gitbook/assets/buzzer_module_prg2_ch_tw.png)
 
 **Example program\(English\)：**
 
@@ -134,7 +134,7 @@ SKU 號：BOS0020
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/cavedunissin/boson/tree/1d1f6ca5199b7b7e1ed9914a8369568dbc3b0e2f/.gitbook/assets/buzzer_module_prg3_ch_tw.png)
+![](../../.gitbook/assets/buzzer_module_prg3_ch_tw.png)
 
 **Example program\(English\)：**
 
