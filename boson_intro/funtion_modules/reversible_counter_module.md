@@ -36,7 +36,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 按照下圖所示連接電路即可達到每按一次鍵，計數器加1。
 
-![](https://github.com/cavedunissin/boson/tree/0d664ecacb41cbb400394e199d161044eaa9dacc/.gitbook/assets/bfunction_modules/reversible_counter_module/reversible_counter_module_ui2.png)
+![](../../.gitbook/assets/reversible_counter_module_ui2.png)
 
 ## 原理介紹
 
