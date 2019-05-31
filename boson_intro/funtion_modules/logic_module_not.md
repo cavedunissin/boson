@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../.gitbook/assets/logic_module_not.jpg)
+![](../../.gitbook/assets/logic_module_NOT.jpg)
 
 ## 基本信息
 
@@ -18,13 +18,13 @@ SKU 號：BOS0029
 
 運算邏輯模組 NOT是功能模組中的一種，可以用來進行簡單的邏輯運算，還可以和其他邏輯模組組合使用，達到更為複雜的功能，如數據的運算和存儲。運算邏輯模組 NOT可廣泛應用於日常生活中的消防緊急照明燈、智慧路燈、火警警報裝置等電路。
 
-![Optional title](https://github.com/cavedunissin/boson/tree/79af35f7646bb74260e2eb55ac6dfd10f12a498c/.gitbook/assets/function_modules/logic_module_NOT/logic_module_NOT_intro.png)
+![Optional title](../../.gitbook/assets/logic_module_NOT_intro.png)
 
 ## 使用說明
 
 運算邏輯模組 NOT既可以放在輸入端，也可以放在輸出端，但該模組不能直接作為輸入或輸出模組使用，需要將輸入模組連接在運算邏輯模組 NOT的輸入口，輸出模組連接在運算邏輯模組 NOT的輸出口，通過改變輸入口的信號來控制輸出口。運算邏輯模組 NOT的輸入口和輸出口如下圖所示。
 
-![Optional title](../../.gitbook/assets/logic_module_not_ui1.png)
+![Optional title](../../.gitbook/assets/logic_module_NOT_ui1.png)
 
 運算邏輯模組 NOT既可以輸入數位信號，也可以輸入類比信號，但該模組只能輸出數位信號。運算邏輯模組 NOT能夠對輸入信號進行處理並輸出相應結果，其輸入輸出機制如下：
 
@@ -34,11 +34,11 @@ SKU 號：BOS0029
 
 下圖列出了運算邏輯模組 NOT的真值表。
 
-![Optional title](../../.gitbook/assets/logic_module_not_ui2.png)
+![Optional title](../../.gitbook/assets/logic_module_NOT_ui2.png)
 
 按照下圖所示連接電路，通電後紅色LED燈亮起，按下紅色按鈕時紅色LED燈熄滅，鬆開紅色按鈕後紅色LED燈再次亮起。
 
-![Optional title](../../.gitbook/assets/logic_module_not_ui3.png)
+![Optional title](../../.gitbook/assets/logic_module_NOT_ui3.png)
 
 ## 原理介紹
 
@@ -54,7 +54,7 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../.gitbook/assets/logic_module_not_example1.png)
+![Optional title](../../.gitbook/assets/logic_module_NOT_example1.png)
 
 ### **\(2\) 智慧路燈**
 
@@ -64,7 +64,7 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../.gitbook/assets/logic_module_not_example2.png)
+![Optional title](../../.gitbook/assets/logic_module_NOT_example2.png)
 
 ### **\(3\) 搶答器**
 
@@ -74,13 +74,13 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../.gitbook/assets/logic_module_not_example3.png)
+![Optional title](../../.gitbook/assets/logic_module_NOT_example3.png)
 
 ## 商品規格
 
 腳位說明：
 
-![Optional title](../../.gitbook/assets/logic_module_not_spec.png)
+![Optional title](../../.gitbook/assets/logic_module_NOT_spec.png)
 
 尺寸: 26mm\*22mm
 
