@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-wu-tu.jpg)
+![Optional title](../../.gitbook/assets/servo_module_with_servo.jpg)
 
 ## 基本信息
 
@@ -18,9 +18,7 @@ SKU 號：BOS0025
 
 伺服機模組是一種位置（角度）伺服的驅動器，適用於那些需要角度不斷變化並可以保持的控制系統。目前，伺服機模組在高檔遙控玩具，如飛行器、機械手臂、潛艇模型、遙控機器人等方面中已經得到了普遍應用。
 
-## 實作範例教學-Micro:bit篇
-
-![](../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-li.png)
+![](../../.gitbook/assets/servo_module_with_servo_intro.png)
 
 ## 使用說明
 
@@ -32,7 +30,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 這兩種模式可以通過伺服機模組上的撥動開關進行切換。按照下圖所示連接電路，通電後即可通過伺服機模組上的撥動開關控制伺服機。
 
-![](../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-yong-shuo-ming.png)
+![](../../.gitbook/assets/servo_module_with_servo_ui.png)
 
 ## 原理介紹
 
@@ -48,7 +46,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-pa-pa-chong-lian-xian-tu.png)
+![](../../.gitbook/assets/servo_module_with_servo_example1.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -60,7 +58,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：** 將土壤濕度感測器連接至micro:bit擴充板P0腳位，9g金屬伺服機模組連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-lian-xian-tu.png)
+![](../../.gitbook/assets/servo_module_with_servo_example_m1.png)
 
 **執行流程：**
 
@@ -70,11 +68,11 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/servo_module_with_servo_prg_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/servo_module_with_servo_prg_en.png)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -128,7 +126,7 @@ void loop()
 
 腳位說明：
 
-![](../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-yin-jiao-shuo-ming.png)
+![](../../.gitbook/assets/servo_module_with_servo_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
