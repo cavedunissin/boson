@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-shi-wu-tu.png)
+![](../../.gitbook/assets/voice_recorder_module.png)
 
 ## 基本信息
 
@@ -18,13 +18,13 @@ SKU 號：BOS0022
 
 錄音是將聲音信號記錄在介質上的過程，將介質上記錄的信號重放出來的過程稱為放音。錄音機模組/喇叭通過收音器可以錄製聲音，通過喇叭還可以播放出這段錄製好的聲音。錄音機模組/喇叭在錄音筆、答錄機、手機、電腦、調音台等設備中都有應用。
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-shi-li.png)
+![](../../.gitbook/assets/voice_recorder_module_intro.png)
 
 ## 使用說明
 
 按下錄音機模組/喇叭上的錄音按鈕就可以開始錄製聲音，BOSON的錄音機模組/喇叭最長支援錄製時長10s的聲音。通過按鈕模組可以控制喇叭播放出預先錄製好的聲音，達成錄音-放音的過程。按照下圖所示連接電路，通電後按住錄音機模組/喇叭上的錄音按鈕即可錄製最長為10s的聲音，再通過按鈕模組就可以控制喇叭播放這段錄製好的聲音。
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-shi-yong-shuo-ming.png)
+![](../../.gitbook/assets/voice_recorder_module_ui.png)
 
 ## 原理介紹
 
@@ -40,7 +40,7 @@ SKU 號：BOS0022
 
 **連線圖：**
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu.png)
+![](../../.gitbook/assets/voice_recorder_module_example1.png)
 
 ### \*\*\*\*
 
@@ -54,7 +54,7 @@ SKU 號：BOS0022
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，錄音機模組/喇叭連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-liu-yan-ji-lian-xian-tu.png)
+![](../../.gitbook/assets/voice_recorder_module_example_m1.png)
 
 **執行流程：**
 
@@ -66,11 +66,11 @@ SKU 號：BOS0022
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-liu-yan-ji-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/voice_recorder_module_prg1_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-liu-yan-ji-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/voice_recorder_module_prg1_en.png)
 
 ### **教師節的禮物**
 
@@ -80,7 +80,7 @@ SKU 號：BOS0022
 
 **連線圖：** 將動作感測器連接至micro:bit擴充板P0腳位，聲音感測器連接至micro:bit擴充板P2腳位，錄音機模組/喇叭連接至micro:bit擴充板P8腳位，LED燈模組連接至micro:bit擴充板P16腳位。
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-lian-xian-tu.png)
+![](../../.gitbook/assets/voice_recorder_module_example_m2.png)
 
 **執行流程：**
 
@@ -90,11 +90,11 @@ SKU 號：BOS0022
 
 **程式示意圖（中文版）：**
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-cheng-xu-shi-yi-tu-zhong-wen-ban.png)
+![](../../.gitbook/assets/voice_recorder_module_prg2_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../.gitbook/assets/voice_recorder_module_prg2_en.png)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -139,7 +139,7 @@ void loop()
 
 腳位說明：
 
-![](../../.gitbook/assets/boson-lu-yin-mo-kuai-yin-jiao-shuo-ming.png)
+![](../../.gitbook/assets/voice_recorder_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :--- | :--- | :--- |
