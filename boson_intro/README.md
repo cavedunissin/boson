@@ -30,7 +30,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 #### [輸出模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules)
 
 * LED燈模組 x 1
-* Light燈條 x 1
+* LED燈條 x 1
 * [蜂鳴器模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/buzzer_module)x 1
 * [錄音機模組/喇叭](https://cavedu.gitbook.io/boson/boson_intro/output_modules/voice_recorder_module) x 1
 * [馬達模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/motor_controller_module) x 1
@@ -42,7 +42,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [運算邏輯模組 OR](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_or)x 3
 * [運算邏輯模組 NOT](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_not) x 3
 * [分配模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/splitter_module)x 3
-* [閥模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/threshold_module)x 2
+* [閾模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/threshold_module)x 2
 * [計數模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/reversible_counter_module) x 2
 * [計時模組\(0-60秒\)](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/duration_module) x 2
 
