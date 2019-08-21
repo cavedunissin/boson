@@ -60,7 +60,7 @@ SKU 號：BOS0024
 
 **連線圖：** 將聲音感測器連接至micro:bit擴充板P0腳位，馬達模組連接至micro:bit擴充板P8腳位。
 
-![](../../.gitbook/motor_controller_module_example_m1.png)
+![](../../.gitbook/assets/motor_controller_module_example_m1.png)
 
 **執行流程：**
 
