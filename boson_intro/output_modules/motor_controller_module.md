@@ -60,7 +60,7 @@ SKU 號：BOS0024
 
 **連線圖：** 將聲音感測器連接至micro:bit擴充板P0腳位，馬達模組連接至micro:bit擴充板P8腳位。
 
-![](https://github.com/cavedunissin/boson/tree/51feace3c7f94ed85dadb263a4a1042f8d8e59cf/.gitbook/motor_controller_module_example_m1.png)
+![](../../.gitbook/motor_controller_module_example_m1.png)
 
 **執行流程：**
 
@@ -70,7 +70,7 @@ SKU 號：BOS0024
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/cavedunissin/boson/tree/51feace3c7f94ed85dadb263a4a1042f8d8e59cf/.gitbook/assets/motor_controller_module_prg1_ch_tw.png)
+![](../../.gitbook/assets/motor_controller_module_prg1_ch_tw.png)
 
 **Example program\(English\)：**
 
@@ -94,7 +94,7 @@ SKU 號：BOS0024
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/cavedunissin/boson/tree/51feace3c7f94ed85dadb263a4a1042f8d8e59cf/.gitbook/assets/motor_controller_module_prg2_ch_tw.png)
+![](../../.gitbook/assets/motor_controller_module_prg2_ch_tw.png)
 
 **Example program\(English\)：**
 
