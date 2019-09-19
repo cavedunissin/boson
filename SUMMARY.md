@@ -42,7 +42,7 @@
       * [f8計時模組（0-60秒）](boson/boson_intro/funtion_modules/duration_module.md)
   * [實作範例教學](boson/zuo-li-jiao-linkit-7697.md)
   * [資源鏈結](boson/yuan.md)
-* [洞洞么教學材料包 主頁](rk001/README.md)
+* [洞洞么教學材料包](rk001/README.md)
   * [模組使用教學](rk001/module_ui/README.md)
     * [LED模組](rk001/module_ui/linkit7697_led.md)
     * [LED模組（三色）](rk001/module_ui/linkit7697_rgbled.md)
