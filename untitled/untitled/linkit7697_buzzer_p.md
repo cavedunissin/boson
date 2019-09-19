@@ -4,14 +4,17 @@
 
 ## 專案說明
 
-使用「LinkIt 7697 NANO Breakout」連接「有源蜂鳴器模組」， 每一秒控制有源蜂鳴器模組發出聲音和靜音 。  
+使用「LinkIt 7697 NANO Breakout」連接「有源蜂鳴器模組」， 每一秒控制有源蜂鳴器模組發出聲音和靜音 。
+
 此**有源蜂鳴器模組**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/) 」內 。
 
 ## LinkIt 7697 電路圖
 
-**•**	[**LinkIt 7697**  
-](https://www.robotkingdom.com.tw/product/linkit-7697/)**•	LinkIt 7697 NANO Breakout  
-•	無源蜂鳴器模組**
+**•** \[**LinkIt 7697**
+
+\]\([https://www.robotkingdom.com.tw/product/linkit-7697/\)\*\*•](https://www.robotkingdom.com.tw/product/linkit-7697/%29**•) LinkIt 7697 NANO Breakout
+
+• 無源蜂鳴器模組\*\*
 
 **有源蜂鳴器模組**是**數位訊號**輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
 
@@ -44,6 +47,5 @@ void loop()
   digitalWrite(2, LOW);
   delay(1000);
 }
-
 ```
 

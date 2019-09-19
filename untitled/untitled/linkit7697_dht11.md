@@ -4,14 +4,17 @@
 
 ## 專案說明
 
-使用「LinkIt 7697 NANO Breakout」連接「DHT11溫溼度感測器模組」， 每1秒讀取DHT11溫溼度感測器模組溫度和濕度數值 。  
+使用「LinkIt 7697 NANO Breakout」連接「DHT11溫溼度感測器模組」， 每1秒讀取DHT11溫溼度感測器模組溫度和濕度數值 。
+
 此**DHT11溫溼度感測器模組**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/) 」內。
 
 ## LinkIt 7697 電路圖
 
-**•**	[**LinkIt 7697**  
-](https://www.robotkingdom.com.tw/product/linkit-7697/)**•	LinkIt 7697 NANO Breakout  
-•	DHT11溫溼度感測器模組**
+**•** \[**LinkIt 7697**
+
+\]\([https://www.robotkingdom.com.tw/product/linkit-7697/\)\*\*•](https://www.robotkingdom.com.tw/product/linkit-7697/%29**•) LinkIt 7697 NANO Breakout
+
+• DHT11溫溼度感測器模組\*\*
 
 **DHT11溫溼度感測器模組**是**數位訊號**輸出， 可以接「D2」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
 
@@ -49,6 +52,5 @@ void loop()
   Serial.println(dht11_p2.readHumidity());
   delay(1000);
 }
-
 ```
 

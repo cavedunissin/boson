@@ -1,8 +1,8 @@
 ---
-description: BOSON電子積木教學套件
+description: 教學套件主頁面
 ---
 
-# BOSON主頁
+# CAVEDU教育團隊
 
 ![](.gitbook/assets/boson_main.png)
 
