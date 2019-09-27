@@ -10,9 +10,9 @@
 
 ## LinkIt 7697 電路圖
 
-**•** \[**LinkIt 7697**
+**•** [**LinkIt 7697**](https://www.robotkingdom.com.tw/product/linkit-7697/) 
 
-\]\([https://www.robotkingdom.com.tw/product/linkit-7697/\)\*\*•](https://www.robotkingdom.com.tw/product/linkit-7697/%29**•) LinkIt 7697 NANO Breakout
+**•** **LinkIt 7697 NANO Breakout**
 
 • 微動開關模組\*\*
 
@@ -33,12 +33,9 @@
 ```text
 void setup()
 {
-
   pinMode(5, INPUT);
   Serial.begin(9600);
-
 }
-
 
 void loop()
 {
@@ -46,4 +43,3 @@ void loop()
   delay(200);
 }
 ```
-
