@@ -10,7 +10,7 @@
 
 ## LinkIt 7697 電路圖
 
-**•** [**LinkIt 7697**]([https://www.robotkingdom.com.tw/product/linkit-7697/\)\*\*•](https://www.robotkingdom.com.tw/product/linkit-7697/)
+**•** [**LinkIt 7697**](https://www.robotkingdom.com.tw/product/linkit-7697/)
 
 **•** LinkIt 7697 NANO Breakout
 
