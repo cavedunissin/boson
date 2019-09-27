@@ -10,9 +10,9 @@
 
 ## LinkIt 7697 電路圖
 
-**•** \[**LinkIt 7697**
+**•** [**LinkIt 7697**] (https://www.robotkingdom.com.tw/product/linkit-7697/)
 
-\]\([https://www.robotkingdom.com.tw/product/linkit-7697/\)\*\*•](https://www.robotkingdom.com.tw/product/linkit-7697/%29**•) LinkIt 7697 NANO Breakout
+**•** **LinkIt 7697 NANO Breakout**
 
 • DHT11溫溼度感測器模組\*\*
 
@@ -32,17 +32,13 @@
 
 ```text
 #include <DHT.h>
-
 DHT dht11_p2(2, DHT11);
 
 void setup()
 {
-
   Serial.begin(9600);
-
   dht11_p2.begin();
 }
-
 
 void loop()
 {
@@ -53,4 +49,3 @@ void loop()
   delay(1000);
 }
 ```
-
