@@ -10,11 +10,11 @@
 
 ## LinkIt 7697 電路圖
 
-**•** \[**LinkIt 7697**
+• [LinkIt 7697](https://www.robotkingdom.com.tw/product/linkit-7697/)
 
-\]\([https://www.robotkingdom.com.tw/product/linkit-7697/\)\*\*•](https://www.robotkingdom.com.tw/product/linkit-7697/%29**•) LinkIt 7697 NANO Breakout
+• LinkIt 7697 NANO Breakout
 
-• 熱敏（溫度）模組\*\*
+• 熱敏（溫度）模組
 
 **熱敏（溫度）模組**是**數位/類比訊號**輸出， 可以接「D0 ~ D13、A0~A3」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D5**」、「**A0**」。
 

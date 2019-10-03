@@ -10,11 +10,11 @@
 
 ## LinkIt 7697 電路圖
 
-**•** [**LinkIt 7697**](https://www.robotkingdom.com.tw/product/linkit-7697/)
+• [LinkIt 7697](https://www.robotkingdom.com.tw/product/linkit-7697/)
 
 **•** LinkIt 7697 NANO Breakout
 
-• 光敏模組\*\*
+• 光敏模組
 
 **光敏模組**是**類比訊號**輸入， 可以接「A0 ~ A3」的 LinkIt 7697 NANO Breakout訊號端上，「A0 ~ A3」腳位在程式碼中以「14 ~ 17」表示。 本範例連接到「**A0**」，程式碼中為「**14**」。
 

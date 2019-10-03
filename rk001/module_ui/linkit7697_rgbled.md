@@ -10,11 +10,11 @@
 
 ## LinkIt 7697 電路圖
 
-**•** [**LinkIt 7697**](https://www.robotkingdom.com.tw/product/linkit-7697/)
+• [LinkIt 7697](https://www.robotkingdom.com.tw/product/linkit-7697/)
 
-\*\*• LinkIt 7697 NANO Breakout
+• LinkIt 7697 NANO Breakout
 
-• LED模組\(三色\)\*\*
+• LED模組\(三色\)
 
 **LED模組\(三色\)**是**數位/類比訊號**輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 此範例使用的 LED模組\(三色\) 為共陽極 LED， 由下圖 把腳位V 接到 3.3V ~ 5V 的電源， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
 

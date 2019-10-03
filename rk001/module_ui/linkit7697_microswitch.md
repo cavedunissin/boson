@@ -10,11 +10,11 @@
 
 ## LinkIt 7697 電路圖
 
-**•** [**LinkIt 7697**](https://www.robotkingdom.com.tw/product/linkit-7697/)
+• [LinkIt 7697](https://www.robotkingdom.com.tw/product/linkit-7697/)
 
-**•** **LinkIt 7697 NANO Breakout**
+• LinkIt 7697 NANO Breakout
 
-• 微動開關模組\*\*
+• 微動開關模組
 
 **微動開關模組**是**數位訊號**輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上，「A0 ~ A3」在程式代表「14 ~ 17」。 本範例連接到「**D5**」。
 
