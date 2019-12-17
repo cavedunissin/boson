@@ -60,7 +60,7 @@
     * [紅外線偵測模組](rk001/module_ui/linkit7697_irsesnor.md)
     * [I2C 1602液晶顯示模組](rk001/module_ui/linkit7697_i2c1602.md)
     * [熱敏（溫度）模組](rk001/module_ui/linkit7697_temperature.md)
-* [洞洞兩教學材料包](rk-002/README.md)
-  * [模組使用教學](rk-002/mo-zu-shi-yong-jiao-xue/README.md)
-    * [001](rk-002/mo-zu-shi-yong-jiao-xue/001.md)
+* [洞洞兩教學材料包](rk002/README.md)
+  * [模組使用教學](rk002/mo-zu-shi-yong-jiao-xue/README.md)
+    * [005](rk002/mo-zu-shi-yong-jiao-xue/005.md)
 
