@@ -64,5 +64,5 @@
   * [模組使用教學](rk002/mo-zu-shi-yong-jiao-xue/README.md)
     * [按鈕模組](rk002/mo-zu-shi-yong-jiao-xue/005.md)
     * [滾珠開關模組](rk002/mo-zu-shi-yong-jiao-xue/untitled.md)
-    * [Untitled](rk002/mo-zu-shi-yong-jiao-xue/led-mo-zu.md)
+    * [霍爾磁性模組](rk002/mo-zu-shi-yong-jiao-xue/led-mo-zu.md)
 
