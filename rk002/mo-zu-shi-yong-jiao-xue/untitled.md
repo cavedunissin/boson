@@ -4,7 +4,7 @@
 
 ## 專案說明
 
-使用「科易KEYES Arduino UNO R3 開發板」連接「滾珠開關模組」, 每0.5秒讀取滾珠開關模組開啟或關閉。
+使用「科易KEYES Arduino UNO R3 開發板」連接「滾珠開關模組」, 讀取滾珠開關模組開啟或關閉。
 
 此**滾珠開關模組**包含於**「**[洞洞兩教學材料包 Education Kit 002](https://www.robotkingdom.com.tw/product/rk-education-kit-002/)**」**內。
 
@@ -30,7 +30,7 @@ void setup\(\)
 
 {
 
- pinMode\(2, INPUT\);
+ pinMode\(3, INPUT\);
 
  Serial.begin\(9600\);
 
@@ -40,7 +40,7 @@ void loop\(\)
 
 {
 
- Serial.println\(digitalRead\(2\)\);
+ Serial.println\(digitalRead\(3\)\);
 
  delay\(500\);
 
