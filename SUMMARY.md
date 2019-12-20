@@ -65,4 +65,5 @@
     * [按鈕模組](rk002/mo-zu-shi-yong-jiao-xue/005.md)
     * [滾珠開關模組](rk002/mo-zu-shi-yong-jiao-xue/untitled.md)
     * [霍爾磁性模組](rk002/mo-zu-shi-yong-jiao-xue/led-mo-zu.md)
+    * [旋轉可變電阻](rk002/mo-zu-shi-yong-jiao-xue/xuan-zhuan-ke-bian-dian-zu.md)
 
