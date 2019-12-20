@@ -1,6 +1,6 @@
 # LED模組
 
-![](../../.gitbook/assets/0%20%2813%29.png)
+![](../../.gitbook/assets/0%20%2814%29.png)
 
 ## 專案說明
 
