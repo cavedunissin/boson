@@ -1,6 +1,6 @@
 # 霍爾磁性模組
 
-![](../../.gitbook/assets/0%20%2822%29.png)
+![](../../.gitbook/assets/0%20%2825%29.png)
 
 ## 專案說明
 
@@ -16,7 +16,7 @@
 
 **霍爾磁性模組**是**數位訊號輸入**， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3」**
 
-![](../../.gitbook/assets/1%20%2816%29.png)
+![](../../.gitbook/assets/1%20%2818%29.png)
 
 ## Arduino 程式
 
