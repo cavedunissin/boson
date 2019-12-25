@@ -26,21 +26,15 @@
 
 產生出的 Arduino 程式如下
 
-void setup\(\)
-
+```c
+void setup()
 {
-
- Serial.begin\(9600\);
-
+ Serial.begin(9600);
 }
-
-void loop\(\)
-
+void loop()
 {
-
- Serial.println\(analogRead\(14\)\);
-
- delay\(500\);
-
+ Serial.println(analogRead(14));
+ delay(500);
 }
+```
 

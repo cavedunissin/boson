@@ -1,5 +1,7 @@
 # 繼電器
 
+
+
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
 ## 專案說明
@@ -24,25 +26,17 @@
 
 產生出的 Arduino 程式如下
 
-void setup\(\)
-
+```c
+void setup()
 {
-
- pinMode\(3, OUTPUT\);
-
+ pinMode(3, OUTPUT);
 }
-
-void loop\(\)
-
+void loop()
 {
-
- digitalWrite\(3, HIGH\);
-
- delay\(1000\);
-
- digitalWrite\(3, LOW\);
-
- delay\(1000\);
-
+ digitalWrite(3, HIGH);
+ delay(1000);
+ digitalWrite(3, LOW);
+ delay(1000);
 }
+```
 
