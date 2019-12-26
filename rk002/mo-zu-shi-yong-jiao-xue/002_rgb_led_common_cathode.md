@@ -1,6 +1,6 @@
 # RGB LED共陰模組
 
-![](../../.gitbook/assets/01%20%283%29.png)
+![](../../.gitbook/assets/01%20%285%29.png)
 
 ## 專案說明
 
@@ -16,7 +16,7 @@
 
 **RGB LED共陰模組**是**PWM訊號輸出**， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**、**D4**、**D5**」
 
-![](../../.gitbook/assets/02%20%284%29.png)
+![](../../.gitbook/assets/02%20%286%29.png)
 
 ## Arduino 程式
 

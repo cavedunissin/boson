@@ -1,12 +1,12 @@
 # 大顆LED紅綠燈整合模組
 
-![](../../.gitbook/assets/01%20%282%29.png)
+![](../../.gitbook/assets/01%20%284%29.png)
 
 ## 專案說明
 
 使用「科易KEYES Arduino UNO R3 開發板」連接「大顆LED紅綠燈整合模組」, 每1秒鐘紅黃綠燈交換閃爍一次。
 
-此大顆LED紅綠燈整合模組包含於「[洞洞兩教學材料包 Education Kit 002](https://www.robotkingdom.com.tw/product/rk-education-kit-002/)」內。
+此**大顆LED紅綠燈整合模組**包含於「[洞洞兩教學材料包 Education Kit 002](https://www.robotkingdom.com.tw/product/rk-education-kit-002/)」內。
 
 ## 電路圖
 
@@ -16,7 +16,7 @@
 
 **大顆LED紅綠燈整合模組**是**數位訊號**輸出， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」「**D4**」「**D5**」
 
-![](../../.gitbook/assets/02%20%286%29.png)
+![](../../.gitbook/assets/02%20%2811%29.png)
 
 ## Arduino 程式
 

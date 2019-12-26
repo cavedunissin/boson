@@ -1,6 +1,6 @@
 # 電晶體MOS模組
 
-![](../../.gitbook/assets/01%20%281%29.png)
+![](../../.gitbook/assets/01%20%283%29.png)
 
 
 
@@ -22,7 +22,7 @@
 
 **電晶體MOS模組**是**類比訊號**輸出， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
 
-![](../../.gitbook/assets/02%20%281%29.png)
+![](../../.gitbook/assets/02%20%283%29.png)
 
 ## Arduino 程式
 

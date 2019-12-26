@@ -1,0 +1,88 @@
+# WS2812 RGB12燈燈環模組
+
+![](../../.gitbook/assets/01%20%288%29.png)
+
+## 專案說明
+
+使用「科易KEYES Arduino UNO R3 開發板」連接「WS2812 RGB12燈燈環模組」, 在WS2812 RGB12燈燈環模組上顯示燈環的顏色。
+
+此**WS2812 RGB12燈燈環模組**包含於「[洞洞兩教學材料包 Education Kit 002](https://www.robotkingdom.com.tw/product/rk-education-kit-002/)」內。
+
+## KEYES Arduino UNO R3電路圖
+
+* [KEYES Arduino UNO R3   ](https://www.robotkingdom.com.tw/product/keyes-uno-r3/)
+* 通用型彩色Sensor shield v5.0感測器擴充板
+* WS2812 RGB12燈燈環模組
+
+**WS2812 RGB12燈燈環模組**是**數位訊號**輸出， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
+
+![](../../.gitbook/assets/02%20%287%29.png)
+
+## Arduino 程式
+
+由於WS2812 RGB12燈燈環模組是函式庫型模組，所以需要先在Arduino上下載函式庫，下載方法如下。
+
+在Arduino上選擇工具，選擇管理程式庫，在管理程式庫搜尋Adafruit NeoPixel選擇Adafruit NeoPixel by Adafruit版本1.2.5並安裝。
+
+![](../../.gitbook/assets/03%20%284%29.png)
+
+![](../../.gitbook/assets/04%20%282%29.png)
+
+在WS2812 RGB12燈燈環模組上顯示依序點亮綠色的燈，每0.5秒依序開啟各個LED燈。
+
+產生出的 Arduino 程式如下
+
+```c
+#include <Adafruit_NeoPixel.h>
+#ifdef __AVR__
+ #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
+#endif
+
+// Which pin on the Arduino is connected to the NeoPixels?
+#define PIN        3 // On Trinket or Gemma, suggest changing this to 1
+
+// How many NeoPixels are attached to the Arduino?
+#define NUMPIXELS 16 // Popular NeoPixel ring size
+
+// When setting up the NeoPixel library, we tell it how many pixels,
+// and which pin to use to send signals. Note that for older NeoPixel
+// strips you might need to change the third parameter -- see the
+// strandtest example for more information on possible values.
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+
+#define DELAYVAL 500 // Time (in milliseconds) to pause between pixels
+
+void setup() {
+  // These lines are specifically to support the Adafruit Trinket 5V 16 MHz.
+  // Any other board, you can remove this part (but no harm leaving it):
+#if defined(__AVR_ATtiny85__) && (F_CPU == 16000000)
+  clock_prescale_set(clock_div_1);
+#endif
+  // END of Trinket-specific code.
+
+  pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
+}
+
+void loop() {
+  pixels.clear(); // Set all pixel colors to 'off'
+
+  // The first NeoPixel in a strand is #0, second is 1, all the way up
+  // to the count of pixels minus one.
+  for(int i=0; i<NUMPIXELS; i++) { // For each pixel...
+
+    // pixels.Color() takes RGB values, from 0,0,0 up to 255,255,255
+    // Here we're using a moderately bright green color:
+    pixels.setPixelColor(i, pixels.Color(0, 150, 0));
+
+    pixels.show();   // Send the updated pixel colors to the hardware.
+
+    delay(DELAYVAL); // Pause before next pass through loop
+  }
+}
+
+```
+
+
+
+
+

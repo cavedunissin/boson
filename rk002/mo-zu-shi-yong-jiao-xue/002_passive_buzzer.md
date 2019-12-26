@@ -1,6 +1,6 @@
 # 無源蜂鳴器
 
-![](../../.gitbook/assets/01%20%284%29.png)
+![](../../.gitbook/assets/01%20%286%29.png)
 
 ## 專案說明
 
@@ -10,7 +10,7 @@
 
 ## 電路圖
 
-* KEYES Arduino UNO R3 
+* [KEYES Arduino UNO R3 ](https://www.robotkingdom.com.tw/product/keyes-uno-r3/)
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * 無源蜂鳴器
 
@@ -20,7 +20,7 @@
 蜂鳴器分為「有源蜂鳴器」及「無源蜂鳴器」，「有源蜂鳴器」僅能發出單一頻率的聲音；「無源蜂鳴器」可依據不同的頻率發出不同聲調的聲音。
 {% endhint %}
 
-![](../../.gitbook/assets/02%20%282%29.png)
+![](../../.gitbook/assets/02%20%284%29.png)
 
 ## Arduino 程式
 

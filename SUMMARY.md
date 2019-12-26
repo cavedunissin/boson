@@ -77,4 +77,9 @@
     * [兩路L9110S馬達模組](rk002/mo-zu-shi-yong-jiao-xue/002_l9110s_motor.md)
     * [無源蜂鳴器](rk002/mo-zu-shi-yong-jiao-xue/002_passive_buzzer.md)
     * [SR-04P超音波](rk002/mo-zu-shi-yong-jiao-xue/002_sr04p_ultrasound.md)
+    * [DHT11溫溼度模組](rk002/mo-zu-shi-yong-jiao-xue/dht11-wen-shi-du-mo-zu.md)
+    * [舵機](rk002/mo-zu-shi-yong-jiao-xue/duo-ji.md)
+    * [LCD1602液晶模組](rk002/mo-zu-shi-yong-jiao-xue/lcd1602-ye-jing-mo-zu.md)
+    * [Max7219 8X8 矩陣LED模組](rk002/mo-zu-shi-yong-jiao-xue/max7219-8x8-ju-zhen-led-mo-zu.md)
+    * [WS2812 RGB12燈燈環模組](rk002/mo-zu-shi-yong-jiao-xue/ws2812-rgb12-deng-deng-huan-mo-zu.md)
 

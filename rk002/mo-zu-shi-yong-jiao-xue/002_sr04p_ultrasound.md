@@ -1,6 +1,6 @@
 # SR-04P超音波
 
-![](../../.gitbook/assets/01.png)
+![](../../.gitbook/assets/01%20%282%29.png)
 
 ## 專案說明
 
@@ -10,7 +10,7 @@
 
 ## KEYES Arduino UNO R3電路圖
 
-* KEYES Arduino UNO R3 
+* [KEYES Arduino UNO R3   ](https://www.robotkingdom.com.tw/product/keyes-uno-r3/)
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * SR-04P超音波
 
@@ -20,9 +20,17 @@
 超音波測距感測器是由發射器、接收器以及控制電路所組成，若待測物體距離太遠，或者發射器、接收器其中一個被遮蔽，皆會導致量測距離結果錯誤 。
 {% endhint %}
 
-![](../../.gitbook/assets/02%20%285%29.png)
+![](../../.gitbook/assets/02%20%289%29.png)
 
 ## Arduino 程式
+
+由於超音波測距感測器是函式庫型模組，所以需要先在Arduino上下載函式庫，下載方法如下。
+
+在Arduino上選擇工具，選擇管理程式庫，在管理程式庫搜尋HCSR04選擇HCSR04 ultrasonic sensor by gamegine版本2.02並安裝。
+
+![](../../.gitbook/assets/03%20%281%29.png)
+
+![](../../.gitbook/assets/04.png)
 
 每0.5秒鐘會讀取一次超音波測距感測器所測得的距離 。
 
