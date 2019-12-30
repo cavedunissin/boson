@@ -14,7 +14,7 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * 避障紅外線模組
 
-**避障紅外線模組**是**類比/數位訊號輸入**，可以接「A0 ~ A5」/「D0 ~ D13」的KEYES Arduino UNO R3訊號端上。 本範例連接到「**A0」/**「**D3」**
+**避障紅外線模組**是**類比/數位訊號輸入**，可以接「A0 ~ A3」/「D0 ~ D13」的KEYES Arduino UNO R3訊號端上，「A0 ~ A3」在程式代表「14 ~ 17」。 本範例連接到「**A0」/**「**D3」**
 
 避障紅外線模組是利用光線對顏色不同的反射率， 判斷感測器的輸入端是0或者是1， 進而判斷是黑線或是白線 。
 
@@ -36,7 +36,7 @@ void setup()
 void loop()
 {
  Serial.println(digitalRead(3));
- Serial.println(analogRead(A0));
+ Serial.println(analogRead(14));
  delay(500);
 }
 ```
