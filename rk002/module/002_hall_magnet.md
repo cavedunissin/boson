@@ -1,6 +1,6 @@
 # 霍爾磁性模組
 
-![](../../.gitbook/assets/0%20%2826%29.png)
+![](../../.gitbook/assets/10-hall-sensor.png)
 
 ## 專案說明
 
