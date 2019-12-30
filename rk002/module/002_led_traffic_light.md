@@ -16,7 +16,7 @@
 
 **大顆LED紅綠燈整合模組**是**數位訊號**輸出， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」「**D4**」「**D5**」
 
-![](../../.gitbook/assets/02%20%2811%29.png)
+![](../../.gitbook/assets/02%20%2814%29.png)
 
 ## Arduino 程式
 
