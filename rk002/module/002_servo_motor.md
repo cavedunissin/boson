@@ -20,7 +20,13 @@
 
 ## Arduino 程式
 
-由於舵機是函式庫型模組，在Arduino上有內建的函式庫即可使用。
+由於舵機是函式庫型模組，所以需要先在Arduino上下載函式庫，下載方法如下。
+
+在Arduino上選擇工具，選擇管理程式庫，在管理程式庫搜尋Servo選擇Servo Built-In by Michael Margolis, Arduino版本1.1.3並安裝。
+
+![](../../.gitbook/assets/03%20%282%29.png)
+
+![](../../.gitbook/assets/04%20%284%29.png)
 
 控制舵機順時針轉和逆時針轉。
 
