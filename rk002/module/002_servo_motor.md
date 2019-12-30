@@ -14,19 +14,13 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * 舵機
 
-**舵機**是**數位訊號**輸出，脈衝寬度調變\(Pulse Width Modulation\)訊號輸出， 可以接「D0 ~ D13」的KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
+**舵機**是**數位訊號**輸出，脈衝寬度調變\(Pulse Width Modulation\)訊號輸出， 可以接「D3、D5、D6、D9、D10」的KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
 
 ![](../../.gitbook/assets/02%20%281%29.png)
 
 ## Arduino 程式
 
-由於舵機是函式庫型模組，所以需要先在Arduino上下載函式庫，下載方法如下。
-
-在Arduino上選擇工具，選擇管理程式庫，在管理程式庫搜尋Servo選擇Servo Built-In by Michael Margolis, Arduino版本1.1.3並安裝。
-
-![](../../.gitbook/assets/03%20%282%29.png)
-
-![](../../.gitbook/assets/04%20%284%29.png)
+由於舵機是函式庫型模組，在Arduino上有內建的函式庫即可使用。
 
 控制舵機順時針轉和逆時針轉。
 
