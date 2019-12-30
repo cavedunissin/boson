@@ -16,7 +16,7 @@
 
 **RGB LED共陰模組**是**PWM訊號輸出**，可以接「D3、D5、D6、D9、D10」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**、**D5**、**D6**」
 
-![](../../.gitbook/assets/02%20%288%29.png)
+![](../../.gitbook/assets/02%20%289%29.png)
 
 ## Arduino 程式
 
