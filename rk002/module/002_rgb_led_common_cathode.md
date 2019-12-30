@@ -14,7 +14,7 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * RGB LED共陰模組
 
-**RGB LED共陰模組**是**PWM訊號輸出**，可以接「D3、D5、D6、D9、D10」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**、**D5**、**D6**」
+**RGB LED共陰模組**是數位/PWM訊號輸出， 可以接「D0 ~ D13/D3、D5、D6、D9、D10」的 KEYES Arduino UNO R3訊號端上。使用數位輸出時可以顯示RGB三種顏色的燈，使用PWM訊號輸出時可以依據PWM的數值顯示各種不同顏色的燈。 本範例連接到「**D3**、**D5**、**D6**」
 
 ![](../../.gitbook/assets/02v2.png)
 
