@@ -14,119 +14,50 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * 無源蜂鳴器
 
-**無源蜂鳴器**是**脈衝寬度調變\(Pulse Width Modulation\)訊號**輸出，可以接「D3、D5、D6、D9、D10」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
+**無源蜂鳴器**是**脈衝寬度調變**\(Pulse Width Modulation\)**訊號**輸出，可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
 
 {% hint style="info" %}
 蜂鳴器分為「有源蜂鳴器」及「無源蜂鳴器」，「有源蜂鳴器」僅能發出單一頻率的聲音；「無源蜂鳴器」可依據不同的頻率發出不同聲調的聲音。
 {% endhint %}
 
-![](../../.gitbook/assets/02%20%287%29.png)
+![](../../.gitbook/assets/02%20%284%29.png)
 
 ## Arduino 程式
 
-每一秒控制無源蜂鳴器發出兩隻老虎音調的聲音。
-
-tone\(\)函數說明：
-
-tone\(pin, frequency, duration\)
-
-pin=訊號接口，frequency=頻率，duration=間距
-
-
+每一秒控制無源蜂鳴器發出各種不同音階的聲音。
 
 產生出的 Arduino 程式如下
 
 ```c
-//兩隻老虎
-int buzzer=3;                   //設定蜂鳴器接腳為第3孔
-int duration = 500;
-int bDo = 523;
-int bRe = 587;
-int bMi = 659;
-int bFa = 698;
-int bSo = 784;
-int bLa = 880;
-int bSi = 988;
-int bDDo = 1047;
+void setup()
+{
+
+  pinMode(3, OUTPUT);
+}
 
 void setup()
 {
-pinMode(buzzer,OUTPUT);          //設定蜂鳴器為輸出
+
 }
+
+
 void loop()
 {
-  tone(3,bDo,duration);
-  delay(600);
-  tone(3,bRe,duration);
-  delay(600);
-  tone(3,bMi,duration);
-  delay(600);
-  tone(3,bDo,duration);
-  delay(800);
-  
-  tone(3,bDo,duration);
-  delay(600);
-  tone(3,bRe,duration);
-  delay(600);
-  tone(3,bMi,duration);
-  delay(600);
-  tone(3,bDo,duration);
-  delay(800);
-  
-  tone(3,bMi,duration);
-  delay(600);
-  tone(3,bFa,duration);
-  delay(600);
-  tone(3,bSo,duration);
-  delay(800);
-  
-  tone(3,bMi,duration);
-  delay(600);
-  tone(3,bFa,duration);
-  delay(600);
-  tone(3,bSo,duration);
-  delay(800);
-
-  tone(3,bSo,duration);
-  delay(600);
-  tone(3,bLa,duration);
-  delay(600);
-  tone(3,bSo,duration);
-  delay(600);
-  tone(3,bFa,duration);
-  delay(600);
-  tone(3,bMi,duration);
-  delay(700);
-  tone(3,bDo,duration);
-  delay(800);
-
-  tone(3,bSo,duration);
-  delay(600);
-  tone(3,bLa,duration);
-  delay(600);
-  tone(3,bSo,duration);
-  delay(600);
-  tone(3,bFa,duration);
-  delay(600);
-  tone(3,bMi,duration);
-  delay(700);
-  tone(3,bDo,duration);
-  delay(800);
-
-  tone(3,bDo,duration);
-  delay(700);
-  tone(3,bSo,duration);
-  delay(700);
-  tone(3,bDo,duration);
-  delay(800);
-
-  tone(3,bDo,duration);
-  delay(700);
-  tone(3,bSo,duration);
-  delay(700);
-  tone(3,bDo,duration);
-  delay(800);
-  delay(2000);
+  tone(3, 262);
+  delay(1000);
+  tone(3, 294);
+  delay(1000);
+  tone(3, 330);
+  delay(1000);
+  tone(3, 349);
+  delay(1000);
+  tone(3, 392);
+  delay(1000);
+  tone(3, 440);
+  delay(1000);
+  tone(3, 494);
+  delay(1000);
+  tone(3, 523);
 }
 
 ```

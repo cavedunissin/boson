@@ -14,7 +14,7 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * 光線模組
 
-**光線模組**是**類比訊號輸入**，可以接「A0 ~ A3」的KEYES Arduino UNO R3訊號端上，「A0 ~ A3」在程式代表「14 ~ 17」。 本範例連接到「**A0」**
+**光線模組**是**類比訊號**輸入，可以接「A0 ~ A3」的KEYES Arduino UNO R3訊號端上，「A0 ~ A3」在程式代表「14 ~ 17」。 本範例連接到「**A0**」
 
 ![](../../.gitbook/assets/1%20%2831%29.png)
 
@@ -33,7 +33,7 @@ void setup()
 }
 void loop()
 {
- Serial.println(analogRead(14));
+ Serial.println(analogRead(A0));
  delay(500);
 }
 ```
