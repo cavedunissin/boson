@@ -19,10 +19,12 @@
 * [KEYES Arduino UNO R3   ](https://www.robotkingdom.com.tw/product/keyes-uno-r3/)
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * 電晶體MOS模組
+* 微型N20直流減速馬達
+* 9V電池
 
-**電晶體MOS模組**是**類比訊號**輸出， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
+**電晶體MOS模組**是**類比訊號**輸出， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」。VIN部分需要使用外接電源，這裡我們使用9V電池。輸出我們使用微型N20直流減速馬達來控制。
 
-![](../../.gitbook/assets/02%20%283%29.png)
+![](../../.gitbook/assets/02%20%285%29.png)
 
 ## Arduino 程式
 
