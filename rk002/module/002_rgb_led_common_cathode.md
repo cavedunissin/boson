@@ -14,19 +14,19 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * RGB LED共陰模組
 
-**RGB LED共陰模組**是**PWM訊號輸出**，可以接「D3、D5、D6、D9、D10」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**、**D5**、**D6**」
+**RGB LED共陰模組**是**PWM訊號輸出**， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**、**D4**、**D5**」
 
-![](../../.gitbook/assets/02%20%289%29.png)
+![](../../.gitbook/assets/02%20%286%29.png)
 
 ## Arduino 程式
 
-將3號、5號、6號腳位的PWM訊號依序輸出，RGB LED模組會陸續顯示紅色1S，綠色1S，藍色1S，黃色1S，紫色1S，白色1S，停止顯示1S，然後循環交替。RGB LED模組是用PWM訊號輸出函式所代表的顏色分別為color\(紅色, 綠色, 藍色\)數值為0到255，color\(255, 0, 0\)代表紅色亮、color\(0, 255, 0\)代表綠色亮、color\(0, 0, 255\)代表藍色亮、color\(255,255,0\) 代表黃色亮、color\(128,0,255\)代表紫色亮、color\(255,255,255\)代表白色亮，可以根據需要亮的顏色去調整數值。
+將3號、4號、5號腳位的PWM訊號依序輸出，RGB LED模組會陸續顯示紅色1S，綠色1S，藍色1S，黃色1S，紫色1S，白色1S，停止顯示1S，然後循環交替。
 
 產生出的 Arduino 程式如下
 
 ```c
-int redPin = 6;  // R 紅色LED 控制引腳 連接到Arduino的5腳 
-int greenPin = 5  // G綠色LED 控制引腳 連接到Arduino的4腳
+int redPin = 5;  // R 紅色LED 控制引腳 連接到Arduino的5腳 
+int greenPin = 4;  // G綠色LED 控制引腳 連接到Arduino的4腳
 int bluePin = 3;  // B藍色LED 控制引腳 連接到Arduino的3腳    
 void setup()    
 {   

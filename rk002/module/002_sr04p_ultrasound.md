@@ -20,7 +20,7 @@
 超音波測距感測器是由發射器、接收器以及控制電路所組成，若待測物體距離太遠，或者發射器、接收器其中一個被遮蔽，皆會導致量測距離結果錯誤 。
 {% endhint %}
 
-![](../../.gitbook/assets/02.png)
+![](../../.gitbook/assets/02%20%289%29.png)
 
 ## Arduino 程式
 
@@ -52,6 +52,4 @@ void loop()
 }//return curent distance in serial
 
 ```
-
-
 

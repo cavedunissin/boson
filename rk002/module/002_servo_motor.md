@@ -16,7 +16,7 @@
 
 **舵機**是**數位訊號**輸出，脈衝寬度調變\(Pulse Width Modulation\)訊號輸出， 可以接「D3、D5、D6、D9、D10」的KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
 
-![](../../.gitbook/assets/02%20%282%29.png)
+![](../../.gitbook/assets/02%20%281%29.png)
 
 ## Arduino 程式
 
