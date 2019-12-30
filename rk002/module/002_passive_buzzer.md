@@ -32,7 +32,7 @@ tone\(pin, frequency, duration\)
 
 pin=訊號接口，frequency=頻率，duration=間距
 
-
+範例使用到的音階有Do\(523Hz\), Re \(587Hz\), Mi\(659Hz\), Fa\(698Hz\), So\(784Hz\), La\(880Hz\), Si\(988Hz\) 到高音 Do \(1047Hz\)
 
 產生出的 Arduino 程式如下
 
