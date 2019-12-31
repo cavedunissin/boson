@@ -40,7 +40,7 @@ SKU 號：BOS0022
 
 **連線圖：**
 
-![](https://github.com/cavedunissin/boson/tree/17ad5f29279ee33f59c657497f5415bbfa3c7fee/.gitbook/assets/voice_recorder_module_example1.png)
+![](../../../.gitbook/assets/ultrasonic_sensor_example1.png)
 
 ### \*\*\*\*
 
