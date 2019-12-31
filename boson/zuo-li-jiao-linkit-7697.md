@@ -31,10 +31,10 @@ description: '本篇透過實際案例，來學習如何使用 micro:bit與 Link
 ### 輸出模組
 
 * [o2LED燈模組](boson_intro/output_modules/led_module.md)
-* [o5蜂鳴器模組]()
+* [o5蜂鳴器模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/buzzer_module)
 * [o6風扇模組](boson_intro/output_modules/fan_module.md)
 * [o7錄音機模組/喇叭](boson_intro/output_modules/voice_recorder_module.md)
-* [o9馬達模組]()
+* [o9馬達模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/motor_controller_module)
 * [o10伺服機模組](boson_intro/output_modules/servo_module_with_servo.md)
 * [七彩燈條](boson_intro/output_modules/rgb_led_string.md)
 
@@ -51,9 +51,9 @@ description: '本篇透過實際案例，來學習如何使用 micro:bit與 Link
 ### 輸出模組
 
 * [o2LED燈模組](boson_intro/output_modules/led_module.md)
-* [o5蜂鳴器模組]()
+* [o5蜂鳴器模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/buzzer_module)
 * [o6風扇模組](boson_intro/output_modules/fan_module.md)
 * [o7錄音機模組/喇叭](boson_intro/output_modules/voice_recorder_module.md)
-* [o9馬達模組]()
+* [o9馬達模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/motor_controller_module)
 * [o10伺服機模組](boson_intro/output_modules/servo_module_with_servo.md)
 
