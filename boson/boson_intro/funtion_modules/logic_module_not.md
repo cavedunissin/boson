@@ -18,7 +18,7 @@ SKU 號：BOS0029
 
 運算邏輯模組 NOT是功能模組中的一種，可以用來進行簡單的邏輯運算，還可以和其他邏輯模組組合使用，達到更為複雜的功能，如數據的運算和存儲。運算邏輯模組 NOT可廣泛應用於日常生活中的消防緊急照明燈、智慧路燈、火警警報裝置等電路。
 
-![Optional title](https://github.com/cavedunissin/boson/tree/7fd883f88747834f9d82dfc2bc5c4f285d140ca3/.gitbook/assets/logic_module_NOT_intro.png)
+![](../../../.gitbook/assets/logic_module_intro.png)
 
 ## 使用說明
 
