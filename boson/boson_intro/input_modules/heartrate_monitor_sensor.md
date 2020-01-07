@@ -90,7 +90,7 @@ SKU：BOS0043
 
 **連線圖：**
 
-![](https://github.com/cavedunissin/boson/tree/0f202b5252da4249eda899809fdf05d1b104dda4/.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_example3.png)
+![](../../../.gitbook/assets/heartrate_moniotr_sensor_example3.png)
 
 **範例程式一：通過累計一定時間的心跳次數測量心率**
 
