@@ -28,7 +28,7 @@ SKU：BOS0043
 
 按照下圖所示連接電路，通電後將手指放在心律監測感測器指定位置處即可通過OLED顯示模組查看測量者的心率。
 
-![](https://github.com/cavedunissin/boson/tree/0f202b5252da4249eda899809fdf05d1b104dda4/.gitbook/assets/heartrate_monitor_sensor/heartrate_monitor_sensor_ui.png)
+![](../../../.gitbook/assets/heartrate_monitor_sensor_ui2.png)
 
 **心律監測感測器在使用時需注意以下四點事項：**
 

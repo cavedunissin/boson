@@ -70,11 +70,11 @@ SKU：BOS0042
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/assets/water_proof_temperature_sensor/water_proof_temperature_sensor_prg_ch_tw.png)
+![](../../../.gitbook/assets/water_proof_temperature_sensor_prg_ch_tw.png)
 
 **Example program\(English\)：**
 
-![](https://github.com/assets/water_proof_temperature_sensor/water_proof_temperature_sensor_prg_en.png)
+![](../../../.gitbook/assets/water_proof_temperature_sensor_prg_en.png)
 
 ## 商品規格
 
