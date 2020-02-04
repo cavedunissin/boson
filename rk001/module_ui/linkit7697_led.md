@@ -43,9 +43,9 @@
 
 每一秒鐘會切換LED的亮暗一次。
 
-![](../../.gitbook/assets/02.JPG)
+![](../../.gitbook/assets/02%20%281%29.JPG)
 
-產生出的 JavaScript 程式如下
+###  JavaScript 程式
 
 ```javascript
 basic.forever(function () {
