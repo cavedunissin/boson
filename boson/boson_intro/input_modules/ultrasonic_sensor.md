@@ -89,11 +89,11 @@ SKU：BOS0045
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/assets/ultrasonic_sensor/ultrasonic_sensor_prg_ch_tw.png)
+![](../../../.gitbook/assets/ultrasonic_sensor_example3_prg_cht.png)
 
 **Example program\(English\)：**
 
-![](https://github.com/assets/ultrasonic_sensor/ultrasonic_sensor_prg_en.png)
+![](../../../.gitbook/assets/ultrasonic_sensor_example3_prg_en.png)
 
 ## 商品規格
 
