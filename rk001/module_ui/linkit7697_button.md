@@ -44,9 +44,9 @@ void loop()
 
 ## micro:bit 專案說明
 
-使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「按鈕模組」, 讀取按鈕模組按下或放開的狀態。
+使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「按鈕模組」，讀取按鈕模組按下或放開的狀態。
 
-此按鈕模組包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+此**按鈕模組**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 
 ### micro:bit 電路圖
 
@@ -54,7 +54,7 @@ void loop()
 * [科易KEYES micro:bit 感測器擴充板 V2  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * 按鈕模組
 
-**按鈕模組**是**數位訊號**輸入， 可以接「3,4,5,6,7,9,10,11」的 micro:bit訊號端上。 本範例連接到「**P5**」。
+**按鈕模組**是**數位訊號**輸入， 可以接「3、4、5、6、7、9、10、11」的 micro:bit訊號端上。 本範例連接到「**P5**」。
 
 ![](../../.gitbook/assets/01%20%2810%29.JPG)
 

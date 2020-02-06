@@ -54,7 +54,7 @@ void loop()
 
 ## micro:bit 專案說明
 
-使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「超音波測距感應器」, 每1秒讀取超音波測距感應器所測到的距離。
+使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「超音波測距感應器」，每1秒讀取超音波測距感應器所測到的距離。
 
 此**超音波測距感應器**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 

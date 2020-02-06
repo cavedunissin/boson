@@ -48,7 +48,7 @@ void loop()
 
 ## micro:bit 專案說明
 
-使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「無源蜂鳴器模組」, 每一秒控制無源蜂鳴器模組發出「Do、RE、ME、DO」的音階和靜音 。
+使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「無源蜂鳴器模組」，每一秒控制無源蜂鳴器模組發出「Do、Re、Mi、Do」的音階和靜音 。
 
 此**無源蜂鳴器模組**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/) 」內。
 
@@ -68,7 +68,7 @@ void loop()
 
 ### Microsoft MakeCode積木畫布
 
-每一秒控制無源蜂鳴器模組發出「Do、RE、ME、DO」的音階和靜音 。
+每一秒控制無源蜂鳴器模組發出「Do、Re、Mi、Do」的音階和靜音 。
 
 ![](../../.gitbook/assets/02%20%283%29.JPG)
 

@@ -48,7 +48,7 @@ void loop()
 
 ## micro:bit 專案說明
 
-使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「熱敏（溫度）模組」, 讀取熱敏（溫度）模組的數值變化 。
+使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「熱敏（溫度）模組」，讀取熱敏（溫度）模組的數值變化 。
 
 此**熱敏（溫度）模組**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 

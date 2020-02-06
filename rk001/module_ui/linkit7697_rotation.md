@@ -46,9 +46,9 @@ void loop()
 
 ## micro:bit 專案說明
 
-使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「旋轉電位計模組」, 讀取旋轉電位計模組的數值變化 。
+使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「旋轉電位計模組」，讀取旋轉電位計模組的數值變化 。
 
-此旋轉電位計模組包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+此**旋轉電位計模組**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 
 ### micro:bit 電路圖
 

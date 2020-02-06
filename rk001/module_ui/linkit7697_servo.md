@@ -55,7 +55,7 @@ void loop()
 
 ## micro:bit 專案說明
 
-使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「伺服機」, 控制伺服機順時針轉和逆時針轉。
+使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「伺服機」，控制伺服機順時針轉和逆時針轉。
 
 此**伺服機**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 

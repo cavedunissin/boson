@@ -58,9 +58,9 @@ void loop()
 
 ## micro:bit 專案說明
 
-使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「LED模組（三色）」, 每1秒控制LED模組（三色）呈現紅、綠和藍光。
+使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「LED模組（三色）」，每1秒控制LED模組（三色）呈現紅、綠和藍光。
 
-此LED模組（三色）包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+此**LED模組（三色）**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 
 ### micro:bit 電路圖
 
@@ -68,7 +68,7 @@ void loop()
 * [科易KEYES micro:bit 感測器擴充板 V2  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * LED模組（三色）
 
-LED模組\(三色\)是**數位/類比訊號**輸出， 可以接「P0 ~ P10」的 micro:bit訊號端上。此範例使用的 LED模組\(三色\) 為共陽極 LED， 由下圖 腳位V 的接到 3.3V ~ 5V 的電源， 腳位 R / B / G 接到數位輸出腳位
+LED模組（三色）是**數位/類比訊號**輸出， 可以接「P0 ~ P10」的 micro:bit訊號端上。此範例使用的 LED模組（三色） 為共陽極 LED， 由下圖 腳位V 的接到 3.3V ~ 5V 的電源， 腳位 R / B / G 接到數位輸出腳位
 
 ![](../../.gitbook/assets/01%20%281%29.jpg)
 
