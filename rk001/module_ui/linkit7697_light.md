@@ -53,15 +53,15 @@ void loop()
 * [科易KEYES micro:bit 感測器擴充板 V2  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * 光敏模組
 
-**光敏模組**是**類比訊號**輸入， 可以接「0、1、2、3、4、10」的 micro:bit訊號端上。 本範例連接到「**P0**」。
+**光敏模組**是**類比訊號**輸入，可以接「0、1、2、3、4、10」的 micro:bit訊號端上，建議使用的是0、1、2腳位，因為3、4、10腳位有使用到LED控制腳位所以當顯示LED時會不穩定。本範例連接到「P0」。
 
-![](../../.gitbook/assets/01.jpg)
+![](../../.gitbook/assets/01%20%281%29.jpg)
 
 ### Microsoft MakeCode積木畫布
 
 每1秒鐘會讀光敏模組的電位一次，並可透過micro:bit顯示指示燈看到光敏模組的電位數值。
 
-![](../../.gitbook/assets/02.jpg)
+![](../../.gitbook/assets/02%20%281%29.jpg)
 
 ### JavaScript 程式
 

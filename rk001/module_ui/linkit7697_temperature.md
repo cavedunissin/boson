@@ -66,7 +66,7 @@ void loop()
 
 每1秒鐘會讀取熱敏（溫度）模組溫度的類比及數位資訊一次 ，並可透過micro:bit顯示指示燈看到熱敏（溫度）模組溫度的電位數值。
 
-![](../../.gitbook/assets/02%20%281%29.jpg)
+![](../../.gitbook/assets/02%20%282%29.jpg)
 
 ### JavaScript 程式
 

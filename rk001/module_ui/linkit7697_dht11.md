@@ -60,7 +60,7 @@ void loop()
 * [科易KEYES micro:bit 感測器擴充板 V2  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * DHT11溫溼度感應器模組
 
-**DHT11溫溼度感應器模組**是**數位訊號**輸出， 可以接「0、 1、 2、 8、 12、13、14、 15、 16、 19、20」的 micro:bit訊號端上。 本範例連接到「**P0**」。
+**DHT11溫溼度感應器模組**是**數位訊號**輸出， 可以接「0、 1、 2、 8、 12、13、14、 15、 16、 19、20」的 micro:bit訊號端上，建議使用的是0、1、2腳位。本範例連接到「**P0**」。
 
 ![](../../.gitbook/assets/01%20%2812%29.JPG)
 
@@ -70,7 +70,7 @@ void loop()
 
 DHT11溫溼度感應器套件安裝網址：[https://github.com/lioujj/pxt-sensors](https://github.com/lioujj/pxt-sensors)
 
-![&#x65B0;&#x589E;&#x64F4;&#x5C55;&#x5957;&#x4EF6;&#x4F4D;&#x7F6E;](../../.gitbook/assets/02%20%284%29.jpg)
+![&#x65B0;&#x589E;&#x64F4;&#x5C55;&#x5957;&#x4EF6;&#x4F4D;&#x7F6E;](../../.gitbook/assets/02%20%285%29.jpg)
 
 ![&#x4F7F;&#x7528;&#x7DB2;&#x5740;&#x5B89;&#x88DD;sensors&#x7684;&#x5957;&#x4EF6;](../../.gitbook/assets/03.jpg)
 
