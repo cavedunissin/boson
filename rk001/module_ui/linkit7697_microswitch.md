@@ -62,7 +62,7 @@ void loop()
 
 每1秒鐘會讀取微動開關模組狀態一次，並可透過micro:bit顯示指示燈看到微動開關模組的狀態。
 
-![](../../.gitbook/assets/02%20%286%29.jpg)
+![](../../.gitbook/assets/02%20%287%29.jpg)
 
 ### JavaScript 程式
 
