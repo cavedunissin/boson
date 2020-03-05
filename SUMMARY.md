@@ -57,7 +57,7 @@
     * [滾珠開關模組](rk001/module_ui/linkit7697_advanceballswitch.md)
     * [超音波測距感測器](rk001/module_ui/linkit7697_ultrasonic.md)
     * [伺服機](rk001/module_ui/linkit7697_servo.md)
-    * [紅外線偵測模組](rk001/module_ui/linkit7697_irsesnor.md)
+    * [紅外線偵測模組](rk001/module_ui/linkit7697_irsensor.md)
     * [I2C 1602液晶顯示模組](rk001/module_ui/linkit7697_i2c1602.md)
     * [熱敏（溫度）模組](rk001/module_ui/linkit7697_temperature.md)
   * [micro:bit影片教學](rk001/microbit_tutorial_video.md)
