@@ -18,19 +18,9 @@
 
 **·        科易KEYES 火焰感測器模組**
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p><b>&#x79D1;&#x6613;KEYES &#x706B;&#x7130;&#x611F;&#x6E2C;&#x5668;&#x6A21;&#x7D44;&#x662F;&#x985E;&#x6BD4;/&#x6578;&#x4F4D;&#x8A0A;&#x865F;&#x8F38;&#x5165;&#xFF0C;&#x53EF;&#x4EE5;&#x63A5;&#x300C;A0 ~ A5&#x300D;/&#x300C;D0 ~ D13&#x300D;&#x7684;KEYES Arduino UNO R3&#x8A0A;&#x865F;&#x7AEF;&#x4E0A;&#x3002; &#x672C;&#x7BC4;&#x4F8B;&#x9023;&#x63A5;&#x5230;&#x300C;A0&#x300D;/&#x300C;D3&#x300D;</b>
-        </p>
-        <p><b>LED&#x71C8;&#x9023;&#x63A5;&#x5230;&#x300C;D13&#x300D;</b>
-        </p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>![](https://lh6.googleusercontent.com/fsJwDeYC59R6pTS8RTojFfCNwMgwVZsOPLjKdI6SfHAS6wPNWRUqVDHDhmfGy9rjO0thIfCPMBhf2dduc82d_HNGTSlTgnMEssZhYIXtgfnwld7KgW8u6gnizNm0BwCK1ax8wn1v)
+**科易KEYES 火焰感測器模組是類比/數位訊號輸入，可以接「A0 ~ A5」/「D0 ~ D13」的KEYES Arduino UNO R3訊號端上。 本範例連接到「A0」/「D3」**
+
+![](https://lh6.googleusercontent.com/fsJwDeYC59R6pTS8RTojFfCNwMgwVZsOPLjKdI6SfHAS6wPNWRUqVDHDhmfGy9rjO0thIfCPMBhf2dduc82d_HNGTSlTgnMEssZhYIXtgfnwld7KgW8u6gnizNm0BwCK1ax8wn1v)
 
 **感測模組特點：**
 
