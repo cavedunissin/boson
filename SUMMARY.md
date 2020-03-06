@@ -83,4 +83,6 @@
     * [LCD1602液晶模組](rk002/module/002_lcd1602.md)
     * [Max7219 8X8 矩陣LED模組](rk002/module/002_max7219.md)
     * [WS2812 RGB12燈燈環模組](rk002/module/002_ws2812_rgb12.md)
+* [其他感測器模組](qi-ta-gan-ce-qi-mo-zu/README.md)
+  * [火焰感測器](qi-ta-gan-ce-qi-mo-zu/flame_sensor.md)
 
