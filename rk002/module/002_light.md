@@ -1,6 +1,6 @@
 # 光線模組
 
-![](../../.gitbook/assets/0%20%2822%29.png)
+![](../../.gitbook/assets/0%20%2823%29.png)
 
 ## 專案說明
 
@@ -18,7 +18,7 @@
 
 \*\*\*\*
 
-![](../../.gitbook/assets/1%20%2831%29.png)
+![](../../.gitbook/assets/1%20%2835%29.png)
 
 ## Arduino 程式
 

@@ -2,7 +2,7 @@
 
 
 
-![](../../.gitbook/assets/0%20%2820%29.png)
+![](../../.gitbook/assets/0%20%2821%29.png)
 
 ## 專案說明
 
@@ -18,7 +18,7 @@
 
 **繼電器**是**數位訊號**輸出， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3」**
 
-![](../../.gitbook/assets/1%20%2815%29.png)
+![](../../.gitbook/assets/1%20%2817%29.png)
 
 ## Arduino 程式
 

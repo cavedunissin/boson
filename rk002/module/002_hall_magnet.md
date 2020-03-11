@@ -16,7 +16,7 @@
 
 **霍爾磁性模組**是**數位訊號輸入**， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3」**
 
-![](../../.gitbook/assets/1%20%2819%29.png)
+![](../../.gitbook/assets/1%20%2821%29.png)
 
 ## Arduino 程式
 

@@ -16,7 +16,7 @@
 
 **旋轉可變電阻**是**類比訊號輸入**，可以接「A0 ~ A5」的KEYES Arduino UNO R3訊號端上。 本範例連接到「**A0」**
 
-![](../../.gitbook/assets/1%20%2823%29.png)
+![](../../.gitbook/assets/1%20%2825%29.png)
 
 ## Arduino 程式
 
