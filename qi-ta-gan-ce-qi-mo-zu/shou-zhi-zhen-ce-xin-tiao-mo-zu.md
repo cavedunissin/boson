@@ -1,6 +1,6 @@
 # 手指偵測心跳模組
 
-**科易KEYES 手指偵測心跳模組**
+## **科易KEYES 手指偵測心跳模組**
 
 ![](../.gitbook/assets/0%20%2816%29.png)
 
@@ -10,7 +10,7 @@
 
 此科易手指偵測心跳模組包含於「[科易KEYES 手指偵測心跳模組](https://robotkingdom.com.tw/product/keyes-%e6%89%8b%e6%8c%87%e5%81%b5%e6%b8%ac%e5%bf%83%e8%b7%b3%e6%a8%a1%e7%b5%84/)」內。
 
-**KEYES Arduino UNO R3電路圖**
+## **KEYES Arduino UNO R3電路圖**
 
 · [KEYES Arduino UNO R3](https://www.robotkingdom.com.tw/product/keyes-uno-r3/)
 
@@ -24,7 +24,7 @@
 
 ![](../.gitbook/assets/1%20%2829%29.png)
 
-**Arduino 程式**
+## **Arduino 程式**
 
 如果手指放紅外線LED和光敏電晶體之間時在兩秒間的感測數值有不同的跳動的話，會顯示你目前手指脈搏偵測到的心跳數，沒有數值跳動的話則不會顯示心跳數。
 
