@@ -18,7 +18,7 @@
 
 \*\*\*\*
 
-![](../../.gitbook/assets/1%20%2835%29.png)
+![](../../.gitbook/assets/1%20%2836%29.png)
 
 ## Arduino 程式
 
