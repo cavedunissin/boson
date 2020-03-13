@@ -12,11 +12,11 @@
 
 ### **KEYES Arduino UNO R3電路圖**
 
-**·**       [ **KEYES Arduino UNO R3**](https://www.robotkingdom.com.tw/product/keyes-uno-r3/)
+**·**  [**KEYES Arduino UNO R3**](https://www.robotkingdom.com.tw/product/keyes-uno-r3/)
 
-**·        通用型彩色Sensor shield v5.0感測器擴充板**
+**·  通用型彩色Sensor shield v5.0感測器擴充板**
 
-**·        科易KEYES 火焰感測器模組**
+**·  科易KEYES 火焰感測器模組**
 
 **科易KEYES 火焰感測器模組是類比/數位訊號輸入，可以接「A0 ~ A5」/「D0 ~ D13」的KEYES Arduino UNO R3訊號端上。 本範例連接到「A0」/「D3」**
 
