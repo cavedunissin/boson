@@ -86,5 +86,5 @@
 * [其他感測器模組](qi-ta-gan-ce-qi-mo-zu/README.md)
   * [火焰感測器](qi-ta-gan-ce-qi-mo-zu/flame_sensor.md)
   * [手指偵測心跳模組](qi-ta-gan-ce-qi-mo-zu/shou-zhi-zhen-ce-xin-tiao-mo-zu.md)
-  * [Untitled](qi-ta-gan-ce-qi-mo-zu/xin-lv-gan-ce-qi.md)
+  * [心律感測器](qi-ta-gan-ce-qi-mo-zu/xin-lv-gan-ce-qi.md)
 
