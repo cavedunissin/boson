@@ -8,7 +8,7 @@
 
 使用「科易KEYES Arduino UNO R3 開發板」連接「科易KEYES心律感測器」,讀取心跳速率。
 
-此科易KEYES心律感測器包含於「[科易](https://robotkingdom.com.tw/product/keyes-%e5%bf%83%e5%be%8b%e6%84%9f%e6%b8%ac%e5%99%a8/)[KEYES](https://robotkingdom.com.tw/product/keyes-%e5%bf%83%e5%be%8b%e6%84%9f%e6%b8%ac%e5%99%a8/)[心律感測器](https://robotkingdom.com.tw/product/keyes-%e5%bf%83%e5%be%8b%e6%84%9f%e6%b8%ac%e5%99%a8/)」內。
+此科易KEYES心律感測器包含於「[科易KEYES心律感測器](https://robotkingdom.com.tw/product/keyes-%e5%bf%83%e5%be%8b%e6%84%9f%e6%b8%ac%e5%99%a8/)」內。
 
 ## **KEYES Arduino UNO R3電路圖**
 
