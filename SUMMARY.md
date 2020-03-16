@@ -85,6 +85,6 @@
     * [WS2812 RGB12燈燈環模組](rk002/module/002_ws2812_rgb12.md)
 * [其他感測器模組](other_sensor/README.md)
   * [火焰感測器](other_sensor/flame_sensor.md)
-  * [手指偵測心跳模組](other_sensor/shou-zhi-zhen-ce-xin-tiao-mo-zu.md)
-  * [心律感測器](other_sensor/heart-rate-sensor.md)
+  * [手指偵測心跳模組](other_sensor/finger_heart_rate_sensor.md)
+  * [心律感測器](other_sensor/heart_rate_sensor.md)
 
