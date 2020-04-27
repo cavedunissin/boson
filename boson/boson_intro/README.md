@@ -108,6 +108,9 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [i5傾斜感測器](input_modules/tilt_switch.md)
 * [i12導電感測開關](input_modules/conductivity_sensor_switch.md)
 * [i13動作感測器](input_modules/motion_sensor.md)
+
+### **輸出模組**
+
 * [o2LED燈模組](output_modules/led_module.md)
 * [o5蜂鳴器模組](output_modules/buzzer_module.md)
 * [o6風扇模組](output_modules/fan_module.md)
