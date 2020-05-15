@@ -40,6 +40,7 @@ pin=訊號接口，frequency=頻率，duration=間距
 //兩隻老虎
 int buzzer=3;                   //設定蜂鳴器接腳為第3孔
 int duration = 500;
+int aSo = 392;
 int bDo = 523;
 int bRe = 587;
 int bMi = 659;
@@ -115,19 +116,20 @@ void loop()
 
   tone(3,bDo,duration);
   delay(700);
-  tone(3,bSo,duration);
+  tone(3,aSo,duration);
   delay(700);
   tone(3,bDo,duration);
   delay(800);
 
   tone(3,bDo,duration);
   delay(700);
-  tone(3,bSo,duration);
+  tone(3,aSo,duration);
   delay(700);
   tone(3,bDo,duration);
   delay(800);
   delay(2000);
 }
+
 
 ```
 
