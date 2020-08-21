@@ -14,19 +14,22 @@
 * LinkIt 7697 NANO Breakout
 * 超音波測距感測器
 
-**超音波測距感測器**是**類比訊號**輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D7**」、「**D8**」 。
+**超音波測距感測器**是**類比訊號**輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D5**」、「**D6**」 。
 
 {% hint style="info" %}
 超音波測距感測器是由發射器、接收器以及控制電路所組成，若待測物體距離太遠，或者發射器、接收器其中一個被遮蔽，皆會導致量測距離結果錯誤。
+
+  
+另外還有一點需要注意的部分，如果您用到使用I2C腳位的模組來顯示此超音波的數值，例如I2C 1602液晶顯示模組，必須避免使用D8、D9腳位來讀取超音波的數值，因為D8\(I2C1\_CLK\)、D9\(I2C1\_DATA\)就是7697的I2C腳位，同時使用會發生數值無法正常顯示在顯示模組上。
 {% endhint %}
 
-![](../../.gitbook/assets/linkit7697_ultrasonic_01.png)
+![](../../.gitbook/assets/chao-yin-bo-ce-ju-gan-ce-qi-1.jpg)
 
 ### BlocklyDuino 積木畫布
 
 每0.5秒鐘會讀取一次超音波測距感測器所測得的距離。
 
-![](../../.gitbook/assets/linkit7697_ultrasonic_02.png)
+![](../../.gitbook/assets/chao-yin-bo-ce-ju-gan-ce-qi-2.png)
 
 ![](../../.gitbook/assets/linkit7697_ultrasonic_03.png)
 
@@ -35,7 +38,7 @@
 ```c
 #include <Ultrasonic.h>
 
-Ultrasonic ultrasonic_7_8(7, 8);
+Ultrasonic ultrasonic_5_6(5, 6);
 
 void setup()
 {
@@ -47,7 +50,7 @@ void setup()
 
 void loop()
 {
-  Serial.println(ultrasonic_7_8.convert(ultrasonic_7_8.timing(), Ultrasonic::CM));
+  Serial.println(ultrasonic_5_6.convert(ultrasonic_5_6.timing(), Ultrasonic::CM));
   delay(500);
 }
 ```
