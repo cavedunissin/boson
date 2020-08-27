@@ -14,20 +14,34 @@
 * LinkIt 7697 NANO Breakout
 * LED模組\(三色\)
 
-**LED模組\(三色\)**是**數位/類比訊號**輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 此範例使用的 LED模組\(三色\) 為共陽極 LED， 由下圖 把腳位V 接到 3.3V ~ 5V 的電源， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
+**LED模組\(三色\)**是**數位/類比訊號**輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 下圖範例使用的 LED模組\(三色\) 為共陽極 LED， 由下圖 把腳位V 接到 3.3V ~ 5V 的電源， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
 
 ![](../../.gitbook/assets/linkit7697_rgbled_01.png)
 
 當 R / B / G 的腳位拉高到 3.3V/5V, 電流就不會流過, LED 就不會點亮 。  
 當 R / B / G 的腳位拉低， 電流就會流過。 LED 就會點亮，本範例R / B / G連接到「**D2、D3、D4**」 。
 
+{% hint style="info" %}
+注意使用以下版本LED模組\(三色\)時是共陰極LED，把腳位V 接到 GND， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
+
+當 R / B / G 的腳位拉高到 3.3V/5V,電流就會流過。 LED 就會點亮，本範例R / B / G連接到「**D2、D3、D4**」 。 當 R / B / G 的腳位拉低，電流就不會流過, LED 就不會點亮 。
+{% endhint %}
+
+![](../../.gitbook/assets/img_20200624_184007.jpg)
+
 ![](../../.gitbook/assets/linkit7697_rgbled_02.png)
 
 ### BlocklyDuino 積木畫布
 
+共陽極三色LED程式  
 透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 此範例使用的是共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D2／D3／D4）為低電位狀態時， 電流才會流過並發亮。
 
 ![](../../.gitbook/assets/linkit7697_rgbled_03.png)
+
+共陰極三色LED程式  
+透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 使用共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D2／D3／D4）為高電位狀態時， 電流才會流過並發亮。
+
+![](../../.gitbook/assets/led-mo-zu-san-se-.png)
 
 ### Arduino 程式
 
