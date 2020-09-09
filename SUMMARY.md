@@ -83,6 +83,7 @@
     * [LCD1602液晶模組](rk002/module/002_lcd1602.md)
     * [Max7219 8X8 矩陣LED模組](rk002/module/002_max7219.md)
     * [WS2812 RGB12燈燈環模組](rk002/module/002_ws2812_rgb12.md)
+* [Hangeekduino](hangeekduino.md)
 * [其他感測器模組](other_sensor/README.md)
   * [火焰感測器](other_sensor/flame_sensor.md)
   * [手指偵測心跳模組](other_sensor/finger_heart_rate_sensor.md)
