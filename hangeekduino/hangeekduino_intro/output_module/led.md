@@ -4,7 +4,7 @@
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_0_helloworld2.png)
+![](../../../.gitbook/assets/lesson_1_led2.png)
 
 ## **對應的**Arduino 語法
 
@@ -16,7 +16,7 @@
 
 將4號腳位的電位拉低、拉高，每一秒鐘會切換LED的亮暗一次。
 
-![](../../../.gitbook/assets/lesson_1_led.png)
+![](../../../.gitbook/assets/lesson_1_led%20%281%29.png)
 
 ## Arduino 程式
 
@@ -36,4 +36,6 @@ void loop()
   delay(1000);
 }
 ```
+
+
 
