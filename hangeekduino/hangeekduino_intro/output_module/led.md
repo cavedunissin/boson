@@ -16,7 +16,7 @@
 
 將4號腳位的電位拉低、拉高，每一秒鐘會切換LED的亮暗一次。
 
-![](../../../.gitbook/assets/image%20%283%29.png)
+![](../../../.gitbook/assets/lesson_0_helloworld.png)
 
 ## Arduino 程式
 
