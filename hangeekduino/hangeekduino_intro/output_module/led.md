@@ -4,7 +4,7 @@
 
 ## **指令**
 
-![](../../../.gitbook/assets/01led00.png)
+![](../../../.gitbook/assets/lesson_0_helloworld2.png)
 
 ## **對應的**Arduino 語法
 
