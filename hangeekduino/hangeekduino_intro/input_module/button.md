@@ -16,7 +16,7 @@ digitalRead(6);
 
 ### 範例 BlocklyDuino 積木畫布
 
-當按下按鈕時，LED就會亮，沒按下按鈕時KEDLELEDSDEDfLLLAAAA
+當按下按鈕時，LED就會亮，沒按下按鈕時LED則不會亮。
 
 ![](../../../.gitbook/assets/lesson_2_button.png)
 
