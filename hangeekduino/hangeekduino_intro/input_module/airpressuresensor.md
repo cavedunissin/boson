@@ -1,6 +1,6 @@
 # 氣壓感測模組
 
-
+![](../../../.gitbook/assets/airpressure.jpg)
 
 ## **指令**
 
