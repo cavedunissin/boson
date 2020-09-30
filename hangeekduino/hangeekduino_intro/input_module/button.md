@@ -23,19 +23,24 @@ digitalRead(6);
 ## Arduino 程式
 
 ```text
-int Value;
-
 void setup()
 {
-  pinMode(5, OUTPUT);
+  pinMode(6, INPUT);
 
 }
 
 
 void loop()
 {
-  Value = (map(analogRead(0),0,1023,0,255));
-  analogWrite(5, Value);
+  if (0 == 1) {
+    digitalWrite(4, 1);
+
+  } else {
+    digitalWrite(4, 0);
+
+  }
+digitalRead(6);
+
 }
 ```
 
