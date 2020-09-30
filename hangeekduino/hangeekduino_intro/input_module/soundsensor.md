@@ -1,6 +1,6 @@
 # 聲音感測模組
 
-
+![](../../../.gitbook/assets/sound.jpg)
 
 ## **指令**
 
