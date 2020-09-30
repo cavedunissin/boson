@@ -1,8 +1,6 @@
 # OLED顯示模組
 
-
-
-
+![](../../../.gitbook/assets/oled.jpg)
 
 ## **指令**
 
