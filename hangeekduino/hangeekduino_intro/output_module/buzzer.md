@@ -1,6 +1,6 @@
 # 蜂鳴器模組
 
-
+![](../../../.gitbook/assets/buzzer-05.jpg)
 
 ## **指令**
 
@@ -14,7 +14,7 @@
 
 ### 範例 BlocklyDuino 積木畫布
 
-賦值整數Value到映射旋轉式電位器數值0-1023成0-255，並將5號腳位的蜂鳴器使用PWM發聲給予整數Value。
+賦值整數Value到映射旋轉式電位器數值0-1023成0-255，並將5號腳位的蜂鳴器使用PWM發聲給予整數Value值。
 
 ![](../../../.gitbook/assets/lesson_4_buzzer.png)
 
