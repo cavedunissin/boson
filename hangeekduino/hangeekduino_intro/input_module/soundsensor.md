@@ -14,7 +14,7 @@
 
 ### 範例 BlocklyDuino 積木畫布
 
-根據光感測器模組的數值來決定LED模組的亮或暗，數值越大LED會暗，數值越小LED會亮。並在序列埠印光感測器的數值。
+根據聲音測器模組的數值來決定LED模組的亮或暗，聲音感測器數值越大於600LED會亮，否則LED會暗。並在序列埠印光感測器的數值。
 
 ![](../../../.gitbook/assets/lesson_6_soundcontrolled.png)
 
