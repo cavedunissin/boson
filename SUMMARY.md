@@ -89,7 +89,7 @@
       * [按鈕模組](hangeekduino/hangeekduino_intro/input_module/button.md)
       * [旋轉電位計模組](hangeekduino/hangeekduino_intro/input_module/rotarypotentiometer.md)
       * [聲音感測模組](hangeekduino/hangeekduino_intro/input_module/soundsensor.md)
-      * [光線感測模組](hangeekduino/hangeekduino_intro/input_module/lightsensor.md)
+      * [光感測器模組](hangeekduino/hangeekduino_intro/input_module/lightsensor.md)
       * [溫溼度感測模組](hangeekduino/hangeekduino_intro/input_module/dht11sensor.md)
       * [三軸加速度模組](hangeekduino/hangeekduino_intro/input_module/accelerometer.md)
       * [氣壓感測模組](hangeekduino/hangeekduino_intro/input_module/airpressuresensor.md)

@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 ## **指令**
 
 ![](../../../.gitbook/assets/lesson_3_rotarycontrolled2.png)
