@@ -36,7 +36,7 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 
 ![&#x5E8F;&#x5217;&#x57E0;&#x76E3;&#x63A7;&#x8996;&#x7A97;&#x958B;&#x555F;&#x4F4D;&#x7F6E;](../../.gitbook/assets/hangeekduino_serialport1.png)
 
-開啟序列埠監控視窗之後可以看到每一秒都會換行並印出Hello World，代表程式沒問題，驅動程式安裝正常，程式燒錄成功，就可以開始嘗試我們以下輸入輸出的範例。
+開啟序列埠監控視窗之後可以看到每一秒都會換行並印出Hello World，代表程式沒問題，驅動程式安裝正常，程式燒錄成功，就可以開始嘗試我們以下輸入模組、輸出模組的範例。
 
 ![&#x5E8F;&#x5217;&#x57E0;&#x76E3;&#x63A7;&#x8996;&#x7A97;&#x756B;&#x9762;](../../.gitbook/assets/hangeekduino_serialport2.png)
 
