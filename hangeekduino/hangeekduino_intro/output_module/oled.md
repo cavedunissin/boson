@@ -9,12 +9,12 @@
 ## **對應的**Arduino 語法
 
 ```text
-  u8x8.print("Hello World!");
+  u8x8.print("hello Arduino!");
 ```
 
 ### 範例 BlocklyDuino 積木畫布
 
-在OLED螢幕畫面上0, 0的位置上顯示Hello World!。
+在OLED螢幕畫面上0, 0的位置上顯示hello Arduino!。
 
 ![](../../../.gitbook/assets/lesson_7_oled.png)
 
@@ -36,7 +36,7 @@ void setup()
 void loop()
 {
   u8x8.setCursor(0, 0);
-  u8x8.print("Hello World!");
+  u8x8.print("hello Arduino!");
 }
 ```
 
