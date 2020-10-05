@@ -1,6 +1,6 @@
 # 認識Hangeekduino
 
-Hangeekduino是根據BlocklyDuino所新增D首次接觸就上手套件相關積木功能出來所設計的軟體，注意目前此軟體只支援Windows作業系統使用。
+Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積木功能出來所設計的軟體，注意目前此軟體只支援Windows作業系統使用。
 
 使用方法就跟BlocklyDuino一樣，從下圖可以看到在積木選單下新增了Arduino首次接觸就上手的區塊。Arduino首次接觸就上手的相關積木都在這邊可以使用。
 
