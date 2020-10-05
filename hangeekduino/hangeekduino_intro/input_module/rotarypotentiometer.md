@@ -1,6 +1,6 @@
 # 旋轉電位計模組
 
-
+![](../../../.gitbook/assets/rotary.jpg)
 
 ## **指令**
 
