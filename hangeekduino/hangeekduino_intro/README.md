@@ -12,7 +12,9 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 
 第一次使用Hangeekduino軟體或Arduino首次接觸就上手的人，需要先安裝CP2102 USB驅動程式才可以正常燒錄程式，根據以下網址選擇您電腦所對應的作業系統下載對應的安裝檔並安裝CP2102 USB驅動程式。
 
-[https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+{% embed url="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers" %}
+
+
 
 
 
