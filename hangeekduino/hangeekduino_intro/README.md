@@ -14,10 +14,6 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 
 {% embed url="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers" %}
 
-
-
-
-
 成功安裝完CP2102 USB驅動程式後，將板子上的USB線插入電腦中即可在畫面右上方選擇電腦抓到的COM Port-序列埠\(如下圖橘框處所示\)，這裡我們選擇COM3。
 
 ![&#x9078;&#x64C7;COM Port\(&#x5E8F;&#x5217;&#x57E0;\)&#x7684;&#x4F4D;&#x7F6E;](../../.gitbook/assets/hangeekduino_comport.png)
