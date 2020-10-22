@@ -14,7 +14,7 @@
 * **LinkIt 7697 NANO Breakout**
 * **科易KEYES 雨水感測器模組**
 
-科易KEYES 雨水感測器模組是類比/數位訊號輸入，可以接「D0 ~ D13、A0~A3」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到類比連接至「A0」、數位連接至「D5」。
+科易KEYES 雨水感測器模組是類比/數位訊號輸入，可以接「D0 ~ D13、A0~A3」的 LinkIt 7697 NANO Breakout訊號端上。 本範例類比\(AO\)連接至「A0」、數位\(DO\)連接至「D5」。
 
 ![](https://lh4.googleusercontent.com/Pt71XdE4TZzFjUOV0mP7uxkU-bdHPXxHTLDhdUyW-zgB4T_Fw_h2Gzn5KDcCB0OMCCt1DBuqtImO-lc5JYcO4FFulBPo7I_aFfrxBAOmN398V6mGYkHxecq65ha1rk77oLD0VGtd)
 
