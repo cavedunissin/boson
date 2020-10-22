@@ -54,55 +54,27 @@
 
 ### **Arduino 程式**
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p><b>int RAIND;</b>
-        </p>
-        <p><b>int RAINA;</b>
-        </p>
-        <p><b>void setup()</b>
-        </p>
-        <p><b>{</b>
-        </p>
-        <p><b>  pinMode(5, INPUT);</b>
-        </p>
-        <p><b>  Serial.begin(9600);</b>
-        </p>
-        <p><b>}</b>
-        </p>
-        <p><b>void loop()</b>
-        </p>
-        <p><b>{</b>
-        </p>
-        <p><b>  RAIND = digitalRead(5);</b>
-        </p>
-        <p><b>  RAINA = (map(analogRead(A0),0,4095,0,1023));</b>
-        </p>
-        <p><b>  Serial.println(digitalRead(5));</b>
-        </p>
-        <p><b>  if (RAIND == 1) {</b>
-        </p>
-        <p><b>    Serial.println(&quot;&#x6C92;&#x6709;&#x4E0B;&#x96E8;&quot;);</b>
-        </p>
-        <p><b>  } else if (RAIND == 0) {</b>
-        </p>
-        <p><b>    Serial.println(&quot;&#x5075;&#x6E2C;&#x5230;&#x96E8;&#x6C34;&quot;);</b>
-        </p>
-        <p><b>  }</b>
-        </p>
-        <p><b>  Serial.println(&quot;&#x96E8;&#x6C34;&#x7684;&#x6578;&#x503C;:&quot;);</b>
-        </p>
-        <p><b>  Serial.println(RAINA);</b>
-        </p>
-        <p><b>  delay(1000);</b>
-        </p>
-        <p><b>}</b>
-        </p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+```text
+int RAIND;
+int RAINA;
+void setup()
+{
+  pinMode(5, INPUT);
+  Serial.begin(9600);
+}
+void loop()
+{
+  RAIND = digitalRead(5);
+  RAINA = (map(analogRead(A0),0,4095,0,1023));
+  Serial.println(digitalRead(5));
+  if (RAIND == 1) {
+    Serial.println("沒有下雨");
+  } else if (RAIND == 0) {
+    Serial.println("偵測到雨水");
+  }
+  Serial.println("雨水的數值:");
+  Serial.println(RAINA);
+  delay(1000);
+}
+```
 
