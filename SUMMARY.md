@@ -101,4 +101,5 @@
   * [火焰感測器](other_sensor/flame_sensor.md)
   * [手指偵測心跳模組](other_sensor/finger_heart_rate_sensor.md)
   * [心律感測器](other_sensor/heart_rate_sensor.md)
+  * [科易KEYES 雨水感測器](other_sensor/ke-yi-keyes-yu-shui-gan-ce-qi.md)
 
