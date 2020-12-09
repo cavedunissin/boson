@@ -84,6 +84,7 @@
     * [Max7219 8X8 矩陣LED模組](rk002/module/002_max7219.md)
     * [WS2812 RGB12燈燈環模組](rk002/module/002_ws2812_rgb12.md)
 * [Arduino首次接觸就上手](hangeekduino/README.md)
+  * [Arduino首次接觸就上手書籍修改內容](hangeekduino/arduino-shou-ci-jie-chu-jiu-shang-shou-shu-ji-xiu-gai-nei-rong.md)
   * [認識Hangeekduino](hangeekduino/hangeekduino_intro/README.md)
     * [輸入模組](hangeekduino/hangeekduino_intro/input_module/README.md)
       * [按鈕模組](hangeekduino/hangeekduino_intro/input_module/button.md)
