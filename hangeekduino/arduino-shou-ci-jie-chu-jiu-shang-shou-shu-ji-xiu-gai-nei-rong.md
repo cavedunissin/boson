@@ -135,13 +135,7 @@ analogWrite\(BuzzerPin, Value\);
 
 **描述：**
 
-將類比值（PWM）寫入腳位。可用於調整 LED 亮度或控制馬達的
-
-轉速快慢。在設定 analogWrite\(\) 函式後，該腳位將生成指定工作
-
-週期的穩定方波，直到同一腳位再次被不同參數的 analogWrite\(\)
-
-函式設定（也可以使用 digitalRead\(\) 或 digitalWrite\(\) 函式）為止。
+將類比值（PWM）寫入腳位。可用於調整 LED 亮度或控制馬達的轉速快慢。在設定 analogWrite\(\) 函式後，該腳位將生成指定工作週期的穩定方波，直到同一腳位再次被不同參數的 analogWrite\(\)函式設定（也可以使用 digitalRead\(\) 或 digitalWrite\(\) 函式）為止。
 
 **語法：**
 
