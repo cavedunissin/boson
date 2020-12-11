@@ -1,27 +1,27 @@
 # 蜂鳴器模組
 
-![](../../../.gitbook/assets/buzzer-05.jpg)
+
+
+![](../../../.gitbook/assets/2%20%2820%29.png)
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_4_buzzer2.png)
+![](../../../.gitbook/assets/lesson_4_buzzer2%20%281%29.png)
 
 ## **對應的**Arduino 語法
 
 ```text
-  analogWrite(5, 128);
+tone(5, 1000);
 ```
 
-### 範例 BlocklyDuino 積木畫布
+使蜂鳴器發出設定好的頻率的聲音，透過迴圈使蜂鳴器發出電話鈴響的聲音。
 
-賦值整數Value到映射旋轉式電位器數值0-1023成0-255，並將5號腳位的蜂鳴器使用PWM發聲給予整數Value值。
-
-![](../../../.gitbook/assets/lesson_4_buzzer.png)
+![](../../../.gitbook/assets/image%20%283%29.png)
 
 ## Arduino 程式
 
 ```text
-int Value;
+int  i;
 
 void setup()
 {
@@ -32,8 +32,14 @@ void setup()
 
 void loop()
 {
-  Value = (map(analogRead(0),0,1023,0,255));
-  analogWrite(5, Value);
+  for (i = 0; i <= 10; i++) {
+    tone(5, 2000);
+    delay(50);
+    tone(5, 1000);
+    delay(50);
+  }
+  noTone(5);
+  delay(1000);
 }
 ```
 
