@@ -22,53 +22,32 @@ P27 程式碼部分
 
 粗體字部分為須更改之程式碼AND註解
 
+```text
 //Rotary controls LED
-
 int rotaryPin = A0; // select the input pin for the rotary
-
 int ledPin = 4; // select the pin for the LED
-
 int rotaryValue = 0; // variable to store the value coming from the rotary
-
-void setup\(\) {
-
+void setup() {
  // declare the ledPin as an OUTPUT:
-
-pinMode\(ledPin, OUTPUT\);
-
+pinMode(ledPin, OUTPUT);
 }
-
-void loop\(\) {
-
+void loop() {
  // read the value from the sensor:
-
-rotaryValue = analogRead\(rotaryPin\);
-
+rotaryValue = analogRead(rotaryPin);
  // turn the ledPin on
-
-digitalWrite\(ledPin, HIGH\);
-
- **// stop the program for &lt;sensorValue&gt; milliseconds:**
-
-**delay\(rotaryValue\);**
-
- **// turn the ledPin off:**
-
-digitalWrite\(ledPin, LOW\);
-
- // stop the program for for &lt;sensorValue&gt; milliseconds:
-
-delay\(rotaryValue\);
-
+digitalWrite(ledPin, HIGH);
+ // stop the program for <sensorValue> milliseconds://本行修改
+delay(rotaryValue);//本行修改
+ // turn the ledPin off://本行修改
+digitalWrite(ledPin, LOW);
+ // stop the program for for <sensorValue> milliseconds:
+delay(rotaryValue);
 }
+```
 
 ## 04. 蜂鳴器\(整個章節修改\)
 
-與 LED 模組相同，蜂鳴器也是輸出模組，不同的是它不會發
-
-光而是發出聲音。蜂鳴器在很多情況下可以用於指示某種狀況或提
-
-醒。
+與 LED 模組相同，蜂鳴器也是輸出模組，不同的是它不會發光而是發出聲音。蜂鳴器在很多情況下可以用於指示某種狀況或提醒。
 
 **背景知識**
 
@@ -244,45 +223,28 @@ map \(\) 函式只接受整數，因此就算運算結果有小數點，一樣�
 
 P42程式碼部分以下粗體為修改部分
 
+```text
 //Sound Control Light
-
 int soundPin = A2; // Analog sound sensor is to be attached to analog
-
 int ledPin = 4; // Digital LED is to be attached to digital
-
-void setup\(\) {
-
- pinMode\(ledPin, OUTPUT\);
-
- pinMode\(soundPin, INPUT\);
-
- Serial.begin\(9600\);
-
+void setup() {
+ pinMode(ledPin, OUTPUT);
+ pinMode(soundPin, INPUT);
+ Serial.begin(9600);
 }
-
-void loop\(\) {
-
- int soundState = analogRead\(soundPin\); // Read sound sensor’s value
-
- Serial.println\(soundState\);
-
+void loop() {
+ int soundState = analogRead(soundPin); // Read sound sensor’s value
+ Serial.println(soundState);
  // if the sound sensor’s value is greater than 600, the light will be on.
-
- //Otherwise, the light will be turned **off**
-
- if \(soundState &gt; 600\) {
-
- digitalWrite\(ledPin, HIGH\);
-
- delay\(100\);
-
+ //Otherwise, the light will be turned off //本行修改
+ if (soundState > 600) {
+ digitalWrite(ledPin, HIGH);
+ delay(100);
  } else {
-
- digitalWrite\(ledPin, LOW\);
-
+ digitalWrite(ledPin, LOW);
  }
-
 }
+```
 
 ## 07. OLED顯示模組
 
