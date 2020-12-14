@@ -66,7 +66,7 @@ delay(rotaryValue);
 
 **什麼是 PWM ？**
 
-脈衝寬度調變 \(PWM\) 是一種通過數位方式來模擬類比效果的技術。數位腳位可以產生方波，即在開 \(ON\) 和關 \(OFF\) 之間切換的訊號。只要改變 \(ON\) 和 \(OFF\) 這兩種訊號的時間長度比例，此開關模式可以模擬全開 \(5V\) 和關 \(0V\) 之間的連續電壓變化。【接通時間 \(ontime\)】的持續時間稱為脈衝寬度。例如，如果 LED 重複這種開關模式夠快的話，結果就如同控制 LED 亮度從 0 至 5V 之間的連續穩定電壓一樣。引用自：Arduino（https://www.arduino.cc/en/tutorial/PWM）
+脈衝寬度調變 \(PWM\) 是一種通過數位方式來模擬類比效果的技術。數位腳位可以產生方波，即在開 \(ON\) 和關 \(OFF\) 之間切換的訊號。只要改變 \(ON\) 和 \(OFF\) 這兩種訊號的時間長度比例，此開關模式可以模擬全開 \(5V\) 和關 \(0V\) 之間的連續電壓變化。【接通時間 \(ontime\)】的持續時間稱為脈衝寬度。例如，如果 LED 重複這種開關模式夠快的話，結果就如同控制 LED 亮度從 0 至 5V 之間的連續穩定電壓一樣。引用自：Arduino（[https://www.arduino.cc/en/tutorial/PWM](https://www.arduino.cc/en/tutorial/PWM)）
 
 Seeeduino 上有 6 個數位腳位，上面額外標示了“ ~ ＂符號，表示它們可以發送PWM訊號：3、5、6、9、 10、11，因此它們也稱為PWM腳位。
 
@@ -138,6 +138,20 @@ pin（腳位）: 要寫入的 Arduino 腳位（pin）。
 **拆解指南**
 
 如果模組已從主機板上分離，則需要使用訊號線把蜂鳴器連接到 Seeeduino 的數位連接埠 D5。
+
+**使蜂鳴器發出設定頻率的聲音**
+
+如果要使蜂鳴器發出設定好的頻率的聲音，可以使用以下程式碼，詳細介紹請參考一下連結。
+
+```text
+tone(pin, value);
+```
+
+
+
+[https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/output\_module/buzzer](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/output_module/buzzer)
+
+
 
 **PWM用法**
 
