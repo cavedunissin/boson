@@ -161,7 +161,7 @@ tone(pin, value);
 
 ![](../.gitbook/assets/3.png)
 
-然而，Grove Beginner Kit上的LED燈無法直接使用PWM控制，因為LED連接的是D4，而如上文中所述PWM腳位為3,5,6,9,10,11，pin 4並不是PWM腳位。如果您想用PWM來控制LED，則需要將它拆開下來，使用訊號線連到帶PWM功能的腳位。
+然而，Grove Beginner Kit上的LED燈無法直接使用PWM控制，因為LED連接的是D4，而如上文中所述PWM腳位為3,5,6,9,10,11，pin 4並不是PWM腳位。如果您想用PWM來控制LED，則需要將它拆開下來，使用訊號線連到帶PWM功能的腳位。\(或著如以下範例使用訊號線連接D3腳位，但不能同時使用溫溼度感測器\)
 
 例如，讓我們用訊號線將LED模組與數位連接埠D3連接起來。
 
