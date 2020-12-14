@@ -2,6 +2,8 @@
 
 Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積木功能出來所設計的圖形化程式開發介面，注意目前此軟體只支援Windows作業系統使用。
 
+> 注意目前此軟體只支援Windows作業系統使用
+
 ### **軟體下載連結:**
 
 \*\*\*\*[https://drive.google.com/drive/folders/1iHQyfQvjbS4lhob-3mF5auntte\_G86\_f](https://drive.google.com/drive/folders/1iHQyfQvjbS4lhob-3mF5auntte_G86_f) 
