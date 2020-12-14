@@ -98,7 +98,7 @@
       * [蜂鳴器模組](hangeekduino/samplecode/output_module/buzzer.md)
       * [OLED顯示模組](hangeekduino/samplecode/output_module/oled.md)
   * [書籍更新\_202012更新](hangeekduino/book_update.md)
-  * [認識Hangeekduino](hangeekduino/hangeekduino_intro.md)
+  * [圖形化介面Hangeekduino](hangeekduino/hangeekduino_intro.md)
 * [其他感測器模組](other_sensor/README.md)
   * [火焰感測器](other_sensor/flame_sensor.md)
   * [手指偵測心跳模組](other_sensor/finger_heart_rate_sensor.md)
