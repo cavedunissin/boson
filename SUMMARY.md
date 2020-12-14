@@ -97,7 +97,7 @@
       * [LED模組](hangeekduino/samplecode/output_module/led.md)
       * [蜂鳴器模組](hangeekduino/samplecode/output_module/buzzer.md)
       * [OLED顯示模組](hangeekduino/samplecode/output_module/oled.md)
-  * [Arduino首次接觸就上手書籍修改內容](hangeekduino/arduino-shou-ci-jie-chu-jiu-shang-shou-shu-ji-xiu-gai-nei-rong.md)
+  * [書籍更新\_202012更新](hangeekduino/book_update.md)
   * [認識Hangeekduino](hangeekduino/hangeekduino_intro.md)
 * [其他感測器模組](other_sensor/README.md)
   * [火焰感測器](other_sensor/flame_sensor.md)
