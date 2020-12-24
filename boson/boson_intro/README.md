@@ -20,10 +20,10 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 
 #### [輸入模組](https://cavedu.gitbook.io/boson/boson_intro/input_modules)
 
-* [旋鈕模組](https://cavedu.gitbook.io/boson/boson_intro/input_modules/rotation_sensor) x 1
-* [按鈕模組（藍色）](https://cavedu.gitbook.io/boson/boson_intro/input_modules/push_button) x 1
-* [自鎖開關 ](https://cavedu.gitbook.io/boson/boson_intro/input_modules/self_locking_switch)x 1
-* [光感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/light_sensor)x 1
+* [旋鈕模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/input_modules/rotation_sensor) x 1
+* [按鈕模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/input_modules/push_button) x 1
+* [自鎖開關 ](https://cavedu.gitbook.io/boson/self_locking_switch)x 1
+* [光感測器](https://cavedu.gitbook.io/cavedu/boson/boson_intro/input_modules/light_sensor)x 1
 * [傾斜感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/tilt_switch)x 1
 * [聲音感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/sound_sensor)x 1
 
