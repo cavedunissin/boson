@@ -18,7 +18,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 
 ### 感測器清單：
 
-#### [輸入模組](https://cavedu.gitbook.io/boson/boson_intro/input_modules)
+#### [輸入模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/input_modules)
 
 * [旋鈕模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/input_modules/rotation_sensor) x 1
 * [按鈕模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/input_modules/push_button) x 1
@@ -27,22 +27,22 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [傾斜感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/tilt_switch)x 1
 * [聲音感測器](https://cavedu.gitbook.io/boson/boson_intro/input_modules/sound_sensor)x 1
 
-#### [輸出模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules)
+#### [輸出模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules)
 
-* LED燈模組 x 1
-* LED燈條 x 1
-* [蜂鳴器模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/buzzer_module)x 1
-* [錄音機模組/喇叭](https://cavedu.gitbook.io/boson/boson_intro/output_modules/voice_recorder_module) x 1
-* [馬達模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/motor_controller_module) x 1
-* [伺服機模組](https://cavedu.gitbook.io/boson/boson_intro/output_modules/servo_module_with_servo) x1
+* [七彩燈條](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/rgb_led_string) x 1
+* [LED燈模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/led_module) x 1
+* [蜂鳴器模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/buzzer_module) x 1
+* [錄音機模組/喇叭](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/voice_recorder_module) x 1
+* [馬達模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/motor_controller_module) x 1
+* [伺服機模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/servo_module_with_servo) x1
 
-#### [功能模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules)
+#### [功能模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules)
 
-* [運算邏輯模組 AND](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_and)x 3
-* [運算邏輯模組 OR](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_or)x 3
+* [運算邏輯模組 AND](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_and) x 3
+* [運算邏輯模組 OR](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_or) x 3
 * [運算邏輯模組 NOT](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_not) x 3
-* [分配模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/splitter_module)x 3
-* [閾模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/threshold_module)x 2
+* [分配模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/splitter_module) x 3
+* [閾模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/threshold_module) x 2
 * [計數模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/reversible_counter_module) x 2
 * [計時模組\(0-60秒\)](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/duration_module) x 2
 
