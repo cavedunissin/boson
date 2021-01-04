@@ -38,13 +38,13 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 
 #### [功能模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules)
 
-* [運算邏輯模組 AND](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_and) x 3
-* [運算邏輯模組 OR](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_or) x 3
-* [運算邏輯模組 NOT](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/logic_module_not) x 3
-* [分配模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/splitter_module) x 3
-* [閾模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/threshold_module) x 2
-* [計數模組](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/reversible_counter_module) x 2
-* [計時模組\(0-60秒\)](https://cavedu.gitbook.io/boson/boson_intro/funtion_modules/duration_module) x 2
+* [運算邏輯模組 AND](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/logic_module_and) x 3
+* [運算邏輯模組 OR](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/logic_module_or) x 3
+* [運算邏輯模組 NOT](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/logic_module_not) x 3
+* [分配模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/splitter_module) x 3
+* [閾模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/threshold_module) x 2
+* [計數模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/reversible_counter_module) x 2
+* [計時模組\(0-60秒\)](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/duration_module) x 2
 
 購買連結：[https://www.robotkingdom.com.tw/product/boson-inventor-kit/](https://www.robotkingdom.com.tw/product/boson-inventor-kit/)
 
