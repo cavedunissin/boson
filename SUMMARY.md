@@ -43,6 +43,7 @@
   * [實作範例教學](boson/zuo-li-jiao-linkit-7697.md)
   * [資源鏈結](boson/yuan.md)
 * [洞洞么教學材料包](rk001/README.md)
+  * [新版LinkIt 7697開發板 V1.1版使用序列埠印出指令亂碼問題公告](rk001/xin-ban-linkit-7697-kai-fa-ban-v1.1-ban-shi-yong-xu-lie-bu-yin-chu-zhi-ling-luan-ma-wen-ti-gong-gao.md)
   * [模組使用教學](rk001/module_ui/README.md)
     * [LED模組](rk001/module_ui/linkit7697_led.md)
     * [LED模組（三色）](rk001/module_ui/linkit7697_rgbled.md)
