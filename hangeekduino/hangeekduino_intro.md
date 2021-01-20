@@ -46,3 +46,15 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 
 ![&#x5E8F;&#x5217;&#x57E0;&#x76E3;&#x63A7;&#x8996;&#x7A97;&#x756B;&#x9762;](../.gitbook/assets/hangeekduino_serialport2.png)
 
+## 影片教學:
+
+## 【教學】Arduino首次接觸就上手 5分鐘小教室\_ep1 下載
+
+{% embed url="https://www.youtube.com/watch?v=JKDh8EZ4SXU&feature=youtu.be" %}
+
+## 【教學】Arduino首次接觸就上手 5分鐘小教室\_ep2 安裝驅動程式
+
+{% embed url="https://www.youtube.com/watch?v=JEZQHbwtzkw&list=PLZkpEAYL25ADJUHaSJ-\_bNTNuak8cJFPQ&index=2" %}
+
+
+
