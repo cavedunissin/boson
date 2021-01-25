@@ -21,6 +21,8 @@
 當 R / B / G 的腳位拉高到 3.3V/5V, 電流就不會流過, LED 就不會點亮 。  
 當 R / B / G 的腳位拉低， 電流就會流過。 LED 就會點亮，本範例R / B / G連接到「**D2、D3、D4**」 。
 
+![](../../.gitbook/assets/linkit7697_rgbled_02.png)
+
 {% hint style="info" %}
 注意使用以下版本LED模組\(三色\)時是共陰極LED，把腳位V 接到 GND， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
 
@@ -28,8 +30,6 @@
 {% endhint %}
 
 ![](../../.gitbook/assets/img_20200624_184007.jpg)
-
-![](../../.gitbook/assets/linkit7697_rgbled_02.png)
 
 ### BlocklyDuino 積木畫布
 
