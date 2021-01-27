@@ -23,18 +23,17 @@ analogRead(0);
 ```text
 void setup()
 {
-  pinMode(4, OUTPUT);
 
+  pinMode(4, OUTPUT);
 }
 
 
 void loop()
 {
   digitalWrite(4, 1);
+  delay((analogRead(0)));
   digitalWrite(4, 0);
-  delay(1000);
-analogRead(0);
-
+  delay((analogRead(0)));
 }
 ```
 
