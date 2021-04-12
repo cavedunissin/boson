@@ -40,3 +40,7 @@ void loop()
 }
 ```
 
+## 影片教學: <a id="ying-pian-jiao-xue"></a>
+
+{% embed url="https://youtu.be/B2dNXZVC5II" %}
+
