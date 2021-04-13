@@ -42,3 +42,9 @@ digitalRead(6);
 }
 ```
 
+## 影片教學:
+
+{% embed url="https://www.youtube.com/watch?v=wfvV9fWlIrM" %}
+
+
+
