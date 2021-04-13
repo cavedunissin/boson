@@ -16,11 +16,11 @@
 
 **Grove–VOC與eCO2 氣體感測器**是**I2C訊號**輸出， 可以接「I2C」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**I2C**」，「**SDA**」**←→**「**SDA**」，「**SCL**」**←→**「**SCL**」。
 
-![](../.gitbook/assets/spg307697pin.png)
+![](../.gitbook/assets/spg307697pin%20%281%29.png)
 
 ### Arduino 程式
 
-由於Grove–VOC與eCO2 氣體感測器是函式庫型模組，所以需要先在Arduino上下載函式庫，下載方法如下。 首先先從github上載Seeed SGP30 library 函式庫，解壓縮後從草稿碼選項中匯入程式庫。\(如下圖\)  
+由於Grove–VOC與eCO2 氣體感測器是函式庫型模組，所以需要先在Arduino上下載函式庫，下載方法如下。 首先先從github上下載Seeed SGP30 library 函式庫，從草稿碼選項中匯入ZIP檔程式庫。\(如下圖\)  
 ****[https://github.com/Seeed-Studio/SGP30\_Gas\_Sensor](https://github.com/Seeed-Studio/SGP30_Gas_Sensor)
 
 ![](../.gitbook/assets/spg307697lib.jpg)
