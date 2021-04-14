@@ -4,6 +4,10 @@
 
 ### **專案說明**
 
+{% hint style="info" %}
+**此Grove–VOC與eCO2 氣體感測器不適用於吉哥自製積木的BlocklyDuino，如想使用此組感測器請使用ArduinoIDE編寫程式燒錄使用。**
+{% endhint %}
+
 **使用「LinkIt 7697 NANO Breakout」連接「Grove–VOC與eCO2 氣體感測器」,讀取Grove–VOC與eCO2 氣體感測器數值變化。**
 
 **此Grove–VOC與eCO2 氣體感測器包含於「**[**Grove – VOC與eCO2 氣體感測器 VOC and eCO2 Gas Sensor \(SGP30\)**](https://robotkingdom.com.tw/product/grove-voc-and-eco2-gas-sensor-sgp30/)**」內。**
