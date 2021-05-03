@@ -106,6 +106,6 @@
   * [心律感測器](other_sensor/heart_rate_sensor.md)
   * [科易KEYES 雨水感測器](other_sensor/rainsensor.md)
   * [Grove–VOC與eCO2 氣體感測器 \(SGP30\)](other_sensor/grove-voc-and-eco2-gas-sensor-sgp30.md)
-* [MCS Lite 介紹及網頁遠端監控](mcs-lite-jie-shao-ji-mcs-lite-huan-jing-jian-zhi/README.md)
-  * [5-4 MCS Lite 介紹及MCS Lite 環境建置](mcs-lite-jie-shao-ji-mcs-lite-huan-jing-jian-zhi/54-mcs-lite-jie-shao-ji-mcs-lite-huan-jing-jian-zhi.md)
+* [MCS Lite 介紹及感測器網頁遠端監控](mcs-lite/README.md)
+  * [5-4 MCS Lite 介紹及MCS Lite 環境建置](mcs-lite/54-mcs-lite-jie-shao-ji-mcs-lite-huan-jing-jian-zhi.md)
 
