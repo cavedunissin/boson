@@ -109,4 +109,5 @@
 * [MCS Lite 介紹及感測器網頁遠端監控](mcs-lite/README.md)
   * [5-4 MCS Lite 介紹及MCS Lite 環境建置](mcs-lite/mcs-lite-introduction-environment.md)
   * [5-5 網頁遠端監控LED](mcs-lite/mcs-lite-control-led.md)
+  * [5-6 雲端溫濕度監控](mcs-lite/mcs-lite-cloud-sensor-control.md)
 
