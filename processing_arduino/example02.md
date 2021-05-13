@@ -17,7 +17,8 @@
 <b>按鈕按下，可變電阻值 > 800</b><br/>
 ![](../.gitbook/assets/processing_arduino_ex01_02.png)
 
-## Processing程式 - arduino_input_easy.pde
+## Processing程式
+檔名 - [arduino_input_easy.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/arduino_input_easy)
 <br/>
 ```text
 import processing.serial.*;
