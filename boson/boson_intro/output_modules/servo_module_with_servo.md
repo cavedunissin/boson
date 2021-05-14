@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../../../.gitbook/assets/servo_module_with_servo.jpg)
+![Optional title](../../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-wu-tu.jpg)
 
 ## 基本信息
 
@@ -46,7 +46,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：**
 
-![](../../../.gitbook/assets/servo_module_with_servo_example1.png)
+![](../../../.gitbook/assets/boson_舵机控制模块_爬爬虫连线图%20%283%29.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -58,7 +58,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：** 將土壤濕度感測器連接至micro:bit擴充板P0腳位，9g金屬伺服機模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/servo_module_with_servo_example_m1.png)
+![](../../../.gitbook/assets/boson9g-jin-shu-duo-ji-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-lian-xian-tu.png)
 
 **執行流程：**
 
@@ -72,7 +72,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/servo_module_with_servo_prg_en.png)
+![](../../../.gitbook/assets/boson_9g金属舵机模块_自动浇花装置程序示意图英文版%20%282%29.png)
 
 ## 實作範例教學-LinkIt 7697篇
 

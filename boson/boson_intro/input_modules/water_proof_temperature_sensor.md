@@ -24,7 +24,7 @@ SKU：BOS0042
 
 防水溫度感測器可以與Arduino結合使用。使用時，必須連接上拉電阻，與可插拔感測器轉接器配合使用。按照下圖所示連接電路，通電後將防水溫度感測器的探頭放入待測量的物體中，則測量物體的溫度值可以通過OLED顯示模組直接讀取。防水溫度感測器的感溫範圍在-55℃~+125℃之間，溫度顯示範圍為-10°C~+85°C（誤差±0.5°C）。
 
-![](../../../.gitbook/assets/water_proof_temperature_sensor_ui.png)
+![](../../../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-shi-yong-shuo-ming%20%281%29.png)
 
 **\*注意：**雖然該產品能夠在125°C下正常工作，但由於纜線是由聚氯乙烯（PVC）材料製成的，沒有感測器耐熱，因此我們建議不要將其放在溫度高於100°C的地方。\*
 
@@ -42,7 +42,7 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../../../.gitbook/assets/water_proof_temperature_sensor_example1.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%282%29.png)
 
 ### \(2\) 糧倉溫濕度檢測
 
@@ -52,7 +52,7 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../../../.gitbook/assets/water_proof_temperature_sensor_example2.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%287%29.png)
 
 ### \(3\) 液體溫度檢測儀
 
@@ -70,11 +70,11 @@ SKU：BOS0042
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/water_proof_temperature_sensor_prg_ch_tw.png)
+![](../../../.gitbook/assets/light_sensor_prg_ch_tw%20%281%29.png)
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/water_proof_temperature_sensor_prg_en.png)
+![](../../../.gitbook/assets/boson_环境光传感器_应用样例5_程序示意图英文版.png)
 
 ## 商品規格
 

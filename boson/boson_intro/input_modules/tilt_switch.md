@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/tilt_switch.jpg)
+![](../../../.gitbook/assets/boson-qing-xie-kai-guan-shi-wu-tu-pian.jpg)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ SKU：BOS0005
 
 按照下圖所示連接電路，通電後即可使用傾斜感測器控制LED燈的亮滅：當傾斜感測器發生傾斜時，LED燈被點亮；否則LED燈被熄滅。
 
-![](../../../.gitbook/assets/boson-qing-xie-kai-guan-shi-yong-shuo-ming.png)
+![](../../../.gitbook/assets/boson_倾斜开关_使用说明.png)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ SKU：BOS0005
 
 
 
-![](../../../.gitbook/assets/tilt_switch_example1.png)
+![](../../../.gitbook/assets/boson_计数模块_制作存钱罐连线图%20%281%29.png)
 
 ### 畫廊展示品防盜警報器
 
@@ -56,7 +56,7 @@ SKU：BOS0005
 
 **連線圖：**
 
-![](../../../.gitbook/assets/tilt_switch_example2.png)
+![](../../../.gitbook/assets/boson_逻辑“或”模块_画廊展示品防盗报警器连线图%20%283%29.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -68,7 +68,7 @@ SKU：BOS0005
 
 **連線圖：**
 
-![](../../../.gitbook/assets/tilt_switch_example3.png)
+![](../../../.gitbook/assets/boson_倾斜开关_应用样例3_连线图.png)
 
 **設計意圖：**傾斜感測器在發生傾斜時會輸出高電位，否則輸出低電位。製作傾斜警報器時需要先讀取傾斜感測器輸出的數位信號，若讀取到高電位，表示已經發生傾斜，為蜂鳴器模組寫入高電位，蜂鳴器開始鳴叫；否則為蜂鳴器模組寫入低電位，蜂鳴器停止鳴叫。
 
@@ -80,7 +80,7 @@ SKU：BOS0005
 
  **Example program\(English\)：**
 
-![](../../../.gitbook/assets/tilt_switch_prg_en.png)
+![](../../../.gitbook/assets/boson_倾斜开关_应用样例3_程序示意图英文版.png)
 
 ## 實作範例教學-LinkIt 7697篇
 

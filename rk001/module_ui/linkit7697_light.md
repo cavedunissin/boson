@@ -16,7 +16,7 @@
 
 **光敏模組**是**類比訊號**輸入， 可以接「A0 ~ A3」的 LinkIt 7697 NANO Breakout訊號端上，「A0 ~ A3」腳位在程式碼中以「14 ~ 17」表示。 本範例連接到「**A0**」，程式碼中為「**14**」。
 
-![&#x5149;&#x611F;&#x6E2C;&#x5668;](../../.gitbook/assets/image%20%284%29.png)
+![&#x5149;&#x611F;&#x6E2C;&#x5668;](../../.gitbook/assets/image%20%285%29.png)
 
 ![](../../.gitbook/assets/linkit7697_light_01.png)
 
@@ -24,7 +24,7 @@
 
 每0.5秒鐘會讀取光敏模組一次， 並顯示在序列埠監控視窗上。
 
-![](../../.gitbook/assets/linkit7697_light_02.png)
+![](../../.gitbook/assets/linkit7697_rotation_02.png)
 
 ![](../../.gitbook/assets/linkit7697_light_03.png)
 

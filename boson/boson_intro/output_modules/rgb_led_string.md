@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/rgb_led_string.jpg)
+![](../../../.gitbook/assets/rgb_led_string%20%281%29.jpg)
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ SKU 號：019.00268
 
 在使用七彩燈條之前，需要擴展燈條的指令庫。打開makecode程式設計平臺，滾動至指令區最底部，依次點擊進階----擴展----neopixel，完成Neopixel指令的調用，此時指令區會出現Neopixel模組。完成以上步驟以後，將燈條連接至micro:bit板，即可通過程式設計控制燈條效果。
 
-![](../../../.gitbook/assets/rgb_led_string_ui.png)
+![](../../../.gitbook/assets/rgb_led_string_ui%20%281%29.png)
 
 ## 原理介紹
 
@@ -40,21 +40,21 @@ SKU 號：019.00268
 
 **連線圖：** 將七彩燈條連接至micro:bit擴充板P0腳位。
 
-![](../../../.gitbook/assets/rgb_led_string_example_m1.png)
+![](../../../.gitbook/assets/boson-qi-cai-deng-dai-dian-liang-qi-cai-deng-dai-lian-xian-tu.png)
 
 **設計意圖：** 控制七彩燈條點亮並呈現七彩的效果。
 
 ① 選定七彩燈條連接micro:bit的腳位、燈條LED燈的數目及顏色模式，指令語句如下圖。此處七彩燈條至micro:bit擴充板P0腳位，燈條LED燈數目為7盞，顏色模式為RGB模式。
 
-![](../../../.gitbook/assets/rgb_led_string_de1.png)
+![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带设计意图1%20%281%29.png)
 
 ② 確定七彩燈條中LED燈使用的範圍，需要調用的指令如下圖。此處七彩燈條中LED燈使用範圍為0-7。
 
-![](../../../.gitbook/assets/rgb_led_string_de2.png)
+![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带设计意图2.png)
 
 ③ 確定七彩燈條色調範圍，需要調用的指令如下圖。此處色調範圍為1-360（紅色-綠色-藍色）。
 
-![](../../../.gitbook/assets/rgb_led_string_de3.png)
+![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带设计意图3.png)
 
 最終程式如下。
 
@@ -64,7 +64,7 @@ SKU 號：019.00268
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/rgb_led_string_prg1_en.png)
+![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带程序示意图英文版%20%281%29.png)
 
 ### **聲控燈條**
 
@@ -74,7 +74,7 @@ SKU 號：019.00268
 
 **連線圖：** 將七彩燈條連接至micro:bit擴充板P0腳位，聲音感測器連接至micro:bit擴充板P2腳位。
 
-![](../../../.gitbook/assets/rgb_led_string_example_m2.png)
+![](../../../.gitbook/assets/boson_七彩灯带_声控灯带连线图.png)
 
 **執行流程：**
 
@@ -88,11 +88,11 @@ SKU 號：019.00268
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/rgb_led_string_prg2_ch_tw.png)
+![](../../../.gitbook/assets/rgb_led_string_prg2_ch_tw%20%281%29.png)
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/rgb_led_string_prg2_en.png)
+![](../../../.gitbook/assets/boson-qi-cai-deng-dai-sheng-kong-deng-dai-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ## 商品規格
 

@@ -35,7 +35,7 @@ SKU：BOS0045
 
 按照下圖所示連接電路，通電後再將超音波感測器正對待測物體即可通過OLED顯示模組查看待測物體與超音波感測器之間的距離。
 
-![](../../../.gitbook/assets/ultrasonic_sensor_ui.png)
+![](../../../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-shi-yong-shuo-ming-2.png)
 
 ## 原理介紹
 
@@ -51,7 +51,7 @@ SKU：BOS0045
 
 **連線圖：**
 
-![](../../../.gitbook/assets/ultrasonic_sensor_example1.png)
+![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu.png)
 
 ### \(2\) 守衛安全
 
@@ -61,7 +61,7 @@ SKU：BOS0045
 
 **連線圖：**
 
-![](../../../.gitbook/assets/ultrasonic_sensor_example2.png)
+![](../../../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%281%29.png)
 
 ### \(3\) 帶距離感應的智慧風扇
 
@@ -71,7 +71,7 @@ SKU：BOS0045
 
 **連線圖：**
 
-![](../../../.gitbook/assets/ultrasonic_sensor_example3.png)
+![](../../../.gitbook/assets/boson-chao-sheng-bo-ju-li-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
 
 **設計意圖：**使用超音波感測器感知人離風扇的距離（假設風扇周圍沒有其他障礙物），根據超音波感測器感知的距離值調節風扇的轉速。
 

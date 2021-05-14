@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/touch_sensor.jpg)
+![](../../../.gitbook/assets/boson_触摸传感器_实物图片%20%281%29.jpg)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ SKU：BOS0008
 
 按照下圖所示連接電路，通電後即可通過觸碰感測器控制LED燈：當感應到觸碰後點亮LED燈，否則熄滅LED燈。
 
-![](../../../.gitbook/assets/touch_sensor_ui.png)
+![](../../../.gitbook/assets/boson_触摸传感器_使用说明%20%281%29.png)
 
 除了直接觸碰金屬面外，隔著一定厚度的塑膠、玻璃等材料也可以被感應到，但感應靈敏度與金屬面的大小和覆蓋材料的厚度有關係。 此外，可以將觸碰感測器安裝在非金屬材料如塑膠、玻璃的表面，然後將薄薄的紙片覆蓋在模組的表面，只要觸碰位置正確，即可做成隱藏在牆壁、桌面等地方的按鍵。
 
@@ -48,7 +48,7 @@ SKU：BOS0008
 
 **連線圖：**
 
-![](../../../.gitbook/assets/touch_sensor_example1.png)
+![](../../../.gitbook/assets/buzzer_module_example2%20%282%29.png)
 
 ### \(2\) 觸碰檯燈
 
@@ -58,7 +58,7 @@ SKU：BOS0008
 
 **連線圖：**
 
-![](../../../.gitbook/assets/touch_sensor_example2.png)
+![](../../../.gitbook/assets/boson_触摸传感器_应用样例2_连线图%20%281%29.png)
 
 ### \(3\) 畫廊展示品防盜報警器
 
@@ -68,7 +68,7 @@ SKU：BOS0008
 
 **連線圖：**
 
-![](../../../.gitbook/assets/touch_sensor_example3.png)
+![](../../../.gitbook/assets/boson_触摸传感器_应用样例3_连线图%20%281%29.png)
 
 ### \(4\) 害羞的Micro:bit
 
@@ -78,7 +78,7 @@ SKU：BOS0008
 
 **連線圖：**
 
-![](../../../.gitbook/assets/touch_sensor_example4.png)
+![](../../../.gitbook/assets/touch_sensor_example4%20%281%29.png)
 
 **設計意圖：**通過讀取觸碰感測器輸出的數位訊號判斷是否發生觸碰，若發生觸碰，Micro:bit的LED燈點陣顯示哭臉並讓蜂鳴器鳴叫2秒鐘，否則Micro:bit的LED燈點陣上顯示笑臉。
 
@@ -94,7 +94,7 @@ SKU：BOS0008
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/touch_sensor_prg_en.png)
+![](../../../.gitbook/assets/boson-chu-mo-chuan-gan-qi-ying-yong-yang-li-4-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ## 商品規格
 

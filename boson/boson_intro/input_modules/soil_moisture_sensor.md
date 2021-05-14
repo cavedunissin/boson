@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/soil_moisture_sensor.jpg)
+![](../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-wu-tu-pian.jpg)
 
 ## 基本信息
 
@@ -26,7 +26,7 @@ SKU：BOS0038
 
 土壤濕度感測器可以搭配Micro:bit、Arduino使用，實現非常有趣的互動作品。土壤濕度感測器在使用時需要將金屬部分充分插入土壤中，並等待數秒直至資料穩定，通過OLED顯示模組或Micro:bit可以讀取土壤濕度數值，也可以通過土壤濕度感測器製作自動裝置，控制其他輸出模組。按照下圖所示連接電路，通電後即可通過OLED顯示模組即時監測土壤濕度。
 
-![](../../../.gitbook/assets/soil_moisture_sensor_ui1.png)
+![](../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-yong-shuo-ming-1.png)
 
 土壤濕度數值參考：
 
@@ -52,7 +52,7 @@ SKU：BOS0038
 
 **連線圖：**
 
-![](../../../.gitbook/assets/soil_moisture_sensor_example1.png)
+![](../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-yong-shuo-ming-1%20%286%29.png)
 
 ### \(2\) 自動澆花裝置
 
@@ -62,7 +62,7 @@ SKU：BOS0038
 
 **連線圖：**
 
-![](../../../.gitbook/assets/soil_moisture_sensor_example2.png)
+![](../../../.gitbook/assets/boson_土壤湿度传感器_应用样例2_连线图.png)
 
 ### \(3\) 種子發芽箱
 
@@ -72,7 +72,7 @@ SKU：BOS0038
 
 **連線圖：**
 
-![](../../../.gitbook/assets/soil_moisture_sensor_example3.png)
+![](../../../.gitbook/assets/soil_moisture_sensor_example3%20%281%29.png)
 
 **設計意圖：**使用土壤濕度感測器、溫度感測器、光感測器分別檢測種子發芽箱中的土壤濕度、溫度和光照強度。若其中某一環境因素不在設定區間範圍內，則表示發芽箱內的當前環境不適宜種子生長，此時讓LED燈和蜂鳴器發出警報。
 
@@ -96,7 +96,7 @@ SKU：BOS0038
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/soil_moisture_sensor_prg_en.png)
+![](../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban.png)
 
 ## 商品規格
 

@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/push_button.jpg)
+![](../../../.gitbook/assets/push_button%20%282%29.jpg)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 >
 >   以按鈕控制LED燈為例，按下按鈕，輸出高電位，LED燈被點亮；鬆開按鈕，輸出低電位，LED燈熄滅。
 
-![](../../../.gitbook/assets/push_button_ui.png)
+![](../../../.gitbook/assets/push_button_ui%20%281%29.png)
 
 ## 原理介紹
 
@@ -44,7 +44,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/push_button_example1.png)
+![](../../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu%20%285%29.png)
 
 ### 防盜展示台
 
@@ -54,7 +54,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/push_button_example3.png)
+![](../../../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-3-lian-xian-tu.png)
 
 ### 密碼鎖
 
@@ -64,7 +64,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/push_button_example5.png)
+![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%287%29.png)
 
 ### 搶答器
 
@@ -74,7 +74,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/push_button_example6.png)
+![](../../../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-6-lian-xian-tu.png)
 
 ### 找朋友機
 
@@ -84,7 +84,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/push_button_example7.png)
+![](../../../.gitbook/assets/boson_LED模块_找朋友机连线图%20%2811%29.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -96,17 +96,17 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**將按鈕模組連接至Micro:bit擴充板P0腳位，LED燈模組連接至Micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/push_button_example2.png)
+![](../../../.gitbook/assets/boson_LED模块_按钮台灯2连线图.png)
 
 **執行流程：**① 如果P0腳位輸出高電位「1」，即按鈕被按下，則LED燈模組亮起；② 如果P0腳位輸出低電位「0」，即按鈕鬆開，則LED燈模組熄滅。
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/push_button_prg1_ch_tw.png)
+![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29.png)
 
 **Example program\(English\)**
 
-![](../../../.gitbook/assets/push_button_prg1_en.png)
+![](../../../.gitbook/assets/led_module_prg1_en%20%288%29.png)
 
 ### 防盜展示台
 
@@ -116,7 +116,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**將按鈕模組連接至Micro:bit擴充板P0腳位，蜂鳴器模組連接至Micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/push_button_example4.png)
+![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu%20%283%29.png)
 
 **執行流程：**① 如果P0腳位輸出高電位「1」，即按鈕被按下，展示物品沒有離開展示台，則蜂鳴器不報警；② 如果P0腳位輸出低電位「0」，即按鈕彈起，展示物品離開展示台，則蜂鳴器報警。
 
@@ -126,7 +126,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **Example program\(English\)**
 
-![](../../../.gitbook/assets/push_button_prg2_en.png)
+![](../../../.gitbook/assets/boson_按钮模块_应用样例4_程序示意图英文版%20%282%29.png)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -140,7 +140,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **程式說明：**每1秒鐘會讀取按鈕模組狀態一次，並可透過序列埠監控視窗看到按鈕模組的狀態。
 
-![](../../../.gitbook/assets/push_button_7697_2.jpg)
+![](../../../.gitbook/assets/motion_sensor_7697_2%20%281%29.jpg)
 
 ![](../../../.gitbook/assets/push_button_7697_3.png)
 

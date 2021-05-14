@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/motion_sensor.jpg)
+![](../../../.gitbook/assets/motion_sensor%20%281%29.jpg)
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ SKU：BOS0013
 
 動作感測器可感受到7米以內物體的運動，感應角度為100°，當有行動的人經過動作感測器的探測區域時，動作感測器就會輸出高電位。但需要注意的是高電位輸出會有一定的時間延遲，通常為2.3~3秒左右。按照下圖所示連接電路，通電後即可通過動作感測器控制LED燈的亮滅：當有人經過時點亮LED燈，否則熄滅LED燈。
 
-![](../../../.gitbook/assets/motion_sensor_ui.png)
+![](../../../.gitbook/assets/boson_运动传感器_使用说明%20%281%29.png)
 
 ## 原理介紹
 
@@ -50,7 +50,7 @@ SKU：BOS0013
 
 **連線圖：**
 
-![](../../../.gitbook/assets/motion_sensor_example2.png)
+![](../../../.gitbook/assets/motion_sensor_example2%20%281%29.png)
 
 ### 教師節的禮物
 
@@ -60,7 +60,7 @@ SKU：BOS0013
 
 **連線圖：**
 
-![](../../../.gitbook/assets/motion_sensor_example3.png)
+![](../../../.gitbook/assets/motion_sensor_example3%20%281%29.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -72,7 +72,7 @@ SKU：BOS0013
 
 **連線圖：**
 
-![](../../../.gitbook/assets/motion_sensor_example4.png)
+![](../../../.gitbook/assets/motion_sensor_example4%20%281%29.png)
 
 **設計意圖：**智慧路燈被點亮需要同時滿足兩個條件，即①夜間；②有人經過或有聲音。為了區分白天黑夜，可以使用光感測器感知光的強度（這裡設定臨界值為100，當光感測器輸出類比值小於50時判定當前處於夜晚）；為了判斷是否有人經過，可以使用動作感測器，輸出高電位表示有人經過，輸出低電位即無人經過；為了是否有聲音，可以使用聲音感測器感知聲音大小（這裡設定臨界值為50，當聲音感測器輸出類比值大於50時判定為有聲音）。最後，結合光感測器、動作感測器、聲音感測器的輸出訊號進行邏輯判斷，若滿足點亮路燈的2個條件就給LED燈模組輸入高電位並持續十秒，否則熄燈LED燈。
 

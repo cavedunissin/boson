@@ -36,7 +36,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 按照下圖所示連接電路即可達到每按一次鍵，計數器加1。
 
-![](../../../.gitbook/assets/reversible_counter_module_ui2.png)
+![](../../../.gitbook/assets/boson-ji-shu-mo-kuai-shi-yong-shuo-ming-2%20%281%29.png)
 
 ## 原理介紹
 
@@ -52,7 +52,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 **連線圖：**
 
-![](../../../.gitbook/assets/reversible_counter_module_example1.png)
+![](../../../.gitbook/assets/boson_计数模块_按键计数器连线图%20%281%29.png)
 
 ### **\(2\) 製作存錢罐**
 
@@ -62,7 +62,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 **連線圖：**
 
-![](../../../.gitbook/assets/reversible_counter_module_example2.png)
+![](../../../.gitbook/assets/boson_计数模块_制作存钱罐连线图.png)
 
 ### **\(3\) 風景區遊客流量計數器**
 
@@ -72,7 +72,7 @@ volts模式（電壓值）：讀取電壓值大小，並輸出對應大小的電
 
 **連線圖：**
 
-![](../../../.gitbook/assets/reversible_counter_module_example3.png)
+![](../../../.gitbook/assets/boson_计数模块_景区客流量计数器连线图%20%281%29.png)
 
 ## 商品規格
 

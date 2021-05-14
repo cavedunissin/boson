@@ -28,7 +28,7 @@ SKU：BOS0009
 
 按照下圖所示連接電路，通電後即可通過聲音感測器控制LED燈：檢測到聲音時點亮LED燈，否則熄滅LED燈。
 
-![](../../../.gitbook/assets/sound_sensor_ui.png)
+![](../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-shi-yong-shuo-ming.png)
 
 ## 原理介紹
 
@@ -44,7 +44,7 @@ SKU：BOS0009
 
 **連線圖：**
 
-![](../../../.gitbook/assets/sound_sensor_example1.png)
+![](../../../.gitbook/assets/boson_彩色灯带%28固定颜色%29_声光互动蛋糕连线图%20%281%29.png)
 
 ### \(2\) 智慧路燈
 
@@ -54,7 +54,7 @@ SKU：BOS0009
 
 **連線圖：**
 
-![](../../../.gitbook/assets/sound_sensor_example2.png)
+![](../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%281%29.png)
 
 ### \(3\) 聲控風扇
 
@@ -64,7 +64,7 @@ SKU：BOS0009
 
 **連線圖：**
 
-![](../../../.gitbook/assets/sound_sensor_example3.png)
+![](../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
 
 **設計意圖：**由於聲音感測器的輸出訊號是類比值，這裡設定一個類比值50（該類比值可根據實際情況彈性調整），當聲音感測器輸出類比值大於50時開啟風扇，否則關閉風扇。
 

@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/rotation_sensor.jpg)
+![](../../../.gitbook/assets/boson-xuan-niu-mo-kuai-shi-wu-tu-pian%20%281%29.jpg)
 
 ## 基本信息
 
@@ -26,7 +26,7 @@ SKU：BOS0001
 
 > * 順時針旋轉代表類比訊號增強，風扇會轉得愈來愈快；逆時針旋轉代表類比訊號減弱，風扇會變慢。
 
-![](../../../.gitbook/assets/rotation_sensor_ui.png)
+![](../../../.gitbook/assets/boson_旋钮模块_使用说明.png)
 
 ## 原理介紹
 
@@ -42,7 +42,7 @@ SKU：BOS0001
 
 **連線圖：**
 
-![](../../../.gitbook/assets/rotation_sensor_example1.png)
+![](../../../.gitbook/assets/boson_旋钮模块_使用说明%20%281%29.png)
 
 ### 調速打蛋器
 
@@ -52,7 +52,7 @@ SKU：BOS0001
 
 **連線圖：**
 
-![](../../../.gitbook/assets/rotation_sensor_example3.png)
+![](../../../.gitbook/assets/boson_电机控制模块_调速打蛋器1连线图.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -64,17 +64,17 @@ SKU：BOS0001
 
 **連線圖：**將旋鈕模組連接至Micro:bit擴充板的P0腳位，LED燈模組連接到Micro:bit擴充板的P8腳位。
 
-![](../../../.gitbook/assets/rotation_sensor_example2.png)
+![](../../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu%20%281%29.png)
 
 **程式說明：**① 讀取P0腳位的類比值；② 將讀取到的類比值賦給P8腳位。
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/rotation_sensor_prg_ch_tw.png)
+![](../../../.gitbook/assets/fan_module_prg2_ch_tw%20%282%29.png)
 
 **Example program\(English\):**
 
-![](../../../.gitbook/assets/rotation_sensor_prg_en%20%281%29.png)
+![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%2810%29.png)
 
 ## 商品規格
 

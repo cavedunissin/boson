@@ -22,7 +22,7 @@
 
 每0.5秒鐘會讀取旋轉電位計模組的電位一次， 並顯示在序列埠監控視窗上。
 
-![](../../.gitbook/assets/linkit7697_rotation_02.png)
+![](../../.gitbook/assets/linkit7697_rotation_02%20%281%29.png)
 
 ![](../../.gitbook/assets/linkit7697_rotation_03.png)
 

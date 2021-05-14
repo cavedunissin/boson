@@ -28,7 +28,7 @@
 
 在Arduino上選擇工具，選擇管理程式庫，在管理程式庫搜尋HCSR04選擇HCSR04 ultrasonic sensor by gamegine版本2.02並安裝。
 
-![](../../.gitbook/assets/03%20%281%29.png)
+![](../../.gitbook/assets/03%20%286%29.png)
 
 ![](../../.gitbook/assets/04.png)
 

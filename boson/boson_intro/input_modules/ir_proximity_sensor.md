@@ -26,7 +26,7 @@ SKU：BOS0010
 
 紅外線接近度感測器可以識別不同的顏色並返回不同的電壓值，用三用電表可以觀察到電壓值會發生線性變化，同時LED燈的明暗程度也隨著電壓值的變化而變化。
 
-![](../../../.gitbook/assets/infrared_proximity_sensor_ui.png)
+![](../../../.gitbook/assets/infrared_proximity_sensor_ui%20%281%29.png)
 
 **（2）數位值輸出**
 
@@ -60,7 +60,7 @@ SKU：BOS0010
 
 **連線圖：**
 
-![](../../../.gitbook/assets/infrared_proximity_sensor_example1.png)
+![](../../../.gitbook/assets/infrared_proximity_sensor_ui%20%283%29.png)
 
 ### \(2\) 貨物分類系統
 
@@ -86,7 +86,7 @@ SKU：BOS0010
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/infrared_proximity_sensor_prg_en.png)
+![](../../../.gitbook/assets/boson_智能灰度传感器_应用样例2_程序示意图英文版%20%281%29.png)
 
 ## 商品規格
 

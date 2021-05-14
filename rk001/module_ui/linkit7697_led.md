@@ -37,13 +37,13 @@
 
 **LED模組**是**數位/類比訊號**輸出， 可以接「P0 ~ P10」的 micro:bit訊號端上。 本範例連接到「**P0**」
 
-![](../../.gitbook/assets/01.JPG)
+![](../../.gitbook/assets/0%20%283%29.jpeg)
 
 ### Microsoft MakeCode 積木畫布
 
 每一秒鐘會切換LED的亮暗一次。
 
-![](../../.gitbook/assets/02%20%288%29.JPG)
+![](../../.gitbook/assets/1%20%283%29.jpeg)
 
 ###  JavaScript 程式
 

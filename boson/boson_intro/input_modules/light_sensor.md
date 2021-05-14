@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/light_sensor.jpg)
+![](../../../.gitbook/assets/light_sensor%20%281%29.jpg)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ SKU：BOS0004
 
 按照下圖所示連接電路，通電後即可達成讓蜂鳴器模組的聲音隨光感測器的輸出信號大小而改變。
 
-![](../../../.gitbook/assets/light_sensor_ui.png)
+![](../../../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-shi-yong-shuo-ming%20%281%29.png)
 
 ## 原理介紹
 
@@ -44,7 +44,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/light_sensor_example1.png)
+![](../../../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-shi-yong-shuo-ming%20%283%29.png)
 
 ### \(2\) 探究光照強度對植物生長的影響
 
@@ -54,7 +54,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/light_sensor_example2.png)
+![](../../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu.png)
 
 ### \(3\) 智慧路燈
 
@@ -64,7 +64,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/light_sensor_example3.png)
+![](../../../.gitbook/assets/boson_逻辑“与”模块_智能路灯连线图%20%287%29.png)
 
 ### \(4\) 復古燭臺
 
@@ -74,7 +74,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/light_sensor_example4.png)
+![](../../../.gitbook/assets/splitter_module_example1%20%287%29.png)
 
 ### \(5\) 光強度檢測儀
 
@@ -84,7 +84,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/light_sensor_example5.png)
+![](../../../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-5-lian-xian-tu.png)
 
 **設計意圖：**光感測器會把檢測到的光強度直接轉換為類比值輸出，輸出範圍為0~1023，因此在製作光強度檢測儀時，只需把光感測器的輸出類比值直接讀取出來並顯示在Micro:bit的LED燈點陣上即可。
 
@@ -92,7 +92,7 @@ SKU：BOS0004
 
  **Example program\(English\)：**
 
-![](../../../.gitbook/assets/light_sensor_prg_en.png)
+![](../../../.gitbook/assets/boson_环境光传感器_应用样例5_程序示意图英文版%20%282%29.png)
 
 ## 商品規格
 

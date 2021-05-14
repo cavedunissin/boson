@@ -30,7 +30,7 @@ SKU：BOS0011
 
 按照下圖所示連接電路，通電後即可通過溫度感測器控制LED燈的亮度：溫度升高，LED燈變亮；溫度降低，LED燈變弱。
 
-![](../../../.gitbook/assets/temperature_sensor_ui.png)
+![](../../../.gitbook/assets/boson_温度传感器_使用说明.png)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../../../.gitbook/assets/temperature_sensor_example1.png)
+![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu%20%283%29.png)
 
 ### \(2\) 探究外界環境溫度對植物生長狀況的影響
 
@@ -56,7 +56,7 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../../../.gitbook/assets/temperature_sensor_example2.png)
+![](../../../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
 
 ### \(3\) 空氣溫度檢測儀
 
@@ -66,7 +66,7 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../../../.gitbook/assets/temperature_sensor_example3.png)
+![](../../../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
 
 **設計意圖：**溫度感測器的轉換係數為33.33℃/V，即溫度（單位：℃）=輸出電壓（單位：V）×33.33。在套用公式前，首先要把溫度感測器輸出的類比值（範圍：0~1023）轉換為電壓值（範圍：0~3.3V）。例如，若溫度感測器輸出類比值500，則對應電壓約為1.6V，結合溫度感測器的轉換係數可算出即時溫度約為53.3℃。
 
@@ -90,7 +90,7 @@ SKU：BOS0011
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/temperature_sensor_prg_en.png)
+![](../../../.gitbook/assets/boson_温度传感器_应用样例3_程序示意图英文版.png)
 
 ## 商品規格
 

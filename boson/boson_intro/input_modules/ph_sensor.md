@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/ph_sensor.jpg)
+![](../../../.gitbook/assets/bosonph-chuan-gan-qi-shi-wu-tu-pian.jpg)
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ SKU：BOS0039
 
 使用酸鹼值感測器時，需要將探頭部分放入溶液，其pH測量範圍為0-14pH，測量誤差為±0.1pH\(25℃\)。按照下圖所示連接電路，通電後即可通過OLED顯示模組直接讀取pH值。
 
-![](../../../.gitbook/assets/ph_sensor_ui1.png)
+![](../../../.gitbook/assets/oled_module_example5%20%283%29.png)
 
 pH值與溶液酸鹼性對應表：
 
@@ -66,7 +66,7 @@ pH是指溶液中氫離子的總數和總物質的量的比，表現為酸鹼度
 
 **連線圖：**
 
-![](../../../.gitbook/assets/ph_sensor_example1.png)
+![](../../../.gitbook/assets/oled_module_example5%20%286%29.png)
 
 ### \(2\) 魚缸水質監測儀
 
@@ -102,7 +102,7 @@ pH是指溶液中氫離子的總數和總物質的量的比，表現為酸鹼度
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/ph_sensor_prg_en.png)
+![](../../../.gitbook/assets/boson_pH传感器_应用样例2_程序示意图英文版.png)
 
 ## 商品規格
 

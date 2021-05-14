@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/humidity_sensor.jpg)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-shi-wu-tu-pian%20%281%29.jpg)
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ SKU：BOS0041
 
 濕度感測器可以感知空氣中水分的多少，按照下圖所示連接電路，通電後即可通過OLED顯示模組直接讀取空氣濕度值。
 
-![](../../../.gitbook/assets/humidity_sensor_ui1.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
 
 也可以將濕度感測器與其他輸出模組相連，實現各種功能。
 
@@ -46,7 +46,7 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../../../.gitbook/assets/humidity_sensor_example1.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%285%29.png)
 
 ### \(2\) 糧倉溫濕度檢測
 
@@ -56,7 +56,7 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../../../.gitbook/assets/humidity_sensor_example2.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%289%29.png)
 
 ### \(3\) 植物培育箱
 
@@ -66,7 +66,7 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../../../.gitbook/assets/humidity_sensor_example3.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
 
 **設計意圖：**使用土壤濕度感測器、溫度感測器、濕度感測器分別檢測植物培育箱中的土壤濕度、溫度和空氣濕度。若其中某一環境因素不在設定區間範圍內，則表示培育箱內的當前環境不適宜種子生長，此時讓LED燈和蜂鳴器發出警報。
 

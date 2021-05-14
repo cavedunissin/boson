@@ -24,7 +24,7 @@
 
 ![](../../.gitbook/assets/linkit7697_button_02.png)
 
-![](../../.gitbook/assets/linkit7697_button_03.png)
+![](../../.gitbook/assets/linkit7697_microswitch_03.png)
 
 ### Arduino 程式
 

@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/conductivity_sensor_switch.jpg)
+![](../../../.gitbook/assets/boson-dian-dao-kai-guan-shi-wu-tu-pian%20%281%29.jpg)
 
 ## 基本信息
 
@@ -22,7 +22,7 @@ SKU：BOS0012
 
 在圖示①處，通過觸摸導電感測開關的正負極，可以改變模組的輸出狀態；也可以通過導線外接一個水果或蔬菜從而產生開關控制訊號。
 
-![](../../../.gitbook/assets/conductivity_sensor_switch_ui.png)
+![](../../../.gitbook/assets/boson_电导开关_使用说明.png)
 
 ## 原理介紹
 
@@ -40,7 +40,7 @@ SKU：BOS0012
 
 
 
-![](../../../.gitbook/assets/conductivity_sensor_switch_example1.png)
+![](../../../.gitbook/assets/conductivity_sensor_switch_example1%20%283%29.png)
 
 ### 炫彩風鈴
 
@@ -74,7 +74,7 @@ SKU：BOS0012
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/conductivity_sensor_switch_prg_en.png)
+![](../../../.gitbook/assets/boson_电导开关_应用样例3_程序示意图英文版%20%281%29.png)
 
 ## 實作範例教學-LinkIt 7697篇
 

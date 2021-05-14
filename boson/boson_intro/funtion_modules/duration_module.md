@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../../../.gitbook/assets/duration_module.png)
+![Optional title](../../../.gitbook/assets/duration_module%20%281%29.png)
 
 ## 基本信息
 
@@ -32,7 +32,7 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 按照下圖所示連接電路並設定好計時模組（0-60秒）的時間值，通電後按下按鈕即可點亮LED燈並持續到設定的時間。
 
-![Optional title](../../../.gitbook/assets/duration_module_ui2.png)
+![Optional title](../../../.gitbook/assets/duration_module_ui2%20%281%29.png)
 
 ## 原理介紹
 
@@ -48,7 +48,7 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/duration_module_example1.png)
+![Optional title](../../../.gitbook/assets/boson-chi-xu-mo-kuai-060-miao-hua-lang-zhan-shi-pin-fang-dao-bao-jing-qi-lian-xian-tu.png)
 
 ### **\(2\) 密碼鎖**
 
@@ -58,7 +58,7 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/duration_module_example2.png)
+![Optional title](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu.png)
 
 ## 商品規格
 

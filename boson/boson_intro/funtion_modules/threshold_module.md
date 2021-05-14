@@ -48,7 +48,7 @@ SKU 號：BOS0032
 
 **連線圖：**
 
-![](../../../.gitbook/assets/threshold_module_example1.png)
+![](../../../.gitbook/assets/boson_土壤湿度传感器_应用样例2_连线图%20%281%29.png)
 
 ### **\(2\) 糧倉溫濕度檢測**
 
@@ -58,7 +58,7 @@ SKU 號：BOS0032
 
 **連線圖：**
 
-![](../../../.gitbook/assets/threshold_module_example2.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
 
 ## 商品規格
 
