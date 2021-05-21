@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-luo-ji-huo-mo-kuai-shi-wu-tu%20%281%29.png)
+![](../../../.gitbook/assets/boson-luo-ji-huo-mo-kuai-shi-wu-tu%20%283%29%20%281%29.png)
 
 ## 基本信息
 
@@ -44,7 +44,7 @@ SKU 號：BOS0028
 
 按照下圖所示連接電路，通電後按下紅色按鈕和黃色按鈕中的任意一個，或同時按下兩個按鈕都能點亮紅色LED燈。
 
-![](../../../.gitbook/assets/logic_module_or_ui3%20%283%29%20%283%29.png)
+![](../../../.gitbook/assets/logic_module_or_ui3%20%283%29%20%284%29%20%283%29.png)
 
 ## 原理介紹
 
@@ -60,7 +60,7 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![](../../../.gitbook/assets/splitter_module_example1.png)
+![](../../../.gitbook/assets/splitter_module_example1%20%288%29.png)
 
 ### **\(2\) 畫廊展示品防盜警報器**
 
@@ -70,7 +70,7 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_逻辑“或”模块_画廊展示品防盗报警器连线图.png)
+![](../../../.gitbook/assets/boson_逻辑“或”模块_画廊展示品防盗报警器连线图%20%284%29.png)
 
 ### **\(3\) 糧倉溫濕度檢測**
 
@@ -80,7 +80,7 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%2810%29.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%282%29%20%2810%29.png)
 
 ### **\(4\) 找朋友機**
 
@@ -90,13 +90,13 @@ SKU 號：BOS0028
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_LED模块_找朋友机连线图%20%287%29.png)
+![](../../../.gitbook/assets/boson_逻辑“或”模块_找朋友机连线图%20%287%29.png)
 
 ## 商品規格
 
 腳位說明：
 
-![](../../../.gitbook/assets/logic_module_or_spec%20%283%29%20%281%29.png)
+![](../../../.gitbook/assets/logic_module_or_spec%20%283%29%20%282%29%20%281%29.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :---: | :---: | :---: |

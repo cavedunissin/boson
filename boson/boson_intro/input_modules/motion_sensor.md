@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/motion_sensor%20%281%29.jpg)
+![](../../../.gitbook/assets/motion_sensor%20%281%29%20%281%29.jpg)
 
 ## 基本信息
 
@@ -50,7 +50,7 @@ SKU：BOS0013
 
 **連線圖：**
 
-![](../../../.gitbook/assets/motion_sensor_example2%20%281%29.png)
+![](../../../.gitbook/assets/motion_sensor_example2%20%281%29%20%281%29.png)
 
 ### 教師節的禮物
 
@@ -60,7 +60,7 @@ SKU：BOS0013
 
 **連線圖：**
 
-![](../../../.gitbook/assets/motion_sensor_example3%20%281%29.png)
+![](../../../.gitbook/assets/motion_sensor_example3%20%281%29%20%281%29.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -90,7 +90,7 @@ SKU：BOS0013
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/motion_sensor_prg_en.png)
+![](../../../.gitbook/assets/motion_sensor_prg_en%20%281%29.png)
 
 ## 實作範例教學-LinkIt 7697篇
 

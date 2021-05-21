@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/water_proof_temperature_sensor.jpg)
+![](../../../.gitbook/assets/water_proof_temperature_sensor%20%281%29.jpg)
 
 ## 基本信息
 
@@ -42,7 +42,7 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%282%29.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%283%29%20%282%29.png)
 
 ### \(2\) 糧倉溫濕度檢測
 
@@ -52,7 +52,7 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%287%29.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%282%29%20%287%29.png)
 
 ### \(3\) 液體溫度檢測儀
 
@@ -70,11 +70,11 @@ SKU：BOS0042
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/light_sensor_prg_ch_tw%20%281%29.png)
+![](../../../.gitbook/assets/light_sensor_prg_ch_tw%20%281%29%20%281%29.png)
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_环境光传感器_应用样例5_程序示意图英文版.png)
+![](../../../.gitbook/assets/boson_环境光传感器_应用样例5_程序示意图英文版%20%282%29.png)
 
 ## 商品規格
 

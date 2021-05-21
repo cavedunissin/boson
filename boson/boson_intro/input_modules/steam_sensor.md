@@ -26,7 +26,7 @@ SKU：BOS0006
 
 按照下圖所示連接電路，通電後即可通過水分感測器的輸出信號控制蜂鳴器模組，當檢測到下雨時，蜂鳴器開始鳴叫；否則蜂鳴器停止鳴叫。
 
-![](../../../.gitbook/assets/boson_水分传感器_使用说明%20%281%29.png)
+![](../../../.gitbook/assets/boson_水分传感器_使用说明%20%283%29%20%281%29.png)
 
 **\*注意：**該產品並不完全防水，請勿將3P線介面浸入水中。\*
 
@@ -44,7 +44,7 @@ SKU：BOS0006
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_水分传感器_使用说明%20%282%29.png)
+![](../../../.gitbook/assets/boson_水分传感器_使用说明%20%283%29%20%282%29.png)
 
 ### \(2\) 雨天自動關窗
 
@@ -64,7 +64,7 @@ SKU：BOS0006
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_水分传感器_应用样例3_连线图.png)
+![](../../../.gitbook/assets/boson_水分传感器_应用样例3_连线图%20%281%29.png)
 
 **設計意圖：**根據水分感測器輸出類比值的大小判斷雨況，進而給出不同的汛情預警信號。
 
@@ -84,7 +84,7 @@ SKU：BOS0006
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-shui-fen-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../../.gitbook/assets/boson-shui-fen-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban%20%281%29.png)
 
 ## 商品規格
 

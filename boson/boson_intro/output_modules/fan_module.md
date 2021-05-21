@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson_风扇模块_实物图%20%281%29.jpg)
+![](../../../.gitbook/assets/boson_风扇模块_实物图%20%281%29%20%281%29.jpg)
 
 ## 基本信息
 
@@ -46,7 +46,7 @@ SKU 號：BOS0021
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu.png)
+![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu%20%283%29.png)
 
 ### **聲控風扇**
 
@@ -68,7 +68,7 @@ SKU 號：BOS0021
 
 **連線圖：** 將風扇模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_风扇模块_按钮风扇连线图.png)
+![](../../../.gitbook/assets/boson_风扇模块_按钮风扇连线图%20%281%29.png)
 
 **執行流程：**
 
@@ -82,7 +82,7 @@ SKU 號：BOS0021
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban%20%281%29.png)
 
 ### **調速風扇**
 
@@ -92,7 +92,7 @@ SKU 號：BOS0021
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，風扇模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_风扇模块_调速风扇连线图%20%281%29.png)
+![](../../../.gitbook/assets/boson_风扇模块_调速风扇连线图%20%281%29%20%281%29.png)
 
 **執行流程：**
 
@@ -100,11 +100,11 @@ SKU 號：BOS0021
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/fan_module_prg2_ch_tw.png)
+![](../../../.gitbook/assets/fan_module_prg2_ch_tw%20%282%29.png)
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%2811%29.png)
+![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%2811%29%20%2811%29.png)
 
 ## 實作範例教學-LinkIt 7697篇
 

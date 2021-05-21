@@ -28,7 +28,7 @@ SKU 號：BOS0020
 
 按照下圖所示連接電路，即可通過按鈕模組控制蜂鳴器模組的鳴叫。
 
-![](../../../.gitbook/assets/buzzer_module_ui.png)
+![](../../../.gitbook/assets/buzzer_module_ui%20%281%29.png)
 
 ## 原理介紹
 
@@ -54,7 +54,7 @@ SKU 號：BOS0020
 
 **連線圖：**
 
-![](../../../.gitbook/assets/buzzer_module_example2.png)
+![](../../../.gitbook/assets/buzzer_module_example2%20%282%29.png)
 
 ### **密碼鎖**
 
@@ -64,7 +64,7 @@ SKU 號：BOS0020
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%2810%29.png)
+![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%281%29%20%2810%29.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -90,7 +90,7 @@ SKU 號：BOS0020
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_蜂鸣器模块_报晓公鸡程序示意图英文版.png)
+![](../../../.gitbook/assets/boson_蜂鸣器模块_报晓公鸡程序示意图英文版%20%281%29.png)
 
 ### **下雨警報器**
 
@@ -100,7 +100,7 @@ SKU 號：BOS0020
 
 **連線圖：** 將水分感測器連接至micro:bit擴充板P0腳位，蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-lian-xian-tu.png)
+![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-lian-xian-tu%20%281%29.png)
 
 **執行流程：**
 
@@ -114,7 +114,7 @@ SKU 號：BOS0020
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/led_module_prg1_en%20%281%29.png)
+![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%281%29.png)
 
 ### **防盜展示臺**
 
@@ -124,7 +124,7 @@ SKU 號：BOS0020
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu%20%282%29.png)
+![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu%20%283%29%20%282%29.png)
 
 **執行流程：**
 
@@ -138,7 +138,7 @@ SKU 號：BOS0020
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_按钮模块_应用样例4_程序示意图英文版%20%281%29.png)
+![](../../../.gitbook/assets/boson_蜂鸣器模块_防盗展台程序示意图英文版%20%281%29.png)
 
 ## 實作範例教學-LinkIt 7697篇
 

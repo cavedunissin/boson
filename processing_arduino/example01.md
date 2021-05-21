@@ -2,7 +2,7 @@
 
 請跟著以下影片一起完成第一個範例吧，本範例要取得 Processing IDE 並執行內建範例玩玩看，您會知道 Processing 語言的簡潔與功能豐富，真的很棒！
 
-請根據您的作業系統下載對應的 Processing IDE \(http://processing.org\)，Processing 主頁面如下：
+請根據您的作業系統下載對應的 Processing IDE \([http://processing.org\)，Processing](http://processing.org%29，Processing) 主頁面如下：
 
 ![](../.gitbook/assets/processing_arduino_ex01_01.png)
 
@@ -14,10 +14,11 @@
 
 ![](../.gitbook/assets/processing_arduino_ex01_03.png)
 
-如果等不及的話，請點選 Processing IDE 的 File / Example，會新開一個視窗，裡面的範例都可以直接執行。 
+如果等不及的話，請點選 Processing IDE 的 File / Example，會新開一個視窗，裡面的範例都可以直接執行。
 
 ![](../.gitbook/assets/processing_arduino_ex01_04.png)
 
 試試看 Input / Mouse1D 範例，點選 Run 按鈕就可以執行，在畫面中左右移動滑鼠就可以看到兩個方塊改變大小與透明度。
 
 ![](../.gitbook/assets/processing_arduino_ex01_05.png)
+

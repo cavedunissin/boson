@@ -2,11 +2,11 @@
 
 歡迎來到第一個範例！
 
-首先請取得 Arduino 1.8.5，並安裝好驅動程式之後燒錄 \[StandardFirmata\] 程式，這個小程式可以回應來自外部的所有呼叫。是相當好用的範例，當然也有其限制，後續會再深入說明。範例路徑為：**File / Examples / Firmata / StandardFirmata**   
+首先請取得 Arduino 1.8.5，並安裝好驅動程式之後燒錄 \[StandardFirmata\] 程式，這個小程式可以回應來自外部的所有呼叫。是相當好用的範例，當然也有其限制，後續會再深入說明。範例路徑為：**File / Examples / Firmata / StandardFirmata**
 
 ![](../.gitbook/assets/processing_arduino_ex02_01.png)
 
-接著要在設定 Processing IDE中設定 Arduino 函式庫。請開啟 Contribution Manager\(**Sketch / Import Library... / Add Library...**\)   
+接著要在設定 Processing IDE中設定 Arduino 函式庫。請開啟 Contribution Manager\(**Sketch / Import Library... / Add Library...**\)
 
 ![](../.gitbook/assets/processing_arduino_ex02_02.png)
 
@@ -20,8 +20,7 @@
 
 ## Processing程式
 
-檔名 - [arduino\_input\_easy.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/arduino_input_easy)   
-
+檔名 - [arduino\_input\_easy.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/arduino_input_easy)
 
 ```text
 import processing.serial.*;

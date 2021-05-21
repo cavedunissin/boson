@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/threshold_module.png)
+![](../../../.gitbook/assets/threshold_module%20%281%29.png)
 
 ## 基本信息
 
@@ -32,7 +32,7 @@ SKU 號：BOS0032
 
 按照下圖所示連接電路，通電後即可通過調節閾模組的設定值來控制LED燈的點亮和熄滅。
 
-![](../../../.gitbook/assets/threshold_module_ui2.png)
+![](../../../.gitbook/assets/threshold_module_ui2%20%281%29.png)
 
 ## 原理介紹
 
@@ -48,7 +48,7 @@ SKU 號：BOS0032
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_土壤湿度传感器_应用样例2_连线图%20%281%29.png)
+![](../../../.gitbook/assets/boson_阈值模块_自动浇花装置连线图%20%281%29.png)
 
 ### **\(2\) 糧倉溫濕度檢測**
 
@@ -58,7 +58,7 @@ SKU 號：BOS0032
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%282%29.png)
 
 ## 商品規格
 

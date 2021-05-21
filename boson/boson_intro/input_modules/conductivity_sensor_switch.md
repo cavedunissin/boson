@@ -22,7 +22,7 @@ SKU：BOS0012
 
 在圖示①處，通過觸摸導電感測開關的正負極，可以改變模組的輸出狀態；也可以通過導線外接一個水果或蔬菜從而產生開關控制訊號。
 
-![](../../../.gitbook/assets/boson_电导开关_使用说明.png)
+![](../../../.gitbook/assets/boson_电导开关_使用说明%20%281%29.png)
 
 ## 原理介紹
 
@@ -58,7 +58,7 @@ SKU：BOS0012
 
 **連線圖：**
 
-![](../../../.gitbook/assets/conductivity_sensor_switch_example3.png)
+![](../../../.gitbook/assets/conductivity_sensor_switch_example3%20%281%29.png)
 
 **設計意圖：**將導電感測開關連接至P0腳位，根據P0腳位輸出的數位訊號判斷物體是否具有導電性。
 
@@ -74,7 +74,7 @@ SKU：BOS0012
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_电导开关_应用样例3_程序示意图英文版%20%281%29.png)
+![](../../../.gitbook/assets/boson_电导开关_应用样例3_程序示意图英文版%20%281%29%20%281%29.png)
 
 ## 實作範例教學-LinkIt 7697篇
 

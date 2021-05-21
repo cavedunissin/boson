@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/sound_sensor.jpg)
+![](../../../.gitbook/assets/sound_sensor%20%281%29.jpg)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ SKU：BOS0009
 
 按照下圖所示連接電路，通電後即可通過聲音感測器控制LED燈：檢測到聲音時點亮LED燈，否則熄滅LED燈。
 
-![](../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-shi-yong-shuo-ming.png)
+![](../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-shi-yong-shuo-ming%20%281%29.png)
 
 ## 原理介紹
 
@@ -44,7 +44,7 @@ SKU：BOS0009
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_彩色灯带%28固定颜色%29_声光互动蛋糕连线图%20%281%29.png)
+![](../../../.gitbook/assets/boson_声音传感器_应用样例1_连线图%20%281%29.png)
 
 ### \(2\) 智慧路燈
 

@@ -48,7 +48,7 @@ SKU：BOS0008
 
 **連線圖：**
 
-![](../../../.gitbook/assets/buzzer_module_example2%20%282%29.png)
+![](../../../.gitbook/assets/buzzer_module_example2%20%282%29%20%282%29.png)
 
 ### \(2\) 觸碰檯燈
 
@@ -94,7 +94,7 @@ SKU：BOS0008
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-chu-mo-chuan-gan-qi-ying-yong-yang-li-4-cheng-xu-shi-yi-tu-ying-wen-ban.png)
+![](../../../.gitbook/assets/boson-chu-mo-chuan-gan-qi-ying-yong-yang-li-4-cheng-xu-shi-yi-tu-ying-wen-ban%20%281%29.png)
 
 ## 商品規格
 

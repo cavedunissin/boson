@@ -58,7 +58,7 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu.png)
+![Optional title](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%281%29.png)
 
 ## 商品規格
 

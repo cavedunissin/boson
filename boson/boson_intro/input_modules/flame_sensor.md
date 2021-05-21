@@ -26,7 +26,7 @@ SKU：BOS0007
 
 按照下圖所示連接電路，通電後即可通過火焰感測器控制蜂鳴器模組：當檢測到火焰時，蜂鳴器開始鳴叫；否則蜂鳴器停止鳴叫。
 
-![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%283%29.png)
+![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%283%29%20%283%29.png)
 
 **\*注意：**儘管這款感測器用於感知火焰的，但它並不防火。因此使用時請與火焰保持距離，以免燒壞感測器。\*
 
@@ -44,7 +44,7 @@ SKU：BOS0007
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%282%29.png)
+![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%283%29%20%282%29.png)
 
 ### \(2\) 火爐自動報警器
 
@@ -64,7 +64,7 @@ SKU：BOS0007
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu%20%281%29.png)
+![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu%20%281%29%20%281%29.png)
 
 **設計意圖：**由於火焰感測器的輸出信號是類比值，這裡設置一個臨界值「30」（臨界值需要根據環境等因素經過多次測試後確定），當火焰感測器輸出類比值大於30時表示發生火警，蜂鳴器和風扇開始工作，否則關閉蜂鳴器和風扇。
 
@@ -80,7 +80,7 @@ SKU：BOS0007
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/flame_sensor_prg_en.png)
+![](../../../.gitbook/assets/flame_sensor_prg_en%20%281%29.png)
 
 ## 商品規格
 

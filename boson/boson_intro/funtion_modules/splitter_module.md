@@ -40,7 +40,7 @@ SKU 號：BOS0030
 
 分配模組除了可以輸入輸出數位信號外，還可以將一路類比輸入信號轉換為兩路相同的類比輸出信號。按照下圖所示連接電路，通電後按下紅色按鈕即可同時點亮兩盞LED燈。
 
-![](../../../.gitbook/assets/boson-fen-zhi-mo-kuai-shi-yong-shuo-ming-3%20%281%29.png)
+![](../../../.gitbook/assets/boson-fen-zhi-mo-kuai-shi-yong-shuo-ming-3%20%281%29%20%281%29.png)
 
 ## 原理介紹
 
@@ -56,7 +56,7 @@ SKU 號：BOS0030
 
 **連線圖：**
 
-![](../../../.gitbook/assets/splitter_module_example1%20%285%29.png)
+![](../../../.gitbook/assets/splitter_module_example1%20%288%29%20%285%29.png)
 
 ### **\(2\) 密碼鎖**
 
@@ -66,7 +66,7 @@ SKU 號：BOS0030
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%283%29.png)
+![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%281%29%20%283%29.png)
 
 ### **\(3\) 搶答器**
 

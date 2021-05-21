@@ -56,7 +56,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_LED模块_感应发光小屋连线图.png)
+![](../../../.gitbook/assets/boson_LED模块_感应发光小屋连线图%20%281%29.png)
 
 ### **智慧路燈**
 
@@ -66,7 +66,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_逻辑“与”模块_智能路灯连线图%20%284%29.png)
+![](../../../.gitbook/assets/boson_环境光传感器_应用样例3_连线图%20%284%29.png)
 
 ### **復古燭臺**
 
@@ -76,7 +76,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/splitter_module_example1%20%281%29.png)
+![](../../../.gitbook/assets/splitter_module_example1%20%288%29%20%281%29.png)
 
 ### **找朋友機**
 
@@ -86,7 +86,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_LED模块_找朋友机连线图%20%288%29.png)
+![](../../../.gitbook/assets/boson_逻辑“或”模块_找朋友机连线图%20%288%29.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -98,7 +98,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_LED模块_按钮台灯2连线图%20%282%29.png)
+![](../../../.gitbook/assets/boson_LED模块_按钮台灯2连线图%20%283%29%20%282%29.png)
 
 **執行流程：**
 
@@ -108,11 +108,11 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%281%29.png)
+![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29%20%281%29.png)
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/led_module_prg1_en%20%287%29.png)
+![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%287%29.png)
 
 ### **旋鈕檯燈**
 
@@ -122,7 +122,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu%20%283%29.png)
+![](../../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu%20%282%29%20%283%29.png)
 
 **執行流程：**
 
@@ -130,11 +130,11 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/fan_module_prg2_ch_tw%20%281%29.png)
+![](../../../.gitbook/assets/fan_module_prg2_ch_tw%20%282%29%20%281%29.png)
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%285%29.png)
+![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%2811%29%20%285%29.png)
 
 ### \*\*\*\*
 

@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-shi-wu-tu-pian%20%281%29.jpg)
+![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-shi-wu-tu-pian%20%281%29%20%281%29.jpg)
 
 ## 基本信息
 
@@ -70,7 +70,7 @@ SKU：BOS0043
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_心率传感器_应用样例1_程序示意图英文版.png)
+![](../../../.gitbook/assets/boson_心率传感器_应用样例1_程序示意图英文版%20%281%29.png)
 
 ### \(2\) 使用OLED顯示模組監測心率
 
@@ -90,7 +90,7 @@ SKU：BOS0043
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu%20%281%29.png)
+![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu%20%281%29%20%281%29.png)
 
 **範例程式一：通過累計一定時間的心跳次數測量心率**
 
@@ -110,7 +110,7 @@ SKU：BOS0043
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-1.png)
+![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-1%20%281%29.png)
 
 **範例程式二：通過計算最近三次心跳發生的時間間隔來測量心率**
 
@@ -134,7 +134,7 @@ SKU：BOS0043
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-2.png)
+![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-2%20%281%29.png)
 
 **範例程式三：通過計算最近十次心跳發生的時間間隔來測量心率**
 

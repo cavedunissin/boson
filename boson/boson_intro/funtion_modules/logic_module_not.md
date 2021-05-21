@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-luo-ji-fei-mo-kuai-shi-wu-tu.jpg)
+![](../../../.gitbook/assets/boson-luo-ji-fei-mo-kuai-shi-wu-tu%20%283%29.jpg)
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ SKU 號：BOS0029
 
 運算邏輯模組 NOT既可以放在輸入端，也可以放在輸出端，但該模組不能直接作為輸入或輸出模組使用，需要將輸入模組連接在運算邏輯模組 NOT的輸入口，輸出模組連接在運算邏輯模組 NOT的輸出口，通過改變輸入口的信號來控制輸出口。運算邏輯模組 NOT的輸入口和輸出口如下圖所示。
 
-![Optional title](../../../.gitbook/assets/logic_module_not_ui1%20%283%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_ui1%20%283%29%20%282%29.png)
 
 運算邏輯模組 NOT既可以輸入數位信號，也可以輸入類比信號，但該模組只能輸出數位信號。運算邏輯模組 NOT能夠對輸入信號進行處理並輸出相應結果，其輸入輸出機制如下：
 
@@ -34,11 +34,11 @@ SKU 號：BOS0029
 
 下圖列出了運算邏輯模組 NOT的真值表。
 
-![Optional title](../../../.gitbook/assets/logic_module_not_ui2%20%283%29%20%283%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_ui2%20%283%29%20%284%29%20%283%29.png)
 
 按照下圖所示連接電路，通電後紅色LED燈亮起，按下紅色按鈕時紅色LED燈熄滅，鬆開紅色按鈕後紅色LED燈再次亮起。
 
-![Optional title](../../../.gitbook/assets/logic_module_not_ui3%20%283%29%20%284%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_ui3%20%283%29%20%284%29%20%284%29.png)
 
 ## 原理介紹
 
@@ -54,7 +54,7 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/logic_module_not_example1%20%283%29%20%283%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_example1%20%283%29%20%284%29%20%283%29.png)
 
 ### **\(2\) 智慧路燈**
 
@@ -64,7 +64,7 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/boson_逻辑“与”模块_智能路灯连线图%20%289%29.png)
+![Optional title](../../../.gitbook/assets/boson_环境光传感器_应用样例3_连线图%20%289%29.png)
 
 ### **\(3\) 搶答器**
 
@@ -80,7 +80,7 @@ SKU 號：BOS0029
 
 腳位說明：
 
-![Optional title](../../../.gitbook/assets/logic_module_not_spec%20%283%29%20%281%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_spec%20%283%29%20%282%29%20%281%29.png)
 
 尺寸: 26mm\*22mm
 

@@ -73,7 +73,7 @@ void loop()
 
 每1秒鐘會讀取按鈕模組狀態一次，並可透過micro:bit顯示指示燈看到按鈕模組的狀態。
 
-![](../../.gitbook/assets/02%20%287%29.jpg)
+![](../../.gitbook/assets/02%20%287%29%20%281%29.jpg)
 
 ### JavaScript 程式
 
