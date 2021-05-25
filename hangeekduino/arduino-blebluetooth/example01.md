@@ -8,29 +8,29 @@
 
 ## 中文系列文章
 
-* 【雙A計畫】 常見問題整理
-* 【雙A計畫】藍牙模組\(HC05/06\)常用指令教學
-* 【雙A計劃】Part0：App Inventor 透過藍牙傳送訊號給 Arduino
-* 【雙A計劃】Part1：App Inventor 經由藍牙控制 Arduino LED 亮滅
-* 【雙A計劃】Part2：App Inventor 經由藍牙控制 Arduino LED 漸明漸暗
-* 【雙A計劃】Part3：Android 手機透過藍牙接收 Arduino 類比腳位狀態
-* 【雙A計劃】Part4：App Inventor 藍牙遙控 Arduino 雙輪機器人
-* 【雙A計劃】Part5：Paperduino 藍牙控制 LED 閃爍
-* 【雙A計畫】Part6：Arduino 傳兩筆資料到 Android 手機
-* 【雙A計劃】Part7：Arduino超音波感測距離回傳數值給Android手機
-* 【雙A計劃】Part8：Android 手機對 Arduino 同時進行資料收發
-* 【雙A計劃】Part9：藍牙遙控機器手臂車
+* [【雙A計畫】 常見問題整理](https://blog.cavedu.com/2015/02/19/arduino-app-faq/)
+* [【雙A計畫】藍牙模組\(HC05/06\)常用指令教學](https://blog.cavedu.com/2017/10/18/hc05-hc06/)
+* [【雙A計劃】Part0：App Inventor 透過藍牙傳送訊號給 Arduino](https://blog.cavedu.com/2013/11/08/appinventorandarduinowithbluetooth/)
+* [【雙A計劃】Part1：App Inventor 經由藍牙控制 Arduino LED 亮滅](http://wp.me/p3T9Qk-2Ln)
+* [【雙A計劃】Part2：App Inventor 經由藍牙控制 Arduino LED 漸明漸暗](http://blog.cavedu.com/appinventor-%e5%9c%96%e5%bd%a2%e5%8c%96android/appinventorandarduinowithbluetooth2/)
+* [【雙A計劃】Part3：Android 手機透過藍牙接收 Arduino 類比腳位狀態](http://blog.cavedu.com/appinventor-%e5%9c%96%e5%bd%a2%e5%8c%96android/appinventorandarduinowithbluetooth3/)
+* [【雙A計劃】Part4：App Inventor 藍牙遙控 Arduino 雙輪機器人](https://blog.cavedu.com/2014/05/22/arduino_robot_bt_app/)
+* [【雙A計劃】Part5：Paperduino 藍牙控制 LED 閃爍](https://blog.cavedu.com/2014/12/07/paperduino_bt_led/)
+* [【雙A計畫】Part6：Arduino 傳兩筆資料到 Android 手機](https://blog.cavedu.com/2015/04/05/arduino-multidata-to-app/)
+* [【雙A計劃】Part7：Arduino超音波感測距離回傳數值給Android手機](https://blog.cavedu.com/2015/06/06/ultrasonic-to-app/)
+* [【雙A計劃】Part8：Android 手機對 Arduino 同時進行資料收發](https://blog.cavedu.com/2015/07/23/arduino-app-send-receive/)
+* [【雙A計劃】Part9：藍牙遙控機器手臂車](https://blog.cavedu.com/2015/12/25/aaplan-part9-bluetooth-mearmcar/)
 
 ## English version
 
-* Arduino LED Blink
-* Arduino LED PWM
-* Arduino LED Blink \(Arduino 101 with BLE\)
-* Arduino LED PWM \(Arduino 101 with BLE\)
+* [Arduino LED Blink](http://www.appinventor.tw/arduino_bt_blink)
+* [Arduino LED PWM](http://www.appinventor.tw/arduino_bt_pwm)
+* [Arduino LED Blink \(Arduino 101 with BLE\)](http://www.appinventor.tw/ble_lesson1_blink)
+* [Arduino LED PWM \(Arduino 101 with BLE\)](http://www.appinventor.tw/ble_lesson2_pwm)
 
 ## 範例影片
 
-[![App Inventor BLE Arduino](http://img.youtube.com/vi/Ryf8kbFrVHs/0.jpg)](http://www.youtube.com/watch?v=Ryf8kbFrVHs)
+{% embed url="https://www.youtube.com/watch?v=Ryf8kbFrVHs" %}
 
 ## 硬體
 
