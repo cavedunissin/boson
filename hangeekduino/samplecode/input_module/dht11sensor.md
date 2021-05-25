@@ -53,5 +53,9 @@ void loop()
 }
 ```
 
+## 影片教學:
+
+{% embed url="https://www.youtube.com/watch?v=bAbHAfYffQ0" %}
+
 
 
