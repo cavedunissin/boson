@@ -13,10 +13,10 @@
 執行畫面如下：
 
 **未按下滑鼠鍵，畫面顏色不變，LED 熄滅**  
-![](../.gitbook/assets/processing_arduino_ex03_01.png)
+![](../../.gitbook/assets/processing_arduino_ex03_01.png)
 
 **按下滑鼠鍵，畫面顏色改變，LED 亮起**  
-![](../.gitbook/assets/processing_arduino_ex03_02.png)
+![](../../.gitbook/assets/processing_arduino_ex03_02.png)
 
 ```text
 import processing.serial.*;
@@ -59,7 +59,7 @@ void draw() {
 請在 Arduino 的 D9 腳位上接上 LED，因為預設的 D4 LED 該腳位不支援 PWM。執行畫面如下：
 
 **左右移動滑鼠，可看到畫面的藍色濃度變化，LED也會根據滑鼠由左到右慢慢變亮。反方向移動則漸漸變暗**  
-![](../.gitbook/assets/processing_arduino_ex03_03.png)
+![](../../.gitbook/assets/processing_arduino_ex03_03.png)
 
 檔名 - [arduino\_output\_pwm\_easy.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/arduino_output_pwm_easy)
 
