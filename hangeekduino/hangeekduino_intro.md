@@ -48,6 +48,10 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 
 ## 影片教學:
 
+## 【教學】Arduino首次接觸就上手 5分鐘小教室\_前導介紹
+
+{% embed url="https://www.youtube.com/watch?v=JjETRW5MRlM" %}
+
 ## 【教學】Arduino首次接觸就上手 5分鐘小教室\_ep1 下載
 
 {% embed url="https://www.youtube.com/watch?v=JKDh8EZ4SXU&feature=youtu.be" %}
