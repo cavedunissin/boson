@@ -145,17 +145,13 @@ pin（腳位）: 要寫入的 Arduino 腳位（pin）。
 
 **使用蜂鳴器發出設定頻率的聲音**
 
-如果要使蜂鳴器發出設定好的頻率的聲音，可以使用以下程式碼，詳細介紹請參考一下連結。
+如果要使蜂鳴器發出設定好的頻率的聲音，可以使用以下程式碼，詳細介紹請參考以下連結。
 
 ```text
 tone(pin, value);
 ```
 
-
-
 [https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/output\_module/buzzer](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/output_module/buzzer)
-
-
 
 **PWM用法**
 
