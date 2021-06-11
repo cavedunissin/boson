@@ -102,7 +102,7 @@
   * [認識Hangeekduino圖形化介面](hangeekduino/hangeekduino_intro.md)
   * [\[Processing 互動裝置藝術結合 Arduino \]](hangeekduino/processing_arduino/README.md)
     * [範例01\_Processing IDE 下載、基本範例](hangeekduino/processing_arduino/example01.md)
-    * [範例02\_Arduino 函式庫安裝，可變電阻控制圈圈大小](hangeekduino/processing_arduino/example02.md)
+    * [範例02\_連接Arduino\_數位輸入與類比輸入](hangeekduino/processing_arduino/example02.md)
     * [範例03\_Processing控制LED](hangeekduino/processing_arduino/example03.md)
     * [4. 療癒海浪 - 按鈕與光感測器](hangeekduino/processing_arduino/example04.md)
     * [5. 天空飄著雲 - DHT溫溼度感測器\(A\)](hangeekduino/processing_arduino/example05.md)
