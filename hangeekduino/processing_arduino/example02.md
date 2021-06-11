@@ -1,4 +1,8 @@
-# 範例02\_Arduino 函式庫安裝，可變電阻控制圈圈大小
+# 範例02\_連接Arduino\_數位輸入與類比輸入
+
+## 【教學】Processing 互動裝置藝術結合 Arduino 小教室\_ep2 連接Arduino\_數位輸入與類比輸入
+
+{% embed url="https://youtu.be/GAcywIxifjY" %}
 
 歡迎來到第一個範例！
 

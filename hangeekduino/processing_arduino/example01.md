@@ -2,10 +2,6 @@
 
 請跟著以下影片一起完成第一個範例吧，本範例要取得 Processing IDE 並執行內建範例玩玩看，您會知道 Processing 語言的簡潔與功能豐富，真的很棒！
 
-## 【教學】Processing 互動裝置藝術結合 Arduino 小教室\_ep1 下載Processing
-
-{% embed url="https://youtu.be/7C8ZCVtKMsk" %}
-
 請根據您的作業系統下載對應的 Processing IDE \([http://processing.org\)，Processing](http://processing.org%29，Processing) 主頁面如下：
 
 ![](../../.gitbook/assets/processing_arduino_ex01_01.png)
