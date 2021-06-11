@@ -1,9 +1,5 @@
 # 範例03\_Processing控制LED
 
-## 【教學】Arduino首次接觸就上手\_ep3 Processing控制Arduino LED
-
-{% embed url="https://youtu.be/o9aRdtsT9y8" %}
-
 本篇要透過兩個小範例來說明如何透過 Processing 來控制 Arduino 的狀態，分別為數位輸出與類比輸出。前者使用 Processing 的`arduino.digitalWrite()` 語法來控制 LED 的亮、暗兩種狀態。
 
 後者則使用 Processing 的`arduino.analogWrite()` 語法來控制 LED 的亮、暗兩種狀態。請注意後者在 Arduino 上須把 LED 接在支援 PWM 的腳位\(以 Arduino 首次接觸就上手套件的 Arudino Uno 來說，支援 PWM 的腳位為 3 5 6 9 10 與11 等六隻腳位，所以無法使用 D4 LED。
