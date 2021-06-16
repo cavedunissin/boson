@@ -130,7 +130,7 @@ SKU：BOS0043
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/heartrate_monitor_sensor_prg3_ch_tw.png)
+![](../../../.gitbook/assets/heartrate_mointor_sensor_prg3_ch_tw.png)
 
 **Example program\(English\)：**
 
