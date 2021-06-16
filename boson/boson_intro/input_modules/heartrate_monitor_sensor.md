@@ -134,7 +134,7 @@ SKU：BOS0043
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-2%20%281%29.png)
+![](../../../.gitbook/assets/heartrate_mointor_sensor_prg3_en.png)
 
 **範例程式三：通過計算最近十次心跳發生的時間間隔來測量心率**
 
