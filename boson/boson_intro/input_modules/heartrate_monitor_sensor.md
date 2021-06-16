@@ -70,7 +70,7 @@ SKU：BOS0043
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_心率传感器_应用样例1_程序示意图英文版%20%281%29.png)
+![](../../../.gitbook/assets/heartrate_monitor_sensor_prg_en.png)
 
 ### \(2\) 使用OLED顯示模組監測心率
 
@@ -110,7 +110,7 @@ SKU：BOS0043
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-1%20%281%29.png)
+![](../../../.gitbook/assets/heartrate_monitor_sensor_prg2_en.png)
 
 **範例程式二：通過計算最近三次心跳發生的時間間隔來測量心率**
 
@@ -170,7 +170,7 @@ HeartBeat：心跳時間。Interval\_1_：_間隔時間1。Interval\_2：間隔�
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban-3.png)
+![](../../../.gitbook/assets/heartrate_monitor_sensor_prg4_en.png)
 
 ## 商品規格
 
