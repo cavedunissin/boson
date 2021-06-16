@@ -137,14 +137,14 @@ SKU：BOS0043
 {% hint style="info" %}
 HeartBeat：心跳時間。Interval\_1_：_間隔時間1。Interval\_2：間隔時間2。AverageInterval：平均間隔。
 
-概念與上述中文版一樣，差別是這裡將三次心跳的兩個間隔時間分別命名變數為Interval\_1、Interval\_2，並且將每次偵測到心跳的時間放進HeartBeat的陣列裡作更新，依照心跳時間新到舊的排列順序為：程式運行時間--&gt;陣列編號1--&gt;陣列編號0。
+概念與上述中文版一樣，差別是這裡將三次心跳的兩個間隔時間分別命名變數為Interval\_1、Interval\_2，並且將每次偵測到心跳的時間放進HeartBeat的陣列裡作更新，依照心跳時間新到舊的排列順序為：程式運行時間--&gt;陣列項目1--&gt;陣列項目0。
 
 執行流程如下：
 
-1. 初始化變數陣列：命名變數HeartBeat並設定陣列。
+1. 初始化陣列：設定HeartBeat陣列，保存二次心跳時間。
 2. 計算心跳間隔時間：當P0腳位被觸發時，計算三次心跳的間隔時間。
 3. 計算平均間隔時間：將第2項的間隔時間加總計算平均數。
-4. 更新心跳時間：將陣列編號1--&gt;陣列編號0、P0觸發當下系統時間--&gt;陣列編號1。
+4. 更新心跳時間：將陣列項目1--&gt;陣列項目0、P0觸發當下系統時間--&gt;陣列項目1。
 5. 顯示心跳數：每隔3秒顯示並計算每分鐘心跳數。
 {% endhint %}
 
@@ -166,7 +166,7 @@ HeartBeat：心跳時間。Interval\_1_：_間隔時間1。Interval\_2：間隔�
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/heartrate_monitor_sensor_prg4_ch_tw.png)
+![](../../../.gitbook/assets/heartrate_monitor_sensor_prg4_ch_tw%20%281%29.png)
 
 **Example program\(English\)：**
 
