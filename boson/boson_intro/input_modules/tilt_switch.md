@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-qing-xie-kai-guan-shi-wu-tu-pian%20%281%29.jpg)
+![](../../../.gitbook/assets/boson-qing-xie-kai-guan-shi-wu-tu-pian%20%281%29%20%281%29.jpg)
 
 ## 基本信息
 
@@ -46,7 +46,7 @@ SKU：BOS0005
 
 
 
-![](../../../.gitbook/assets/boson_倾斜开关_应用样例1_连线图%20%281%29.png)
+![](../../../.gitbook/assets/boson_倾斜开关_应用样例1_连线图%20%283%29%20%281%29.png)
 
 ### 畫廊展示品防盜警報器
 
@@ -56,7 +56,7 @@ SKU：BOS0005
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_逻辑“或”模块_画廊展示品防盗报警器连线图%20%284%29%20%283%29.png)
+![](../../../.gitbook/assets/boson_逻辑“或”模块_画廊展示品防盗报警器连线图%20%284%29%20%281%29%20%283%29.png)
 
 ## 實作範例教學-Micro:bit篇
 

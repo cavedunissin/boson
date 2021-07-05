@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-shi-wu-tu-pian%20%281%29%20%281%29.jpg)
+![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-shi-wu-tu-pian%20%281%29%20%281%29%20%281%29.jpg)
 
 ## 基本信息
 

@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/rgb_led_string%20%281%29%20%282%29.jpg)
+![](../../../.gitbook/assets/rgb_led_string%20%281%29%20%282%29%20%282%29.jpg)
 
 ## 基本信息
 
@@ -46,15 +46,15 @@ SKU 號：019.00268
 
 ① 選定七彩燈條連接micro:bit的腳位、燈條LED燈的數目及顏色模式，指令語句如下圖。此處七彩燈條至micro:bit擴充板P0腳位，燈條LED燈數目為7盞，顏色模式為RGB模式。
 
-![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带设计意图1%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带设计意图1%20%282%29%20%282%29%20%281%29.png)
 
 ② 確定七彩燈條中LED燈使用的範圍，需要調用的指令如下圖。此處七彩燈條中LED燈使用範圍為0-7。
 
-![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带设计意图2%20%282%29.png)
+![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带设计意图2%20%282%29%20%282%29.png)
 
 ③ 確定七彩燈條色調範圍，需要調用的指令如下圖。此處色調範圍為1-360（紅色-綠色-藍色）。
 
-![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带设计意图3%20%282%29.png)
+![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带设计意图3%20%282%29%20%282%29.png)
 
 最終程式如下。
 
@@ -64,7 +64,7 @@ SKU 號：019.00268
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带程序示意图英文版%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/boson_七彩灯带_点亮七彩灯带程序示意图英文版%20%282%29%20%282%29%20%281%29.png)
 
 ### **聲控燈條**
 
@@ -74,7 +74,7 @@ SKU 號：019.00268
 
 **連線圖：** 將七彩燈條連接至micro:bit擴充板P0腳位，聲音感測器連接至micro:bit擴充板P2腳位。
 
-![](../../../.gitbook/assets/boson_七彩灯带_声控灯带连线图%20%282%29.png)
+![](../../../.gitbook/assets/boson_七彩灯带_声控灯带连线图%20%282%29%20%282%29.png)
 
 **執行流程：**
 
@@ -92,7 +92,7 @@ SKU 號：019.00268
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-qi-cai-deng-dai-sheng-kong-deng-dai-cheng-xu-shi-yi-tu-ying-wen-ban%20%282%29.png)
+![](../../../.gitbook/assets/boson-qi-cai-deng-dai-sheng-kong-deng-dai-cheng-xu-shi-yi-tu-ying-wen-ban%20%282%29%20%282%29.png)
 
 ## 商品規格
 

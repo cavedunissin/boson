@@ -94,7 +94,7 @@ SKU：BOS0008
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-chu-mo-chuan-gan-qi-ying-yong-yang-li-4-cheng-xu-shi-yi-tu-ying-wen-ban%20%281%29.png)
+![](../../../.gitbook/assets/boson-chu-mo-chuan-gan-qi-ying-yong-yang-li-4-cheng-xu-shi-yi-tu-ying-wen-ban%20%281%29%20%281%29.png)
 
 ## 商品規格
 

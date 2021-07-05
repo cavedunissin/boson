@@ -51,7 +51,7 @@ SKU：BOS0045
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu%20%283%29.png)
+![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu%20%283%29%20%281%29.png)
 
 ### \(2\) 守衛安全
 

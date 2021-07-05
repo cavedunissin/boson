@@ -1,20 +1,19 @@
-# 範例04\_療癒海浪 - 按鈕與光感測器
+# 範例04\_療癒海浪 - 按鈕與多個類比感測器
 
 ## 【教學】Arduino首次接觸就上手\_ep4 Processing讀取按鈕與光感測器
 
-本篇與先前的做法不同，不再使用 Standard Firmata 來直接與 Ardiuno 溝通。而是讓 Arduino 透過 ` Serial.write()` 語法逐個發送資料。這樣的作法雖然較為複雜，但允許使用者加入更多自定義的效果，Arduino也不再受限於基礎的 `arduino.digitalWrite()` 與 `arduino.analogWrite()` 語法，而是透過 `line.read()` 語法逐一讀入訊息之後進行相關操作。兩種作法都很不錯，都試試看吧！
+本篇與先前的做法不同，不再使用 Standard Firmata 來直接與 Ardiuno 溝通。而是讓 Arduino 透過 `Serial.write()` 語法逐個發送資料。這樣的作法雖然較為複雜，但允許使用者加入更多自定義的效果，Arduino也不再受限於基礎的 `arduino.digitalWrite()` 與 `arduino.analogWrite()` 語法，而是透過 `line.read()` 語法逐一讀入訊息之後進行相關操作。兩種作法都很不錯，都試試看吧！
 
 ## Arduino 端程式碼 - 自定義發送資料
 
-請開啟 Arduino IDE (自行下載或使用 HangeekDuino 下的 Arduino 1.8.5)，新增一個專案並填入以下內容或直接使用範例。請注意我們是使用 Arduino首次接觸就上手套件，所以以下的腳位編號是固定的，您可以自行加入其他感測器或調整其數學關係來做到不同效果：
+請開啟 Arduino IDE \(自行下載或使用 HangeekDuino 下的 Arduino 1.8.5\)，新增一個專案並填入以下內容或直接使用範例。請注意我們是使用 Arduino首次接觸就上手套件，所以以下的腳位編號是固定的，您可以自行加入其他感測器或調整其數學關係來做到不同效果：
 
-* int r = analogRead(A2);     //使用聲音感測器來控制紅色濃度
-* int alpha = analogRead(A2); //使用聲音感測器來控制透明度
-* int button = digitalRead(6);//使用按鈕來改變 particle 效果 
-* int b = analogRead(A6);     //使用光感測器來控制藍色濃度
-* int f = analogRead(A0);     //使用旋轉電位計來控制 frame rate 速度
-* Serial.write();             //發送資料給 Processing
-
+* int r = analogRead\(A2\);     //使用聲音感測器來控制紅色濃度
+* int alpha = analogRead\(A2\); //使用聲音感測器來控制透明度
+* int button = digitalRead\(6\);//使用按鈕來改變 particle 效果 
+* int b = analogRead\(A6\);     //使用光感測器來控制藍色濃度
+* int f = analogRead\(A0\);     //使用旋轉電位計來控制 frame rate 速度
+* Serial.write\(\);             //發送資料給 Processing
 
 檔名 - [line\_add.ino](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/wave)
 
@@ -48,6 +47,8 @@ void loop() {
 執行畫面如下：
 
 **Particle數量為6000時的三個執行畫面**  
+
+
 ![](../../.gitbook/assets/processing_arduino_ex04_01.png)
 
 ![](../../.gitbook/assets/processing_arduino_ex04_02.png)
@@ -55,12 +56,13 @@ void loop() {
 ![](../../.gitbook/assets/processing_arduino_ex04_03.png)
 
 **Particle數量為600時的三個執行畫面**  
+
+
 ![](../../.gitbook/assets/processing_arduino_ex04_04.png)
 
 ![](../../.gitbook/assets/processing_arduino_ex04_05.png)
 
 ![](../../.gitbook/assets/processing_arduino_ex04_06.png)
-
 
 ```text
 Particle[] particles;

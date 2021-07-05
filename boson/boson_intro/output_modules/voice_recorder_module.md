@@ -24,7 +24,7 @@ SKU 號：BOS0022
 
 按下錄音機模組/喇叭上的錄音按鈕就可以開始錄製聲音，BOSON的錄音機模組/喇叭最長支援錄製時長10s的聲音。通過按鈕模組可以控制喇叭播放出預先錄製好的聲音，達成錄音-放音的過程。按照下圖所示連接電路，通電後按住錄音機模組/喇叭上的錄音按鈕即可錄製最長為10s的聲音，再通過按鈕模組就可以控制喇叭播放這段錄製好的聲音。
 
-![](../../../.gitbook/assets/boson_录音模块_使用说明%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/boson_录音模块_使用说明%20%282%29%20%282%29%20%282%29.png)
 
 ## 原理介紹
 
@@ -40,7 +40,7 @@ SKU 號：BOS0022
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu%20%283%29.png)
+![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu%20%283%29%20%281%29.png)
 
 ### \*\*\*\*
 
@@ -54,7 +54,7 @@ SKU 號：BOS0022
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，錄音機模組/喇叭連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_扬声器模块_留言机连线图%20%282%29.png)
+![](../../../.gitbook/assets/boson_扬声器模块_留言机连线图%20%282%29%20%282%29.png)
 
 **執行流程：**
 
@@ -66,11 +66,11 @@ SKU 號：BOS0022
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29%20%282%29.png)
+![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29%20%283%29%20%282%29.png)
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%283%29.png)
+![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%281%29%20%283%29.png)
 
 ### **教師節的禮物**
 
@@ -80,7 +80,7 @@ SKU 號：BOS0022
 
 **連線圖：** 將動作感測器連接至micro:bit擴充板P0腳位，聲音感測器連接至micro:bit擴充板P2腳位，錄音機模組/喇叭連接至micro:bit擴充板P8腳位，LED燈模組連接至micro:bit擴充板P16腳位。
 
-![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-lian-xian-tu%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-lian-xian-tu%20%282%29%20%282%29%20%281%29.png)
 
 **執行流程：**
 

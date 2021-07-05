@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/threshold_module%20%281%29.png)
+![](../../../.gitbook/assets/threshold_module%20%281%29%20%281%29.png)
 
 ## 基本信息
 
@@ -48,7 +48,7 @@ SKU 號：BOS0032
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_阈值模块_自动浇花装置连线图%20%281%29.png)
+![](../../../.gitbook/assets/boson_阈值模块_自动浇花装置连线图%20%283%29%20%281%29.png)
 
 ### **\(2\) 糧倉溫濕度檢測**
 
@@ -58,7 +58,7 @@ SKU 號：BOS0032
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%282%29.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%282%29%20%281%29.png)
 
 ## 商品規格
 

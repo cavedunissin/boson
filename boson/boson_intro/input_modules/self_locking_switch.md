@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson_自锁开关_实物图片%20%283%29.jpg)
+![](../../../.gitbook/assets/boson_自锁开关_实物图片%20%283%29%20%283%29.jpg)
 
 ## 基本信息
 
@@ -31,7 +31,7 @@ SKU：BOS0003
 
 \*\*\*\*
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例1_连线图%20%283%29%20%281%29.png)
+![](../../../.gitbook/assets/boson_自锁开关_应用样例1_连线图%20%283%29%20%283%29%20%281%29.png)
 
 ## 原理介紹
 
@@ -47,7 +47,7 @@ SKU：BOS0003
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例1_连线图%20%283%29%20%283%29.png)
+![](../../../.gitbook/assets/boson_自锁开关_应用样例1_连线图%20%283%29%20%283%29%20%283%29.png)
 
 ### 開啟風扇
 
@@ -67,7 +67,7 @@ SKU：BOS0003
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例4_连线图%20%282%29.png)
+![](../../../.gitbook/assets/boson_自锁开关_应用样例4_连线图%20%284%29%20%282%29.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -85,11 +85,11 @@ SKU：BOS0003
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29.png)
+![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29%20%283%29.png)
 
 **Example program\(English\):**
 
-![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%285%29.png)
+![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%281%29%20%285%29.png)
 
 ## 實作範例教學-**LinkIt 7697**篇
 

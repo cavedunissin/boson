@@ -56,7 +56,7 @@ SKU 號：BOS0030
 
 **連線圖：**
 
-![](../../../.gitbook/assets/splitter_module_example1%20%288%29%20%285%29.png)
+![](../../../.gitbook/assets/splitter_module_example1%20%288%29%20%281%29%20%285%29.png)
 
 ### **\(2\) 密碼鎖**
 

@@ -56,7 +56,7 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%282%29%20%289%29.png)
+![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%282%29%20%281%29%20%289%29.png)
 
 ### \(3\) 植物培育箱
 
