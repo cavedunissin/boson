@@ -1,6 +1,6 @@
 # 初學Jetson Nano不說No-CAVEDU教你一次懂
 
-![](.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 ## **本書特色**
 
