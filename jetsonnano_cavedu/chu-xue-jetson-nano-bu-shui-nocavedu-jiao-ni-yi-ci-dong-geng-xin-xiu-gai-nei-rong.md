@@ -9,7 +9,7 @@ P229
 
 
 
-接著是如果已經透過書上舊的網址下載過，更改套件網址的方法  
+如果已經透過書上舊的網址下載過，更改套件網址的方法如下，如果沒有使用舊的網址下載過的話請使用新的網址下載就不用執行以下步驟。  
 
 
 **根據RealSense原廠github資料顯示安裝下載套件的網址已經從HTTP改成HTTPS，新的網址應以https://librealsense.intel.com 開頭。**
@@ -71,7 +71,7 @@ P229
 
 ![](https://lh6.googleusercontent.com/x_TDPwNmbg3UAvgS0tgJw0x65W_eOQjewvbp7XyuyXP6423gcdI3cwTfjAozXf4qIdqFNLXLPj7P9UaO45aWMDVwGXBTRV_Jeeju1qzonVeisid_rSKuT-IsprmU8ww7NdVXMdY2)
 
-**接著在執行一次，以下指令即可從新的網址抓取套件**
+**接著在執行一次以下指令，即可從新的網址抓取套件。**
 
 **`sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo bionic main" -u`**
 
