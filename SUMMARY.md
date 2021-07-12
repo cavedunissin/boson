@@ -123,5 +123,5 @@
   * [5-5 網頁遠端監控LED](mcs-lite/mcs-lite-control-led.md)
   * [5-6 雲端溫濕度監控](mcs-lite/mcs-lite-cloud-sensor-control.md)
 * [初學Jetson Nano不說No-CAVEDU教你一次懂](jetsonnano_cavedu/README.md)
-  * [初學Jetson Nano不說No-CAVEDU教你一次懂更新修改內容](jetsonnano_cavedu/chu-xue-jetson-nano-bu-shui-nocavedu-jiao-ni-yi-ci-dong-geng-xin-xiu-gai-nei-rong.md)
+  * [初學Jetson Nano不說No-CAVEDU教你一次懂書籍更新修改內容](jetsonnano_cavedu/chu-xue-jetson-nano-bu-shui-nocavedu-jiao-ni-yi-ci-dong-geng-xin-xiu-gai-nei-rong.md)
 
