@@ -2,8 +2,17 @@
 
 ## P229 安裝**RealSenseviewer套件網址部分有更改**
 
-  
-**首先根據RealSense原廠github資料顯示安裝下載套件的網址已經從HTTP改成HTTPS，新的網址應以https://librealsense.intel.com 開頭。**
+P229  
+**sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo bionic main" -u**  
+修改成  
+**sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo bionic main" -u**
+
+
+
+接著是如果已經透過書上舊的網址下載過，更改套件網址的方法  
+
+
+**根據RealSense原廠github資料顯示安裝下載套件的網址已經從HTTP改成HTTPS，新的網址應以https://librealsense.intel.com 開頭。**
 
 **如果是按照我們**[**《 初學Jetson Nano不說No-CAVEDU教你一次懂》│翰吉│CAVEDU教育團隊– 機器人王國商城**](https://robotkingdom.com.tw/product/9789869329989/) **書籍內容安裝的或是參考之前JetsonHacksNano的人安裝的話應該都會出現以下403網址報錯問題。\(如下圖\)**
 
