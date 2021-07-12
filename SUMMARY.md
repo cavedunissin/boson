@@ -122,4 +122,5 @@
   * [5-4 MCS Lite 介紹及MCS Lite 環境建置](mcs-lite/mcs-lite-introduction-environment.md)
   * [5-5 網頁遠端監控LED](mcs-lite/mcs-lite-control-led.md)
   * [5-6 雲端溫濕度監控](mcs-lite/mcs-lite-cloud-sensor-control.md)
+* [初學Jetson Nano不說No-CAVEDU教你一次懂](jetsonnano_cavedu.md)
 
