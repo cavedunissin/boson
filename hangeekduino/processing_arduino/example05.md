@@ -2,7 +2,7 @@
 
 ## 【教學】Arduino首次接觸就上手\_ep5 Processing 讀取溫溼度感測器
 
-本篇與先前的做法不同，不再使用 Standard Firmata 來直接與 Ardiuno 溝通。而是讓 Arduino 透過 `Serial.write()` 語法逐個發送資料。這樣的作法雖然較為複雜，但允許使用者加入更多自定義的效果，Arduino也不再受限於基礎的 `arduino.digitalWrite()` 與 `arduino.analogWrite()` 語法，而是透過 `line.read()` 語法逐一讀入訊息之後進行相關操作。兩種作法都很不錯，都試試看吧！
+本篇要告訴您如何讀取 Arduino 首次接觸就上手的  DHT溫溼度感測器，並控制 Processing 畫面上的雲朵顏色與下雨效果。本範例一樣讓 Arduino 透過 `Serial.write()` 語法逐個發送資料。這樣的作法雖然較為複雜，但允許使用者加入更多自定義的效果，詳細說明請回顧先前的文章喔！
 
 ## Arduino 端程式碼 - 自定義發送資料
 
