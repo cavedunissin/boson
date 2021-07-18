@@ -8,7 +8,7 @@
 
 請開啟 Arduino IDE \(自行下載或使用 HangeekDuino 下的 Arduino 1.8.5\)，新增一個專案並填入以下內容或直接使用範例。請注意我們是使用 Arduino首次接觸就上手套件，所以 DHT11 溫溼度感測器的腳位是固定在 D3。[DHT11感測器基本教學請點我](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/input_module/dht11sensor)。
 
-檔名 - [line\_add.ino](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
+檔名 - [rain.ino](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
 
 ```text
 #include "DHT.h"
@@ -38,8 +38,6 @@ void loop()
 
 ![](../../.gitbook/assets/processing_arduino_ex05_01.png)
 
-檔名 - [line\_add.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/wave)
-
 執行畫面如下：
 
 **執行畫面**  
@@ -48,6 +46,7 @@ void loop()
 ![](../../.gitbook/assets/processing_arduino_ex05_02.png)
 
 用嘴巴對著DHT11感測器呵氣，就可以看到雲朵的藍色變深了，雨滴的線條也比較粗，下雨的速度也變快了
+
 ![](../../.gitbook/assets/processing_arduino_ex05_03.png)
 
 ![](../../.gitbook/assets/processing_arduino_ex05_04.png)
@@ -56,7 +55,9 @@ void loop()
 
 ![](../../.gitbook/assets/processing_arduino_ex05_05.png)
 
-**主程式  .pde  
+**主程式  sky\_With\_dht\_processing.pde**  
+
+檔名 - [sky\_With\_dht\_processing.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
 
 ```text
 import processing.serial.*;
@@ -170,7 +171,9 @@ void draw() {
 }
 ```
 
-**副程式 Drop.pde  
+**副程式 Drop.pde**  
+
+檔名 - [Drop.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
 
 ```text
 class Drop{
