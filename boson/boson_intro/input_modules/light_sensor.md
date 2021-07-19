@@ -54,7 +54,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu%20%284%29%20%284%29.png)
+![](../../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu%20%284%29%20%284%29%20%284%29.png)
 
 ### \(3\) 智慧路燈
 
@@ -64,7 +64,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_环境光传感器_应用样例3_连线图%20%289%29%20%287%29.png)
+![](../../../.gitbook/assets/boson_环境光传感器_应用样例3_连线图%20%289%29%20%2813%29%20%287%29.png)
 
 ### \(4\) 復古燭臺
 
@@ -88,7 +88,7 @@ SKU：BOS0004
 
 **設計意圖：**光感測器會把檢測到的光強度直接轉換為類比值輸出，輸出範圍為0~1023，因此在製作光強度檢測儀時，只需把光感測器的輸出類比值直接讀取出來並顯示在Micro:bit的LED燈點陣上即可。
 
-**程式示意圖（中文版）：** ![](../../../.gitbook/assets/light_sensor_prg_ch_tw%20%281%29%20%281%29.png)
+**程式示意圖（中文版）：** ![](../../../.gitbook/assets/light_sensor_prg_ch_tw%20%281%29%20%281%29%20%281%29.png)
 
  **Example program\(English\)：**
 

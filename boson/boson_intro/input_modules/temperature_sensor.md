@@ -46,7 +46,7 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu%20%283%29%20%283%29%20%283%29.png)
+![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%283%29.png)
 
 ### \(2\) 探究外界環境溫度對植物生長狀況的影響
 

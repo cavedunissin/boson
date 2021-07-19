@@ -1,8 +1,8 @@
-# 範例05\_天空飄著雲 - DHT溫溼度感測器
+# 範例05\_天空飄著雲 - DHT溫溼度感測器\(A\)
 
 ## 【教學】Arduino首次接觸就上手\_ep5 Processing 讀取溫溼度感測器
 
-本篇要告訴您如何讀取 Arduino 首次接觸就上手的  DHT溫溼度感測器，並控制 Processing 畫面上的雲朵顏色與下雨效果。本範例一樣讓 Arduino 透過 `Serial.write()` 語法逐個發送資料。這樣的作法雖然較為複雜，但允許使用者加入更多自定義的效果，詳細說明請回顧先前的文章喔！
+本篇要告訴您如何讀取 Arduino 首次接觸就上手的 DHT溫溼度感測器，並控制 Processing 畫面上的雲朵顏色與下雨效果。本範例一樣讓 Arduino 透過 `Serial.write()` 語法逐個發送資料。這樣的作法雖然較為複雜，但允許使用者加入更多自定義的效果，詳細說明請回顧先前的文章喔！
 
 ## Arduino 端程式碼 - 自定義發送資料
 
@@ -29,7 +29,7 @@ void loop()
   int t = dht.readTemperature();  //取得溫度C
   Serial.write(h);
   Serial.write(t);  
-} 
+}
 ```
 
 ## Processing 程式範例 - 接收 Arduino 發送的溫溼度感測器資料來變換效果
@@ -40,10 +40,9 @@ void loop()
 
 執行畫面如下：
 
-**執行畫面**  
+**執行畫面**
 
-濕度最低時，雲朵為白色，也沒有下雨
-![](../../.gitbook/assets/processing_arduino_ex05_02.png)
+濕度最低時，雲朵為白色，也沒有下雨 ![](../../.gitbook/assets/processing_arduino_ex05_02.png)
 
 用嘴巴對著DHT11感測器呵氣，就可以看到雲朵的藍色變深了，雨滴的線條也比較粗，下雨的速度也變快了
 
@@ -53,9 +52,9 @@ void loop()
 
 ![](../../.gitbook/assets/processing_arduino_ex05_05.png)
 
-![](../../.gitbook/assets/processing_arduino_ex05_05.png)
+![](../../.gitbook/assets/processing_arduino_ex05_05%20%281%29.png)
 
-**主程式  sky\_With\_dht\_processing.pde**  
+**主程式 sky\_With\_dht\_processing.pde**
 
 檔名 - [sky\_With\_dht\_processing.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
 
@@ -171,7 +170,7 @@ void draw() {
 }
 ```
 
-**副程式 Drop.pde**  
+**副程式 Drop.pde**
 
 檔名 - [Drop.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
 
@@ -197,3 +196,4 @@ class Drop{
   }
 }
 ```
+

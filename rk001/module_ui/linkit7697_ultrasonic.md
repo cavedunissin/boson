@@ -81,9 +81,9 @@ void loop()
 
 超音波測距感應器套件安裝網址：[https://github.com/lioujj/pxt-sensors](https://github.com/lioujj/pxt-sensors)
 
-![&#x65B0;&#x589E;&#x64F4;&#x5C55;&#x5957;&#x4EF6;&#x4F4D;&#x7F6E;](../../.gitbook/assets/02%20%288%29%20%282%29%20%282%29%20%282%29.jpg)
+![&#x65B0;&#x589E;&#x64F4;&#x5C55;&#x5957;&#x4EF6;&#x4F4D;&#x7F6E;](../../.gitbook/assets/02%20%288%29%20%282%29%20%282%29%20%282%29%20%282%29.jpg)
 
-![&#x4F7F;&#x7528;&#x7DB2;&#x5740;&#x5B89;&#x88DD;sensors&#x7684;&#x5957;&#x4EF6;](../../.gitbook/assets/03%20%282%29.jpg)
+![&#x4F7F;&#x7528;&#x7DB2;&#x5740;&#x5B89;&#x88DD;sensors&#x7684;&#x5957;&#x4EF6;](../../.gitbook/assets/03%20%281%29.JPG)
 
 ![&#x5B89;&#x88DD;&#x5B8C;&#x6210;&#x5F8C;&#x5373;&#x53EF;&#x5728;&#x6307;&#x4EE4;&#x5340;&#x770B;&#x5230;&#x611F;&#x61C9;&#x5668;&#x9078;&#x9805;&#x88E1;&#x9762;&#x53CA;&#x6709;&#x8D85;&#x97F3;&#x6CE2;&#x6E2C;&#x8DDD;&#x611F;&#x61C9;&#x5668;&#x7684;&#x5957;&#x4EF6;](../../.gitbook/assets/04%20%281%29.jpg)
 

@@ -30,7 +30,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 這兩種模式可以通過伺服機模組上的撥動開關進行切換。按照下圖所示連接電路，通電後即可通過伺服機模組上的撥動開關控制伺服機。
 
-![](../../../.gitbook/assets/servo_module_with_servo_ui%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/servo_module_with_servo_ui%20%282%29%20%282%29%20%282%29.png)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例4_连线图%20%284%29%20%283%29.png)
+![](../../../.gitbook/assets/boson_自锁开关_应用样例4_连线图%20%284%29%20%284%29%20%283%29.png)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -58,7 +58,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：** 將土壤濕度感測器連接至micro:bit擴充板P0腳位，9g金屬伺服機模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson9g-jin-shu-duo-ji-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-lian-xian-tu%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/boson9g-jin-shu-duo-ji-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-lian-xian-tu%20%282%29%20%282%29%20%282%29.png)
 
 **執行流程：**
 
@@ -72,7 +72,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_舵机控制模块_自动浇花装置程序示意图英文版%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/boson_舵机控制模块_自动浇花装置程序示意图英文版%20%282%29%20%282%29%20%282%29.png)
 
 ## 實作範例教學-LinkIt 7697篇
 

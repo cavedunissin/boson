@@ -38,7 +38,7 @@ SKU 號：BOS0029
 
 按照下圖所示連接電路，通電後紅色LED燈亮起，按下紅色按鈕時紅色LED燈熄滅，鬆開紅色按鈕後紅色LED燈再次亮起。
 
-![Optional title](../../../.gitbook/assets/logic_module_not_ui3%20%283%29%20%284%29%20%282%29%20%284%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_ui3%20%283%29%20%284%29%20%282%29%20%281%29%20%284%29.png)
 
 ## 原理介紹
 
@@ -54,7 +54,7 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/logic_module_not_example1%20%283%29%20%284%29%20%284%29%20%283%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_example1%20%283%29%20%284%29%20%284%29%20%284%29%20%283%29.png)
 
 ### **\(2\) 智慧路燈**
 
@@ -64,7 +64,7 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/boson_环境光传感器_应用样例3_连线图%20%289%29%20%289%29.png)
+![Optional title](../../../.gitbook/assets/boson_环境光传感器_应用样例3_连线图%20%289%29%20%2813%29%20%289%29.png)
 
 ### **\(3\) 搶答器**
 
@@ -80,7 +80,7 @@ SKU 號：BOS0029
 
 腳位說明：
 
-![Optional title](../../../.gitbook/assets/logic_module_not_spec%20%283%29%20%282%29%20%282%29%20%281%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_spec%20%283%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
 
 尺寸: 26mm\*22mm
 
