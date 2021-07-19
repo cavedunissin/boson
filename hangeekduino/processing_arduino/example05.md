@@ -1,4 +1,4 @@
-# 範例05\_天空飄著雲 - DHT溫溼度感測器\(A\)
+# 範例05\_天空飄著雲 - DHT溫溼度感測器
 
 ## 【教學】Arduino首次接觸就上手\_ep5 Processing 讀取溫溼度感測器
 
@@ -42,7 +42,9 @@ void loop()
 
 **執行畫面**
 
-濕度最低時，雲朵為白色，也沒有下雨 ![](../../.gitbook/assets/processing_arduino_ex05_02.png)
+濕度最低時，雲朵為白色，也沒有下雨 
+
+![](../../.gitbook/assets/processing_arduino_ex05_02.png)
 
 用嘴巴對著DHT11感測器呵氣，就可以看到雲朵的藍色變深了，雨滴的線條也比較粗，下雨的速度也變快了
 

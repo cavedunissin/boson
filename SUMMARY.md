@@ -105,7 +105,7 @@
     * [範例02\_連接Arduino\_數位輸入與類比輸入](hangeekduino/processing_arduino/example02.md)
     * [範例03\_Processing控制LED](hangeekduino/processing_arduino/example03.md)
     * [範例04\_療癒海浪 - 按鈕與多個類比感測器](hangeekduino/processing_arduino/example04.md)
-    * [範例05\_天空飄著雲 - DHT溫溼度感測器\(A\)](hangeekduino/processing_arduino/example05.md)
+    * [範例05\_天空飄著雲 - DHT溫溼度感測器](hangeekduino/processing_arduino/example05.md)
     * [6. 滾球小遊戲  - 三軸加速度感測器](hangeekduino/processing_arduino/example06.md)
     * [7. 風車轉轉  - 聲音感測器](hangeekduino/processing_arduino/example07.md)
   * [Arduino BLE藍牙通訊 - Android 手機](hangeekduino/arduino-blebluetooth/README.md)
