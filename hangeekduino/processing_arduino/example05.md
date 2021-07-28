@@ -4,10 +4,6 @@
 
 本篇要告訴您如何讀取 Arduino 首次接觸就上手的 DHT溫溼度感測器，並控制 Processing 畫面上的雲朵顏色與下雨效果。本範例一樣讓 Arduino 透過 `Serial.write()` 語法逐個發送資料。這樣的作法雖然較為複雜，但允許使用者加入更多自定義的效果，詳細說明請回顧先前的文章喔！
 
-```text
-special thanks to Konny
-```
-
 ## Arduino 端程式碼 - 自定義發送資料
 
 請開啟 Arduino IDE \(自行下載或使用 HangeekDuino 下的 Arduino 1.8.5\)，新增一個專案並填入以下內容或直接使用範例。請注意我們是使用 Arduino首次接觸就上手套件，所以 DHT11 溫溼度感測器的腳位是固定在 D3。[DHT11感測器基本教學請點我](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/input_module/dht11sensor)。
@@ -203,3 +199,6 @@ class Drop{
 }
 ```
 
+```text
+Special thanks to Konny for the supporting!
+```
