@@ -8,7 +8,7 @@
 
 請開啟 Arduino IDE \(自行下載或使用 HangeekDuino 下的 Arduino 1.8.5\)，新增一個專案並填入以下內容或直接使用範例。請注意 Arduino首次接觸就上手套件的聲音感測器是接在 A2 腳位。[聲音感測器基本教學請點我](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/input_module/soundsensor)。
 
-<img src=https://gblobscdn.gitbook.com/assets%2F-LaZQFBYOS3O0ksiEmR1%2F-MITXpJX-7Ipk9Uptuag%2F-MITXtYAjS2iBjqeydu3%2FSound.jpg width="500" height="">
+![](../../.gitbook/assets/sound.jpg)
 
 檔名 - [windmill.ino](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/windmill)
 
