@@ -64,11 +64,11 @@ void loop()
 
 ![](../../.gitbook/assets/07.dht11miceobitv1.5.png)
 
-### Microsoft MakeCode積木畫布
+### Microsoft MakeCode積木畫布 \(適用microbit v1.5\)
 
 {% hint style="info" %}
 注意:  
-測試時發現電壓如果切換到5V時會發生無法正常顯示溫度的問題、請記得把V1切到3V3當中\(如上圖紅框處\)  
+測試時發現電壓如果切換到5V時會發生無法正常顯示溫、濕度的問題、請記得把V1切到3V3當中\(如上圖紅框處\)  
 以下程式及函式庫目前測試不適用於micro:bit v2，如需再micro:bit v2使用請使用下方另一個函式庫的程式。
 {% endhint %}
 
@@ -111,4 +111,8 @@ basic.forever(function () {
     
 })
 ```
+
+## Microsoft MakeCode積木畫布 \(適用microbit v2\)
+
+
 
