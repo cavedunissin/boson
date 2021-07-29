@@ -146,9 +146,41 @@ DHT11溫溼度感應器套件安裝網址：[https://github.com/alankrantas/pxt-
 
 ### Microsoft MakeCode積木畫布 \(適用microbit v2\)
 
-### 
+使用pxt-DHT11\_DHT22此函式庫時\(完整程式如下\)，需先宣告你要使用攝氏溫度還是華氏溫度
+
+並且要設定此感測器Query為DHT11
+
+設定Data pin為P0
+
+Pin pull up為true
+
+Serial output為false
+
+Wait 2 sec after query為true
+
+![](../../.gitbook/assets/07.dht11miceobitv2code.png)
+
+LED燈會四捨五入小數點輪流顯示T:目前溫度H:目前濕度
 
 
 
+### JavaScript 程式
 
+```javascript
+basic.forever(function () {
+    basic.pause(100)
+    dht11_dht22.selectTempType(tempType.celsius)
+    dht11_dht22.queryData(
+    DHTtype.DHT11,
+    DigitalPin.P0,
+    true,
+    false,
+    true
+    )
+    basic.showString("T:")
+    basic.showString("" + (Math.round(dht11_dht22.readData(dataType.temperature))))
+    basic.showString("H:")
+    basic.showString("" + (Math.round(dht11_dht22.readData(dataType.humidity))))
+})
+```
 
