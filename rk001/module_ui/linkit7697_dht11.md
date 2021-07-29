@@ -114,5 +114,11 @@ basic.forever(function () {
 
 ## Microsoft MakeCode積木畫布 \(適用microbit v2\)
 
+![](../../.gitbook/assets/07.dht11miceobitv2.png)
 
+{% hint style="info" %}
+注意:  
+測試時發現電壓如果切換到5V時會發生無法正常顯示溫、濕度的問題、請記得把V1切到3V3當中\(如上圖紅框處\)。  
+以下函式庫測試後適用於micro:bit v2，一開始如果溫、濕度顯示-999.0為正常，請等程式驗證後即可正常顯示溫、濕度，如還是無法正常顯示可以嘗試將MICRO USB供電改為擴充版供電、或是按板子背後的RESET鈕試試看。
+{% endhint %}
 
