@@ -42,7 +42,7 @@ void loop()
 
 **執行畫面**
 
-濕度最低時，雲朵為白色，也沒有下雨 
+濕度最低時，雲朵為白色，也沒有下雨
 
 ![](../../.gitbook/assets/processing_arduino_ex05_02.png)
 
@@ -202,3 +202,4 @@ class Drop{
 ```text
 Special thanks to Konny for the supporting!
 ```
+

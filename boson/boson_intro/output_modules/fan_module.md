@@ -46,7 +46,7 @@ SKU 號：BOS0021
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu%20%283%29%20%283%29%20%283%29.png)
+![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%283%29.png)
 
 ### **聲控風扇**
 
@@ -82,7 +82,7 @@ SKU 號：BOS0021
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 ### **調速風扇**
 

@@ -54,7 +54,7 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/logic_module_not_example1%20%283%29%20%284%29%20%284%29%20%284%29%20%283%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_example1%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29.png)
 
 ### **\(2\) 智慧路燈**
 
@@ -80,7 +80,7 @@ SKU 號：BOS0029
 
 腳位說明：
 
-![Optional title](../../../.gitbook/assets/logic_module_not_spec%20%283%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![Optional title](../../../.gitbook/assets/logic_module_not_spec%20%283%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
 
 尺寸: 26mm\*22mm
 

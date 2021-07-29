@@ -33,15 +33,15 @@ void loop() {
 
 確認 Arduino 首次接觸就上手套件已正確燒錄以上 .ino 檔。輸入完成直接執行以下 pde，會看到以下執行畫面。用嘴巴對著聲音感測器吹氣或拍手發出較大的聲響，小風車轉動的速度也會隨之變化。這些效果都可以自由在 Processing 中調整。由於環境中一定有背景噪音，所以程式只要一啟動風車就會開始轉動。
 
-**想想看：如何加一個判斷式來"過濾掉"背景噪音呢？** 
+**想想看：如何加一個判斷式來"過濾掉"背景噪音呢？**
 
 **執行畫面**
 
 ![](../../.gitbook/assets/processing_arduino_ex07_01.png)
 
-**主程式 windmill_processing.pde**
+**主程式 windmill\_processing.pde**
 
-檔名 - [windmill_processing.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/windmill)
+檔名 - [windmill\_processing.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/windmill)
 
 ```text
 import processing.serial.*;
@@ -87,6 +87,3 @@ void draw(){
 }
 ```
 
-```text
-Special thanks to Konny for the supporting!
-```

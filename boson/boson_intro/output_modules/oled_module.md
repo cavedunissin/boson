@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-wu-tu%20%282%29%20%282%29%20%282%29%20%281%29.jpg)
+![](../../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-shi-wu-tu%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.jpg)
 
 ## 基本信息
 
@@ -63,7 +63,7 @@ OLED顯示模組通過讀取其他模組的輸出資訊並加以處理轉換成�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu%20%284%29%20%284%29%20%284%29%20%284%29.png)
+![](../../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu%20%284%29%20%284%29%20%284%29%20%281%29%20%284%29.png)
 
 ### **\(3\) 檢測物體的導電性**
 

@@ -28,7 +28,7 @@ SKU 號：BOS0020
 
 按照下圖所示連接電路，即可通過按鈕模組控制蜂鳴器模組的鳴叫。
 
-![](../../../.gitbook/assets/buzzer_module_ui%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/buzzer_module_ui%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 ## 原理介紹
 
@@ -124,7 +124,7 @@ SKU 號：BOS0020
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%282%29.png)
+![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%282%29%20%282%29.png)
 
 **執行流程：**
 
@@ -138,7 +138,7 @@ SKU 號：BOS0020
 
 **Example program\(English\)：**
 
-![](../../../.gitbook/assets/boson_蜂鸣器模块_防盗展台程序示意图英文版%20%283%29%20%283%29%20%281%29.png)
+![](../../../.gitbook/assets/boson_蜂鸣器模块_防盗展台程序示意图英文版%20%283%29%20%283%29%20%283%29%20%281%29.png)
 
 ## 實作範例教學-LinkIt 7697篇
 

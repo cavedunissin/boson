@@ -70,7 +70,7 @@ SKU：BOS0042
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/light_sensor_prg_ch_tw%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/light_sensor_prg_ch_tw%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 **Example program\(English\)：**
 

@@ -107,7 +107,7 @@
     * [範例04\_療癒海浪 - 按鈕與多個類比感測器](hangeekduino/processing_arduino/example04.md)
     * [範例05\_天空飄著雲 - DHT溫溼度感測器](hangeekduino/processing_arduino/example05.md)
     * [6. 滾球小遊戲  - 三軸加速度感測器](hangeekduino/processing_arduino/example06.md)
-    * [7. 風車轉轉  - 聲音感測器](hangeekduino/processing_arduino/example07.md)
+    * [範例07\_風車轉轉 - 聲音感測器](hangeekduino/processing_arduino/example07.md)
   * [Arduino BLE藍牙通訊 - Android 手機](hangeekduino/arduino-blebluetooth/README.md)
     * [Example 01](hangeekduino/arduino-blebluetooth/example01.md)
     * [Example 02](hangeekduino/arduino-blebluetooth/example02.md)
