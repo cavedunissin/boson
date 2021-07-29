@@ -160,9 +160,7 @@ Wait 2 sec after query為true
 
 ![](../../.gitbook/assets/07.dht11miceobitv2code.png)
 
-LED燈會四捨五入小數點輪流顯示T:目前溫度H:目前濕度
-
-
+可透過micro:bit顯示指示燈看到DHT11溫溼度感應器的溫度和濕度的狀態。會四捨五入小數點輪流顯示T:目前溫度H:目前濕度。
 
 ### JavaScript 程式
 
