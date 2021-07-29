@@ -56,7 +56,7 @@ void loop()
 
 ### micro:bit電路圖
 
-* [BBC micro:bit 微控制板  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [BBC micro:bit 微控制板V1.5  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
 * [科易KEYES micro:bit 感測器擴充板 V2  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * DHT11溫溼度感應器模組
 
@@ -116,7 +116,7 @@ basic.forever(function () {
 
 ### micro:bit電路圖
 
-* [BBC micro:bit 微控制板  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [BBC micro:bit 微控制板V2  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
 * [科易KEYES micro:bit 感測器擴充板 V2  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * DHT11溫溼度感應器模組
 
