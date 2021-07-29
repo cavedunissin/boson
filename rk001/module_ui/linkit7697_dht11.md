@@ -112,7 +112,7 @@ basic.forever(function () {
 })
 ```
 
-## microbit v2\(DHT11更新函式庫\)
+## DHT11更新microbit v2\(可使用函式庫\)
 
 ### micro:bit電路圖
 
