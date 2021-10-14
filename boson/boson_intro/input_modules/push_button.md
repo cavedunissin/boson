@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/push_button%20%282%29.jpg)
+![](<../../../.gitbook/assets/push_button (3).jpg>)
 
 ## 基本信息
 
@@ -24,15 +24,15 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 按鈕模組能夠識別按鍵動作並輸出數位訊號。其機制如下：
 
-> * 按下按鍵，模組輸出高電位，即「開」或「1」；鬆開按鍵，模組輸出低電位，即「關」或「0」。
+> *   按下按鍵，模組輸出高電位，即「開」或「1」；鬆開按鍵，模組輸出低電位，即「關」或「0」。
 >
->   以按鈕控制LED燈為例，按下按鈕，輸出高電位，LED燈被點亮；鬆開按鈕，輸出低電位，LED燈熄滅。
+>     以按鈕控制LED燈為例，按下按鈕，輸出高電位，LED燈被點亮；鬆開按鈕，輸出低電位，LED燈熄滅。
 
-![](../../../.gitbook/assets/push_button_ui%20%281%29.png)
+![](<../../../.gitbook/assets/push_button_ui (1).png>)
 
 ## 原理介紹
 
-按鈕也稱為按鍵，是一種電閘（switch，或稱開關），用來控制機械或程式的某些功能。一般而言，紅色按鈕是用來使某一功能停止，而綠色按鈕，則通常可開始某一項功能。按鈕的形狀通常是圓形或方形。來源：[按鈕-維基百科](https://zh.wikipedia.org/wiki/按钮)
+按鈕也稱為按鍵，是一種電閘（switch，或稱開關），用來控制機械或程式的某些功能。一般而言，紅色按鈕是用來使某一功能停止，而綠色按鈕，則通常可開始某一項功能。按鈕的形狀通常是圓形或方形。來源：[按鈕-維基百科](https://zh.wikipedia.org/wiki/%E6%8C%89%E9%92%AE)
 
 ## 實作範例教學-基本篇
 
@@ -44,7 +44,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu%20%285%29.png)
+![](<../../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu (3).png>)
 
 ### 防盜展示台
 
@@ -54,7 +54,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-3-lian-xian-tu.png)
+![](<../../../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-3-lian-xian-tu (1).png>)
 
 ### 密碼鎖
 
@@ -64,7 +64,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%281%29%20%287%29.png)
+![](<../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu (1) (6).png>)
 
 ### 搶答器
 
@@ -74,7 +74,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-6-lian-xian-tu.png)
+![](<../../../.gitbook/assets/boson-an-niu-mo-kuai-ying-yong-yang-li-6-lian-xian-tu (1).png>)
 
 ### 找朋友機
 
@@ -84,7 +84,7 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_逻辑“与”模块_找朋友机连线图%20%285%29%20%2811%29.png)
+![](<../../../.gitbook/assets/boson\_逻辑“与”模块\_找朋友机连线图 (5) (4).png>)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -96,17 +96,17 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**將按鈕模組連接至Micro:bit擴充板P0腳位，LED燈模組連接至Micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_LED模块_按钮台灯2连线图%20%283%29%20%283%29%20%283%29%20%283%29.png)
+![](<../../../.gitbook/assets/boson_LED模块\_按钮台灯2连线图 (3) (3) (3) (3) (1).png>)
 
 **執行流程：**① 如果P0腳位輸出高電位「1」，即按鈕被按下，則LED燈模組亮起；② 如果P0腳位輸出低電位「0」，即按鈕鬆開，則LED燈模組熄滅。
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29%20%283%29%20%283%29.png)
+![](<../../../.gitbook/assets/self_locking_switch_prg_ch_tw (3) (3).png>)
 
-**Example program\(English\)**
+**Example program(English)**
 
-![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%281%29%20%288%29.png)
+![](<../../../.gitbook/assets/led_module_prg1\_en (3) (1) (6).png>)
 
 ### 防盜展示台
 
@@ -116,17 +116,17 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **連線圖：**將按鈕模組連接至Micro:bit擴充板P0腳位，蜂鳴器模組連接至Micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%282%29%20%283%29.png)
+![](<../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu (3) (3) (3) (2) (2).png>)
 
 **執行流程：**① 如果P0腳位輸出高電位「1」，即按鈕被按下，展示物品沒有離開展示台，則蜂鳴器不報警；② 如果P0腳位輸出低電位「0」，即按鈕彈起，展示物品離開展示台，則蜂鳴器報警。
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/push_button_prg2_ch_tw.png)
+![](../../../.gitbook/assets/push_button_prg2\_ch_tw.png)
 
-**Example program\(English\)**
+**Example program(English)**
 
-![](../../../.gitbook/assets/boson_蜂鸣器模块_防盗展台程序示意图英文版%20%283%29%20%283%29%20%283%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson\_蜂鸣器模块\_防盗展台程序示意图英文版 (3) (3) (3) (1).png>)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -134,19 +134,19 @@ SKU：BOS0002-B; BOS0002-R; BOS0002-Y
 
 **元件清單：**按鈕模組；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**按鈕模組是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
+**連線圖：**按鈕模組是數位訊號輸入， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
 
-![](../../../.gitbook/assets/push_button_7697_1.jpg)
+![](../../../.gitbook/assets/push_button\_7697\_1.jpg)
 
 **程式說明：**每1秒鐘會讀取按鈕模組狀態一次，並可透過序列埠監控視窗看到按鈕模組的狀態。
 
-![](../../../.gitbook/assets/motion_sensor_7697_2%20%281%29.jpg)
+![](../../../.gitbook/assets/motion_sensor\_7697\_2.jpg)
 
-![](../../../.gitbook/assets/push_button_7697_3.png)
+![](../../../.gitbook/assets/push_button\_7697\_3.png)
 
 產生的Arduino程式碼如下：
 
-```text
+```
 void setup()
 {
    pinMode(5, INPUT);
@@ -167,10 +167,10 @@ void loop()
 ![](../../../.gitbook/assets/push_button_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | D | 數位訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    D   |   數位訊號   |
 
 重量： （g）
 
@@ -178,5 +178,4 @@ void loop()
 
 工作電壓：3.0-5.5V
 
-工作電流：\(Max\)10mA@5V
-
+工作電流：(Max)10mA@5V

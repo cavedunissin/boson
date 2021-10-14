@@ -2,25 +2,25 @@
 
 
 
-![](../../../.gitbook/assets/2%20%2820%29.png)
+![](<../../../.gitbook/assets/2 (4).png>)
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_4_buzzer2%20%281%29.png)
+![](<../../../.gitbook/assets/Lesson\_4\_Buzzer2 (1).png>)
 
 ## **對應的**Arduino 語法
 
-```text
+```
 tone(5, 1000);
 ```
 
 使蜂鳴器發出設定好的頻率的聲音，透過迴圈使蜂鳴器發出電話鈴響的聲音。
 
-![](../../../.gitbook/assets/image%20%283%29.png)
+![](<../../../.gitbook/assets/image (3).png>)
 
 ## Arduino 程式
 
-```text
+```
 int  i;
 
 void setup()
@@ -45,7 +45,5 @@ void loop()
 
 ## 影片教學:
 
-{% embed url="https://www.youtube.com/watch?v=KB\_mvKntR4I" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=KB_mvKntR4I" %}
 

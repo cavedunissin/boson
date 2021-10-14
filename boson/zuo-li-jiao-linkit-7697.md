@@ -1,5 +1,5 @@
 ---
-description: '本篇透過實際案例，來學習如何使用 micro:bit與 LinkIt 7697 來控制 BOSON。'
+description: 本篇透過實際案例，來學習如何使用 micro:bit與 LinkIt 7697 來控制 BOSON。
 ---
 
 # 實作範例教學
@@ -56,4 +56,3 @@ description: '本篇透過實際案例，來學習如何使用 micro:bit與 Link
 * [o7錄音機模組/喇叭](boson_intro/output_modules/voice_recorder_module.md)
 * [o9馬達模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/output_modules/motor_controller_module)
 * [o10伺服機模組](boson_intro/output_modules/servo_module_with_servo.md)
-

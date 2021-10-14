@@ -1,6 +1,6 @@
 # 按鈕模組
 
-![](../../.gitbook/assets/linkit7697_button_00.png)
+![](../../.gitbook/assets/linkit7697\_button\_00.png)
 
 ## LinkIt 7697 專案說明
 
@@ -14,17 +14,17 @@
 * LinkIt 7697 NANO Breakout
 * 按鈕模組
 
-**按鈕模組**是**數位訊號**輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D5**」。
+**按鈕模組**是**數位訊號**輸入， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D5**」。
 
-![](../../.gitbook/assets/linkit7697_button_01.png)
+![](../../.gitbook/assets/linkit7697\_button\_01.png)
 
 ### BlocklyDuino 積木畫布
 
 每0.2秒鐘會讀取按鈕模組狀態一次， 並可透過序列埠監控視窗看到按鈕模組的狀態 。
 
-![](../../.gitbook/assets/linkit7697_button_02.png)
+![](../../.gitbook/assets/linkit7697\_button\_02.png)
 
-![](../../.gitbook/assets/linkit7697_microswitch_03.png)
+![](<../../.gitbook/assets/linkit7697\_microswitch\_03 (1).png>)
 
 ### Arduino 程式
 
@@ -56,13 +56,13 @@ void loop()
 
 **按鈕模組**是**數位訊號**輸入， 可以接「3、4、5、6、7、9、10、11」的 micro:bit訊號端上，建議使用的是5跟11腳位，因為3、4、6、7、9、10腳位有使用到LED控制腳位所以當顯示LED時會不穩定。 本範例連接到「**P5**」。
 
-![](../../.gitbook/assets/01%20%2810%29.JPG)
+![](../../.gitbook/assets/01.JPG)
 
 ### Microsoft MakeCode積木畫布
 
 每1秒鐘會讀取按鈕模組狀態一次，並可透過micro:bit顯示指示燈看到按鈕模組的狀態。
 
-![](../../.gitbook/assets/02%20%281%29%20%281%29.JPG)
+![](<../../.gitbook/assets/02 (1) (1).JPG>)
 
 ### JavaScript 程式
 
@@ -72,4 +72,3 @@ basic.forever(function () {
     basic.pause(1000)
 })
 ```
-

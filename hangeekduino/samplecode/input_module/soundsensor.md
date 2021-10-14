@@ -1,14 +1,14 @@
 # 聲音感測模組
 
-![](../../../.gitbook/assets/sound.jpg)
+![](../../../.gitbook/assets/Sound.jpg)
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_6_soundcontrolled2.png)
+![](../../../.gitbook/assets/Lesson\_6\_SoundControlLED2.png)
 
 ## **對應的**Arduino 語法
 
-```text
+```
   analogRead(2);
 ```
 
@@ -16,11 +16,11 @@
 
 根據聲音測器模組的數值來決定LED模組的亮或暗，聲音感測器數值越大於600LED會亮，否則LED會暗。並在序列埠印光感測器的數值。
 
-![](../../../.gitbook/assets/lesson_6_soundcontrolled.png)
+![](../../../.gitbook/assets/Lesson\_6\_SoundControlLED.png)
 
 ## Arduino 程式
 
-```text
+```
 void setup()
 {
   pinMode(4, OUTPUT);
@@ -46,6 +46,4 @@ void loop()
 ## 影片教學:
 
 {% embed url="https://youtu.be/qWmEH8TPjI4" %}
-
-
 

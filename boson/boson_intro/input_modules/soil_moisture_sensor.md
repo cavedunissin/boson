@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-wu-tu-pian.jpg)
+![](<../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-wu-tu-pian (1).jpg>)
 
 ## 基本信息
 
@@ -26,7 +26,7 @@ SKU：BOS0038
 
 土壤濕度感測器可以搭配Micro:bit、Arduino使用，實現非常有趣的互動作品。土壤濕度感測器在使用時需要將金屬部分充分插入土壤中，並等待數秒直至資料穩定，通過OLED顯示模組或Micro:bit可以讀取土壤濕度數值，也可以通過土壤濕度感測器製作自動裝置，控制其他輸出模組。按照下圖所示連接電路，通電後即可通過OLED顯示模組即時監測土壤濕度。
 
-![](../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-yong-shuo-ming-1%20%282%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-yong-shuo-ming-1 (2) (1) (3).png>)
 
 土壤濕度數值參考：
 
@@ -44,7 +44,7 @@ SKU：BOS0038
 
 ## 應用範例
 
-### \(1\) 探究土壤濕度對種子發芽率的影響
+### (1) 探究土壤濕度對種子發芽率的影響
 
 **範例說明：**將相同數量的同一作物的種子分別種在兩個盆中，通過顯示器讀取兩盆的土壤濕度，從而控制兩盆土壤濕度值始終不同，探究兩種情況下種子的發芽情況。
 
@@ -52,9 +52,9 @@ SKU：BOS0038
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-yong-shuo-ming-1%20%282%29%20%281%29%20%286%29.png)
+![](<../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-shi-yong-shuo-ming-1 (2) (1) (4).png>)
 
-### \(2\) 自動澆花裝置
+### (2) 自動澆花裝置
 
 **範例說明：**利用土壤濕度感測器即時監測花盆中土壤的含水量，當土壤缺水時，馬達帶動軟管口降低，達到自動澆水的目的。
 
@@ -62,9 +62,9 @@ SKU：BOS0038
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_阈值模块_自动浇花装置连线图%20%283%29%20%283%29%20%283%29.png)
+![](<../../../.gitbook/assets/boson\_阈值模块\_自动浇花装置连线图 (3) (3) (3) (1).png>)
 
-### \(3\) 種子發芽箱
+### (3) 種子發芽箱
 
 **範例說明：**檢測土壤濕度、箱內溫度、箱內光照強度等指標，打造適宜某種植物種子發芽的培育箱。
 
@@ -72,7 +72,7 @@ SKU：BOS0038
 
 **連線圖：**
 
-![](../../../.gitbook/assets/soil_moisture_sensor_example3%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/soil_moisture_sensor_example3 (1) (1).png>)
 
 **設計意圖：**使用土壤濕度感測器、溫度感測器、光感測器分別檢測種子發芽箱中的土壤濕度、溫度和光照強度。若其中某一環境因素不在設定區間範圍內，則表示發芽箱內的當前環境不適宜種子生長，此時讓LED燈和蜂鳴器發出警報。
 
@@ -94,9 +94,9 @@ SKU：BOS0038
 
 ![](../../../.gitbook/assets/soil_moisture_sensor_prg_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban%20%281%29.png)
+![](<../../../.gitbook/assets/boson-tu-rang-shi-du-chuan-gan-qi-ying-yong-yang-li-3-cheng-xu-shi-yi-tu-ying-wen-ban (1) (1).png>)
 
 ## 商品規格
 
@@ -105,10 +105,10 @@ SKU：BOS0038
 ![](../../../.gitbook/assets/soil_moisture_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    A   |   類比訊號   |
 
 重量： （g）
 
@@ -117,4 +117,3 @@ SKU：BOS0038
 工作電壓：3.0-5.5V
 
 工作電流：40mA@5V
-

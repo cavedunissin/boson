@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson_蜂鸣器模块_实物图%20%281%29.jpg)
+![](<../../../.gitbook/assets/boson\_蜂鸣器模块\_实物图 (1).jpg>)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ SKU 號：BOS0020
 
 按照下圖所示連接電路，即可通過按鈕模組控制蜂鳴器模組的鳴叫。
 
-![](../../../.gitbook/assets/buzzer_module_ui%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/buzzer_module_ui (1) (1) (1) (1).png>)
 
 ## 原理介紹
 
@@ -44,7 +44,7 @@ SKU 號：BOS0020
 
 **連線圖：**
 
-![](../../../.gitbook/assets/buzzer_module_example1%20%281%29.png)
+![](<../../../.gitbook/assets/buzzer_module_example1 (1).png>)
 
 ### **暴躁的小豬**
 
@@ -54,7 +54,7 @@ SKU 號：BOS0020
 
 **連線圖：**
 
-![](../../../.gitbook/assets/buzzer_module_example2%20%282%29.png)
+![](<../../../.gitbook/assets/buzzer_module_example2 (2) (3).png>)
 
 ### **密碼鎖**
 
@@ -64,7 +64,7 @@ SKU 號：BOS0020
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%281%29%20%2810%29.png)
+![](<../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu (1) (10).png>)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -76,7 +76,7 @@ SKU 號：BOS0020
 
 **連線圖：** 將蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-xiao-gong-ji-lian-xian-tu.png)
+![](<../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-bao-xiao-gong-ji-lian-xian-tu (1).png>)
 
 **執行流程：**
 
@@ -86,11 +86,11 @@ SKU 號：BOS0020
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/buzzer_module_prg1_ch_tw.png)
+![](../../../.gitbook/assets/buzzer_module_prg1\_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_蜂鸣器模块_报晓公鸡程序示意图英文版%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_蜂鸣器模块\_报晓公鸡程序示意图英文版 (1) (1).png>)
 
 ### **下雨警報器**
 
@@ -100,7 +100,7 @@ SKU 號：BOS0020
 
 **連線圖：** 將水分感測器連接至micro:bit擴充板P0腳位，蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-lian-xian-tu%20%281%29.png)
+![](<../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-xia-yu-bao-jing-qi-lian-xian-tu (1) (1).png>)
 
 **執行流程：**
 
@@ -110,11 +110,11 @@ SKU 號：BOS0020
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/cavedunissin/boson/tree/7fd883f88747834f9d82dfc2bc5c4f285d140ca3/.gitbook/assets/buzzer_module_prg2_ch_tw.png)
+![](https://github.com/cavedunissin/boson/tree/7fd883f88747834f9d82dfc2bc5c4f285d140ca3/.gitbook/assets/buzzer_module_prg2\_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/led_module_prg1\_en (3) (1) (9).png>)
 
 ### **防盜展示臺**
 
@@ -124,7 +124,7 @@ SKU 號：BOS0020
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，蜂鳴器模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%282%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-fang-dao-zhan-tai-lian-xian-tu (3) (3) (3).png>)
 
 **執行流程：**
 
@@ -134,11 +134,11 @@ SKU 號：BOS0020
 
 **程式示意圖（中文版）：**
 
-![](https://github.com/cavedunissin/boson/tree/7fd883f88747834f9d82dfc2bc5c4f285d140ca3/.gitbook/assets/buzzer_module_prg3_ch_tw.png)
+![](https://github.com/cavedunissin/boson/tree/7fd883f88747834f9d82dfc2bc5c4f285d140ca3/.gitbook/assets/buzzer_module_prg3\_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_蜂鸣器模块_防盗展台程序示意图英文版%20%283%29%20%283%29%20%283%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_蜂鸣器模块\_防盗展台程序示意图英文版 (3) (3) (3) (2).png>)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -146,17 +146,17 @@ SKU 號：BOS0020
 
 **元件清單：**蜂鳴器模組；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**蜂鳴器模組是數位訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANO擴充板訊號端上（本範例連接到「D7」）。
+**連線圖：**蜂鳴器模組是數位訊號輸出，可以接「D0 \~ D13」的LinkIt 7697 NANO擴充板訊號端上（本範例連接到「D7」）。
 
-![](../../../.gitbook/assets/buzzer_module_7697_1.jpg)
+![](../../../.gitbook/assets/buzzer_module\_7697\_1.jpg)
 
 **程式說明：**每一秒控制無源蜂鳴器模組發出逼的聲音和靜音 。
 
-![](../../../.gitbook/assets/buzzer_module_7697_2%20%281%29.jpg)
+![](<../../../.gitbook/assets/buzzer_module\_7697\_2 (1).jpg>)
 
 產生出的Arduino程式如下：
 
-```text
+```
 void setup()
 {
 
@@ -180,14 +180,13 @@ void loop()
 ![](../../../.gitbook/assets/buzzer_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| ------ | ------ | -------- |
+| 1      | GND    | 電源接地     |
+| 2      | VCC    | 電源正極     |
+| 3      | A      | 類比訊號     |
 
 尺寸：26mm\*22 mm
 
 工作電壓：5.0V
 
-工作電流：\(Max\)30mA@5V
-
+工作電流：(Max)30mA@5V

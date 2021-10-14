@@ -2,18 +2,18 @@
 
 【雙A計劃】是 CAVEDU blog 上非常熱門的文章之一，使用 Arduino 搭配 HC05/06 等傳統藍牙通訊模組來與 App Inventor 通訊。但隨著藍牙4.0逐漸普及，後續的開發板例如 LinkIt 7697 ，甚至 Raspberry Pi 等單板電腦也直接在板子上整合了藍牙BLE晶片。
 
-本篇將比照【雙A計劃】Part1：App Inventor 經由藍牙控制 Arduino LED 亮滅，但改用\[Arduino 首次接觸就上手\]電子教學套件，搭配 HC10 藍牙模組來介紹如何用 Android 手機控制 Arduino的LED 亮滅。
+本篇將比照【雙A計劃】Part1：App Inventor 經由藍牙控制 Arduino LED 亮滅，但改用\[Arduino 首次接觸就上手]電子教學套件，搭配 HC10 藍牙模組來介紹如何用 Android 手機控制 Arduino的LED 亮滅。
 
-關於\[Arduino 首次接觸就上手\]電子教學套件，我們已經寫了非常完整的基礎教學，您可以選用 Arduino 類C語法或專用的 HangeekDuino 圖形介面來開發。本系列文章的範例程式請由 Github 下載 \(EX01\_controlLED\)
+關於\[Arduino 首次接觸就上手]電子教學套件，我們已經寫了非常完整的基礎教學，您可以選用 Arduino 類C語法或專用的 HangeekDuino 圖形介面來開發。本系列文章的範例程式請由 Github 下載 (EX01\_controlLED)
 
 ## 中文系列文章
 
 * [【雙A計畫】 常見問題整理](https://blog.cavedu.com/2015/02/19/arduino-app-faq/)
-* [【雙A計畫】藍牙模組\(HC05/06\)常用指令教學](https://blog.cavedu.com/2017/10/18/hc05-hc06/)
+* [【雙A計畫】藍牙模組(HC05/06)常用指令教學](https://blog.cavedu.com/2017/10/18/hc05-hc06/)
 * [【雙A計劃】Part0：App Inventor 透過藍牙傳送訊號給 Arduino](https://blog.cavedu.com/2013/11/08/appinventorandarduinowithbluetooth/)
 * [【雙A計劃】Part1：App Inventor 經由藍牙控制 Arduino LED 亮滅](http://wp.me/p3T9Qk-2Ln)
-* [【雙A計劃】Part2：App Inventor 經由藍牙控制 Arduino LED 漸明漸暗](http://blog.cavedu.com/appinventor-%e5%9c%96%e5%bd%a2%e5%8c%96android/appinventorandarduinowithbluetooth2/)
-* [【雙A計劃】Part3：Android 手機透過藍牙接收 Arduino 類比腳位狀態](http://blog.cavedu.com/appinventor-%e5%9c%96%e5%bd%a2%e5%8c%96android/appinventorandarduinowithbluetooth3/)
+* [【雙A計劃】Part2：App Inventor 經由藍牙控制 Arduino LED 漸明漸暗](http://blog.cavedu.com/appinventor-%E5%9C%96%E5%BD%A2%E5%8C%96android/appinventorandarduinowithbluetooth2/)
+* [【雙A計劃】Part3：Android 手機透過藍牙接收 Arduino 類比腳位狀態](http://blog.cavedu.com/appinventor-%E5%9C%96%E5%BD%A2%E5%8C%96android/appinventorandarduinowithbluetooth3/)
 * [【雙A計劃】Part4：App Inventor 藍牙遙控 Arduino 雙輪機器人](https://blog.cavedu.com/2014/05/22/arduino_robot_bt_app/)
 * [【雙A計劃】Part5：Paperduino 藍牙控制 LED 閃爍](https://blog.cavedu.com/2014/12/07/paperduino_bt_led/)
 * [【雙A計畫】Part6：Arduino 傳兩筆資料到 Android 手機](https://blog.cavedu.com/2015/04/05/arduino-multidata-to-app/)
@@ -25,8 +25,8 @@
 
 * [Arduino LED Blink](http://www.appinventor.tw/arduino_bt_blink)
 * [Arduino LED PWM](http://www.appinventor.tw/arduino_bt_pwm)
-* [Arduino LED Blink \(Arduino 101 with BLE\)](http://www.appinventor.tw/ble_lesson1_blink)
-* [Arduino LED PWM \(Arduino 101 with BLE\)](http://www.appinventor.tw/ble_lesson2_pwm)
+* [Arduino LED Blink (Arduino 101 with BLE)](http://www.appinventor.tw/ble_lesson1\_blink)
+* [Arduino LED PWM (Arduino 101 with BLE)](http://www.appinventor.tw/ble_lesson2\_pwm)
 
 ## 範例影片
 
@@ -38,11 +38,11 @@ HC10藍牙模組包含了以下腳位:
 
 ![](https://image.cavedu.com/media/2021/05/01-1-2048x1097.jpg)
 
-請把 HC10 藍牙模組搭配 Grove 接頭接上 \[Arduino首次接觸就上手\] 的 D7 Grove port，實際上裏面包含了GND, Vcc, D7, D8 等四支腳位，它一樣是一片 Arduino UNO，只是把常見的電路模組整合在同一片電路板上，無須再使用麵包板。但也正因如此，多數腳位已被占用，例如LED已連接到D4，除非將 LED 從板子上拆下來，否則無法作為其他用途。因此本範例使用 \[Arduino首次接觸就上手\] 尚未被占用的腳位D7與D8做為通訊腳位。
+請把 HC10 藍牙模組搭配 Grove 接頭接上 \[Arduino首次接觸就上手] 的 D7 Grove port，實際上裏面包含了GND, Vcc, D7, D8 等四支腳位，它一樣是一片 Arduino UNO，只是把常見的電路模組整合在同一片電路板上，無須再使用麵包板。但也正因如此，多數腳位已被占用，例如LED已連接到D4，除非將 LED 從板子上拆下來，否則無法作為其他用途。因此本範例使用 \[Arduino首次接觸就上手] 尚未被占用的腳位D7與D8做為通訊腳位。
 
 ![](https://image.cavedu.com/media/2021/05/02-1-2048x1548.jpg)
 
-如果您使用傳統獨立運作的 Arduino，請把 HC10 的RX, TX 依序接到 Arduino 的 D7, D8 腳位 \(或其他腳位也可以，但請記得修改 Arduino 程式碼\)，並完成電源接腳VCC與GND的連接。
+如果您使用傳統獨立運作的 Arduino，請把 HC10 的RX, TX 依序接到 Arduino 的 D7, D8 腳位 (或其他腳位也可以，但請記得修改 Arduino 程式碼)，並完成電源接腳VCC與GND的連接。
 
 ## App Inventor 編寫簡易的藍牙訊息發送程式
 
@@ -50,11 +50,11 @@ HC10藍牙模組包含了以下腳位:
 
 ### Designer畫面編排
 
-畫面元件很簡單，點選 \[Scan\] 之後，會掃描手機附近的藍牙BLE裝置，並顯示於 ListView 中。本範例的 HC10 的預設名稱會叫做 HMSoft XX:XX:XX ，後面12碼為藍牙位址。
+畫面元件很簡單，點選 \[Scan] 之後，會掃描手機附近的藍牙BLE裝置，並顯示於 ListView 中。本範例的 HC10 的預設名稱會叫做 HMSoft XX:XX:XX ，後面12碼為藍牙位址。
 
-點選 \[Connect\] 連線，連線成功之後畫面會顯示相關訊息。這時可以點選 \[LED ON\] 與 \[LED OFF\]，這時候 \[Arduino首次接觸就上手\] 的 D4 LED 應該會隨之亮暗。
+點選 \[Connect] 連線，連線成功之後畫面會顯示相關訊息。這時可以點選 \[LED ON] 與 \[LED OFF]，這時候 \[Arduino首次接觸就上手] 的 D4 LED 應該會隨之亮暗。
 
-操作完畢之後請點選 \[Disconnect\] 斷開藍牙連線。
+操作完畢之後請點選 \[Disconnect] 斷開藍牙連線。
 
 ![](https://image.cavedu.com/media/2021/05/03-1.png)
 
@@ -62,9 +62,9 @@ HC10藍牙模組包含了以下腳位:
 
 STEP1：
 
-在 ButtonScan.Click 事件中，使用 BluetoothLE.StartScanning 來掃描鄰近的藍牙裝置。如果有掃描到任何藍牙BLE裝置，會呼叫 BluetoothLE.DeviceFound事件，並把 DeviceList 放到 ListView \(已改名 ListBLE中\)。接著在 ButtonStopScan.Click 事件中，使用 BluetoothLE.StopScanning 來停止掃描
+在 ButtonScan.Click 事件中，使用 BluetoothLE.StartScanning 來掃描鄰近的藍牙裝置。如果有掃描到任何藍牙BLE裝置，會呼叫 BluetoothLE.DeviceFound事件，並把 DeviceList 放到 ListView (已改名 ListBLE中)。接著在 ButtonStopScan.Click 事件中，使用 BluetoothLE.StopScanning 來停止掃描
 
-SERVICE\_UUID / CHARACTERISTIC\_UUID 維持預設值就好，無須修改。
+SERVICE_UUID / CHARACTERISTIC_UUID 維持預設值就好，無須修改。
 
 ![](https://image.cavedu.com/media/2021/05/04-1.png)
 
@@ -78,7 +78,7 @@ STEP2：
 
 STEP3：
 
-按下 Button\_on 按鈕時，會透過 &lt;/code&gt; BluetoothLE.WriteBytes&lt;/code&gt; 送出一個字元 'o'；另外則是在按下 Button\_off 按鈕時送出一個字元 'f'。
+按下 Button_on 按鈕時，會透過 \</code> BluetoothLE.WriteBytes\</code> 送出一個字元 'o'；另外則是在按下 Button_off 按鈕時送出一個字元 'f'。
 
 這裡的做法其實相當多元，您可以改用 `WriteInteger` 或 `WriteString` 等語法試試看，當然也要 修改 Arduino 端的程式碼。
 
@@ -94,11 +94,11 @@ STEP4：
 
 ## Arduino CODE
 
-Arduino 程式碼也相當簡單易懂，設定好 HC10 模組所連接的腳位\(D7與D8\)之後，就會等候是否有資料送進來，並執行對應的動作。
+Arduino 程式碼也相當簡單易懂，設定好 HC10 模組所連接的腳位(D7與D8)之後，就會等候是否有資料送進來，並執行對應的動作。
 
 您可以將本範例視為基礎樣板延伸出更多功能，快點試試看吧！
 
-```text
+```
 #include <SoftwareSerial.h>
 SoftwareSerial HM10(7, 8); // RX, TX
 char appData;
@@ -140,9 +140,8 @@ void loop(void)
 
 ## 實際執行
 
-請先確認 HC10 模組已經接好，燒錄上述 arduino 程式碼到 \[Arduino首次接觸就上手\] 套件，再安裝 app inventor 到您的 Android 裝置上。根據上述影片來操作，即可根據 app 按鈕來控制 D4 LED 亮暗。
+請先確認 HC10 模組已經接好，燒錄上述 arduino 程式碼到 \[Arduino首次接觸就上手] 套件，再安裝 app inventor 到您的 Android 裝置上。根據上述影片來操作，即可根據 app 按鈕來控制 D4 LED 亮暗。
 
 注意：App Inventor 已於 2021 年上半年登陸 iOS 平台，但到本文編寫日期，BLE 功能還在測試中。
 
 ![](https://image.cavedu.com/media/2021/05/08-1.png)
-

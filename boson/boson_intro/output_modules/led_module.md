@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/bosonled-mo-kuai-shi-wu-tu%20%281%29.png)
+![](<../../../.gitbook/assets/bosonled-mo-kuai-shi-wu-tu (1).png>)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ LED燈模組是最簡易的發光模組，根據LED燈的顏色可將LED燈模�
 
 按照下圖所示連接電路，即可通過按鈕模組控制LED燈的點亮和熄滅。
 
-![](../../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu%20%284%29.png)
+![](<../../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu (4).png>)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu%20%281%29.png)
+![](<../../../.gitbook/assets/bosonled-mo-kuai-an-niu-tai-deng-1-lian-xian-tu (5).png>)
 
 ### **感應發光小屋**
 
@@ -56,7 +56,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_LED模块_感应发光小屋连线图%20%281%29%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson_LED模块\_感应发光小屋连线图 (1) (1) (1) (1).png>)
 
 ### **智慧路燈**
 
@@ -66,7 +66,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_环境光传感器_应用样例3_连线图%20%289%29%20%2813%29%20%284%29.png)
+![](<../../../.gitbook/assets/boson\_环境光传感器\_应用样例3\_连线图 (9) (13) (7).png>)
 
 ### **復古燭臺**
 
@@ -76,7 +76,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/splitter_module_example1%20%288%29%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/splitter_module_example1 (8) (1) (7).png>)
 
 ### **找朋友機**
 
@@ -86,7 +86,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_逻辑“与”模块_找朋友机连线图%20%285%29%20%288%29.png)
+![](<../../../.gitbook/assets/boson\_逻辑“与”模块\_找朋友机连线图 (5) (7).png>)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -98,7 +98,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_LED模块_按钮台灯2连线图%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson_LED模块\_按钮台灯2连线图 (3) (3) (3) (3) (2).png>)
 
 **執行流程：**
 
@@ -108,11 +108,11 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29%20%283%29%20%281%29.png)
+![](<../../../.gitbook/assets/self_locking_switch_prg_ch_tw (3) (3) (2).png>)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%281%29%20%287%29.png)
+![](<../../../.gitbook/assets/led_module_prg1\_en (3) (1) (8).png>)
 
 ### **旋鈕檯燈**
 
@@ -122,7 +122,7 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，LED燈模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu%20%282%29%20%283%29.png)
+![](<../../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu (2) (4).png>)
 
 **執行流程：**
 
@@ -130,11 +130,11 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/fan_module_prg2_ch_tw%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![](<../../../.gitbook/assets/fan_module_prg2\_ch_tw (2) (2) (2) (1).png>)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%2811%29%20%285%29.png)
+![](<../../../.gitbook/assets/boson\_电机控制模块\_制作风车程序示意图英文版 (11) (9).png>)
 
 ### \*\*\*\*
 
@@ -146,21 +146,21 @@ LED燈模組主要由透明環氧樹脂封裝、LED晶片、楔形支架、陽�
 
 **連線圖：**LED模組是數位/類比訊號輸出，可以接「D0～D13」的LinkIt 7697 NANO 擴充板訊號端上（本範例連接到「D7」）。
 
-![](../../../.gitbook/assets/led_module_7697_1.jpg)
+![](../../../.gitbook/assets/led_module\_7697\_1.jpg)
 
 **程式說明：**將7號腳位的電位拉高、拉低，每一秒鐘會切換LED的亮暗一次。
 
-![](../../../.gitbook/assets/buzzer_module_7697_2.jpg)
+![](../../../.gitbook/assets/buzzer_module\_7697\_2.jpg)
 
-![](../../../.gitbook/assets/led_module_7697_3.jpg)
+![](../../../.gitbook/assets/led_module\_7697\_3.jpg)
 
-![](../../../.gitbook/assets/led_module_7697_4.jpg)
+![](../../../.gitbook/assets/led_module\_7697\_4.jpg)
 
 範例影片：[https://youtu.be/MQcgr6GPaSo](https://youtu.be/MQcgr6GPaSo)
 
 產生出的Arduino程式如下：
 
-```text
+```
 void setup()
 {
 
@@ -184,14 +184,13 @@ void loop()
 ![](../../../.gitbook/assets/led_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| ------ | ------ | -------- |
+| 1      | GND    | 電源接地     |
+| 2      | VCC    | 電源正極     |
+| 3      | A      | 類比訊號     |
 
 尺寸: 26mm\*22mm
 
 工作電壓:3.0-5.5V
 
-工作電流：\(Max\)5mA@5V
-
+工作電流：(Max)5mA@5V

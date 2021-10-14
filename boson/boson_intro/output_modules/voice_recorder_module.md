@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-shi-wu-tu.png)
+![](<../../../.gitbook/assets/boson-lu-yin-mo-kuai-shi-wu-tu (1).png>)
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ SKU 號：BOS0022
 
 按下錄音機模組/喇叭上的錄音按鈕就可以開始錄製聲音，BOSON的錄音機模組/喇叭最長支援錄製時長10s的聲音。通過按鈕模組可以控制喇叭播放出預先錄製好的聲音，達成錄音-放音的過程。按照下圖所示連接電路，通電後按住錄音機模組/喇叭上的錄音按鈕即可錄製最長為10s的聲音，再通過按鈕模組就可以控制喇叭播放這段錄製好的聲音。
 
-![](../../../.gitbook/assets/boson_录音模块_使用说明%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/boson\_录音模块\_使用说明.png)
 
 ## 原理介紹
 
@@ -40,7 +40,7 @@ SKU 號：BOS0022
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu%20%283%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-lu-yin-mo-kuai-dao-che-lei-da-lian-xian-tu (3) (1) (3).png>)
 
 ### \*\*\*\*
 
@@ -54,7 +54,7 @@ SKU 號：BOS0022
 
 **連線圖：** 將按鈕模組連接至micro:bit擴充板P0腳位，錄音機模組/喇叭連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_扬声器模块_留言机连线图%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson\_扬声器模块\_留言机连线图 (2) (2) (2) (2) (1).png>)
 
 **執行流程：**
 
@@ -66,11 +66,11 @@ SKU 號：BOS0022
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29%20%283%29%20%282%29.png)
+![](<../../../.gitbook/assets/self_locking_switch_prg_ch_tw (3) (3) (3).png>)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%281%29%20%283%29.png)
+![](<../../../.gitbook/assets/led_module_prg1\_en (3) (1) (10).png>)
 
 ### **教師節的禮物**
 
@@ -80,7 +80,7 @@ SKU 號：BOS0022
 
 **連線圖：** 將動作感測器連接至micro:bit擴充板P0腳位，聲音感測器連接至micro:bit擴充板P2腳位，錄音機模組/喇叭連接至micro:bit擴充板P8腳位，LED燈模組連接至micro:bit擴充板P16腳位。
 
-![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-lian-xian-tu%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-lian-xian-tu (2) (2) (2) (2) (1).png>)
 
 **執行流程：**
 
@@ -90,11 +90,11 @@ SKU 號：BOS0022
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/voice_recorder_module_prg2_ch_tw.png)
+![](../../../.gitbook/assets/voice_recorder_module_prg2\_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-cheng-xu-shi-yi-tu-ying-wen-ban%20%282%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-lu-yin-mo-kuai-jiao-shi-jie-de-li-wu-cheng-xu-shi-yi-tu-ying-wen-ban (2) (2).png>)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -104,17 +104,17 @@ SKU 號：BOS0022
 
 **連線圖：**錄音機模組是數位訊號輸出，可以接「D0～D13」的LinkIt 7697 NANO 擴充板訊號端上（本範例連接到「D7」，並利用7697內建的開關D6來控制喇叭是否撥放錄製的聲音）。
 
-![](../../../.gitbook/assets/voice_recorder_7697_1%20%281%29.jpg)
+![](<../../../.gitbook/assets/voice_recorder\_7697\_1 (1).jpg>)
 
 **程式說明：**
 
 ① 按住錄音機模組上的錄音按鈕錄製最長為10s的聲音。；② 如果P6腳位輸出高電位（“1”），即按鈕被按下，則播放錄製好的聲音。；③ 如果P6腳位輸出低電位（“0”），即按鈕鬆開，則不播放錄製好的聲音。
 
-![](../../../.gitbook/assets/voice_recorder_7697_2.png)
+![](../../../.gitbook/assets/voice_recorder\_7697\_2.png)
 
 產生出的Arduino程式如下：
 
-```text
+```
 void setup()
 {
 
@@ -142,14 +142,13 @@ void loop()
 ![](../../../.gitbook/assets/voice_recorder_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
-| 1 | D | 數位訊號 |
-| 2 | VCC | 電源正極 |
-| 3 | GND | 電源接地 |
-| 4 | 喇叭訊號 | 輸出喇叭訊號 |
-| 5 | 喇叭訊號 | 輸出喇叭訊號 |
+| ------ | ------ | -------- |
+| 1      | D      | 數位訊號     |
+| 2      | VCC    | 電源正極     |
+| 3      | GND    | 電源接地     |
+| 4      | 喇叭訊號   | 輸出喇叭訊號   |
+| 5      | 喇叭訊號   | 輸出喇叭訊號   |
 
 尺寸: 38mm\*32mm
 
 工作電壓:3.0-5.0V
-

@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-luo-ji-fei-mo-kuai-shi-wu-tu%20%283%29.jpg)
+![](<../../../.gitbook/assets/boson-luo-ji-fei-mo-kuai-shi-wu-tu (3) (4).jpg>)
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ SKU 號：BOS0029
 
 運算邏輯模組 NOT既可以放在輸入端，也可以放在輸出端，但該模組不能直接作為輸入或輸出模組使用，需要將輸入模組連接在運算邏輯模組 NOT的輸入口，輸出模組連接在運算邏輯模組 NOT的輸出口，通過改變輸入口的信號來控制輸出口。運算邏輯模組 NOT的輸入口和輸出口如下圖所示。
 
-![Optional title](../../../.gitbook/assets/logic_module_not_ui1%20%283%29%20%282%29%20%282%29.png)
+![Optional title](<../../../.gitbook/assets/logic_module_not_ui1 (3) (2) (2) (2).png>)
 
 運算邏輯模組 NOT既可以輸入數位信號，也可以輸入類比信號，但該模組只能輸出數位信號。運算邏輯模組 NOT能夠對輸入信號進行處理並輸出相應結果，其輸入輸出機制如下：
 
@@ -34,11 +34,11 @@ SKU 號：BOS0029
 
 下圖列出了運算邏輯模組 NOT的真值表。
 
-![Optional title](../../../.gitbook/assets/logic_module_not_ui2%20%283%29%20%284%29%20%281%29%20%283%29.png)
+![Optional title](<../../../.gitbook/assets/logic_module_not_ui2 (3) (4) (1) (4).png>)
 
 按照下圖所示連接電路，通電後紅色LED燈亮起，按下紅色按鈕時紅色LED燈熄滅，鬆開紅色按鈕後紅色LED燈再次亮起。
 
-![Optional title](../../../.gitbook/assets/logic_module_not_ui3%20%283%29%20%284%29%20%282%29%20%281%29%20%284%29.png)
+![Optional title](<../../../.gitbook/assets/logic_module_not_ui3 (3) (4) (2) (1) (4).png>)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ SKU 號：BOS0029
 
 ## 應用範例
 
-### **\(1\) 防盜展示臺**
+### **(1) 防盜展示臺**
 
 **範例說明：** 防盜展示臺的功能是當展品離開展示臺，展示臺自動警報。將展品放在按鈕上，相當於按下按鈕。當展品被拿開時，按鈕彈起，蜂鳴器發出警報。正常情況下，按鈕按下輸出高電位，高電位會使蜂鳴器發出聲音，這與之前的設想恰好相反。因此，需要借助一個運算邏輯模組 NOT，將按鈕輸出的高電位轉為低電位，不讓蜂鳴器在按鈕按下的情況下發出聲音。
 
@@ -54,9 +54,9 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/logic_module_not_example1%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29.png)
+![Optional title](<../../../.gitbook/assets/logic_module_not_example1 (3) (4) (4) (4) (4) (3).png>)
 
-### **\(2\) 智慧路燈**
+### **(2) 智慧路燈**
 
 **範例說明：** 將模組按下圖連接後可以達到如下功能：只有在晚上的時候，聽到有人來了，路燈才會亮起。這一設計大大節約了電力資源。
 
@@ -64,9 +64,9 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/boson_环境光传感器_应用样例3_连线图%20%289%29%20%2813%29%20%289%29.png)
+![Optional title](<../../../.gitbook/assets/boson\_环境光传感器\_应用样例3\_连线图 (9) (13) (13).png>)
 
-### **\(3\) 搶答器**
+### **(3) 搶答器**
 
 **範例說明：** 做一個搶答器，讓按下按鈕的人，亮起對應的燈，同時阻止另一個燈不能再亮起。
 
@@ -74,17 +74,16 @@ SKU 號：BOS0029
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/boson-luo-ji-fei-mo-kuai-qiang-da-qi-lian-xian-tu.png)
+![Optional title](<../../../.gitbook/assets/boson-luo-ji-fei-mo-kuai-qiang-da-qi-lian-xian-tu (11).png>)
 
 ## 商品規格
 
 腳位說明：
 
-![Optional title](../../../.gitbook/assets/logic_module_not_spec%20%283%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![Optional title](<../../../.gitbook/assets/logic_module_not_spec (3) (2) (2) (2) (2) (1).png>)
 
 尺寸: 26mm\*22mm
 
 工作電壓:3.0-5.5V
 
-工作電流：\(Max\)32mA@5V
-
+工作電流：(Max)32mA@5V

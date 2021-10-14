@@ -2,13 +2,13 @@
 
 ## 實體照片
 
-![Optional title](../../../.gitbook/assets/duration_module%20%281%29.png)
+![Optional title](<../../../.gitbook/assets/duration_module (1).png>)
 
 ## 基本信息
 
 中文名稱：計時模組（0-60秒）
 
-英文名稱：Duration Module \(0-60s\)
+英文名稱：Duration Module (0-60s)
 
 序號：f8
 
@@ -32,7 +32,7 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 按照下圖所示連接電路並設定好計時模組（0-60秒）的時間值，通電後按下按鈕即可點亮LED燈並持續到設定的時間。
 
-![Optional title](../../../.gitbook/assets/duration_module_ui2%20%281%29.png)
+![Optional title](<../../../.gitbook/assets/duration_module_ui2 (1).png>)
 
 ## 原理介紹
 
@@ -40,7 +40,7 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 ## 應用範例
 
-### **\(1\) 畫廊展示品防盜警報器**
+### **(1) 畫廊展示品防盜警報器**
 
 **範例說明：** 當有人觸碰展示品或者展示品傾斜時，自動發出警報。
 
@@ -48,9 +48,9 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/boson-chi-xu-mo-kuai-060-miao-hua-lang-zhan-shi-pin-fang-dao-bao-jing-qi-lian-xian-tu.png)
+![Optional title](<../../../.gitbook/assets/boson-chi-xu-mo-kuai-060-miao-hua-lang-zhan-shi-pin-fang-dao-bao-jing-qi-lian-xian-tu (1).png>)
 
-### **\(2\) 密碼鎖**
+### **(2) 密碼鎖**
 
 **範例說明：** 設置三個按鈕，只有按照正確的順序按下三個按鈕，才能解鎖；同時小燈模組也會亮起來，蜂鳴器發出警報，即告訴別人，密碼鎖已被打開。
 
@@ -58,7 +58,7 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 **連線圖：**
 
-![Optional title](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%281%29.png)
+![Optional title](<../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu (1) (8).png>)
 
 ## 商品規格
 
@@ -70,5 +70,4 @@ duration檔：當輸入高脈衝後，模組會輸出一個固定設置時間的
 
 工作電壓：3.0-5.5V
 
-工作電流：\(Max\)32mA@5V
-
+工作電流：(Max)32mA@5V

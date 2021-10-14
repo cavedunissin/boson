@@ -1,14 +1,14 @@
 # 按鈕模組
 
-![](../../../.gitbook/assets/button.jpg)
+![](../../../.gitbook/assets/Button.jpg)
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_2_button2.png)
+![](../../../.gitbook/assets/Lesson\_2\_Button2.png)
 
 ## **對應的**Arduino 語法
 
-```text
+```
 digitalRead(6);
 ```
 
@@ -16,11 +16,11 @@ digitalRead(6);
 
 當按下按鈕時，LED就會亮，沒按下按鈕時LED則不會亮。
 
-![](../../../.gitbook/assets/lesson_2_button.png)
+![](../../../.gitbook/assets/Lesson\_2\_Button.png)
 
 ## Arduino 程式
 
-```text
+```
 void setup()
 {
   pinMode(6, INPUT);
@@ -45,6 +45,4 @@ digitalRead(6);
 ## 影片教學:
 
 {% embed url="https://www.youtube.com/watch?v=wfvV9fWlIrM" %}
-
-
 

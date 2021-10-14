@@ -1,14 +1,14 @@
 # OLED顯示模組
 
-![](../../../.gitbook/assets/oled.jpg)
+![](../../../.gitbook/assets/OLED.jpg)
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_7_oled2.png)
+![](../../../.gitbook/assets/Lesson\_7\_OLED2.png)
 
 ## **對應的**Arduino 語法
 
-```text
+```
   u8x8.print("hello Arduino!");
 ```
 
@@ -16,11 +16,11 @@
 
 在OLED螢幕畫面上0, 0的位置上顯示hello Arduino!。
 
-![](../../../.gitbook/assets/lesson_7_oled.png)
+![](../../../.gitbook/assets/Lesson\_7\_OLED.png)
 
 ## Arduino 程式
 
-```text
+```
 #include <Arduino.h>
 #include <U8x8lib.h>
 U8X8_SSD1306_128X64_ALT0_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
@@ -40,7 +40,6 @@ void loop()
 }
 ```
 
-## 影片教學: <a id="ying-pian-jiao-xue"></a>
+## 影片教學: <a href="ying-pian-jiao-xue" id="ying-pian-jiao-xue"></a>
 
 {% embed url="https://youtu.be/B2dNXZVC5II" %}
-

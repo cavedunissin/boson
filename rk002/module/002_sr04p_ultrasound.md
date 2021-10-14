@@ -1,6 +1,6 @@
 # SR-04P超音波
 
-![](../../.gitbook/assets/01%20%282%29.png)
+![](<../../.gitbook/assets/01 (5).png>)
 
 ## 專案說明
 
@@ -14,13 +14,13 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * SR-04P超音波
 
-**SR-04P超音波**是**數位訊號**輸出， 可以接「D0 ~ D13」的KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」「**D4**」
+**SR-04P超音波**是**數位訊號**輸出， 可以接「D0 \~ D13」的KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」「**D4**」
 
 {% hint style="info" %}
 超音波測距感測器是由發射器、接收器以及控制電路所組成，若待測物體距離太遠，或者發射器、接收器其中一個被遮蔽，皆會導致量測距離結果錯誤 。
 {% endhint %}
 
-![](../../.gitbook/assets/02.png)
+![](<../../.gitbook/assets/02 (12).png>)
 
 ## Arduino 程式
 
@@ -28,7 +28,7 @@
 
 在Arduino上選擇工具，選擇管理程式庫，在管理程式庫搜尋HCSR04選擇HCSR04 ultrasonic sensor by gamegine版本2.02並安裝。
 
-![](../../.gitbook/assets/03%20%286%29%20%284%29.png)
+![](<../../.gitbook/assets/03 (6) (4).png>)
 
 ![](../../.gitbook/assets/04.png)
 
@@ -52,6 +52,4 @@ void loop()
 }//return curent distance in serial
 
 ```
-
-
 

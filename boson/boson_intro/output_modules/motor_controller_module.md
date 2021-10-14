@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson_电机控制模块_实物图.jpg)
+![](<../../../.gitbook/assets/boson\_电机控制模块\_实物图 (1).jpg>)
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ SKU 號：BOS0024
 
 馬達模組預設了四種不同的控制模式（如下表所示），可以通過撥動開關進行切換。
 
-![](../../../.gitbook/assets/boson_电机控制模块_使用说明1%20%282%29%20%282%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson\_电机控制模块\_使用说明1 (2) (2) (2) (1).png>)
 
 馬達的轉動方向如下圖所示：
 
@@ -32,7 +32,7 @@ SKU 號：BOS0024
 
 按照下圖所示連接電路，通電後即可通過馬達模組上的撥動開關控制馬達的轉速和方向。
 
-![](../../../.gitbook/assets/boson_电机控制模块_使用说明3%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/boson\_电机控制模块\_使用说明3.png)
 
 ## 原理介紹
 
@@ -48,7 +48,7 @@ SKU 號：BOS0024
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_电机控制模块_调速打蛋器1连线图%20%285%29%20%285%29%20%283%29%20%281%29%20%283%29.png)
+![](<../../../.gitbook/assets/boson\_电机控制模块\_调速打蛋器1连线图 (5) (5) (3) (1) (4).png>)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -60,7 +60,7 @@ SKU 號：BOS0024
 
 **連線圖：** 將聲音感測器連接至micro:bit擴充板P0腳位，馬達模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_电机控制模块_制作风车连线图%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/boson\_电机控制模块\_制作风车连线图.png)
 
 **執行流程：**
 
@@ -70,11 +70,11 @@ SKU 號：BOS0024
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/motor_controller_module_prg1_ch_tw.png)
+![](../../../.gitbook/assets/motor_controller_module_prg1\_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%2811%29%20%286%29.png)
+![](<../../../.gitbook/assets/boson\_电机控制模块\_制作风车程序示意图英文版 (11) (12).png>)
 
 ### **調速打蛋器（程式設計）**
 
@@ -84,7 +84,7 @@ SKU 號：BOS0024
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，馬達模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_电机控制模块_调速打蛋器2连线图%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/boson\_电机控制模块\_调速打蛋器2连线图.png)
 
 **執行流程：**
 
@@ -94,11 +94,11 @@ SKU 號：BOS0024
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/motor_controller_module_prg1_ch_tw%20%281%29.png)
+![](<../../../.gitbook/assets/motor_controller_module_prg1\_ch_tw (1).png>)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%2811%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_电机控制模块\_制作风车程序示意图英文版 (11) (11).png>)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -106,21 +106,21 @@ SKU 號：BOS0024
 
 **元件清單：**馬達模組；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**馬達控制模組是數位/類比訊號輸出，可以接「D0 ~ D13」的LinkIt 7697 NANO 擴充板訊號端上（本範例連接到「D7」）。
+**連線圖：**馬達控制模組是數位/類比訊號輸出，可以接「D0 \~ D13」的LinkIt 7697 NANO 擴充板訊號端上（本範例連接到「D7」）。
 
-![](../../../.gitbook/assets/motor_controller_7697_1.jpg)
+![](../../../.gitbook/assets/motor_controller\_7697\_1.jpg)
 
 **程式說明：**將7號腳位PWM類比寫入訊號，每五秒鐘會切換馬達停止，馬達轉動速度中等，馬達轉動速度快一次。
 
-![](../../../.gitbook/assets/motor_controller_7697_2.jpg)
+![](../../../.gitbook/assets/motor_controller\_7697\_2.jpg)
 
-![](../../../.gitbook/assets/motor_controller_7697_3.jpg)
+![](../../../.gitbook/assets/motor_controller\_7697\_3.jpg)
 
 範例影片：[https://youtu.be/IxhS6b4INUw](https://youtu.be/IxhS6b4INUw)
 
 產生出的Arduino程式如下：
 
-```text
+```
 void setup()
 {
 
@@ -146,17 +146,16 @@ void loop()
 ![](../../../.gitbook/assets/motor_controller_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
-| 1 | A | 類比訊號 |
-| 2 | VCC | 電源正極 |
-| 3 | GND | 電源接地 |
-| 4 | 馬達電源正極 | 馬達電源正極 |
-| 5 | 馬達電源負極 | 馬達電源負極 |
-| 6 | 撥動開關 | 馬達模式選擇 |
+| ------ | ------ | -------- |
+| 1      | A      | 類比訊號     |
+| 2      | VCC    | 電源正極     |
+| 3      | GND    | 電源接地     |
+| 4      | 馬達電源正極 | 馬達電源正極   |
+| 5      | 馬達電源負極 | 馬達電源負極   |
+| 6      | 撥動開關   | 馬達模式選擇   |
 
 尺寸: 26mm\*22mm
 
 工作電壓:3.3V-5.0V
 
 工作電流：10mA
-

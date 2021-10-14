@@ -1,14 +1,14 @@
 # 光感測器模組
 
-![](../../../.gitbook/assets/light.png)
+![](../../../.gitbook/assets/Light.png)
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_5_lightswitch2.png)
+![](../../../.gitbook/assets/Lesson\_5\_LightSwitch2.png)
 
 ## **對應的**Arduino 語法
 
-```text
+```
   analogRead(6);
 ```
 
@@ -16,11 +16,11 @@
 
 根據光感測器模組的數值來決定LED模組的亮或暗，數值越大LED會暗，數值越小LED會亮。並在序列埠印出光感測器的數值。
 
-![](../../../.gitbook/assets/lesson_5_lightswitch.png)
+![](../../../.gitbook/assets/Lesson\_5\_LightSwitch.png)
 
 ## Arduino 程式
 
-```text
+```
 int Value;
 
 void setup()
@@ -43,4 +43,3 @@ void loop()
 ## 影片教學:
 
 {% embed url="https://youtu.be/NRi1vZWL3nY" %}
-

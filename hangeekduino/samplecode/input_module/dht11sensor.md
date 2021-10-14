@@ -1,14 +1,14 @@
 # 溫溼度感測模組
 
-![](../../../.gitbook/assets/temp.jpg)
+![](../../../.gitbook/assets/Temp.jpg)
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_8_temperaturehumiditysensor2.png)
+![](../../../.gitbook/assets/Lesson\_8\_TemperatureHumiditySensor2.png)
 
 ## **對應的**Arduino 語法
 
-```text
+```
     dht11_p3.readTemperature();
     dht11_p3.readHumidity();
 ```
@@ -17,11 +17,11 @@
 
 在OLED顯示模組上顯示溫溼度感測模組的溫度和濕度。
 
-![](../../../.gitbook/assets/lesson_8_temperaturehumiditysensor.png)
+![](../../../.gitbook/assets/Lesson\_8\_TemperatureHumiditySensor.png)
 
 ## Arduino 程式
 
-```text
+```
 #include "DHT.h"
 DHT dht11_p3(3, DHT11);
 
@@ -56,6 +56,4 @@ void loop()
 ## 影片教學:
 
 {% embed url="https://www.youtube.com/watch?v=bAbHAfYffQ0" %}
-
-
 

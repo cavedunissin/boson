@@ -1,6 +1,6 @@
 # RGB LED共陰模組
 
-![](../../.gitbook/assets/01%20%285%29.png)
+![](<../../.gitbook/assets/01 (1).png>)
 
 ## 專案說明
 
@@ -14,13 +14,13 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * RGB LED共陰模組
 
-**RGB LED共陰模組**是數位/PWM訊號輸出， 可以接「D0 ~ D13/D3、D5、D6、D9、D10」的 KEYES Arduino UNO R3訊號端上。使用數位輸出時可以顯示RGB三種顏色的燈，使用PWM訊號輸出時可以依據PWM的數值顯示各種不同顏色的燈。 本範例連接到「**D3**、**D5**、**D6**」
+**RGB LED共陰模組**是數位/PWM訊號輸出， 可以接「D0 \~ D13/D3、D5、D6、D9、D10」的 KEYES Arduino UNO R3訊號端上。使用數位輸出時可以顯示RGB三種顏色的燈，使用PWM訊號輸出時可以依據PWM的數值顯示各種不同顏色的燈。 本範例連接到「**D3**、**D5**、**D6**」
 
-![](../../.gitbook/assets/02v2.png)
+![](../../.gitbook/assets/02V2.png)
 
 ## Arduino 程式
 
-將3號、5號、6號腳位的PWM訊號依序輸出，RGB LED模組會陸續顯示紅色1S，綠色1S，藍色1S，黃色1S，紫色1S，白色1S，停止顯示1S，然後循環交替。RGB LED模組是用PWM訊號輸出函式所代表的顏色分別為color\(紅色, 綠色, 藍色\)數值為0到255，color\(255, 0, 0\)代表紅色亮、color\(0, 255, 0\)代表綠色亮、color\(0, 0, 255\)代表藍色亮、color\(255,255,0\) 代表黃色亮、color\(128,0,255\)代表紫色亮、color\(255,255,255\)代表白色亮，可以根據需要亮的顏色去調整數值。
+將3號、5號、6號腳位的PWM訊號依序輸出，RGB LED模組會陸續顯示紅色1S，綠色1S，藍色1S，黃色1S，紫色1S，白色1S，停止顯示1S，然後循環交替。RGB LED模組是用PWM訊號輸出函式所代表的顏色分別為color(紅色, 綠色, 藍色)數值為0到255，color(255, 0, 0)代表紅色亮、color(0, 255, 0)代表綠色亮、color(0, 0, 255)代表藍色亮、color(255,255,0) 代表黃色亮、color(128,0,255)代表紫色亮、color(255,255,255)代表白色亮，可以根據需要亮的顏色去調整數值。
 
 產生出的 Arduino 程式如下
 
@@ -63,6 +63,4 @@ void color (unsigned char red, unsigned char green, unsigned char blue)  //顏�
 } 
 
 ```
-
-
 

@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/water_proof_temperature_sensor%20%281%29%20%281%29%20%281%29.jpg)
+![](<../../../.gitbook/assets/water_proof_temperature_sensor (1) (1) (1) (1).jpg>)
 
 ## 基本信息
 
@@ -22,9 +22,9 @@ SKU：BOS0042
 
 ## 使用說明
 
-防水溫度感測器可以與Arduino結合使用。使用時，必須連接上拉電阻，與可插拔感測器轉接器配合使用。按照下圖所示連接電路，通電後將防水溫度感測器的探頭放入待測量的物體中，則測量物體的溫度值可以通過OLED顯示模組直接讀取。防水溫度感測器的感溫範圍在-55℃~+125℃之間，溫度顯示範圍為-10°C~+85°C（誤差±0.5°C）。
+防水溫度感測器可以與Arduino結合使用。使用時，必須連接上拉電阻，與可插拔感測器轉接器配合使用。按照下圖所示連接電路，通電後將防水溫度感測器的探頭放入待測量的物體中，則測量物體的溫度值可以通過OLED顯示模組直接讀取。防水溫度感測器的感溫範圍在-55℃\~+125℃之間，溫度顯示範圍為-10°C\~+85°C（誤差±0.5°C）。
 
-![](../../../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-shi-yong-shuo-ming%20%281%29.png)
+![](<../../../.gitbook/assets/boson-fang-shui-wen-du-chuan-gan-qi-shi-yong-shuo-ming (1).png>)
 
 **\*注意：**雖然該產品能夠在125°C下正常工作，但由於纜線是由聚氯乙烯（PVC）材料製成的，沒有感測器耐熱，因此我們建議不要將其放在溫度高於100°C的地方。\*
 
@@ -34,7 +34,7 @@ SKU：BOS0042
 
 ## 應用範例
 
-### \(1\) 探究土壤溫度對種子發芽率的影響
+### (1) 探究土壤溫度對種子發芽率的影響
 
 **範例說明：**將相同數量、同一作物的種子分別種在兩個盆裁中，通過顯示器讀取兩盆裁的土壤溫度，從而控制兩盆的土壤溫度值不同，探究兩種情況下種子的發芽情況。
 
@@ -42,9 +42,9 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%283%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu (3) (5).png>)
 
-### \(2\) 糧倉溫濕度檢測
+### (2) 糧倉溫濕度檢測
 
 **範例說明：**糧倉裡糧食安全儲藏的主要參數是糧倉的溫度和濕度，這兩者之間又是互相關聯的。糧食在正常儲藏過程中，含水量一般在12%以下是安全狀態，不會產生溫度突變，一旦糧倉進水、結露等使糧食的含水量達到20%以上時，就會使糧食受潮，胚芽萌發，新陳代謝加快而產生呼吸熱，使局部糧食溫度突然升高，當溫度高於22°C時，必然引起糧食“發燒”和發霉變質，並可能形成連鎖反應，從而造成不可挽回的損失。因此有必要檢測糧食溫度。當溫度感測器感受到糧食內溫度時，當溫度高於22°C時，自動開啟風扇、點亮小燈並發出警報。而當濕度感測器感受到糧食內濕度高於20%時，自動點亮小燈並發出警報。
 
@@ -52,9 +52,9 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%282%29%20%281%29%20%287%29.png)
+![](<../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu (2) (1) (7).png>)
 
-### \(3\) 液體溫度檢測儀
+### (3) 液體溫度檢測儀
 
 **範例說明：**防水溫度感測器測量液體溫度值，Micro:bit讀取測量結果並將溫度顯示在LED燈點陣上。
 
@@ -62,7 +62,7 @@ SKU：BOS0042
 
 **連線圖：**
 
-![](../../../.gitbook/assets/water_proof_temperature_sensor_example3.png)
+![](<../../../.gitbook/assets/water_proof_temperature_sensor_example3 (1).png>)
 
 **設計意圖：**
 
@@ -70,11 +70,11 @@ SKU：BOS0042
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/light_sensor_prg_ch_tw%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](../../../.gitbook/assets/light_sensor_prg_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_环境光传感器_应用样例5_程序示意图英文版%20%282%29.png)
+![](<../../../.gitbook/assets/boson\_环境光传感器\_应用样例5\_程序示意图英文版 (2) (2).png>)
 
 ## 商品規格
 
@@ -83,14 +83,13 @@ SKU：BOS0042
 ![](../../../.gitbook/assets/water_proof_temperature_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    A   |   類比訊號   |
 
 重量： （g）
 
 尺寸：26mm\*22mm
 
 工作電壓：3.0-5.0V
-

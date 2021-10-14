@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-dian-dao-kai-guan-shi-wu-tu-pian%20%281%29.jpg)
+![](<../../../.gitbook/assets/boson-dian-dao-kai-guan-shi-wu-tu-pian (1).jpg>)
 
 ## 基本信息
 
@@ -22,7 +22,7 @@ SKU：BOS0012
 
 在圖示①處，通過觸摸導電感測開關的正負極，可以改變模組的輸出狀態；也可以通過導線外接一個水果或蔬菜從而產生開關控制訊號。
 
-![](../../../.gitbook/assets/boson_电导开关_使用说明%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_电导开关\_使用说明 (1) (1).png>)
 
 ## 原理介紹
 
@@ -40,7 +40,7 @@ SKU：BOS0012
 
 
 
-![](../../../.gitbook/assets/conductivity_sensor_switch_example1%20%283%29.png)
+![](<../../../.gitbook/assets/conductivity_sensor_switch_example1 (2).png>)
 
 ### 炫彩風鈴
 
@@ -58,7 +58,7 @@ SKU：BOS0012
 
 **連線圖：**
 
-![](../../../.gitbook/assets/conductivity_sensor_switch_example3%20%281%29.png)
+![](<../../../.gitbook/assets/conductivity_sensor_switch_example3 (1) (1).png>)
 
 **設計意圖：**將導電感測開關連接至P0腳位，根據P0腳位輸出的數位訊號判斷物體是否具有導電性。
 
@@ -72,9 +72,9 @@ SKU：BOS0012
 
 ![](../../../.gitbook/assets/conductivity_sensor_switch_prg_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_电导开关_应用样例3_程序示意图英文版%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_电导开关\_应用样例3\_程序示意图英文版 (1) (1).png>)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -82,19 +82,19 @@ SKU：BOS0012
 
 **元件清單：**導電感測開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**導電感測開關是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D6」
+**連線圖：**導電感測開關是數位訊號輸入， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D6」
 
-![](../../../.gitbook/assets/conductivity_sensor_switch_7697_1.jpg)
+![](../../../.gitbook/assets/conductivity_sensor_switch\_7697\_1.jpg)
 
 **程式說明：**每1秒鐘會讀取導電感測開關的導電係數一次，並顯示在序列埠監控視窗上。
 
-![](../../../.gitbook/assets/conductivity_sensor_switch_7697_2.png)
+![](../../../.gitbook/assets/conductivity_sensor_switch\_7697\_2.png)
 
-![](../../../.gitbook/assets/conductivity_sensor_switch_7697_3.png)
+![](../../../.gitbook/assets/conductivity_sensor_switch\_7697\_3.png)
 
 產生出的Arduino程式如下：
 
-```text
+```
 void setup()
 {
 
@@ -119,16 +119,15 @@ void loop()
 ![](../../../.gitbook/assets/conductivity_sensor_switch_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | D | 數位訊號 |
-| 4 | LED燈 | 動作指示 |
-| 5 | 開關 | 開關接口 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    D   |   數位訊號   |
+|    4   |  LED燈  |   動作指示   |
+|    5   |   開關   |   開關接口   |
 
 重量： （g）
 
 尺寸：26mm\*22mm
 
 工作電壓：3.0-5.0V
-

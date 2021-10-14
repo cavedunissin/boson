@@ -1,6 +1,6 @@
 # 紅外線偵測模組
 
-![](../../.gitbook/assets/linkit7697_irsesnor_00.png)
+![](../../.gitbook/assets/linkit7697\_irsesnor\_00.png)
 
 ## LinkIt 7697 專案說明
 
@@ -14,21 +14,21 @@
 * LinkIt 7697 NANO Breakout
 * 紅外線偵測模組
 
-**紅外線偵測模組**是**數位訊號**輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
+**紅外線偵測模組**是**數位訊號**輸入， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
 
 {% hint style="info" %}
 紅外線偵測模組是利用光線對顏色不同的反射率， 判斷感測器的輸入端是0或者是1，進而判斷是黑線或是白線。
 {% endhint %}
 
-![](../../.gitbook/assets/linkit7697_irsesnor_01.png)
+![](../../.gitbook/assets/linkit7697\_irsesnor\_01.png)
 
 ### BlocklyDuino 積木畫布
 
 每秒鐘讀取紅外線偵測模組偵測白線或黑線一次 ，並顯示在序列埠監控視窗上。
 
-![](../../.gitbook/assets/linkit7697_irsesnor_02.png)
+![](../../.gitbook/assets/linkit7697\_irsesnor\_02.png)
 
-![](../../.gitbook/assets/linkit7697_irsesnor_03.png)
+![](../../.gitbook/assets/linkit7697\_irsesnor\_03.png)
 
 ### Arduino 程式
 
@@ -67,13 +67,13 @@ void loop()
 紅外線偵測模組是利用光線對顏色不同的反射率， 判斷感測器的輸入端是0或者是1，進而判斷是黑線或是白線。
 {% endhint %}
 
-![](../../.gitbook/assets/01%20%287%29.JPG)
+![](<../../.gitbook/assets/01 (7).JPG>)
 
 ### Microsoft MakeCode積木畫布
 
 每1秒鐘會讀取按鈕模組狀態一次，並可透過micro:bit顯示指示燈看到按鈕模組的狀態。
 
-![](../../.gitbook/assets/02%20%287%29%20%281%29.jpg)
+![](<../../.gitbook/assets/02 (7) (1) (1).jpg>)
 
 ### JavaScript 程式
 
@@ -83,4 +83,3 @@ basic.forever(function () {
     basic.pause(1000)
 })
 ```
-

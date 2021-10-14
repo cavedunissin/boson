@@ -2,13 +2,13 @@
 
 ## **科易KEYES 手指偵測心跳模組**
 
-![](../.gitbook/assets/image%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](<../.gitbook/assets/image (1) (2) (2) (2) (2) (1).png>)
 
 ## **專案說明**
 
 使用「科易KEYES Arduino UNO R3 開發板」連接「手指偵測心跳模組」,讀取手指偵測心跳速率。
 
-此科易手指偵測心跳模組包含於「[科易KEYES 手指偵測心跳模組](https://robotkingdom.com.tw/product/keyes-%e6%89%8b%e6%8c%87%e5%81%b5%e6%b8%ac%e5%bf%83%e8%b7%b3%e6%a8%a1%e7%b5%84/)」內。
+此科易手指偵測心跳模組包含於「[科易KEYES 手指偵測心跳模組](https://robotkingdom.com.tw/product/keyes-%E6%89%8B%E6%8C%87%E5%81%B5%E6%B8%AC%E5%BF%83%E8%B7%B3%E6%A8%A1%E7%B5%84/)」內。
 
 ## **KEYES Arduino UNO R3電路圖**
 
@@ -16,23 +16,23 @@
 
 · 科易KEYES 手指偵測心跳模組
 
-手指偵測心跳模組是類比訊號輸入，可以接「A0 ~ A5」的KEYES Arduino UNO R3訊號端上。 本範例連接到「A0」。
+手指偵測心跳模組是類比訊號輸入，可以接「A0 \~ A5」的KEYES Arduino UNO R3訊號端上。 本範例連接到「A0」。
 
 手指偵測心跳模組上S部分的腳位接到Arduino端的S、中間再接V端、-腳位接到GND。
 
  手指偵測心跳模組由一個紅外線LED和光敏電晶體所構成，原理是透過手指放在紅外線發射器和光敏電晶體之間後，隨著心臟跳動，光敏電晶體的電阻值也在不斷變化，通過這種變化來檢測心跳。為防止外界光線對資料造成影響，最好將 手指偵測心跳模放在一個封閉的盒子裡或是用套子包住感測器，在進行心跳檢測。
 
-![](../.gitbook/assets/1%20%2829%29.png)
+![](<../.gitbook/assets/1 (15).png>)
 
 ## **Arduino 程式**
 
 如果手指放紅外線LED和光敏電晶體之間時在兩秒間的感測數值有不同的跳動的話，會顯示你目前手指脈搏偵測到的心跳數，沒有數值跳動的話則不會顯示心跳數。
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](<../.gitbook/assets/image (2).png>)
 
 產生出的 Arduino 程式如下
 
-```text
+```
 #define samp_siz 4
 #define rise_threshold 4
 
@@ -128,4 +128,3 @@ void loop ()
 }
 
 ```
-

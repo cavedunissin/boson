@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-qing-xie-kai-guan-shi-wu-tu-pian%20%281%29%20%281%29%20%281%29%20%281%29.jpg)
+![](<../../../.gitbook/assets/boson-qing-xie-kai-guan-shi-wu-tu-pian (1) (1) (1) (1).jpg>)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ SKU：BOS0005
 
 按照下圖所示連接電路，通電後即可使用傾斜感測器控制LED燈的亮滅：當傾斜感測器發生傾斜時，LED燈被點亮；否則LED燈被熄滅。
 
-![](../../../.gitbook/assets/boson_倾斜开关_使用说明.png)
+![](../../../.gitbook/assets/boson\_倾斜开关\_使用说明.png)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ SKU：BOS0005
 
 
 
-![](../../../.gitbook/assets/boson_倾斜开关_应用样例1_连线图%20%283%29%20%283%29%20%283%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_倾斜开关\_应用样例1\_连线图 (3) (3) (3) (1).png>)
 
 ### 畫廊展示品防盜警報器
 
@@ -56,7 +56,7 @@ SKU：BOS0005
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_逻辑“或”模块_画廊展示品防盗报警器连线图%20%284%29%20%281%29%20%283%29.png)
+![](<../../../.gitbook/assets/boson\_逻辑“或”模块\_画廊展示品防盗报警器连线图 (4) (1) (3).png>)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -68,7 +68,7 @@ SKU：BOS0005
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_倾斜开关_应用样例3_连线图.png)
+![](<../../../.gitbook/assets/boson\_倾斜开关\_应用样例3\_连线图 (1).png>)
 
 **設計意圖：**傾斜感測器在發生傾斜時會輸出高電位，否則輸出低電位。製作傾斜警報器時需要先讀取傾斜感測器輸出的數位信號，若讀取到高電位，表示已經發生傾斜，為蜂鳴器模組寫入高電位，蜂鳴器開始鳴叫；否則為蜂鳴器模組寫入低電位，蜂鳴器停止鳴叫。
 
@@ -78,9 +78,9 @@ SKU：BOS0005
 
 ![](../../../.gitbook/assets/tilt_switch_prg_ch_tw.png)
 
- **Example program\(English\)：**
+** Example program(English)：**
 
-![](../../../.gitbook/assets/boson_倾斜开关_应用样例3_程序示意图英文版%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_倾斜开关\_应用样例3\_程序示意图英文版 (1) (1).png>)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -88,19 +88,19 @@ SKU：BOS0005
 
 **元件清單：**傾斜感測器；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**傾斜感測器是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
+**連線圖：**傾斜感測器是數位訊號輸入， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
 
-![](../../../.gitbook/assets/tilt_switch_7697_1.jpg)
+![](../../../.gitbook/assets/tilt_switch\_7697\_1.jpg)
 
 **程式說明：**每1秒鐘會讀取傾斜感測器狀態一次， 並可透過序列埠監控視窗看到傾斜感測器的狀態 。
 
-![](../../../.gitbook/assets/tilt_switch_7697_2.png)
+![](../../../.gitbook/assets/tilt_switch\_7697\_2.png)
 
-![](../../../.gitbook/assets/tilt_switch_7697_3.png)
+![](../../../.gitbook/assets/tilt_switch\_7697\_3.png)
 
 產生出的Arduino程式如下：
 
-```text
+```
 void setup()
 {
 
@@ -125,14 +125,13 @@ void loop()
 ![](../../../.gitbook/assets/tilt_switch_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | D | 數位訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    D   |   數位訊號   |
 
 重量： （g）
 
 尺寸：26mm\*22mm
 
 工作電壓：3.0-5.0V
-

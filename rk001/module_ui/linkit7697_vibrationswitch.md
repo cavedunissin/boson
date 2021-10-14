@@ -1,6 +1,6 @@
 # 震動開關模組
 
-![](../../.gitbook/assets/linkit7697_vibrationswitch_00.png)
+![](../../.gitbook/assets/linkit7697\_vibrationswitch\_00.png)
 
 ## LinkIt 7697 專案說明
 
@@ -14,17 +14,17 @@
 * LinkIt 7697 NANO Breakout
 * 震動開關模組
 
-**震動開關模組**是**數位訊號**讀取， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
+**震動開關模組**是**數位訊號**讀取， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
 
-![](../../.gitbook/assets/linkit7697_vibrationswitch_01.png)
+![](../../.gitbook/assets/linkit7697\_vibrationswitch\_01.png)
 
 ### BlocklyDuino 積木畫布
 
 計算震動開關模組目前累計震動次數。
 
-![](../../.gitbook/assets/linkit7697_vibrationswitch_02.png)
+![](../../.gitbook/assets/linkit7697\_vibrationswitch\_02.png)
 
-![](../../.gitbook/assets/linkit7697_vibrationswitch_03.png)
+![](../../.gitbook/assets/linkit7697\_vibrationswitch\_03.png)
 
 ### Arduino 程式
 
@@ -64,13 +64,13 @@ void loop()
 
 **震動開關模組**是**數位訊號**輸入，可以接「3、4、5、6、7、9、10、11」的 micro:bit訊號端上，建議使用的是5跟11腳位，因為3、4、6、7、9、10腳位有使用到LED控制腳位所以當顯示LED時會不穩定。本範例連接到「P5」。
 
-![](../../.gitbook/assets/01%20%281%29%20%281%29%20%281%29.JPG)
+![](<../../.gitbook/assets/01 (1) (1) (1).JPG>)
 
 ### Microsoft MakeCode積木畫布
 
 計算震動開關模組目前累計震動次數，並可透過micro:bit顯示指示燈看到震動開關模組目前累計震動次數。
 
-![](../../.gitbook/assets/02%20%287%29%20%281%29.JPG)
+![](<../../.gitbook/assets/02 (4).JPG>)
 
 ### JavaScript 程式
 
@@ -85,4 +85,3 @@ basic.forever(function () {
     }
 })
 ```
-

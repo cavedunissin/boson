@@ -6,11 +6,11 @@
 
 ## Arduino 端程式碼 - 自定義發送資料
 
-請開啟 Arduino IDE \(自行下載或使用 HangeekDuino 下的 Arduino 1.8.5\)，新增一個專案並填入以下內容或直接使用範例。請注意我們是使用 Arduino首次接觸就上手套件，所以 DHT11 溫溼度感測器的腳位是固定在 D3。[DHT11感測器基本教學請點我](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/input_module/dht11sensor)。
+請開啟 Arduino IDE (自行下載或使用 HangeekDuino 下的 Arduino 1.8.5)，新增一個專案並填入以下內容或直接使用範例。請注意我們是使用 Arduino首次接觸就上手套件，所以 DHT11 溫溼度感測器的腳位是固定在 D3。[DHT11感測器基本教學請點我](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/input_module/dht11sensor)。
 
 檔名 - [rain.ino](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
 
-```text
+```
 #include "DHT.h"
 #define DHTPIN 3
 #define DHTTYPE DHT11
@@ -36,7 +36,7 @@ void loop()
 
 新增一個 Processing 專案，並輸入以下程式碼，請注意 Drop.pde 中只有定義了 Drop 類別，需要與主程式在同一個資料夾中，如果檔案路徑有錯的話就無法執行，請務必注意喔。確認 Arduino 首次接觸就上手套件已正確燒錄以上 .ino 檔。輸入完成直接執行以下 pde，會看到以下執行畫面。用嘴巴對著DHT11感測器呵氣，就可以看到雲朵的藍色變深了，雨滴的線條也比較粗，下雨的速度也變快了，是不是很可愛呢？這些效果都可以自由在 Processing 中調整，試著嘗試各種不同的參數吧，一定會更得心應手的喔！
 
-![](../../.gitbook/assets/processing_arduino_ex05_01.png)
+![](../../.gitbook/assets/processing_arduino_ex05\_01.png)
 
 執行畫面如下：
 
@@ -44,23 +44,23 @@ void loop()
 
 濕度最低時，雲朵為白色，也沒有下雨
 
-![](../../.gitbook/assets/processing_arduino_ex05_02.png)
+![](../../.gitbook/assets/processing_arduino_ex05\_02.png)
 
 用嘴巴對著DHT11感測器呵氣，就可以看到雲朵的藍色變深了，雨滴的線條也比較粗，下雨的速度也變快了
 
-![](../../.gitbook/assets/processing_arduino_ex05_03.png)
+![](../../.gitbook/assets/processing_arduino_ex05\_03.png)
 
-![](../../.gitbook/assets/processing_arduino_ex05_04.png)
+![](../../.gitbook/assets/processing_arduino_ex05\_04.png)
 
-![](../../.gitbook/assets/processing_arduino_ex05_05.png)
+![](<../../.gitbook/assets/processing_arduino_ex05\_05 (2).png>)
 
-![](../../.gitbook/assets/processing_arduino_ex05_05%20%281%29.png)
+![](<../../.gitbook/assets/processing_arduino_ex05\_05 (1).png>)
 
-**主程式 sky\_With\_dht\_processing.pde**
+**主程式 sky_With_dht_processing.pde**
 
-檔名 - [sky\_With\_dht\_processing.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
+檔名 - [sky_With_dht_processing.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
 
-```text
+```
 import processing.serial.*;
 import cc.arduino.*;
 Arduino arduino;
@@ -176,7 +176,7 @@ void draw() {
 
 檔名 - [Drop.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/rain)
 
-```text
+```
 class Drop{
   float x=random(100,700);
   float y=200;
@@ -199,7 +199,6 @@ class Drop{
 }
 ```
 
-```text
+```
 Special thanks to Konny for the supporting!
 ```
-

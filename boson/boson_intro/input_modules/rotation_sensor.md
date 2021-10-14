@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-xuan-niu-mo-kuai-shi-wu-tu-pian%20%282%29%20%282%29%20%282%29%20%281%29%20%281%29.jpg)
+![](<../../../.gitbook/assets/boson-xuan-niu-mo-kuai-shi-wu-tu-pian (2) (2) (2).jpg>)
 
 ## 基本信息
 
@@ -26,7 +26,7 @@ SKU：BOS0001
 
 > * 順時針旋轉代表類比訊號增強，風扇會轉得愈來愈快；逆時針旋轉代表類比訊號減弱，風扇會變慢。
 
-![](../../../.gitbook/assets/boson_旋钮模块_使用说明%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_旋钮模块\_使用说明 (1) (4).png>)
 
 ## 原理介紹
 
@@ -42,7 +42,7 @@ SKU：BOS0001
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_旋钮模块_使用说明%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_旋钮模块\_使用说明 (1) (5).png>)
 
 ### 調速打蛋器
 
@@ -52,11 +52,11 @@ SKU：BOS0001
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_电机控制模块_调速打蛋器1连线图%20%285%29%20%285%29%20%283%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_电机控制模块\_调速打蛋器1连线图 (5) (5) (3) (1) (3).png>)
 
 ## 實作範例教學-Micro:bit篇
 
-### \(2\) 旋鈕檯燈
+### (2) 旋鈕檯燈
 
 **範例說明：**使用旋鈕控制LED燈模組的亮度。順時針轉動旋鈕，LED燈模組越來越亮，逆時針轉動旋鈕，LED燈模組越來越暗。
 
@@ -64,29 +64,29 @@ SKU：BOS0001
 
 **連線圖：**將旋鈕模組連接至Micro:bit擴充板的P0腳位，LED燈模組連接到Micro:bit擴充板的P8腳位。
 
-![](../../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu%20%282%29%20%281%29.png)
+![](<../../../.gitbook/assets/bosonled-mo-kuai-xuan-niu-tai-deng-lian-xian-tu (2) (3).png>)
 
 **程式說明：**① 讀取P0腳位的類比值；② 將讀取到的類比值賦給P8腳位。
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/fan_module_prg2_ch_tw%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](<../../../.gitbook/assets/fan_module_prg2\_ch_tw (2) (2) (2).png>)
 
-**Example program\(English\):**
+**Example program(English):**
 
-![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%2811%29%20%2810%29.png)
+![](<../../../.gitbook/assets/boson\_电机控制模块\_制作风车程序示意图英文版 (11) (8).png>)
 
 ## 商品規格
 
 腳位說明：
 
-![](../../../.gitbook/assets/rotation_sensor_spec%20%281%29.png)
+![](../../../.gitbook/assets/rotation_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    A   |   類比訊號   |
 
 重量： （g）
 
@@ -94,5 +94,4 @@ SKU：BOS0001
 
 工作電壓：3.0-5.5V
 
-工作電流：\(Max\)1mA@5V
-
+工作電流：(Max)1mA@5V

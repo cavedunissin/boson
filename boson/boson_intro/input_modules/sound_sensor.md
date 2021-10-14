@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/sound_sensor%20%281%29.jpg)
+![](<../../../.gitbook/assets/sound_sensor (1) (1).jpg>)
 
 ## 基本信息
 
@@ -28,15 +28,15 @@ SKU：BOS0009
 
 按照下圖所示連接電路，通電後即可通過聲音感測器控制LED燈：檢測到聲音時點亮LED燈，否則熄滅LED燈。
 
-![](../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-shi-yong-shuo-ming%20%281%29.png)
+![](<../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-shi-yong-shuo-ming (1) (1).png>)
 
 ## 原理介紹
 
-聲音感測器內置一個對聲音敏感的電容式駐極體麥克風。駐極體電容麥克風（Electret Condenser Microphone）使用了可保有永久電荷的駐極體物質，因而不需再對電容器供電。但一般駐極體麥克風元件內建有電子電路以放大訊號，因此仍需以低電壓供電（常規電壓是1.0V-10V）。此種麥克風目前廣泛使用在消費電子產品之中。當聲波進入麥克風使振動膜振動時，電容會隨之變化形成電位差，再透過IC轉成訊號。來源：[麥克風-維基百科](https://zh.wikipedia.org/wiki/麦克风#駐極體電容麥克風)
+聲音感測器內置一個對聲音敏感的電容式駐極體麥克風。駐極體電容麥克風（Electret Condenser Microphone）使用了可保有永久電荷的駐極體物質，因而不需再對電容器供電。但一般駐極體麥克風元件內建有電子電路以放大訊號，因此仍需以低電壓供電（常規電壓是1.0V-10V）。此種麥克風目前廣泛使用在消費電子產品之中。當聲波進入麥克風使振動膜振動時，電容會隨之變化形成電位差，再透過IC轉成訊號。來源：[麥克風-維基百科](https://zh.wikipedia.org/wiki/%E9%BA%A6%E5%85%8B%E9%A3%8E#%E9%A7%90%E6%A5%B5%E9%AB%94%E9%9B%BB%E5%AE%B9%E9%BA%A5%E5%85%8B%E9%A2%A8)
 
 ## 應用範例
 
-### \(1\) 聲光互動蛋糕
+### (1) 聲光互動蛋糕
 
 **範例說明：**製作一個蛋糕，當播放生日歌時，聲音感測器檢測到聲音，蛋糕上的七彩燈條亮起。
 
@@ -44,9 +44,9 @@ SKU：BOS0009
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_声音传感器_应用样例1_连线图%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_声音传感器\_应用样例1\_连线图 (1) (1).png>)
 
-### \(2\) 智慧路燈
+### (2) 智慧路燈
 
 **範例說明：**夜晚，當有人經過時，聲音感測器檢測到聲音，LED燈亮起一段時間，直到人走過後熄滅。
 
@@ -54,17 +54,17 @@ SKU：BOS0009
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%281%29.png)
+![](<../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu (1).png>)
 
-### \(3\) 聲控風扇
+### (3) 聲控風扇
 
-**範例說明：**製作1個聲控風扇，當聲音感測器的輸出類比值&gt;50時打開風扇並持續三秒，否則關閉風扇。
+**範例說明：**製作1個聲控風扇，當聲音感測器的輸出類比值>50時打開風扇並持續三秒，否則關閉風扇。
 
 **元件清單：**聲音感測器；風扇模組；Micro:bit；Micro:bit BOSON擴充板。
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](<../../../.gitbook/assets/boson-sheng-yin-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu (1).png>)
 
 **設計意圖：**由於聲音感測器的輸出訊號是類比值，這裡設定一個類比值50（該類比值可根據實際情況彈性調整），當聲音感測器輸出類比值大於50時開啟風扇，否則關閉風扇。
 
@@ -74,9 +74,9 @@ SKU：BOS0009
 
 ![](../../../.gitbook/assets/sound_sensor_prg_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/sound_sensor_prg_en.png)
+![](<../../../.gitbook/assets/sound_sensor_prg_en (1).png>)
 
 ## 商品規格
 
@@ -85,14 +85,13 @@ SKU：BOS0009
 ![](../../../.gitbook/assets/sound_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    A   |   類比訊號   |
 
 重量： （g）
 
 尺寸：26mm\*22mm
 
 工作電壓：3.0-5.0V
-

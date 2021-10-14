@@ -1,6 +1,6 @@
 # DHT11溫溼度感測器模組
 
-![](../../.gitbook/assets/linkit7697_dht11_00.png)
+![](../../.gitbook/assets/linkit7697\_dht11\_00.png)
 
 ## LinkIt 7697 專案說明
 
@@ -16,15 +16,15 @@
 
 **DHT11溫溼度感測器模組**是**數位訊號**輸出， 可以接「D2」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
 
-![](../../.gitbook/assets/linkit7697_dht11_01.png)
+![](../../.gitbook/assets/linkit7697\_dht11\_01.png)
 
 ### BlocklyDuino 積木畫布
 
 每秒鐘讀取DHT溫溼度感測器的溫度和濕度一次，並顯示在序列埠監控視窗上。
 
-![](../../.gitbook/assets/linkit7697_dht11_02.png)
+![](../../.gitbook/assets/linkit7697\_dht11\_02.png)
 
-![](../../.gitbook/assets/linkit7697_dht11_03.png)
+![](../../.gitbook/assets/linkit7697\_dht11\_03.png)
 
 ### Arduino 程式
 
@@ -62,13 +62,13 @@ void loop()
 
 **DHT11溫溼度感應器模組**是**數位訊號**輸出， 可以接「0、 1、 2、 8、 12、13、14、 15、 16、 19、20」的 micro:bit訊號端上，建議使用的是0、1、2腳位。本範例連接到「**P0**」。
 
-![](../../.gitbook/assets/07.dht11miceobitv1.5.png)
+![](../../.gitbook/assets/07.DHT11MICEOBITV1.5.png)
 
-### Microsoft MakeCode積木畫布 \(適用microbit v1.5\)
+### Microsoft MakeCode積木畫布 (適用microbit v1.5)
 
 {% hint style="info" %}
-注意:  
-測試時發現電壓如果切換到5V時會發生無法正常顯示溫、濕度的問題、請記得把V1切到3V3當中\(如上圖紅框處\)  
+注意:\
+測試時發現電壓如果切換到5V時會發生無法正常顯示溫、濕度的問題、請記得把V1切到3V3當中(如上圖紅框處)\
 以下程式及函式庫目前測試不適用於micro:bit v2，如需再micro:bit v2使用請使用下方另一個函式庫的程式。
 {% endhint %}
 
@@ -76,11 +76,11 @@ void loop()
 
 DHT11溫溼度感應器套件安裝網址：[https://github.com/lioujj/pxt-sensors](https://github.com/lioujj/pxt-sensors)
 
-![&#x65B0;&#x589E;&#x64F4;&#x5C55;&#x5957;&#x4EF6;&#x4F4D;&#x7F6E;](../../.gitbook/assets/02%20%288%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.jpg)
+![新增擴展套件位置](<../../.gitbook/assets/02 (8) (2) (2) (2) (2).jpg>)
 
-![&#x4F7F;&#x7528;&#x7DB2;&#x5740;&#x5B89;&#x88DD;sensors&#x7684;&#x5957;&#x4EF6;](../../.gitbook/assets/03%20%281%29.JPG)
+![使用網址安裝sensors的套件](<../../.gitbook/assets/03 (1) (1).JPG>)
 
-![&#x5B89;&#x88DD;&#x5B8C;&#x6210;&#x5F8C;&#x5373;&#x53EF;&#x5728;&#x6307;&#x4EE4;&#x5340;&#x770B;&#x5230;&#x611F;&#x61C9;&#x5668;&#x9078;&#x9805;&#x88E1;&#x9762;&#x53CA;&#x6709;DHT11&#x7684;&#x5957;&#x4EF6;](../../.gitbook/assets/04%20%282%29.jpg)
+![安裝完成後即可在指令區看到感應器選項裡面及有DHT11的套件](../../.gitbook/assets/04.jpg)
 
 每按下A或B按鈕會讀取並顯示DHT11溫溼度感應器的溫度和濕度一次，並可透過micro:bit顯示指示燈看到DHT11溫溼度感應器的溫度和濕度的狀態。
 
@@ -112,7 +112,7 @@ basic.forever(function () {
 })
 ```
 
-## DHT11更新Micro:bitv2\(可使用函式庫\)
+## DHT11更新Micro:bitv2(可使用函式庫)
 
 ### micro:bit電路圖
 
@@ -122,33 +122,34 @@ basic.forever(function () {
 
 **DHT11溫溼度感應器模組**是**數位訊號**輸出， 可以接「0、 1、 2、 8、 12、13、14、 15、 16、 19、20」的 micro:bit訊號端上，建議使用的是0、1、2腳位。本範例連接到「**P0**」。
 
-![](../../.gitbook/assets/07.dht11miceobitv2.png)
+![](../../.gitbook/assets/07.DHT11MICEOBITV2.png)
 
 {% hint style="info" %}
-**注意: 測試時發現輸入電壓如果切換到5V時會發生無法正常顯示溫、濕度的問題、請記得把V1切到3V3當中\(如上圖紅框處\)。**
+**注意: 測試時發現輸入電壓如果切換到5V時會發生無法正常顯示溫、濕度的問題、請記得把V1切到3V3當中(如上圖紅框處)。**
 
 **以下函式庫測試後適用於micro:bit v2，發現一開始如果溫、濕度顯示-999.0為正常，請等程式驗證後即可正常顯示溫、濕度，如還是無法正常顯示可以嘗試將MICRO USB供電改為擴充版供電、重新插拔感測器的3pin排線或換一條線或是按板子背後的RESET鈕重置程式讓他重新讀取數值。**
 
-**如無法正常顯示溫濕度請先檢查上述問題，有無正確測試過。**  
+**如無法正常顯示溫濕度請先檢查上述問題，有無正確測試過。**\
+
 {% endhint %}
 
 在使用DHT11溫溼度感應器之前，需要擴展DHT11溫溼度感應器的指令庫。打開makecode程式設計平臺，滾動至指令區最底部，依序點擊進階----擴展，並使用以下網址安裝套件。
 
-DHT11溫溼度感應器套件安裝網址：[https://github.com/alankrantas/pxt-DHT11\_DHT22](https://github.com/alankrantas/pxt-DHT11_DHT22)
+DHT11溫溼度感應器套件安裝網址：[https://github.com/alankrantas/pxt-DHT11\_DHT22](https://github.com/alankrantas/pxt-DHT11\_DHT22)
 
-![&#x9032;&#x968E;&#xFF1B;&#x64F4;&#x5C55;&#x5957;&#x4EF6;&#x7684;&#x4F4D;&#x7F6E;](../../.gitbook/assets/image%20%287%29.png)
+![進階；擴展套件的位置](<../../.gitbook/assets/image (13).png>)
 
-![&#x4F7F;&#x7528;&#x7DB2;&#x5740;&#x5B89;&#x88DD;sensors&#x7684;&#x5957;&#x4EF6;](../../.gitbook/assets/image%20%2812%29.png)
+![使用網址安裝sensors的套件](<../../.gitbook/assets/image (9).png>)
 
-![&#x4F7F;&#x7528;&#x641C;&#x5C0B;DHT11&#x5B89;&#x88DD;sensors&#x7684;&#x5957;&#x4EF6;](../../.gitbook/assets/image%20%2813%29.png)
+![使用搜尋DHT11安裝sensors的套件](<../../.gitbook/assets/image (10).png>)
 
 新增後在上方可以看見增加的DHT11/DHT22套件
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](<../../.gitbook/assets/image (14).png>)
 
-### Microsoft MakeCode積木畫布 \(適用microbit v2\)
+### Microsoft MakeCode積木畫布 (適用microbit v2)
 
-使用pxt-DHT11\_DHT22此函式庫時\(完整程式如下\)，需先宣告你要使用攝氏溫度還是華氏溫度
+使用pxt-DHT11\_DHT22此函式庫時(完整程式如下)，需先宣告你要使用攝氏溫度還是華氏溫度
 
 並且要設定此感測器Query為DHT11
 
@@ -160,7 +161,7 @@ Serial output為false
 
 Wait 2 sec after query為true
 
-![](../../.gitbook/assets/07.dht11miceobitv2code.png)
+![](../../.gitbook/assets/07.DHT11MICEOBITV2CODE.PNG)
 
 可透過micro:bit顯示指示燈看到DHT11溫溼度感應器的溫度和濕度的狀態。會四捨五入小數點輪流顯示T:目前溫度H:目前濕度。
 
@@ -183,4 +184,3 @@ basic.forever(function () {
     basic.showString("" + (Math.round(dht11_dht22.readData(dataType.humidity))))
 })
 ```
-

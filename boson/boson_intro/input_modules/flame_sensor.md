@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/flame_sensor%20%281%29.jpg)
+![](<../../../.gitbook/assets/flame_sensor (1).jpg>)
 
 ## 基本信息
 
@@ -26,17 +26,17 @@ SKU：BOS0007
 
 按照下圖所示連接電路，通電後即可通過火焰感測器控制蜂鳴器模組：當檢測到火焰時，蜂鳴器開始鳴叫；否則蜂鳴器停止鳴叫。
 
-![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29.png)
+![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu.png)
 
 **\*注意：**儘管這款感測器用於感知火焰的，但它並不防火。因此使用時請與火焰保持距離，以免燒壞感測器。\*
 
 ## 原理介紹
 
-火焰的熱輻射具有離散光譜的氣體輻射和連續光譜的固體輻射。不同燃燒物的火焰輻射強度、波長分佈有所差異，但總體來說，其對應火焰溫度的近紅外波長域及紫外光域有很大的輻射強度，火焰感測器就是根據這種特性製作而成。 火焰感測器利用紅外線對火焰非常敏感的特點，使用特製的紅外線接收管檢測火焰，然後把火焰的亮度轉化為高低變化的電位訊號，輸入到中央處理器中，中央處理器根據信號的變化做出相應的程式處理。 來源：[https://baike.baidu.com/item/火焰传感器/8405773?fr=aladdin](https://baike.baidu.com/item/火焰传感器/8405773?fr=aladdin)
+火焰的熱輻射具有離散光譜的氣體輻射和連續光譜的固體輻射。不同燃燒物的火焰輻射強度、波長分佈有所差異，但總體來說，其對應火焰溫度的近紅外波長域及紫外光域有很大的輻射強度，火焰感測器就是根據這種特性製作而成。 火焰感測器利用紅外線對火焰非常敏感的特點，使用特製的紅外線接收管檢測火焰，然後把火焰的亮度轉化為高低變化的電位訊號，輸入到中央處理器中，中央處理器根據信號的變化做出相應的程式處理。 來源：[https://baike.baidu.com/item/火焰传感器/8405773?fr=aladdin](https://baike.baidu.com/item/%E7%81%AB%E7%84%B0%E4%BC%A0%E6%84%9F%E5%99%A8/8405773?fr=aladdin)
 
 ## 應用範例
 
-### \(1\) 火災報警器
+### (1) 火災報警器
 
 **範例說明：**當發生火災的時候，火焰感測器感知到火焰，蜂鳴器模組發出警報。
 
@@ -44,9 +44,9 @@ SKU：BOS0007
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%283%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu (3) (3) (3) (3) (2).png>)
 
-### \(2\) 火爐自動報警器
+### (2) 火爐自動報警器
 
 **範例說明：**火爐點火後，火焰感測器開始檢測，若燃氣灶火焰熄滅，火焰感測器傳回信號，蜂鳴器報警。
 
@@ -54,9 +54,9 @@ SKU：BOS0007
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu.png)
+![](<../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu (1).png>)
 
-### \(3\) 滅火機器人
+### (3) 滅火機器人
 
 **範例說明：**當發生火災的時候，火焰感測器檢測到火焰後迅速使用風扇撲滅火焰。
 
@@ -64,7 +64,7 @@ SKU：BOS0007
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-huo-yan-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu (1) (1).png>)
 
 **設計意圖：**由於火焰感測器的輸出信號是類比值，這裡設置一個臨界值「30」（臨界值需要根據環境等因素經過多次測試後確定），當火焰感測器輸出類比值大於30時表示發生火警，蜂鳴器和風扇開始工作，否則關閉蜂鳴器和風扇。
 
@@ -78,9 +78,9 @@ SKU：BOS0007
 
 ![](../../../.gitbook/assets/flame_sensor_prg_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/flame_sensor_prg_en%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/flame_sensor_prg_en (1) (1) (1) (1).png>)
 
 ## 商品規格
 
@@ -89,14 +89,13 @@ SKU：BOS0007
 ![](../../../.gitbook/assets/flame_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    A   |   類比訊號   |
 
 重量： （g）
 
 尺寸：26mm\*22mm
 
 工作電壓：3.0-5.0V
-

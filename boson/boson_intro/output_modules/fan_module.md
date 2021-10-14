@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson_风扇模块_实物图%20%281%29%20%281%29.jpg)
+![](<../../../.gitbook/assets/boson\_风扇模块\_实物图 (1) (1).jpg>)
 
 ## 基本信息
 
@@ -30,7 +30,7 @@ SKU 號：BOS0021
 
 按照下圖所示連接電路，即可通過按鈕模組控制風扇模組。
 
-![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-shi-yong-shuo-ming.png)
+![](<../../../.gitbook/assets/boson-feng-shan-mo-kuai-shi-yong-shuo-ming (1).png>)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ SKU 號：BOS0021
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%283%29.png)
+![](<../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu (3) (3) (3) (3) (2).png>)
 
 ### **聲控風扇**
 
@@ -56,7 +56,7 @@ SKU 號：BOS0021
 
 **連線圖：**
 
-![](../../../.gitbook/assets/fan_module_example2%20%281%29.png)
+![](<../../../.gitbook/assets/fan_module_example2 (1).png>)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -68,7 +68,7 @@ SKU 號：BOS0021
 
 **連線圖：** 將風扇模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_风扇模块_按钮风扇连线图%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_风扇模块\_按钮风扇连线图 (1) (1) (1).png>)
 
 **執行流程：**
 
@@ -78,11 +78,11 @@ SKU 號：BOS0021
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/fan_module_prg1_ch_tw.png)
+![](../../../.gitbook/assets/fan_module_prg1\_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-feng-shan-mo-kuai-an-niu-feng-shan-cheng-xu-shi-yi-tu-ying-wen-ban (1) (1) (1) (1).png>)
 
 ### **調速風扇**
 
@@ -92,7 +92,7 @@ SKU 號：BOS0021
 
 **連線圖：** 將旋鈕模組連接至micro:bit擴充板P0腳位，風扇模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_风扇模块_调速风扇连线图%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_风扇模块\_调速风扇连线图 (1) (1).png>)
 
 **執行流程：**
 
@@ -100,11 +100,11 @@ SKU 號：BOS0021
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/fan_module_prg2_ch_tw%20%282%29%20%282%29%20%282%29.png)
+![](<../../../.gitbook/assets/fan_module_prg2\_ch_tw (2) (2) (2) (2).png>)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_电机控制模块_制作风车程序示意图英文版%20%2811%29%20%2811%29.png)
+![](<../../../.gitbook/assets/boson\_电机控制模块\_制作风车程序示意图英文版 (11) (10).png>)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -114,21 +114,21 @@ SKU 號：BOS0021
 
 **連線圖：**風扇模組是數位/類比訊號輸出，可以接「D0～D13」的LinkIt 7697 NANO擴充板訊號端上（本範例連接到「D7」）。
 
-![](../../../.gitbook/assets/fan_module_7697_1.jpg)
+![](../../../.gitbook/assets/fan_module\_7697\_1.jpg)
 
 **程式說明：**將7號腳位PWM類比寫入訊號，每五秒鐘會切換風扇停止，風扇風速中等，風扇風速強一次。
 
-![](../../../.gitbook/assets/fan_module_7697_2.jpg)
+![](../../../.gitbook/assets/fan_module\_7697\_2.jpg)
 
-![](../../../.gitbook/assets/fan_module_7697_3.jpg)
+![](../../../.gitbook/assets/fan_module\_7697\_3.jpg)
 
-![](../../../.gitbook/assets/fan_module_7697_4.jpg)
+![](../../../.gitbook/assets/fan_module\_7697\_4.jpg)
 
 範例影片：[https://youtu.be/Itl6lUYf9Ws](https://youtu.be/Itl6lUYf9Ws)
 
 產生出的Arduino程式如下：
 
-```text
+```
 void setup()
 {
 
@@ -154,12 +154,11 @@ void loop()
 ![](../../../.gitbook/assets/fan_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| ------ | ------ | -------- |
+| 1      | GND    | 電源接地     |
+| 2      | VCC    | 電源正極     |
+| 3      | A      | 類比訊號     |
 
 尺寸: 26mm\*22mm
 
 工作電壓:3.0-5.0V
-

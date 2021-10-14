@@ -1,6 +1,6 @@
 # 舵機
 
-![](../../.gitbook/assets/01.png)
+![](<../../.gitbook/assets/01 (7).png>)
 
 ## 專案說明
 
@@ -14,9 +14,9 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * 舵機
 
-**舵機**是**數位訊號**輸出，脈衝寬度調變\(Pulse Width Modulation\)訊號輸出， 可以接「D3、D5、D6、D9、D10」的KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
+**舵機**是**數位訊號**輸出，脈衝寬度調變(Pulse Width Modulation)訊號輸出， 可以接「D3、D5、D6、D9、D10」的KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
 
-![](../../.gitbook/assets/02%20%282%29.png)
+![](<../../.gitbook/assets/02 (5).png>)
 
 ## Arduino 程式
 
@@ -49,4 +49,3 @@ void loop() {
 }
 
 ```
-

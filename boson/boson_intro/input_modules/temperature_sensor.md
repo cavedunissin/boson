@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/temperature_sensor.jpg)
+![](<../../../.gitbook/assets/temperature_sensor (1).jpg>)
 
 ## 基本信息
 
@@ -30,15 +30,15 @@ SKU：BOS0011
 
 按照下圖所示連接電路，通電後即可通過溫度感測器控制LED燈的亮度：溫度升高，LED燈變亮；溫度降低，LED燈變弱。
 
-![](../../../.gitbook/assets/boson_温度传感器_使用说明%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_温度传感器\_使用说明 (1) (1) (1).png>)
 
 ## 原理介紹
 
-熱電偶、RTD與熱敏電阻進行溫度感測的原理各有不同。熱電偶屬於被動式感測器，可隨著溫度變化產生小幅度電壓波動，通過對電壓的讀數從而得知溫度。電阻溫度偵測器\(RTD\)與熱敏電阻則是主動式溫度感測器，其電阻會隨著溫度變化，再對電阻進行量測從而測量溫度。來源：[溫度感測器概述-NI國家儀器](http://www.ni.com/zh-tw/innovations/white-papers/06/overview-of-temperature-sensors.html)
+熱電偶、RTD與熱敏電阻進行溫度感測的原理各有不同。熱電偶屬於被動式感測器，可隨著溫度變化產生小幅度電壓波動，通過對電壓的讀數從而得知溫度。電阻溫度偵測器(RTD)與熱敏電阻則是主動式溫度感測器，其電阻會隨著溫度變化，再對電阻進行量測從而測量溫度。來源：[溫度感測器概述-NI國家儀器](http://www.ni.com/zh-tw/innovations/white-papers/06/overview-of-temperature-sensors.html)
 
 ## 應用範例
 
-### \(1\) 溫控風扇
+### (1) 溫控風扇
 
 **範例說明：**當溫度較高時，自動開啟風扇，溫度較低時，自動關閉。
 
@@ -46,9 +46,9 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29.png)
+![](../../../.gitbook/assets/boson-feng-shan-mo-kuai-wen-kong-feng-shan-lian-xian-tu.png)
 
-### \(2\) 探究外界環境溫度對植物生長狀況的影響
+### (2) 探究外界環境溫度對植物生長狀況的影響
 
 **範例說明：**將兩盆生長狀況接近的同一植物放在溫度不同的環境中，每隔一段時間觀察記錄兩種環境下植物的生長狀況。
 
@@ -56,9 +56,9 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%281%29.png)
+![](<../../../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu (1) (1).png>)
 
-### \(3\) 空氣溫度檢測儀
+### (3) 空氣溫度檢測儀
 
 **範例說明：**溫度感測器測量即時溫度值，Micro:bit讀取測量結果並將溫度顯示在LED燈點陣上。
 
@@ -66,9 +66,9 @@ SKU：BOS0011
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](<../../../.gitbook/assets/boson-wen-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu (1).png>)
 
-**設計意圖：**溫度感測器的轉換係數為33.33℃/V，即溫度（單位：℃）=輸出電壓（單位：V）×33.33。在套用公式前，首先要把溫度感測器輸出的類比值（範圍：0~1023）轉換為電壓值（範圍：0~3.3V）。例如，若溫度感測器輸出類比值500，則對應電壓約為1.6V，結合溫度感測器的轉換係數可算出即時溫度約為53.3℃。
+**設計意圖：**溫度感測器的轉換係數為33.33℃/V，即溫度（單位：℃）=輸出電壓（單位：V）×33.33。在套用公式前，首先要把溫度感測器輸出的類比值（範圍：0\~1023）轉換為電壓值（範圍：0\~3.3V）。例如，若溫度感測器輸出類比值500，則對應電壓約為1.6V，結合溫度感測器的轉換係數可算出即時溫度約為53.3℃。
 
 然而，MakeCode是不支援小數運算的，所以我們需要把公式進一步轉換為整數之間的運算，即**溫度=類比讀數×109989÷1023000**。由於MakeCode也不支援直接顯示小數，我們可以將由小數表示的溫度值拆分為“整數位元+小數點+小數位”三部分組成的字串，再以字串形式在Micro:bit上顯示出溫度值。那麼，如何在MakeCode中分別獲取一個小數的整數位元和小數位呢？以求13÷4的結果為例（結果保留一位元小數），整數位元可以直接通過13和4相除的商獲得（即3），而小數位其實就是130和4相除的餘數（即2），所以13÷4最終的結果為3.2。
 
@@ -88,9 +88,9 @@ SKU：BOS0011
 
 ![](../../../.gitbook/assets/temperature_sensor_prg_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_温度传感器_应用样例3_程序示意图英文版.png)
+![](<../../../.gitbook/assets/boson\_温度传感器\_应用样例3\_程序示意图英文版 (1).png>)
 
 ## 商品規格
 
@@ -99,14 +99,13 @@ SKU：BOS0011
 ![](../../../.gitbook/assets/temperature_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    A   |   類比訊號   |
 
 重量： （g）
 
 尺寸：26mm\*22mm
 
 工作電壓：3.0-5.0V
-

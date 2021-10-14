@@ -6,13 +6,13 @@
 
 ## Arduino 端程式碼 - 自定義發送資料
 
-請開啟 Arduino IDE \(自行下載或使用 HangeekDuino 下的 Arduino 1.8.5\)，新增一個專案並填入以下內容或直接使用範例。請注意 Arduino首次接觸就上手套件的聲音感測器是接在 A2 腳位。[聲音感測器基本教學請點我](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/input_module/soundsensor)。
+請開啟 Arduino IDE (自行下載或使用 HangeekDuino 下的 Arduino 1.8.5)，新增一個專案並填入以下內容或直接使用範例。請注意 Arduino首次接觸就上手套件的聲音感測器是接在 A2 腳位。[聲音感測器基本教學請點我](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/input_module/soundsensor)。
 
-![](../../.gitbook/assets/sound.jpg)
+![](../../.gitbook/assets/Sound.jpg)
 
 檔名 - [windmill.ino](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/windmill)
 
-```text
+```
 void setup() {
   Serial.begin(9600);
 }
@@ -37,13 +37,13 @@ void loop() {
 
 **執行畫面**
 
-![](../../.gitbook/assets/processing_arduino_ex07_01.png)
+![](../../.gitbook/assets/processing_arduino_ex07\_01.png)
 
-**主程式 windmill\_processing.pde**
+**主程式 windmill_processing.pde**
 
-檔名 - [windmill\_processing.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/windmill)
+檔名 - [windmill_processing.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/windmill)
 
-```text
+```
 import processing.serial.*;
 Serial myPort;  
 String str; 
@@ -86,4 +86,3 @@ void draw(){
   }
 }
 ```
-

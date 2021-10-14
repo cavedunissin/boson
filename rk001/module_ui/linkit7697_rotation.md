@@ -1,6 +1,6 @@
 # 旋轉電位計模組
 
-![](../../.gitbook/assets/linkit7697_rotation_00.png)
+![](../../.gitbook/assets/linkit7697\_rotation\_00.png)
 
 ## LinkIt 7697 專案說明
 
@@ -14,17 +14,17 @@
 * LinkIt 7697 NANO Breakout
 * 旋轉電位計模組
 
-**旋轉電位計模組**是**類比訊號**讀取， 可以接「A0 ~ A3」的 LinkIt 7697 NANO Breakout訊號端上，「A0 ~ A3」在程式代表「14 ~ 17」。 本範例連接到「**A0**」。
+**旋轉電位計模組**是**類比訊號**讀取， 可以接「A0 \~ A3」的 LinkIt 7697 NANO Breakout訊號端上，「A0 \~ A3」在程式代表「14 \~ 17」。 本範例連接到「**A0**」。
 
-![](../../.gitbook/assets/linkit7697_rotation_01.png)
+![](../../.gitbook/assets/linkit7697\_rotation\_01.png)
 
 ### BlocklyDuino 積木畫布
 
 每0.5秒鐘會讀取旋轉電位計模組的電位一次， 並顯示在序列埠監控視窗上。
 
-![](../../.gitbook/assets/linkit7697_rotation_02%20%281%29.png)
+![](../../.gitbook/assets/linkit7697\_rotation\_02.png)
 
-![](../../.gitbook/assets/linkit7697_rotation_03.png)
+![](../../.gitbook/assets/linkit7697\_rotation\_03.png)
 
 ### Arduino 程式
 
@@ -58,13 +58,13 @@ void loop()
 
 **旋轉電位計模組**是**類比訊號**輸入，可以接「0、1、2、3、4、10」的 micro:bit訊號端上，建議使用的是0、1、2腳位，因為3、4、10腳位有使用到LED控制腳位所以當顯示LED時會不穩定。本範例連接到「P0」。
 
-![](../../.gitbook/assets/01%20%285%29.JPG)
+![](<../../.gitbook/assets/01 (1).JPG>)
 
 ### Microsoft MakeCode積木畫布
 
 每1秒鐘會讀取旋轉電位計模組的電位一次，並可透過micro:bit顯示指示燈看到旋轉電位計模組的電位數值。
 
-![](../../.gitbook/assets/02%20%289%29%20%281%29%20%281%29.JPG)
+![](<../../.gitbook/assets/02 (9) (1).JPG>)
 
 ### JavaScript 程式
 
@@ -74,4 +74,3 @@ basic.forever(function () {
     basic.pause(1000)
 })
 ```
-

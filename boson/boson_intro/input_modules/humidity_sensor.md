@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-shi-wu-tu-pian%20%281%29%20%281%29.jpg)
+![](<../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-shi-wu-tu-pian (1) (1).jpg>)
 
 ## 基本信息
 
@@ -24,7 +24,7 @@ SKU：BOS0041
 
 濕度感測器可以感知空氣中水分的多少，按照下圖所示連接電路，通電後即可通過OLED顯示模組直接讀取空氣濕度值。
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%283%29.png)
+![](<../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu (3) (3).png>)
 
 也可以將濕度感測器與其他輸出模組相連，實現各種功能。
 
@@ -34,11 +34,11 @@ SKU：BOS0041
 
 ## 原理介紹
 
-濕度感測器主要用來測量空氣濕度，感應部件採用高分子薄膜濕敏電容，位於杆頭部，這種具有感濕特性的電介質其介電常數會隨相對濕度而變化。 來源：[https://baike.baidu.com/item/空气湿度传感器](https://baike.baidu.com/item/空气湿度传感器)
+濕度感測器主要用來測量空氣濕度，感應部件採用高分子薄膜濕敏電容，位於杆頭部，這種具有感濕特性的電介質其介電常數會隨相對濕度而變化。 來源：[https://baike.baidu.com/item/空气湿度传感器](https://baike.baidu.com/item/%E7%A9%BA%E6%B0%94%E6%B9%BF%E5%BA%A6%E4%BC%A0%E6%84%9F%E5%99%A8)
 
 ## 應用範例
 
-### \(1\) 比較晴天與雨天室內空氣濕度差異
+### (1) 比較晴天與雨天室內空氣濕度差異
 
 **範例說明：**分別在晴天與雨天，測量室內空氣濕度，並通過顯示器模組讀取數值，比較兩種天氣下空氣濕度的差異。
 
@@ -46,9 +46,9 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%283%29%20%285%29.png)
+![](<../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu (3) (4).png>)
 
-### \(2\) 糧倉溫濕度檢測
+### (2) 糧倉溫濕度檢測
 
 **範例說明：**糧倉糧食安全儲藏的主要參數是糧倉的溫度和濕度，這兩者之間又是互相關聯的。糧食在正常儲藏過程中，含水量一般在12%以下是安全狀態，不會產生溫度突變，一旦糧倉進水、結露等使糧食的含水量達到20%以上時，就會使糧食受潮，胚芽萌發，新陳代謝加快而產生呼吸熱，使局部糧食溫度突然升高，當溫度高於22°C時，必然引起糧食“發燒”和發霉變質，並可能形成連鎖反應，從而造成不可挽回的損失。因此有必要檢測糧食溫度。當溫度感測器感受到糧食內溫度時，當溫度高於22°C時，自動開啟風扇、點亮小燈並發出警報。而當濕度感測器感受到糧食內濕度高於20%時，自動點亮小燈並發出警報。
 
@@ -56,9 +56,9 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu%20%282%29%20%281%29%20%289%29.png)
+![](<../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-2-lian-xian-tu (2) (1) (4).png>)
 
-### \(3\) 植物培育箱
+### (3) 植物培育箱
 
 **範例說明：**檢測土壤濕度、箱內溫度、空氣濕度等指標，打造適宜某種植物生長的培育箱。
 
@@ -66,7 +66,7 @@ SKU：BOS0041
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu.png)
+![](<../../../.gitbook/assets/boson-kong-qi-shi-du-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu (1).png>)
 
 **設計意圖：**使用土壤濕度感測器、溫度感測器、濕度感測器分別檢測植物培育箱中的土壤濕度、溫度和空氣濕度。若其中某一環境因素不在設定區間範圍內，則表示培育箱內的當前環境不適宜種子生長，此時讓LED燈和蜂鳴器發出警報。
 
@@ -88,9 +88,9 @@ SKU：BOS0041
 
 ![](../../../.gitbook/assets/humidity_sensor_prg_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/humidity_sensor_prg_en.png)
+![](<../../../.gitbook/assets/humidity_sensor_prg_en (1).png>)
 
 ## 商品規格
 
@@ -99,14 +99,13 @@ SKU：BOS0041
 ![](../../../.gitbook/assets/humidity_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    A   |   類比訊號   |
 
 重量： （g）
 
 尺寸：26mm\*22mm
 
 工作電壓：3.0-5.0V
-

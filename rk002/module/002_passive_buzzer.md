@@ -1,6 +1,6 @@
 # 無源蜂鳴器
 
-![](../../.gitbook/assets/01%20%286%29.png)
+![](<../../.gitbook/assets/01 (4).png>)
 
 ## 專案說明
 
@@ -14,25 +14,25 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * 無源蜂鳴器
 
-**無源蜂鳴器**是**脈衝寬度調變\(Pulse Width Modulation\)訊號**輸出，可以接「D3、D5、D6、D9、D10」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
+**無源蜂鳴器**是**脈衝寬度調變(Pulse Width Modulation)訊號**輸出，可以接「D3、D5、D6、D9、D10」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」
 
 {% hint style="info" %}
 蜂鳴器分為「有源蜂鳴器」及「無源蜂鳴器」，「有源蜂鳴器」僅能發出單一頻率的聲音；「無源蜂鳴器」可依據不同的頻率發出不同聲調的聲音。
 {% endhint %}
 
-![](../../.gitbook/assets/02%20%287%29%20%281%29.png)
+![](<../../.gitbook/assets/02 (7) (1).png>)
 
 ## Arduino 程式
 
 每一秒控制無源蜂鳴器發出兩隻老虎音調的聲音。
 
-tone\(\)函數說明：
+tone()函數說明：
 
-tone\(pin, frequency, duration\)
+tone(pin, frequency, duration)
 
 pin=訊號接口，frequency=頻率，duration=間距
 
-範例使用到的音階有Do\(523Hz\), Re \(587Hz\), Mi\(659Hz\), Fa\(698Hz\), So\(784Hz\), La\(880Hz\), Si\(988Hz\) 到高音 Do \(1047Hz\)
+範例使用到的音階有Do(523Hz), Re (587Hz), Mi(659Hz), Fa(698Hz), So(784Hz), La(880Hz), Si(988Hz) 到高音 Do (1047Hz)
 
 產生出的 Arduino 程式如下
 
@@ -132,6 +132,4 @@ void loop()
 
 
 ```
-
-
 

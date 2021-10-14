@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/motion_sensor%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.jpg)
+![](../../../.gitbook/assets/motion_sensor.jpg)
 
 ## 基本信息
 
@@ -22,13 +22,13 @@ SKU：BOS0013
 
 ## 使用說明
 
-動作感測器可感受到7米以內物體的運動，感應角度為100°，當有行動的人經過動作感測器的探測區域時，動作感測器就會輸出高電位。但需要注意的是高電位輸出會有一定的時間延遲，通常為2.3~3秒左右。按照下圖所示連接電路，通電後即可通過動作感測器控制LED燈的亮滅：當有人經過時點亮LED燈，否則熄滅LED燈。
+動作感測器可感受到7米以內物體的運動，感應角度為100°，當有行動的人經過動作感測器的探測區域時，動作感測器就會輸出高電位。但需要注意的是高電位輸出會有一定的時間延遲，通常為2.3\~3秒左右。按照下圖所示連接電路，通電後即可通過動作感測器控制LED燈的亮滅：當有人經過時點亮LED燈，否則熄滅LED燈。
 
-![](../../../.gitbook/assets/boson_运动传感器_使用说明%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_运动传感器\_使用说明 (1).png>)
 
 ## 原理介紹
 
-人體都有恆定的體溫，一般在37度，所以會發出特定波長10UM左右的紅外線，動作感測器內置的紅外線鏡頭剛好可以探測到人體發射的10UM左右的紅外線。人體發射的10UM左右的紅外線通過菲涅爾透鏡增強後聚集到紅外感應源上，紅外感應源通常採用熱釋電元件，這種元件在接收到人體紅外輻射溫度發生變化時就會失去電荷平衡，向外釋放電荷，產生電號。 來源：[https://baike.baidu.com/item/热释电红外线传感器/578786](https://baike.baidu.com/item/热释电红外线传感器/578786)
+人體都有恆定的體溫，一般在37度，所以會發出特定波長10UM左右的紅外線，動作感測器內置的紅外線鏡頭剛好可以探測到人體發射的10UM左右的紅外線。人體發射的10UM左右的紅外線通過菲涅爾透鏡增強後聚集到紅外感應源上，紅外感應源通常採用熱釋電元件，這種元件在接收到人體紅外輻射溫度發生變化時就會失去電荷平衡，向外釋放電荷，產生電號。 來源：[https://baike.baidu.com/item/热释电红外线传感器/578786](https://baike.baidu.com/item/%E7%83%AD%E9%87%8A%E7%94%B5%E7%BA%A2%E5%A4%96%E7%BA%BF%E4%BC%A0%E6%84%9F%E5%99%A8/578786)
 
 ## 實作範例教學-基本篇
 
@@ -40,7 +40,7 @@ SKU：BOS0013
 
 **連線圖：**
 
-![](../../../.gitbook/assets/motion_sensor_example1.png)
+![](<../../../.gitbook/assets/motion_sensor_example1 (1).png>)
 
 ### 節能風扇
 
@@ -50,7 +50,7 @@ SKU：BOS0013
 
 **連線圖：**
 
-![](../../../.gitbook/assets/motion_sensor_example2%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/motion_sensor_example2 (1) (1).png>)
 
 ### 教師節的禮物
 
@@ -60,7 +60,7 @@ SKU：BOS0013
 
 **連線圖：**
 
-![](../../../.gitbook/assets/motion_sensor_example3%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/motion_sensor_example3 (1) (1).png>)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -72,7 +72,7 @@ SKU：BOS0013
 
 **連線圖：**
 
-![](../../../.gitbook/assets/motion_sensor_example4%20%281%29.png)
+![](<../../../.gitbook/assets/motion_sensor_example4 (1).png>)
 
 **設計意圖：**智慧路燈被點亮需要同時滿足兩個條件，即①夜間；②有人經過或有聲音。為了區分白天黑夜，可以使用光感測器感知光的強度（這裡設定臨界值為100，當光感測器輸出類比值小於50時判定當前處於夜晚）；為了判斷是否有人經過，可以使用動作感測器，輸出高電位表示有人經過，輸出低電位即無人經過；為了是否有聲音，可以使用聲音感測器感知聲音大小（這裡設定臨界值為50，當聲音感測器輸出類比值大於50時判定為有聲音）。最後，結合光感測器、動作感測器、聲音感測器的輸出訊號進行邏輯判斷，若滿足點亮路燈的2個條件就給LED燈模組輸入高電位並持續十秒，否則熄燈LED燈。
 
@@ -88,9 +88,9 @@ SKU：BOS0013
 
 ![](../../../.gitbook/assets/motion_sensor_prg_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/motion_sensor_prg_en%20%281%29.png)
+![](<../../../.gitbook/assets/motion_sensor_prg_en (1) (1).png>)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -98,19 +98,19 @@ SKU：BOS0013
 
 **元件清單：**自鎖開關；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**動作感測器是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
+**連線圖：**動作感測器是數位訊號輸入， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」
 
-![](../../../.gitbook/assets/motion_sensor_7697_1.jpg)
+![](../../../.gitbook/assets/motion_sensor\_7697\_1.jpg)
 
 **程式說明：**每1秒鐘會讀取動作感測器狀態一次， 並可透過序列埠監控視窗看到動作感測器狀態 。
 
-![](../../../.gitbook/assets/motion_sensor_7697_2.jpg)
+![](<../../../.gitbook/assets/motion_sensor\_7697\_2 (1).jpg>)
 
-![](../../../.gitbook/assets/motion_sensor_7697_3.png)
+![](../../../.gitbook/assets/motion_sensor\_7697\_3.png)
 
 產生出的Arduino程式如下：
 
-```text
+```
 void setup()
 {
 
@@ -134,15 +134,14 @@ void loop()
 ![](../../../.gitbook/assets/motion_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | D | 數位訊號 |
-| 4 | LED燈 | 動作指示 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    D   |   數位訊號   |
+|    4   |  LED燈  |   動作指示   |
 
 重量： （g）
 
 尺寸：26mm\*22mm
 
 工作電壓：3.0-5.0V
-

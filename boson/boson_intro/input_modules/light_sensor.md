@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/light_sensor%20%281%29.jpg)
+![](<../../../.gitbook/assets/light_sensor (1).jpg>)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ SKU：BOS0004
 
 按照下圖所示連接電路，通電後即可達成讓蜂鳴器模組的聲音隨光感測器的輸出信號大小而改變。
 
-![](../../../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-shi-yong-shuo-ming%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-shi-yong-shuo-ming (1) (2).png>)
 
 ## 原理介紹
 
@@ -36,7 +36,7 @@ SKU：BOS0004
 
 ## 應用範例
 
-### \(1\) 報曉公雞
+### (1) 報曉公雞
 
 **範例說明：**將模組按下圖連接後，當光感測器接收到光線信號後會輸出類比信號，且光線越強輸出的電壓越高，這樣便可以控制蜂鳴器模組發出聲音。
 
@@ -44,9 +44,9 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-shi-yong-shuo-ming%20%281%29%20%283%29.png)
+![](<../../../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-shi-yong-shuo-ming (1) (3).png>)
 
-### \(2\) 探究光照強度對植物生長的影響
+### (2) 探究光照強度對植物生長的影響
 
 **範例說明：**將兩盆相同植物放在不同光照下，使用光感測器檢測不同環境中的光照強度，並通過顯示器模組讀取光強數值（注意將顯示器模組調到光感測器所對應的模組編號“i4”），從而探究不同光照強度下植物的生長狀況，嘗試找出最適宜某種植物生長的光照強度。
 
@@ -54,9 +54,9 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu%20%284%29%20%284%29%20%284%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-xian-shi-ping-mo-kuai-guang-qiang-dui-zhi-wu-ying-xiang-lian-xian-tu (4) (4) (4) (1) (2).png>)
 
-### \(3\) 智慧路燈
+### (3) 智慧路燈
 
 **範例說明：**將模組按下圖連接後可以實現如下功能：只有在晚上的時候，聽到有人來了，路燈才會亮起。這一設計大大節約了電力資源。
 
@@ -64,9 +64,9 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_环境光传感器_应用样例3_连线图%20%289%29%20%2813%29%20%287%29.png)
+![](<../../../.gitbook/assets/boson\_环境光传感器\_应用样例3\_连线图 (9) (13) (4).png>)
 
-### \(4\) 復古燭臺
+### (4) 復古燭臺
 
 **範例說明：**用光代替火，光敏感測器感受到光後使小燈泡點亮，小燈泡一旦被“點亮”成功，就保持著不滅的狀態。
 
@@ -74,9 +74,9 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/splitter_module_example1%20%288%29%20%281%29%20%287%29.png)
+![](<../../../.gitbook/assets/splitter_module_example1 (8) (1) (4).png>)
 
-### \(5\) 光強度檢測儀
+### (5) 光強度檢測儀
 
 **範例說明：**光感測器測量光強度，Micro:bit讀取測量值並將光的強度值顯示在LED燈點陣上。
 
@@ -84,15 +84,15 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-5-lian-xian-tu%20%281%29.png)
+![](<../../../.gitbook/assets/boson-huan-jing-guang-chuan-gan-qi-ying-yong-yang-li-5-lian-xian-tu (1) (1).png>)
 
-**設計意圖：**光感測器會把檢測到的光強度直接轉換為類比值輸出，輸出範圍為0~1023，因此在製作光強度檢測儀時，只需把光感測器的輸出類比值直接讀取出來並顯示在Micro:bit的LED燈點陣上即可。
+**設計意圖：**光感測器會把檢測到的光強度直接轉換為類比值輸出，輸出範圍為0\~1023，因此在製作光強度檢測儀時，只需把光感測器的輸出類比值直接讀取出來並顯示在Micro:bit的LED燈點陣上即可。
 
-**程式示意圖（中文版）：** ![](../../../.gitbook/assets/light_sensor_prg_ch_tw%20%281%29%20%281%29%20%281%29%20%281%29.png)
+**程式示意圖（中文版）：** ![](<../../../.gitbook/assets/light_sensor_prg_ch_tw (1) (1) (1) (1).png>)
 
- **Example program\(English\)：**
+** Example program(English)：**
 
-![](../../../.gitbook/assets/boson_环境光传感器_应用样例5_程序示意图英文版%20%282%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson\_环境光传感器\_应用样例5\_程序示意图英文版 (2) (1).png>)
 
 ## 商品規格
 
@@ -101,14 +101,13 @@ SKU：BOS0004
 ![](../../../.gitbook/assets/light_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | A | 類比訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    A   |   類比訊號   |
 
 重量： （g）
 
 尺寸：26mm\*22mm
 
 工作電壓：3.0-5.0V
-

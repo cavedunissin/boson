@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson_自锁开关_实物图片%20%283%29%20%283%29%20%283%29%20%283%29.jpg)
+![](<../../../.gitbook/assets/boson\_自锁开关\_实物图片 (3) (3) (3) (3) (2).jpg>)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU：BOS0003
 
 自鎖開關是一種常見的按鈕開關。與按鈕模組不同的地方在於它可以把開關鎖定在某個狀態。直到第二次被按以後彈起。這種巧妙的技術廣泛應用於我們的家用電器中，比如電鍋、電熱水壺等。
 
-![](../../../.gitbook/assets/self_locking_switch_intro%20%281%29.png)
+![](<../../../.gitbook/assets/self_locking_switch_intro (1).png>)
 
 ## 使用說明
 
@@ -31,7 +31,7 @@ SKU：BOS0003
 
 \*\*\*\*
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例1_连线图%20%283%29%20%283%29%20%283%29%20%283%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_自锁开关\_应用样例1\_连线图 (3) (3) (3) (3) (2).png>)
 
 ## 原理介紹
 
@@ -47,7 +47,7 @@ SKU：BOS0003
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例1_连线图%20%283%29%20%283%29%20%283%29%20%283%29%20%283%29.png)
+![](../../../.gitbook/assets/boson\_自锁开关\_应用样例1\_连线图.png)
 
 ### 開啟風扇
 
@@ -57,7 +57,7 @@ SKU：BOS0003
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例3_连线图.png)
+![](<../../../.gitbook/assets/boson\_自锁开关\_应用样例3\_连线图 (1).png>)
 
 ### 毛毛蟲
 
@@ -67,7 +67,7 @@ SKU：BOS0003
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例4_连线图%20%284%29%20%284%29%20%284%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson\_自锁开关\_应用样例4\_连线图 (4) (4) (4) (2).png>)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -79,33 +79,33 @@ SKU：BOS0003
 
 **連線圖：**將自鎖開關連接至Micro:bit擴充板P0腳位，LED燈模組連接至Micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例2_连线图%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson\_自锁开关\_应用样例2\_连线图 (1) (1).png>)
 
 **執行流程：**① 如果P0腳位輸出高電位「1」，即自鎖開關被按下，則LED燈模組亮起；② 如果P0腳位輸出低電位「0」，即自鎖開關被鬆開，則LED燈模組熄滅。
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/self_locking_switch_prg_ch_tw%20%283%29%20%283%29.png)
+![](<../../../.gitbook/assets/self_locking_switch_prg_ch_tw (3) (3) (1).png>)
 
-**Example program\(English\):**
+**Example program(English):**
 
-![](../../../.gitbook/assets/led_module_prg1_en%20%283%29%20%281%29%20%285%29.png)
+![](<../../../.gitbook/assets/led_module_prg1\_en (3) (1) (7).png>)
 
 ## 實作範例教學-**LinkIt 7697**篇
 
 **範例說明：**使用「LinkIt 7697 開發板」讀取「自鎖開關」，自鎖開關是一種常見的按鈕開關。與按鈕模組不同的地方在於它可以把開關鎖定在某個狀態，直到第二次被按以後彈起。自鎖開關按下或放開的狀態（需搭配 LinkIt 7697 NANO 擴充板）。
 
-**連線圖：**自鎖開關是數位訊號輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
+**連線圖：**自鎖開關是數位訊號輸入， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
 
-![](../../../.gitbook/assets/self_locking_7697_1.jpg)
+![](../../../.gitbook/assets/self_locking\_7697\_1.jpg)
 
-![](../../../.gitbook/assets/self_locking_7697_2.png)
+![](../../../.gitbook/assets/self_locking\_7697\_2.png)
 
-![](../../../.gitbook/assets/self_locking_7697_3.png)
+![](../../../.gitbook/assets/self_locking\_7697\_3.png)
 
 產生出的Arduino程式如下：
 
-```text
+```
 void setup()
 {
    Serial.begin(9600);
@@ -127,10 +127,10 @@ void loop()
 ![](../../../.gitbook/assets/self_locking_switch_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | D | 數位訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    D   |   數位訊號   |
 
 重量：（g）
 
@@ -139,4 +139,3 @@ void loop()
 工作電壓：3.0-5.5V
 
 工作電流：不大於5mA@5V
-

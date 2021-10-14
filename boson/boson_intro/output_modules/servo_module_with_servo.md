@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![Optional title](../../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-wu-tu.jpg)
+![Optional title](<../../../.gitbook/assets/boson-duo-ji-kong-zhi-mo-kuai-shi-wu-tu (1).jpg>)
 
 ## 基本信息
 
@@ -30,7 +30,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 這兩種模式可以通過伺服機模組上的撥動開關進行切換。按照下圖所示連接電路，通電後即可通過伺服機模組上的撥動開關控制伺服機。
 
-![](../../../.gitbook/assets/servo_module_with_servo_ui%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](<../../../.gitbook/assets/servo_module_with_servo_ui (2) (2) (2) (2) (1).png>)
 
 ## 原理介紹
 
@@ -46,7 +46,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson_自锁开关_应用样例4_连线图%20%284%29%20%284%29%20%284%29%20%283%29.png)
+![](<../../../.gitbook/assets/boson\_自锁开关\_应用样例4\_连线图 (4) (4) (4) (3).png>)
 
 ## 實作範例教學-Micro:bit篇
 
@@ -58,7 +58,7 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **連線圖：** 將土壤濕度感測器連接至micro:bit擴充板P0腳位，9g金屬伺服機模組連接至micro:bit擴充板P8腳位。
 
-![](../../../.gitbook/assets/boson9g-jin-shu-duo-ji-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-lian-xian-tu%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](<../../../.gitbook/assets/boson9g-jin-shu-duo-ji-mo-kuai-zi-dong-jiao-hua-zhuang-zhi-lian-xian-tu (2) (2) (2) (2) (1).png>)
 
 **執行流程：**
 
@@ -70,9 +70,9 @@ turn模式：伺服機轉到指定角度後靜止。
 
 ![](../../../.gitbook/assets/servo_module_with_servo_prg_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/boson_舵机控制模块_自动浇花装置程序示意图英文版%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/boson\_舵机控制模块\_自动浇花装置程序示意图英文版.png)
 
 ## 實作範例教學-LinkIt 7697篇
 
@@ -80,23 +80,23 @@ turn模式：伺服機轉到指定角度後靜止。
 
 **元件清單：**伺服機模組；LinkIt 7697；LinkIt 7697 NANO 擴充板。
 
-**連線圖：**伺服機是脈衝寬度調變\(Pulse Width Modulation\)訊號輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上（ 本範例連接到「D2」）。
+**連線圖：**伺服機是脈衝寬度調變(Pulse Width Modulation)訊號輸出， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上（ 本範例連接到「D2」）。
 
-![](../../../.gitbook/assets/servo_module_7697_1.jpg)
+![](../../../.gitbook/assets/servo_module\_7697\_1.jpg)
 
 **程式說明：**控制伺服機順時針旋轉及逆時旋轉。
 
-![](../../../.gitbook/assets/servo_module_7697_2.jpg)
+![](../../../.gitbook/assets/servo_module\_7697\_2.jpg)
 
-![](../../../.gitbook/assets/servo_module_7697_3.jpg)
+![](../../../.gitbook/assets/servo_module\_7697\_3.jpg)
 
-![](../../../.gitbook/assets/servo_module_7697_4.jpg)
+![](../../../.gitbook/assets/servo_module\_7697\_4.jpg)
 
 範例影片：[https://youtu.be/fXI07tbq-yU](https://youtu.be/fXI07tbq-yU)
 
 產生出的Arduino程式如下：
 
-```text
+```
 #include <Servo.h>
 
 int i;
@@ -128,18 +128,17 @@ void loop()
 
 ![](../../../.gitbook/assets/servo_module_with_servo_spec.png)
 
-| **編號** | **名稱** | **功能說明** |
-| :--- | :--- | :--- |
-| 1 | A | 類比訊號輸入 |
-| 2 | VCC | 電源正極 |
-| 3 | GND | 電源接地 |
-| 4 | A | 類比訊號輸出 |
-| 5 | VCC | 伺服機電源正極 |
-| 6 | GND | 伺服機電源負極 |
-| 7 | 電位器 | 伺服機擺動頻率控制 |
-| 8 | 撥動開關 | 伺服機模式選擇 |
+| **編號** | **名稱** | **功能說明**  |
+| ------ | ------ | --------- |
+| 1      | A      | 類比訊號輸入    |
+| 2      | VCC    | 電源正極      |
+| 3      | GND    | 電源接地      |
+| 4      | A      | 類比訊號輸出    |
+| 5      | VCC    | 伺服機電源正極   |
+| 6      | GND    | 伺服機電源負極   |
+| 7      | 電位器    | 伺服機擺動頻率控制 |
+| 8      | 撥動開關   | 伺服機模式選擇   |
 
 尺寸: 26mm\*22mm
 
 工作電壓:3.3V-5.0V
-

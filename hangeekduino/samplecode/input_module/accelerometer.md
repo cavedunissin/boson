@@ -1,14 +1,14 @@
 # 三軸加速度模組
 
-![](../../../.gitbook/assets/gyro.jpg)
+![](../../../.gitbook/assets/Gyro.jpg)
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_10_accelerometersensor2.png)
+![](../../../.gitbook/assets/Lesson\_10\_AccelerometerSensor2.png)
 
 ## **對應的**Arduino 語法
 
-```text
+```
      LIS.getAccelerationX();
      LIS.getAccelerationY();
      LIS.getAccelerationZ();
@@ -18,13 +18,13 @@
 
 在序列埠印出三軸加速度模組X軸、Y軸、Z軸的數值。
 
-![](../../../.gitbook/assets/lesson_10_accelerometersensor.png)
+![](../../../.gitbook/assets/Lesson\_10\_AccelerometerSensor.png)
 
-![](../../../.gitbook/assets/lesson_10_accelerometersensor3.png)
+![](../../../.gitbook/assets/Lesson\_10\_AccelerometerSensor3.png)
 
 ## Arduino 程式
 
-```text
+```
 #include "LIS3DHTR.h"
 #include <Wire.h>
 LIS3DHTR<TwoWire> LIS;
@@ -58,4 +58,3 @@ void loop()
 ## 影片教學:
 
 {% embed url="https://www.youtube.com/watch?v=XUhoKEate5Q" %}
-

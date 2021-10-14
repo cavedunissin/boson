@@ -1,6 +1,6 @@
 # 滾珠開關模組
 
-![](../../.gitbook/assets/linkit7697_advanceballswitch_00.png)
+![](../../.gitbook/assets/linkit7697\_advanceballswitch\_00.png)
 
 ## LinkIt 7697 專案說明
 
@@ -14,17 +14,17 @@
 * LinkIt 7697 NANO Breakout
 * 滾珠開關模組
 
-**滾珠開關模組**是**數位**輸入， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
+**滾珠開關模組**是**數位**輸入， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
 
-![](../../.gitbook/assets/linkit7697_advanceballswitch_01.png)
+![](../../.gitbook/assets/linkit7697\_advanceballswitch\_01.png)
 
 ### BlocklyDuino 積木畫布
 
-每0.5秒鐘讀取滾珠開關模組狀態，並顯示在序列埠監控視窗 \(搖動滾珠開關模組時，可以感覺到有滾珠在移動\)。
+每0.5秒鐘讀取滾珠開關模組狀態，並顯示在序列埠監控視窗 (搖動滾珠開關模組時，可以感覺到有滾珠在移動)。
 
-![](../../.gitbook/assets/linkit7697_advanceballswitch_02.png)
+![](../../.gitbook/assets/linkit7697\_advanceballswitch\_02.png)
 
-![](../../.gitbook/assets/linkit7697_advanceballswitch_03.png)
+![](../../.gitbook/assets/linkit7697\_advanceballswitch\_03.png)
 
 ### Arduino 程式
 
@@ -59,13 +59,13 @@ void loop()
 
 **滾珠開關模組**是**數位訊號**輸入，可以接「3、4、5、6、7、9、10、11」的 micro:bit訊號端上，建議使用的是5跟11腳位，因為3、4、6、7、9、10腳位有使用到LED控制腳位所以當顯示LED時會不穩定。本範例連接到「P5」。
 
-![](../../.gitbook/assets/01%20%283%29%20%281%29%20%281%29.JPG)
+![](<../../.gitbook/assets/01 (3) (2).JPG>)
 
 ### Microsoft MakeCode積木畫布
 
 每1秒鐘讀取滾珠開關模組狀態，並可透過micro:bit顯示指示燈看到滾珠開關模組狀態（搖動滾珠開關模組時，可以感覺到有滾珠在移動）。
 
-![](../../.gitbook/assets/02%20%284%29%20%281%29%20%281%29.JPG)
+![](<../../.gitbook/assets/02 (4) (2).JPG>)
 
 ### JavaScript 程式
 
@@ -75,4 +75,3 @@ basic.forever(function () {
     basic.pause(1000)
 })
 ```
-

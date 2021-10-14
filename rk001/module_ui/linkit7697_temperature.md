@@ -1,6 +1,6 @@
 # 熱敏（溫度）模組
 
-![](../../.gitbook/assets/linkit7697_temperature_00.png)
+![](../../.gitbook/assets/linkit7697\_temperature\_00.png)
 
 ## LinkIt 7697 專案說明
 
@@ -14,17 +14,17 @@
 * LinkIt 7697 NANO Breakout
 * 熱敏（溫度）模組
 
-**熱敏（溫度）模組**是**數位/類比訊號**輸出， 可以接「D0 ~ D13、A0~A3」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D5**」、「**A0**」。
+**熱敏（溫度）模組**是**數位/類比訊號**輸出， 可以接「D0 \~ D13、A0\~A3」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D5**」、「**A0**」。
 
-![](../../.gitbook/assets/linkit7697_temperature_01.png)
+![](../../.gitbook/assets/linkit7697\_temperature\_01.png)
 
 ### BlocklyDuino 積木畫布
 
 每0.5秒鐘讀取熱敏（溫度）模組溫度的類比及數位資訊一次 。
 
-![](../../.gitbook/assets/linkit7697_temperature_02.png)
+![](../../.gitbook/assets/linkit7697\_temperature\_02.png)
 
-![](../../.gitbook/assets/linkit7697_temperature_03.png)
+![](../../.gitbook/assets/linkit7697\_temperature\_03.png)
 
 ### Arduino 程式
 
@@ -58,7 +58,7 @@ void loop()
 * [科易KEYES micro:bit 感測器擴充板 V2  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * 熱敏（溫度）模組
 
-**熱敏（溫度）模組**是**數位/類比訊號**輸出，可以接「3~7、9~11/0、1、2、3、4、10」的 micro:bit訊號端上，數位訊號輸出建議使用的是5跟11腳位，因為3、4、6、7、9、10腳位有使用到LED控制腳位所以當顯示LED時會不穩定。類比訊號輸出建議使用的是0、1、2腳位因為3、4、10腳位有使用到LED控制腳位所以當顯示LED時會不穩定。本範例連接到「P5、P0」。
+**熱敏（溫度）模組**是**數位/類比訊號**輸出，可以接「3\~7、9\~11/0、1、2、3、4、10」的 micro:bit訊號端上，數位訊號輸出建議使用的是5跟11腳位，因為3、4、6、7、9、10腳位有使用到LED控制腳位所以當顯示LED時會不穩定。類比訊號輸出建議使用的是0、1、2腳位因為3、4、10腳位有使用到LED控制腳位所以當顯示LED時會不穩定。本範例連接到「P5、P0」。
 
 ![](../../.gitbook/assets/01.jpg)
 
@@ -66,7 +66,7 @@ void loop()
 
 每1秒鐘會讀取熱敏（溫度）模組溫度的類比及數位資訊一次 ，並可透過micro:bit顯示指示燈看到熱敏（溫度）模組溫度的電位數值。
 
-![](../../.gitbook/assets/02%20%289%29%20%281%29.JPG)
+![](<../../.gitbook/assets/02 (9) (1) (1).JPG>)
 
 ### JavaScript 程式
 
@@ -77,4 +77,3 @@ basic.forever(function () {
     basic.showNumber(pins.analogReadPin(AnalogPin.P0))
 })
 ```
-

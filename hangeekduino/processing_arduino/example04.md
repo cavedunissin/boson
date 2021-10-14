@@ -6,18 +6,18 @@
 
 ## Arduino 端程式碼 - 自定義發送資料
 
-請開啟 Arduino IDE \(自行下載或使用 HangeekDuino 下的 Arduino 1.8.5\)，新增一個專案並填入以下內容或直接使用範例。請注意我們是使用 Arduino首次接觸就上手套件，所以以下的腳位編號是固定的，您可以自行加入其他感測器或調整其數學關係來做到不同效果：
+請開啟 Arduino IDE (自行下載或使用 HangeekDuino 下的 Arduino 1.8.5)，新增一個專案並填入以下內容或直接使用範例。請注意我們是使用 Arduino首次接觸就上手套件，所以以下的腳位編號是固定的，您可以自行加入其他感測器或調整其數學關係來做到不同效果：
 
-* int r = analogRead\(A2\);     //使用聲音感測器來控制紅色濃度
-* int alpha = analogRead\(A2\); //使用聲音感測器來控制透明度
-* int button = digitalRead\(6\);//使用按鈕來改變 particle 效果 
-* int b = analogRead\(A6\);     //使用光感測器來控制藍色濃度
-* int f = analogRead\(A0\);     //使用旋轉電位計來控制 frame rate 速度
-* Serial.write\(\);             //發送資料給 Processing
+* int r = analogRead(A2);     //使用聲音感測器來控制紅色濃度
+* int alpha = analogRead(A2); //使用聲音感測器來控制透明度
+* int button = digitalRead(6);//使用按鈕來改變 particle 效果 
+* int b = analogRead(A6);     //使用光感測器來控制藍色濃度
+* int f = analogRead(A0);     //使用旋轉電位計來控制 frame rate 速度
+* Serial.write();             //發送資料給 Processing
 
-檔名 - [line\_add.ino](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/wave)
+檔名 - [line_add.ino](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/wave)
 
-```text
+```
 void setup() {
   Serial.begin(9600);
   pinMode(6, INPUT);
@@ -42,29 +42,29 @@ void loop() {
 
 新增一個 Processing 專案，並輸入以下程式碼，請確認 Arduino 首次接觸就上手套件已正確燒錄以上 .ino 檔。輸入完成直接執行以下 pde，會看到以下執行畫面，前三張為 particle 數量為6000時的執行畫面，後三張則是 600。執行過程中請分別操作各感測器看看效果如何吧！
 
-檔名 - [line\_add.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/wave)
+檔名 - [line_add.pde](https://github.com/cavedunissin/boson/tree/master/processing_arduino/example/wave)
 
 執行畫面如下：
 
-**Particle數量為6000時的三個執行畫面**  
+**Particle數量為6000時的三個執行畫面**\
 
 
-![](../../.gitbook/assets/processing_arduino_ex04_01.png)
+![](../../.gitbook/assets/processing_arduino_ex04\_01.png)
 
-![](../../.gitbook/assets/processing_arduino_ex04_02.png)
+![](../../.gitbook/assets/processing_arduino_ex04\_02.png)
 
-![](../../.gitbook/assets/processing_arduino_ex04_03.png)
+![](../../.gitbook/assets/processing_arduino_ex04\_03.png)
 
-**Particle數量為600時的三個執行畫面**  
+**Particle數量為600時的三個執行畫面**\
 
 
-![](../../.gitbook/assets/processing_arduino_ex04_04.png)
+![](../../.gitbook/assets/processing_arduino_ex04\_04.png)
 
-![](../../.gitbook/assets/processing_arduino_ex04_05.png)
+![](../../.gitbook/assets/processing_arduino_ex04\_05.png)
 
-![](../../.gitbook/assets/processing_arduino_ex04_06.png)
+![](../../.gitbook/assets/processing_arduino_ex04\_06.png)
 
-```text
+```
 Particle[] particles;
 float alpha;
 import processing.serial.*;
@@ -163,4 +163,3 @@ public class Particle {
   }
 }
 ```
-

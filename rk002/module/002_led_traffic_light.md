@@ -1,6 +1,6 @@
 # 大顆LED紅綠燈整合模組
 
-![](../../.gitbook/assets/01%20%284%29.png)
+![](../../.gitbook/assets/01.png)
 
 ## 專案說明
 
@@ -14,9 +14,9 @@
 * 通用型彩色Sensor shield v5.0感測器擴充板
 * 大顆LED紅綠燈整合模組
 
-**大顆LED紅綠燈整合模組**是**數位訊號**輸出， 可以接「D0 ~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」「**D4**」「**D5**」
+**大顆LED紅綠燈整合模組**是**數位訊號**輸出， 可以接「D0 \~ D13」的 KEYES Arduino UNO R3訊號端上。 本範例連接到「**D3**」「**D4**」「**D5**」
 
-![](../../.gitbook/assets/02%20%2815%29.png)
+![](../../.gitbook/assets/02.png)
 
 ## Arduino 程式
 
@@ -53,8 +53,6 @@ void loop()
 }
 
 ```
-
-
 
 
 

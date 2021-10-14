@@ -4,15 +4,15 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 
 # 認識BOSON
 
-![](../../.gitbook/assets/boson-product-1.jpg)
+![](../../.gitbook/assets/BOSON-product-1.jpg)
 
-![](../../.gitbook/assets/boson-product-2.jpg)
+![](../../.gitbook/assets/BOSON-product-2.jpg)
 
-依照套件內容分成\[[發明家套件 Inventor Kit](https://cavedu.gitbook.io/cavedu/boson/boson_intro#shu-wei-luo-ji-tui-jian-fa-ming-jia-tao-jian-inventor-kit) \]、\[[科學家套件 Science Kit](https://cavedu.gitbook.io/cavedu/boson/boson_intro#ke-xue-shi-yan-tui-jian-ke-xue-jia-tao-jian-science-kit) \]以及 \[[程式套件Boson Kit for micro:bit](https://cavedu.gitbook.io/cavedu/boson/boson_intro#cheng-shi-she-ji-tui-jian-cheng-shi-tao-jian-boson-kit-for-microbit)\]。發明家與科學家套件無需寫程式，開盒即可開始使用！程式套件則需搭配BBC micro:bit開發板與擴充板來連接BOSON元件，提供更多專題變化，根據模組類型可以分為輸入、輸出與功能等三種模組，請根據畫面左側選單找到您喜歡的模組吧！另外，我們也使用了LinkIt 7697來連接BOSON電子積木，可使用的感測器分類在下列的項目。
+依照套件內容分成\[[發明家套件 Inventor Kit](https://cavedu.gitbook.io/cavedu/boson/boson_intro#shu-wei-luo-ji-tui-jian-fa-ming-jia-tao-jian-inventor-kit) ]、\[[科學家套件 Science Kit](https://cavedu.gitbook.io/cavedu/boson/boson_intro#ke-xue-shi-yan-tui-jian-ke-xue-jia-tao-jian-science-kit) ]以及 \[[程式套件Boson Kit for micro:bit](https://cavedu.gitbook.io/cavedu/boson/boson_intro#cheng-shi-she-ji-tui-jian-cheng-shi-tao-jian-boson-kit-for-microbit)]。發明家與科學家套件無需寫程式，開盒即可開始使用！程式套件則需搭配BBC micro:bit開發板與擴充板來連接BOSON元件，提供更多專題變化，根據模組類型可以分為輸入、輸出與功能等三種模組，請根據畫面左側選單找到您喜歡的模組吧！另外，我們也使用了LinkIt 7697來連接BOSON電子積木，可使用的感測器分類在下列的項目。
 
 ## 【數位邏輯推薦】發明家套件 Inventor Kit
 
-* 實際控制創作\(無需使用電腦\)，立即了解邏 輯流程。
+* 實際控制創作(無需使用電腦)，立即了解邏 輯流程。
 * 將AND、OR、NOT等邏輯運算子實體化。
 * 創作素材不設限。
 
@@ -44,7 +44,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [分配模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/splitter_module) x 3
 * [閾模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/threshold_module) x 2
 * [計數模組](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/reversible_counter_module) x 2
-* [計時模組\(0-60秒\)](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/duration_module) x 2
+* [計時模組(0-60秒)](https://cavedu.gitbook.io/cavedu/boson/boson_intro/funtion_modules/duration_module) x 2
 
 購買連結：[https://www.robotkingdom.com.tw/product/boson-inventor-kit/](https://www.robotkingdom.com.tw/product/boson-inventor-kit/)
 
@@ -151,4 +151,3 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [o9馬達模組](output_modules/motor_controller_module.md)
 * [o10伺服機模組](output_modules/servo_module_with_servo.md)
 * [七彩燈條](output_modules/rgb_led_string.md)
-

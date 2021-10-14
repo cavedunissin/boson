@@ -1,6 +1,6 @@
 # 無源蜂鳴器模組
 
-![](../../.gitbook/assets/linkit7697_buzzer_n_00.png)
+![](../../.gitbook/assets/linkit7697\_buzzer_n\_00.png)
 
 ## LinkIt 7697 專案說明
 
@@ -14,19 +14,19 @@
 * LinkIt 7697 NANO Breakout
 * 無源蜂鳴器模組
 
-**無源蜂鳴器模組**是**脈衝寬度調變\(Pulse Width Modulation\)訊號**輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
+**無源蜂鳴器模組**是**脈衝寬度調變(Pulse Width Modulation)訊號**輸出， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
 
 {% hint style="info" %}
 蜂鳴器分為「有源蜂鳴器」及「無源蜂鳴器」，「有源蜂鳴器」僅能發出單一頻率的聲音；「無源蜂鳴器」可依據不同的頻率發出不同聲調的聲音。
 {% endhint %}
 
-![](../../.gitbook/assets/linkit7697_buzzer_n_01.png)
+![](../../.gitbook/assets/linkit7697\_buzzer_n\_01.png)
 
 ### BlocklyDuino 積木畫布
 
 每一秒控制無源蜂鳴器模組發出「Do」的音階和靜音。
 
-![](../../.gitbook/assets/linkit7697_buzzer_n_02.png)
+![](../../.gitbook/assets/linkit7697\_buzzer_n\_02.png)
 
 ### Arduino 程式
 
@@ -58,19 +58,19 @@ void loop()
 * [科易KEYES micro:bit 感測器擴充板 V2  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * 無源蜂鳴器模組
 
-**無源蜂鳴器模組**是**脈衝寬度調變\(Pulse Width Modulation\)訊號**輸出， 可以接「P0」的 micro:bit訊號端上。 本範例連接到「P0」。
+**無源蜂鳴器模組**是**脈衝寬度調變(Pulse Width Modulation)訊號**輸出， 可以接「P0」的 micro:bit訊號端上。 本範例連接到「P0」。
 
 {% hint style="info" %}
 鳴器分為「有源蜂鳴器」及「無源蜂鳴器」，「有源蜂鳴器」僅能發出單一頻率的聲音；「無源蜂鳴器」可依據不同的頻率發出不同聲調的聲音。
 {% endhint %}
 
-![](../../.gitbook/assets/01%20%2813%29.JPG)
+![](<../../.gitbook/assets/01 (4).JPG>)
 
 ### Microsoft MakeCode積木畫布
 
 每一秒控制無源蜂鳴器模組發出「Do、Re、Mi、Do」的音階和靜音 。
 
-![](../../.gitbook/assets/02%20%283%29.JPG)
+![](../../.gitbook/assets/02.JPG)
 
 ### JavaScript 程式
 
@@ -86,4 +86,3 @@ basic.forever(function () {
 })
 
 ```
-

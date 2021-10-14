@@ -6,4 +6,3 @@
 * 聲音感測器
 * [自鎖開關](https://cavedu.gitbook.io/boson/self_locking_switch)
 * 土壤濕度感測器
-

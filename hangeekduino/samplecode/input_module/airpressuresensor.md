@@ -1,14 +1,14 @@
 # 氣壓感測模組
 
-![](../../../.gitbook/assets/airpressure.jpg)
+![](../../../.gitbook/assets/AirPressure.jpg)
 
 ## **指令**
 
-![](../../../.gitbook/assets/lesson_9_airpressuresensor2.png)
+![](../../../.gitbook/assets/Lesson\_9\_AirPressureSensor2.png)
 
 ## **對應的**Arduino 語法
 
-```text
+```
     bmp280.getPressure();
     bmp280.calcAltitude(bmp280.getPressure());
 ```
@@ -17,13 +17,13 @@
 
 在序列埠印出氣壓、高度的數值。
 
-![](../../../.gitbook/assets/lesson_9_airpressuresensor.png)
+![](../../../.gitbook/assets/Lesson\_9\_AirPressureSensor.png)
 
-![&#x5E8F;&#x5217;&#x57E0;&#x5370;&#x51FA;&#x7684;&#x6C23;&#x58D3;&#x3001;&#x9AD8;&#x5EA6;&#x7684;&#x6578;&#x503C;](../../../.gitbook/assets/lesson_9_airpressuresensor3.png)
+![序列埠印出的氣壓、高度的數值](../../../.gitbook/assets/Lesson\_9\_AirPressureSensor3.png)
 
 ## Arduino 程式
 
-```text
+```
 #include "Seeed_BMP280.h"
 #include <Wire.h>;
 BMP280 bmp280;
@@ -52,5 +52,4 @@ void loop()
 
 ## 影片教學:
 
-{% embed url="https://www.youtube.com/watch?v=holEwFsd\_yI" %}
-
+{% embed url="https://www.youtube.com/watch?v=holEwFsd_yI" %}

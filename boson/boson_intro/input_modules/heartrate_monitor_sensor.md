@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-shi-wu-tu-pian%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.jpg)
+![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-shi-wu-tu-pian.jpg)
 
 ## 基本信息
 
@@ -28,7 +28,7 @@ SKU：BOS0043
 
 按照下圖所示連接電路，通電後將手指放在心律監測感測器指定位置處即可通過OLED顯示模組查看測量者的心率。
 
-![](../../../.gitbook/assets/heartrate_monitor_sensor_example2%20%281%29.png)
+![](<../../../.gitbook/assets/heartrate_monitor_sensor_example2 (6).png>)
 
 **心律監測感測器在使用時需注意以下四點事項：**
 
@@ -42,11 +42,11 @@ SKU：BOS0043
 
 ## 原理介紹
 
-心律監測感測器採用PPG光電容積脈搏波描記法\(PhotoPlethysmoGraphy\)測量心率。這是一種低成本光學技術，通過檢測皮下毛細血管內的血氧量變化量來檢測對應的人體心率。該技術擁有回應性快、性能穩定、適應性強等特點。
+心律監測感測器採用PPG光電容積脈搏波描記法(PhotoPlethysmoGraphy)測量心率。這是一種低成本光學技術，通過檢測皮下毛細血管內的血氧量變化量來檢測對應的人體心率。該技術擁有回應性快、性能穩定、適應性強等特點。
 
 ## 應用範例
 
-### \(1\) 跳動的心
+### (1) 跳動的心
 
 **範例說明：**當心律監測感測器輸出高電位時，Micro:bit的LED燈點陣顯示“大愛心”；當心律監測感測器輸出低電位時，Micro:bit的LED燈點陣顯示“小愛心”。
 
@@ -54,7 +54,7 @@ SKU：BOS0043
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu%20%281%29.png)
+![](<../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-1-lian-xian-tu (1).png>)
 
 **設計意圖：**當心律監測感測器輸出高電位時，Micro:bit在LED燈點陣上顯示圖示“大愛心”；否則，Micro:bit在LED燈點陣上顯示圖示“小愛心”。將程式上傳到Micro:bit後，當手指沒有放在心律監測感測器的感應位置時，你會發現愛心閃爍的頻率會很快，而當你把手指放在心律監測感測器的感應位置上時，你會發現愛心閃爍的頻率變小了，這是因為心律監測感測器正在根據你的心跳週期有節奏地輸出高低脈衝。
 
@@ -66,13 +66,13 @@ SKU：BOS0043
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/heartrate_monitor_sensor_prg1_ch_tw.png)
+![](../../../.gitbook/assets/heartrate_monitor_sensor_prg1\_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
 ![](../../../.gitbook/assets/heartrate_monitor_sensor_prg_en.png)
 
-### \(2\) 使用OLED顯示模組監測心率
+### (2) 使用OLED顯示模組監測心率
 
 **範例說明：**使用心律監測感測器監測人的心率變化，OLED顯示模組即時顯示心律監測感測器的測量結果。
 
@@ -80,9 +80,9 @@ SKU：BOS0043
 
 **連線圖：**
 
-![](../../../.gitbook/assets/heartrate_monitor_sensor_example2%20%282%29.png)
+![](<../../../.gitbook/assets/heartrate_monitor_sensor_example2 (3).png>)
 
-### \(3\) 使用Micro:bit監測心率
+### (3) 使用Micro:bit監測心率
 
 **範例說明：**使用心律監測感測器監測心率變化，Micro:bit在LED燈點陣上顯示心律監測感測器的測量結果。
 
@@ -90,7 +90,7 @@ SKU：BOS0043
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-xin-shuai-chuan-gan-qi-ying-yong-yang-li-3-lian-xian-tu (1) (1).png>)
 
 **範例程式一：通過累計一定時間的心跳次數測量心率**
 
@@ -106,15 +106,15 @@ SKU：BOS0043
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/heartrate_monitor_sensor_prg2_ch_tw.png)
+![](../../../.gitbook/assets/heartrate_monitor_sensor_prg2\_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/heartrate_monitor_sensor_prg2_en.png)
+![](../../../.gitbook/assets/heartrate_monitor_sensor_prg2\_en.png)
 
 **範例程式二：通過計算最近三次心跳發生的時間間隔來測量心率**
 
-**設計意圖：**為了更加準確地測量心率，還有一個思路是先計算出兩次心跳之間的時間間隔，即每次完整心跳需要花費的時間，再通過週期轉換為頻率即可計算出每分鐘心跳的次數。例如，若算得平均間隔為800毫秒，則心跳週期為800毫秒/次，將週期進一步轉為頻率60000÷800=75，即心率為75次/min。最後，讓Micro:bit每隔三秒在LED燈點陣上顯示一次心率測量結果。由於單個心跳週期可能出現較大波動，這裡用兩個心跳週期的平均時間間隔來減小誤差。於是，我們設置了三個變數“心跳時間1”、“心跳時間2”和“心跳時間3”分別用於保存最近三次心跳發生時的系統時間，求出這三次心跳發生的平均時間間隔：平均間隔=\(\(心跳時間3-心跳時間2\)+\(心跳時間2-心跳時間1\)\)/2。這樣我們就算出了平均單次完整心跳需要花費的時間，只需再把心跳週期轉換成頻率即可計算出心率。
+**設計意圖：**為了更加準確地測量心率，還有一個思路是先計算出兩次心跳之間的時間間隔，即每次完整心跳需要花費的時間，再通過週期轉換為頻率即可計算出每分鐘心跳的次數。例如，若算得平均間隔為800毫秒，則心跳週期為800毫秒/次，將週期進一步轉為頻率60000÷800=75，即心率為75次/min。最後，讓Micro:bit每隔三秒在LED燈點陣上顯示一次心率測量結果。由於單個心跳週期可能出現較大波動，這裡用兩個心跳週期的平均時間間隔來減小誤差。於是，我們設置了三個變數“心跳時間1”、“心跳時間2”和“心跳時間3”分別用於保存最近三次心跳發生時的系統時間，求出這三次心跳發生的平均時間間隔：平均間隔=((心跳時間3-心跳時間2)+(心跳時間2-心跳時間1))/2。這樣我們就算出了平均單次完整心跳需要花費的時間，只需再把心跳週期轉換成頻率即可計算出心率。
 
 **執行流程：**
 
@@ -130,29 +130,29 @@ SKU：BOS0043
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/heartrate_mointor_sensor_prg3_ch_tw.png)
+![](../../../.gitbook/assets/heartrate_mointor_sensor_prg3\_ch_tw.png)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
 {% hint style="info" %}
 HeartBeat：心跳時間。Interval\_1_：_間隔時間1。Interval\_2：間隔時間2。AverageInterval：平均間隔。
 
-概念與上述中文版一樣，差別是這裡將三次心跳的兩個間隔時間分別命名變數為Interval\_1、Interval\_2，並且將每次偵測到心跳的時間放進HeartBeat的陣列裡作更新，依照心跳時間新到舊的排列順序為：程式運行時間--&gt;陣列項目1--&gt;陣列項目0。
+概念與上述中文版一樣，差別是這裡將三次心跳的兩個間隔時間分別命名變數為Interval\_1、Interval\_2，並且將每次偵測到心跳的時間放進HeartBeat的陣列裡作更新，依照心跳時間新到舊的排列順序為：程式運行時間-->陣列項目1-->陣列項目0。
 
 執行流程如下：
 
 1. 初始化陣列：設定HeartBeat陣列，保存二次心跳時間。
 2. 計算心跳間隔時間：當P0腳位被觸發時，計算三次心跳的間隔時間。
 3. 計算平均間隔時間：將第2項的間隔時間加總計算平均數。
-4. 更新心跳時間：將陣列項目1--&gt;陣列項目0、P0觸發當下系統時間--&gt;陣列項目1。
+4. 更新心跳時間：將陣列項目1-->陣列項目0、P0觸發當下系統時間-->陣列項目1。
 5. 顯示心跳數：每隔3秒顯示並計算每分鐘心跳數。
 {% endhint %}
 
-![](../../../.gitbook/assets/heartrate_mointor_sensor_prg3_en.png)
+![](../../../.gitbook/assets/heartrate_mointor_sensor_prg3\_en.png)
 
 **範例程式三：通過計算最近十次心跳發生的時間間隔來測量心率**
 
-**設計意圖：**使用兩個心跳週期的平均時間間隔計算心率如果還達不到理想的精確性，我們還可以使用一個陣列來記錄一組心跳發生時的系統時間，然後計算出這一組心跳的平均時間間隔。陣列設置得越大，記錄的心跳就越多，計算出的心率也就越準確，但程式的時間複雜度和空間複雜度也會隨之增大。這裡，我們設置了一個長度為10的陣列用於保存最近十次心跳發生的系統時間，求出這十次心跳發生的平均時間間隔：平均間隔=\(第十次心跳發生的時間-第一次心跳發生的時間\)/9。這樣我們就算出了平均單次完整心跳需要花費的時間，只需再把心跳週期轉換成頻率即可計算出心率。最後，讓Micro:bit每隔三秒在LED燈點陣上顯示一次心率測量結果。
+**設計意圖：**使用兩個心跳週期的平均時間間隔計算心率如果還達不到理想的精確性，我們還可以使用一個陣列來記錄一組心跳發生時的系統時間，然後計算出這一組心跳的平均時間間隔。陣列設置得越大，記錄的心跳就越多，計算出的心率也就越準確，但程式的時間複雜度和空間複雜度也會隨之增大。這裡，我們設置了一個長度為10的陣列用於保存最近十次心跳發生的系統時間，求出這十次心跳發生的平均時間間隔：平均間隔=(第十次心跳發生的時間-第一次心跳發生的時間)/9。這樣我們就算出了平均單次完整心跳需要花費的時間，只需再把心跳週期轉換成頻率即可計算出心率。最後，讓Micro:bit每隔三秒在LED燈點陣上顯示一次心率測量結果。
 
 **執行流程：**
 
@@ -166,11 +166,11 @@ HeartBeat：心跳時間。Interval\_1_：_間隔時間1。Interval\_2：間隔�
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/heartrate_monitor_sensor_prg4_ch_tw%20%281%29.png)
+![](<../../../.gitbook/assets/heartrate_monitor_sensor_prg4\_ch_tw (1).png>)
 
-**Example program\(English\)：**
+**Example program(English)：**
 
-![](../../../.gitbook/assets/heartrate_monitor_sensor_prg4_en.png)
+![](../../../.gitbook/assets/heartrate_monitor_sensor_prg4\_en.png)
 
 ## 商品規格
 
@@ -179,16 +179,15 @@ HeartBeat：心跳時間。Interval\_1_：_間隔時間1。Interval\_2：間隔�
 ![](../../../.gitbook/assets/heartrate_monitor_sensor_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | D | 數位訊號 |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |    D   |   數位訊號   |
 
-重量：\(g\)
+重量：(g)
 
 尺寸：26mm\*22mm
 
 工作電壓：3V-5V
 
-工作電流：&lt;10mA
-
+工作電流：<10mA

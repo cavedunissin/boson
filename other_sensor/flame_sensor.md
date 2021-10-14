@@ -2,7 +2,7 @@
 
 ## **科易KEYES 火焰感測器**
 
-![](../.gitbook/assets/huo-yan-gan-ce-qi-1.JPG)
+![](../.gitbook/assets/火焰感測器-1.JPG)
 
 ### **專案說明**
 
@@ -12,19 +12,19 @@
 
 ### **KEYES Arduino UNO R3電路圖**
 
-**·**  [**KEYES Arduino UNO R3**](https://www.robotkingdom.com.tw/product/keyes-uno-r3/)
+**·  **[**KEYES Arduino UNO R3**](https://www.robotkingdom.com.tw/product/keyes-uno-r3/)
 
 **·  通用型彩色Sensor shield v5.0感測器擴充板**
 
 **·  科易KEYES 火焰感測器模組**
 
-**科易KEYES 火焰感測器模組是類比/數位訊號輸入，可以接「A0 ~ A5」/「D0 ~ D13」的KEYES Arduino UNO R3訊號端上。 本範例連接到「A0」/「D3」**
+**科易KEYES 火焰感測器模組是類比/數位訊號輸入，可以接「A0 \~ A5」/「D0 \~ D13」的KEYES Arduino UNO R3訊號端上。 本範例連接到「A0」/「D3」**
 
 ![](https://lh6.googleusercontent.com/fsJwDeYC59R6pTS8RTojFfCNwMgwVZsOPLjKdI6SfHAS6wPNWRUqVDHDhmfGy9rjO0thIfCPMBhf2dduc82d_HNGTSlTgnMEssZhYIXtgfnwld7KgW8u6gnizNm0BwCK1ax8wn1v)
 
 **感測模組特點：**
 
-可以檢測火焰或者波長在 760 nm\(奈米, 10的負9次方\) ~1100 nm範圍內的光源，建議當火焰越大時，測試距離越遠
+可以檢測火焰或者波長在 760 nm(奈米, 10的負9次方) \~1100 nm範圍內的光源，建議當火焰越大時，測試距離越遠
 
 可調整靈敏度（圖中藍色電位器調節）
 
@@ -42,11 +42,11 @@
 
 每1秒鐘會讀取火焰感測器模組的數值一次， 並顯示在序列埠監控視窗上。類比輸入訊號的值代表偵測火焰的類比值，數值越小代表感測器偵測到的火焰越強，數值越大代表沒有火焰。數位訊號輸入的值0代表偵測到火焰1代表偵測沒偵測到火焰。程式設計成當偵測到火焰時開啟LED燈，沒偵測到火焰時LED關閉，並且1秒鐘顯示一次火焰偵測狀態以及火焰類比數值。
 
-![](https://lh3.googleusercontent.com/vP5RTmuYsOpYNP_ngicuryn1wDefbzWFQjhbHjJ2_9HBeHfBvf7yL47omSS43x9EqKX2RhSnsx5MBD8O4u8YsKMO5OJ6LYtkLgfq_jYitDNtPdocMDiD6M8N4xM20FhIdss3qYY5)
+![](https://lh3.googleusercontent.com/vP5RTmuYsOpYNP_ngicuryn1wDefbzWFQjhbHjJ2\_9HBeHfBvf7yL47omSS43x9EqKX2RhSnsx5MBD8O4u8YsKMO5OJ6LYtkLgfq_jYitDNtPdocMDiD6M8N4xM20FhIdss3qYY5)
 
 **產生出的 Arduino 程式如下**
 
-```text
+```
 int led = 13; // 定義LED的腳位
 int digitalPin = 3; // 定義KY-026 數位腳位
 int analogPin = A0; // 定義KY-026 類比腳位
@@ -81,4 +81,3 @@ void loop()
   delay(1000);
 }
 ```
-

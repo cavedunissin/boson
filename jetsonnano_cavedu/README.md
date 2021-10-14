@@ -1,10 +1,10 @@
 # 初學Jetson Nano不說No-CAVEDU教你一次懂
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](<../.gitbook/assets/image (6).png>)
 
 ## **本書特色**
 
-本書將帶領讀者進入熱門的邊緣AI\(Edge AI\)領域，並直接在NVIDIA Jetson Nano 單板電腦實作各種深度學習神經網路結合機器視覺的實務性範例，並以JetBot移動式輪型機器人平台來實現障礙物閃避與道路跟隨等自動駕駛車常見的功能。  
+本書將帶領讀者進入熱門的邊緣AI(Edge AI)領域，並直接在NVIDIA Jetson Nano 單板電腦實作各種深度學習神經網路結合機器視覺的實務性範例，並以JetBot移動式輪型機器人平台來實現障礙物閃避與道路跟隨等自動駕駛車常見的功能。\
 本書也會介紹如何透過 Intel RealSense 景深攝影機讓您的邊緣專案具備深度視覺功能。
 
 “AI 不難，現在就開始吧！”
@@ -60,4 +60,3 @@
 * 7.3 在RealSense Viewer中檢視景深影像
 * 7.4 RealSense的Python範例
 * 7.5 使用RealSense D435-辨識人臉與距離
-

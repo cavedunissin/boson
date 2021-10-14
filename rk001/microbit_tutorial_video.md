@@ -14,9 +14,8 @@
 
 ## 模組使用、數值顯示、GitBook介紹
 
-{% embed url="https://youtu.be/2B1V6BKgP\_0" %}
+{% embed url="https://youtu.be/2B1V6BKgP_0" %}
 
 ## 按鈕狀態差異
 
 {% embed url="https://youtu.be/lhACETZc7HI" %}
-

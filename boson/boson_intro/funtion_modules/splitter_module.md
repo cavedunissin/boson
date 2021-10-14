@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](../../../.gitbook/assets/boson-fen-zhi-mo-kuai-shi-wu-tu.png)
+![](<../../../.gitbook/assets/boson-fen-zhi-mo-kuai-shi-wu-tu (1).png>)
 
 ## 基本資訊
 
@@ -33,14 +33,14 @@ SKU 號：BOS0030
 下圖列出了分配模組的真值表。
 
 | _\*\*_ | **分支模組真值表** | _\*\*_ |
-| :---: | :---: | :---: |
-| 輸入 | 輸出A | 輸出B |
-| 關 | 關 | 關 |
-| 開 | 開 | 開 |
+| :----: | :---------: | :----: |
+|   輸入   |     輸出A     |   輸出B  |
+|    關   |      關      |    關   |
+|    開   |      開      |    開   |
 
 分配模組除了可以輸入輸出數位信號外，還可以將一路類比輸入信號轉換為兩路相同的類比輸出信號。按照下圖所示連接電路，通電後按下紅色按鈕即可同時點亮兩盞LED燈。
 
-![](../../../.gitbook/assets/boson-fen-zhi-mo-kuai-shi-yong-shuo-ming-3%20%281%29%20%281%29.png)
+![](<../../../.gitbook/assets/boson-fen-zhi-mo-kuai-shi-yong-shuo-ming-3 (1) (1).png>)
 
 ## 原理介紹
 
@@ -48,7 +48,7 @@ SKU 號：BOS0030
 
 ## 應用範例
 
-### **\(1\) 復古燭臺**
+### **(1) 復古燭臺**
 
 **範例說明：** 用光代替火，光敏感測器感受到光後使小燈泡點亮，小燈泡一旦被“點火”成功，就保持著不滅的狀態。
 
@@ -56,9 +56,9 @@ SKU 號：BOS0030
 
 **連線圖：**
 
-![](../../../.gitbook/assets/splitter_module_example1%20%288%29%20%281%29%20%285%29.png)
+![](<../../../.gitbook/assets/splitter_module_example1 (8) (1) (6).png>)
 
-### **\(2\) 密碼鎖**
+### **(2) 密碼鎖**
 
 **範例說明：** 設置三個按鈕，只有按照正確的順序按下三個按鈕，才能解鎖；同時小燈模組也會亮起來，蜂鳴器發出警報，即告訴別人，密碼鎖已被打開。
 
@@ -66,9 +66,9 @@ SKU 號：BOS0030
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu%20%281%29%20%283%29.png)
+![](<../../../.gitbook/assets/boson-feng-ming-qi-mo-kuai-mi-ma-suo-lian-xian-tu (1) (9).png>)
 
-### **\(3\) 搶答器**
+### **(3) 搶答器**
 
 **範例說明：** 做一個搶答器，讓按下按鈕的人，亮起對應的燈，同時阻止另一個燈不能再亮起。
 
@@ -76,7 +76,7 @@ SKU 號：BOS0030
 
 **連線圖：**
 
-![](../../../.gitbook/assets/boson-luo-ji-fei-mo-kuai-qiang-da-qi-lian-xian-tu%20%2810%29.png)
+![](<../../../.gitbook/assets/boson-luo-ji-fei-mo-kuai-qiang-da-qi-lian-xian-tu (5).png>)
 
 ## 商品規格
 
@@ -85,16 +85,15 @@ SKU 號：BOS0030
 ![](../../../.gitbook/assets/splitter_module_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
-| :---: | :---: | :---: |
-| 1 | GND | 電源接地 |
-| 2 | VCC | 電源正極 |
-| 3 | IN | 類比輸入 |
-| 4 | OUTA | 類比輸出A |
-| 5 | OUTB | 類比輸出B |
+| :----: | :----: | :------: |
+|    1   |   GND  |   電源接地   |
+|    2   |   VCC  |   電源正極   |
+|    3   |   IN   |   類比輸入   |
+|    4   |  OUTA  |   類比輸出A  |
+|    5   |  OUTB  |   類比輸出B  |
 
 尺寸: 26mm\*22mm
 
 工作電壓:3.0-5.5V
 
-工作電流：\(Max\)32mA@5V
-
+工作電流：(Max)32mA@5V

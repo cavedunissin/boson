@@ -1,6 +1,6 @@
 # 伺服機
 
-![](../../.gitbook/assets/linkit7697_servo_00.png)
+![](../../.gitbook/assets/linkit7697\_servo\_00.png)
 
 ## LinkIt 7697 專案說明
 
@@ -14,15 +14,15 @@
 * LinkIt 7697 NANO Breakout
 * 伺服機
 
-**伺服機**是**脈衝寬度調變\(Pulse Width Modulation\)訊號**輸出， 可以接「D0 ~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
+**伺服機**是**脈衝寬度調變(Pulse Width Modulation)訊號**輸出， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「**D2**」。
 
-![](../../.gitbook/assets/linkit7697_servo_01.png)
+![](../../.gitbook/assets/linkit7697\_servo\_01.png)
 
 ### BlocklyDuino 積木畫布
 
 控制伺服機順時針旋轉及逆時旋轉。
 
-![](../../.gitbook/assets/linkit7697_servo_02.png)
+![](../../.gitbook/assets/linkit7697\_servo\_02.png)
 
 ### Arduino 程式
 
@@ -65,15 +65,15 @@ void loop()
 * [科易KEYES micro:bit 感測器擴充板 V2  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * 伺服機
 
-**伺服機**是**脈衝寬度調變\(Pulse Width Modulation\)訊號**輸出， 可以接「P0」的 micro:bit訊號端上。 本範例連接到「**P0**」。
+**伺服機**是**脈衝寬度調變(Pulse Width Modulation)訊號**輸出， 可以接「P0」的 micro:bit訊號端上。 本範例連接到「**P0**」。
 
-![](../../.gitbook/assets/01%20%289%29.JPG)
+![](<../../.gitbook/assets/01 (6).JPG>)
 
 ### Microsoft MakeCode積木畫布
 
 控制伺服機順時針旋轉及逆時旋轉。
 
-![](../../.gitbook/assets/02%20%286%29.JPG)
+![](<../../.gitbook/assets/02 (3).JPG>)
 
 ### JavaScript 程式
 
@@ -85,4 +85,3 @@ basic.forever(function () {
     basic.pause(1000)
 })
 ```
-
