@@ -1,6 +1,8 @@
 # BlocklyDuino v2 & v3 比較
 
-＊BlocklyDuino v3 將於七月初 Release
+{% hint style="info" %}
+BlocklyDuino v3 將於七月初 Release
+{% endhint %}
 
 簡易比較表如下:
 

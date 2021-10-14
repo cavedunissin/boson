@@ -31,7 +31,9 @@ description: >-
 
 ![](../.gitbook/assets/image-03.png)
 
-＊欲更了解這開發板，請下載 [User Guide of LinkIt 7697](https://labs.mediatek.com/en/download/AAdtKvL9)
+{% hint style="info" %}
+欲更了解這開發板，請下載 [User Guide of LinkIt 7697](https://labs.mediatek.com/en/download/AAdtKvL9)
+{% endhint %}
 
 ### 針腳的功能 <a href="id-ren-shi-linkit7697-zhen-jiao-de-gong-neng" id="id-ren-shi-linkit7697-zhen-jiao-de-gong-neng"></a>
 
