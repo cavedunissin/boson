@@ -124,4 +124,5 @@
   * [5-6 雲端溫濕度監控](mcs-lite/mcs-lite-cloud-sensor-control.md)
 * [初學Jetson Nano不說No-CAVEDU教你一次懂](jetsonnano\_cavedu/README.md)
   * [書籍更新修改內容](jetsonnano\_cavedu/chu-xue-jetson-nano-bu-shui-nocavedu-jiao-ni-yi-ci-dong-geng-xin-xiu-gai-nei-rong.md)
-* [LinkIt 7697 BlocklyDuino 使用指南](linkit-7697-blocklyduino-shi-yong-zhi-nan.md)
+* [LinkIt 7697 BlocklyDuino 使用指南](linkit-7697-blocklyduino-shi-yong-zhi-nan/README.md)
+* [LinkIt 7697 - Arduino IDE 開發指南](LinkIt-7697-ArduinoIDE.md)

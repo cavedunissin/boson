@@ -10,4 +10,4 @@ description: >-
 
 ### ****[https://cavedu.gitbook.io/linkit-7697/](https://cavedu.gitbook.io/linkit-7697/)
 
-![](<.gitbook/assets/截圖 2021-10-14 下午12.04.11.png>)
+![](<../.gitbook/assets/截圖 2021-10-14 下午12.04.11.png>)
