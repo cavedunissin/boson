@@ -6,4 +6,8 @@ description: >-
 
 # LinkIt 7697 BlocklyDuino 使用指南
 
-![](<../.gitbook/assets/截圖 2021-10-14 下午12.04.11.png>)
+## **請點選以下連結進入LinkIt 7697 BlocklyDuino 使用指南網頁**
+
+### ****[https://cavedu.gitbook.io/linkit-7697/](https://cavedu.gitbook.io/linkit-7697/)
+
+![](<.gitbook/assets/截圖 2021-10-14 下午12.04.11.png>)
