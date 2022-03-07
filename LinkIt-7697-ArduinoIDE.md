@@ -9,5 +9,6 @@
 ### 什麼是 LinkIt 7697？ <a href="#linkit7697developmentguideforarduinoide-shen-me-shi-linkit7697" id="linkit7697developmentguideforarduinoide-shen-me-shi-linkit7697"></a>
 
 {% hint style="success" %}
-LinkIt 7697 是基於[聯發科技 MT7697 SOC](https://labs.mediatek.com/zh-tw/chipset/MT7697) 的開發板，提供了 Wi-Fi 以及 Bluetooth Low Energy (BLE) 的無線通訊功能。
+LinkIt 7697 是基於[聯發科技 MT7697 SOC](https://labs.mediatek.com/zh-tw/chipset/MT7697) 的開發板，提供了 Wi-Fi 以及 Bluetooth Low Energy (BLE) 的無線通訊功能。\
+![](<.gitbook/assets/image (15).png>)
 {% endhint %}
