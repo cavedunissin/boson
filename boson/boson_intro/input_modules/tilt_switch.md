@@ -18,7 +18,7 @@ SKU：BOS0005
 
 傾斜感測器是一款可以檢測物體是否發生傾斜的數位輸入模組，在實際應用中具有重要價值，可以用來評估橋樑、房屋、高壓電塔等物體的傾斜情況，對開拓、維護等工作具有重要的測量作用。
 
-![](../../../.gitbook/assets/tilt_switch_intro.png)
+![](../../../.gitbook/assets/tilt\_switch\_intro.png)
 
 ## 使用說明
 
@@ -76,9 +76,9 @@ SKU：BOS0005
 
 **程式示意圖（中文版）：**
 
-![](../../../.gitbook/assets/tilt_switch_prg_ch_tw.png)
+![](../../../.gitbook/assets/tilt\_switch\_prg\_ch\_tw.png)
 
-** Example program(English)：**
+&#x20;**Example program(English)：**
 
 ![](<../../../.gitbook/assets/boson\_倾斜开关\_应用样例3\_程序示意图英文版 (1) (1).png>)
 
@@ -90,13 +90,13 @@ SKU：BOS0005
 
 **連線圖：**傾斜感測器是數位訊號輸入， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 本範例連接到「D5」。
 
-![](../../../.gitbook/assets/tilt_switch\_7697\_1.jpg)
+![](../../../.gitbook/assets/tilt\_switch\_7697\_1.jpg)
 
 **程式說明：**每1秒鐘會讀取傾斜感測器狀態一次， 並可透過序列埠監控視窗看到傾斜感測器的狀態 。
 
-![](../../../.gitbook/assets/tilt_switch\_7697\_2.png)
+![](../../../.gitbook/assets/tilt\_switch\_7697\_2.png)
 
-![](../../../.gitbook/assets/tilt_switch\_7697\_3.png)
+![](../../../.gitbook/assets/tilt\_switch\_7697\_3.png)
 
 產生出的Arduino程式如下：
 
@@ -122,7 +122,7 @@ void loop()
 
 腳位說明：
 
-![](../../../.gitbook/assets/tilt_switch_spec.png)
+![](../../../.gitbook/assets/tilt\_switch\_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :----: | :----: | :------: |

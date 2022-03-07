@@ -20,7 +20,7 @@
 
 ![](../../.gitbook/assets/image-17.png)
 
-4\. 載入** 範例 > 01.Basic > Blink **
+4\. 載入 **範例 > 01.Basic > Blink**&#x20;
 
 ![](../../.gitbook/assets/image-18.png)
 
@@ -28,6 +28,6 @@
 
 ![](../../.gitbook/assets/image-19.png)
 
-6\. 若一切順利就可以看到** USR LED** 在閃爍。 到這一步， Arduino IDE 以及 LinkIt 7697 開發板都正確連接了
+6\. 若一切順利就可以看到 **USR LED** 在閃爍。 到這一步， Arduino IDE 以及 LinkIt 7697 開發板都正確連接了
 
 ![](../../.gitbook/assets/image-20.png)

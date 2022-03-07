@@ -2,7 +2,7 @@
 
 ## 實體照片
 
-![](<../../../.gitbook/assets/light_sensor (1).jpg>)
+![](<../../../.gitbook/assets/light\_sensor (1).jpg>)
 
 ## 基本信息
 
@@ -18,7 +18,7 @@ SKU：BOS0004
 
 光感測器能夠檢測光線強度並把光線強弱信號轉換成可用的輸出信號，其輸出值為類比信號，可以用來製作感光的互動裝置，普遍應用於智慧手機、筆記本、平板電腦、GPS等移動手持設備中。
 
-![](../../../.gitbook/assets/light_sensor_intro.png)
+![](../../../.gitbook/assets/light\_sensor\_intro.png)
 
 ## 使用說明
 
@@ -74,7 +74,7 @@ SKU：BOS0004
 
 **連線圖：**
 
-![](<../../../.gitbook/assets/splitter_module_example1 (8) (1) (4).png>)
+![](<../../../.gitbook/assets/splitter\_module\_example1 (8) (1) (4).png>)
 
 ### (5) 光強度檢測儀
 
@@ -88,9 +88,9 @@ SKU：BOS0004
 
 **設計意圖：**光感測器會把檢測到的光強度直接轉換為類比值輸出，輸出範圍為0\~1023，因此在製作光強度檢測儀時，只需把光感測器的輸出類比值直接讀取出來並顯示在Micro:bit的LED燈點陣上即可。
 
-**程式示意圖（中文版）：** ![](<../../../.gitbook/assets/light_sensor_prg_ch_tw (1) (1) (1) (1).png>)
+**程式示意圖（中文版）：** ![](<../../../.gitbook/assets/light\_sensor\_prg\_ch\_tw (1) (1) (1) (1).png>)
 
-** Example program(English)：**
+&#x20;**Example program(English)：**
 
 ![](<../../../.gitbook/assets/boson\_环境光传感器\_应用样例5\_程序示意图英文版 (2) (1).png>)
 
@@ -98,7 +98,7 @@ SKU：BOS0004
 
 腳位說明：
 
-![](../../../.gitbook/assets/light_sensor_spec.png)
+![](../../../.gitbook/assets/light\_sensor\_spec.png)
 
 | **編號** | **名稱** | **功能說明** |
 | :----: | :----: | :------: |

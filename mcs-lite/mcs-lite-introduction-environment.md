@@ -11,7 +11,7 @@
 ## **下載MCS Lite**
 
 **MCS Lite 的各平台載點:**\
-** **[**https://github.com/mcs-lite/mcs-lite-app/releases/tag/v1.2.2**](https://github.com/mcs-lite/mcs-lite-app/releases/tag/v1.2.2)
+&#x20;**** [**https://github.com/mcs-lite/mcs-lite-app/releases/tag/v1.2.2**](https://github.com/mcs-lite/mcs-lite-app/releases/tag/v1.2.2)
 
 **本範例下載Win 64的版本執行，如下圖所示。**
 
@@ -24,7 +24,7 @@
 
 **下載到電腦並解壓縮後，產生的資料夾可以搬遷或複製到任意的目錄底下，並開啟執行檔mcs-lite-app。**
 
-![](https://lh5.googleusercontent.com/c10\_GPs7j-p8Og_pqDMTxaDSxaGuy6NTLjgHaTkpzQ1EJ4RWQ6Ey-KcFpmFdzUI4jHx-OcthccLHYwGs_Iv1Xer8z7oLkYm79YHHXQ8PfG_PAPSjyodi17deym27GXC5GMgNWU_UDcWxcuStaQ)
+![](https://lh5.googleusercontent.com/c10\_GPs7j-p8Og\_pqDMTxaDSxaGuy6NTLjgHaTkpzQ1EJ4RWQ6Ey-KcFpmFdzUI4jHx-OcthccLHYwGs\_Iv1Xer8z7oLkYm79YHHXQ8PfG\_PAPSjyodi17deym27GXC5GMgNWU\_UDcWxcuStaQ)
 
 
 
@@ -32,15 +32,15 @@
 
 **按其他資訊🡪仍要執行🡪允許存取**
 
-![](https://lh4.googleusercontent.com/YFSAc31a_Gy1\_EoAR6q8DJfItsDsWuh-5e_WpkB9QkCu7z2BmqaYs4gqZnVdiXJ3E8pTgixxC6Ph76Z-43mXBv\_8prluPnFFawdbKRN7KG653XWfizmvkB3zOjTi2mH50LPWSo5e2Kjk5ZVIjA)
+![](https://lh4.googleusercontent.com/YFSAc31a\_Gy1\_EoAR6q8DJfItsDsWuh-5e\_WpkB9QkCu7z2BmqaYs4gqZnVdiXJ3E8pTgixxC6Ph76Z-43mXBv\_8prluPnFFawdbKRN7KG653XWfizmvkB3zOjTi2mH50LPWSo5e2Kjk5ZVIjA)
 
-![](https://lh6.googleusercontent.com/r0ETlKqRd2Bf\_8f-TG6GODJO_YZoLidbbbSYIvlARa2dq3TIyU9ZDnr4sNkF9jbGq7-u1rSEGU8iCDi_RcOPqXzf9SIiWWAblU3GHlXsfC_FD-k7Cf53yJ7Za2L9XkysXD9CjgdQH16jkXPssQ)
+![](https://lh6.googleusercontent.com/r0ETlKqRd2Bf\_8f-TG6GODJO\_YZoLidbbbSYIvlARa2dq3TIyU9ZDnr4sNkF9jbGq7-u1rSEGU8iCDi\_RcOPqXzf9SIiWWAblU3GHlXsfC\_FD-k7Cf53yJ7Za2L9XkysXD9CjgdQH16jkXPssQ)
 
 ## **註冊管理者帳號及啟動MCS Lite**
 
 **成功開啟後，使用MCS Lite的首要條件就是註冊使用者名稱、信箱、密碼，註冊完畢後會登入MCS Lite中使用，如下圖所示。**
 
-![](https://lh3.googleusercontent.com/zPIo3it0s_mT_fiGjygqNdO-xZUVLxo285VQMNOmMQasVDww5mty1lYsGU-5tV6oN1BFSBmfBQJGI86MQXLhr2xVBtcPz-j85zQzMYXbzEx6DxDvFEuQgKCortRWtPheV9xJZyyqufAAuOGjgg)
+![](https://lh3.googleusercontent.com/zPIo3it0s\_mT\_fiGjygqNdO-xZUVLxo285VQMNOmMQasVDww5mty1lYsGU-5tV6oN1BFSBmfBQJGI86MQXLhr2xVBtcPz-j85zQzMYXbzEx6DxDvFEuQgKCortRWtPheV9xJZyyqufAAuOGjgg)
 
 ****\
 ****
@@ -55,7 +55,7 @@
 
 **按下右上角啟動即可以在電腦中開啟MCS Lite。**
 
-![](https://lh4.googleusercontent.com/fu9WVcgEgXLMp3agbMj-d48D0KrV0L5Nh67mTGLcJwves9joXtG2dgGfzL8H8f_z-s43NG2Y3FQOZEuOZV4FHlTYNh79wZacYNc\_5vjRUzPGNaRguWcSpd5RgdnsbtRb_w80dSXtA4KFK68mpw)
+![](https://lh4.googleusercontent.com/fu9WVcgEgXLMp3agbMj-d48D0KrV0L5Nh67mTGLcJwves9joXtG2dgGfzL8H8f\_z-s43NG2Y3FQOZEuOZV4FHlTYNh79wZacYNc\_5vjRUzPGNaRguWcSpd5RgdnsbtRb\_w80dSXtA4KFK68mpw)
 
 **啟動之後下方會列出目前 MCS Lite所綁定的位址 (IP) 與連接埠 (port) 列表。**
 

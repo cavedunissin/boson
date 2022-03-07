@@ -22,7 +22,7 @@ description: >-
 
 ![](../../.gitbook/assets/image-27.png)
 
-5\. 在 Arduino 編輯器內，點選左上方的**箭頭，**Arduino** **編輯器會**編譯程式**和**上傳到開發板** (上傳過程中，開發板 TX/RX 會持續閃爍)
+5\. 在 Arduino 編輯器內，點選左上方的**箭頭，**Arduino **** 編輯器會**編譯程式**和**上傳到開發板** (上傳過程中，開發板 TX/RX 會持續閃爍)
 
 ![](../../.gitbook/assets/image-28.png)
 
@@ -30,7 +30,7 @@ description: >-
 
 ![](../../.gitbook/assets/image-29.png)
 
-## FAQ <a href="id-lian-jie-liang-ge-bian-ji-qi-bing-shang-chuan-cheng-shi-faq" id="id-lian-jie-liang-ge-bian-ji-qi-bing-shang-chuan-cheng-shi-faq"></a>
+## FAQ <a href="#id-lian-jie-liang-ge-bian-ji-qi-bing-shang-chuan-cheng-shi-faq" id="id-lian-jie-liang-ge-bian-ji-qi-bing-shang-chuan-cheng-shi-faq"></a>
 
 **Q: 我怎樣知道 Arduino 編輯器有沒有在正確上傳?**
 
