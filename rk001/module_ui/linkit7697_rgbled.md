@@ -14,9 +14,13 @@
 * LinkIt 7697 NANO Breakout
 * LED模組(三色)
 
-**LED模組(三色)**是**數位/類比訊號**輸出， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。 下圖範例使用的 LED模組(三色) 為共陽極 LED， 由下圖 把腳位V 接到 3.3V \~ 5V 的電源， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
+**LED模組(三色)**是**數位/類比訊號**輸出， 可以接「D0 \~ D13」的 LinkIt 7697 NANO Breakout訊號端上。&#x20;
 
-![](../../.gitbook/assets/linkit7697\_rgbled\_01.png)
+{% hint style="info" %}
+下圖範例使用的 LED模組(三色) 為共陽極 LED， 由下圖 把腳位V 接到 3.3V \~ 5V 的電源， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
+{% endhint %}
+
+![共陽極LED模組(三色) ](../../.gitbook/assets/linkit7697\_rgbled\_01.png)
 
 當 R / B / G 的腳位拉高到 3.3V/5V, 電流就不會流過, LED 就不會點亮 。\
 當 R / B / G 的腳位拉低， 電流就會流過。 LED 就會點亮，本範例R / B / G連接到「**D2、D3、D4**」 。
@@ -25,11 +29,13 @@
 
 {% hint style="info" %}
 注意使用以下版本LED模組(三色)時是共陰極LED，把腳位V 接到 GND， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
-
-當 R / B / G 的腳位拉高到 3.3V/5V,電流就會流過。 LED 就會點亮，本範例R / B / G連接到「**D2、D3、D4**」 。 當 R / B / G 的腳位拉低，電流就不會流過, LED 就不會點亮 。
 {% endhint %}
 
-![](../../.gitbook/assets/IMG\_20200624\_184007.jpg)
+![共陰極LED模組(三色)](../../.gitbook/assets/IMG\_20200624\_184007.jpg)
+
+當 R / B / G 的腳位拉高到 3.3V/5V,電流就會流過。 LED 就會點亮，本範例R / B / G連接到「**D2、D3、D4**」 。 當 R / B / G 的腳位拉低，電流就不會流過, LED 就不會點亮 。
+
+![](../../.gitbook/assets/LED模組（三色）共陰.png)
 
 ### BlocklyDuino 積木畫布
 
