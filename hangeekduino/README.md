@@ -18,7 +18,7 @@
 
 ## 【教學】Arduino首次接觸就上手 5分鐘小教室\_前導介紹
 
-以下為Arduino首次接觸就上手的教學影片，此影片為前導介紹，更多的影片可以點選[認識Hangeekduino圖形化介面](hangeekduino\_intro.md) 。
+以下為Arduino首次接觸就上手的教學影片，此影片為前導介紹，更多的影片可以點選[認識Hangeekduino圖形化介面](hangeekduino\_intro.md)[Hangeekduino範例程式](samplecode/)觀看相關影片 。
 
 {% embed url="https://www.youtube.com/watch?v=JjETRW5MRlM" %}
 

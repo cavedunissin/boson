@@ -8,11 +8,9 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 
 ****[https://drive.google.com/drive/folders/1iHQyfQvjbS4lhob-3mF5auntte\_G86\_f](https://drive.google.com/drive/folders/1iHQyfQvjbS4lhob-3mF5auntte\_G86\_f)&#x20;
 
-
-
 ## &#x20;如何打開Hangeekduino
 
-下載完HanGeekduino.zip檔案 解壓縮之後可以得到一個HanGeekduino資料夾 打開HanGeekduino資料夾點選HanGeekduino.exe即可開起HanGeekduino。
+下載完HanGeekduino.zip檔案，解壓縮之後可以得到一個HanGeekduino的資料夾 打開HanGeekduino資料夾點選HanGeekduino.exe即可開啟HanGeekduino。
 
 ![](<../.gitbook/assets/image (17).png>)
 
@@ -68,43 +66,7 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 
 {% embed url="https://www.youtube.com/watch?v=JEZQHbwtzkw&list=PLZkpEAYL25ADJUHaSJ-_bNTNuak8cJFPQ&index=2" %}
 
-## 《Arduino首次接觸就上手》阿吉老師的5分鐘小教室.Ep3 LED閃爍
-
-{% embed url="https://youtu.be/KFWztn425cA" %}
-
-## 【教學】Arduino首次接觸就上手 5分鐘小教室\_Ep4 按鈕控制LED閃爍
-
-{% embed url="https://youtu.be/wfvV9fWlIrM" %}
-
-## 【教學】Arduino首次接觸就上手 5分鐘小教室\_ep5 蜂鳴器
-
-{% embed url="https://youtu.be/KB_mvKntR4I" %}
-
-## 【教學】Arduino首次接觸就上手 5分鐘小教室\_ep6 光感測器
-
-{% embed url="https://youtu.be/NRi1vZWL3nY" %}
-
-## 【教學】Arduino首次接觸就上手 5分鐘小教室\_ep7 聲音感測器
-
-{% embed url="https://youtu.be/qWmEH8TPjI4" %}
-
-## 【教學】阿吉老師的5分鐘小教室\_Ep8 OLED顯示模組
-
-{% embed url="https://youtu.be/B2dNXZVC5II" %}
-
-## 【教學】Arduino首次接觸就上手 5分鐘小教室\_ep9 溫濕度感測器
-
-{% embed url="https://youtu.be/bAbHAfYffQ0" %}
-
-## 【教學】Arduino首次接觸就上手 5分鐘小教室\_ep10 氣壓感測器
-
-{% embed url="https://youtu.be/holEwFsd_yI" %}
-
-## 【教學】Arduino首次接觸就上手 5分鐘小教室\_ep11 三軸加速度計
-
-{% embed url="https://youtu.be/XUhoKEate5Q" %}
-
-
+##
 
 
 
