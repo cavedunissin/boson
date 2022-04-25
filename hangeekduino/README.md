@@ -6,11 +6,11 @@
 
 ## 此頁面為Arduino首次接觸就上手首頁可以點選以下連結進入相關頁面
 
-[認識Hangeekduino圖形化介面](hangeekduino\_intro.md) : 介紹Hangeekduino圖形化介面、下載相關檔案
+[認識Hangeekduino圖形化介面](hangeekduino\_intro.md) : 介紹Hangeekduino圖形化介面、相關檔案下載安裝
 
 [Hangeekduino範例程式](samplecode/): Hangeekduino範例程式介紹
 
-[書籍內容更新\_202012更新](book\_update.md): 書機內容之更新，更新日期為2020年12月
+[書籍內容更新\_202012更新](book\_update.md): 書籍內容之更新，更新日期為2020年12月
 
 [\[Processing 互動裝置藝術結合 Arduino \]](processing\_arduino/): Processing 互動裝置藝術結合Arduino首次接觸就上手
 
