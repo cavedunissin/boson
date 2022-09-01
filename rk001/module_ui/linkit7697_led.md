@@ -23,6 +23,24 @@
 
 ![](../../.gitbook/assets/linkit7697\_led\_02.png)
 
+### Arduino 程式
+
+```javascript
+void setup()
+{
+  pinMode(8, OUTPUT);
+}
+
+
+void loop()
+{
+  digitalWrite(8, HIGH);
+  delay(2000);
+  digitalWrite(8, LOW);
+  delay(2000);
+}
+```
+
 ## micro:bit 專案說明
 
 使用「micro:bit搭配科易KEYES micro:bit 感測器擴充板 V2」連接「LED模組」，每一秒控制LED亮和暗。
@@ -45,7 +63,7 @@
 
 ![](<../../.gitbook/assets/1 (2).jpeg>)
 
-###  JavaScript 程式
+### &#x20;JavaScript 程式
 
 ```javascript
 basic.forever(function () {

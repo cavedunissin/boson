@@ -39,15 +39,10 @@
 
 ### BlocklyDuino 積木畫布
 
-共陽極三色LED程式\
-透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 此範例使用的是共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D2／D3／D4）為低電位狀態時， 電流才會流過並發亮。
+**共陽極三色LED程式**\
+****透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 此範例使用的是共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D2／D3／D4）為低電位狀態時， 電流才會流過並發亮。
 
 ![](../../.gitbook/assets/linkit7697\_rgbled\_03.png)
-
-共陰極三色LED程式\
-透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 使用共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D2／D3／D4）為高電位狀態時， 電流才會流過並發亮。
-
-![](../../.gitbook/assets/LED模組（三色）.PNG)
 
 ### Arduino 程式
 
@@ -72,6 +67,42 @@ void loop()
   digitalWrite(2, HIGH);
   digitalWrite(3, HIGH);
   digitalWrite(4, LOW);
+  delay(1000);
+}
+```
+
+
+
+**共陰極三色LED程式**\
+透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 使用共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D2／D3／D4）為高電位狀態時， 電流才會流過並發亮。
+
+![](../../.gitbook/assets/LED模組（三色）.PNG)
+
+### Arduino 程式
+
+```c
+void setup()
+{
+
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+}
+
+
+void loop()
+{
+  digitalWrite(2, HIGH);
+  digitalWrite(3, LOW);
+  digitalWrite(4, LOW);
+  delay(1000);
+  digitalWrite(2, LOW);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, LOW);
+  delay(1000);
+  digitalWrite(2, LOW);
+  digitalWrite(3, LOW);
+  digitalWrite(4, HIGH);
   delay(1000);
 }
 ```
