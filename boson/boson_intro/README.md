@@ -25,7 +25,7 @@ description: BOSON電子積木套件為一簡易操作又功能豐富的積木�
 * [自鎖開關 ](https://cavedu.gitbook.io/boson/self\_locking\_switch)x 1
 * [光感測器](https://cavedu.gitbook.io/cavedu/boson/boson\_intro/input\_modules/light\_sensor)x 1
 * [傾斜感測器](input\_modules/tilt\_switch.md)x 1
-* [聲音感測器](https://cavedu.gitbook.io/boson/boson\_intro/input\_modules/sound\_sensor)x 1
+* [聲音感測器](input\_modules/sound\_sensor.md)x 1
 
 #### [輸出模組](https://cavedu.gitbook.io/cavedu/boson/boson\_intro/output\_modules)
 
