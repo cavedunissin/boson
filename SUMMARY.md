@@ -120,6 +120,7 @@
   * [心律感測器](other\_sensor/heart\_rate\_sensor.md)
   * [科易KEYES 雨水感測器](other\_sensor/rainsensor.md)
   * [Grove–VOC與eCO2 氣體感測器 (SGP30)](other\_sensor/grove-voc-and-eco2-gas-sensor-sgp30.md)
+  * [高精度升降壓電源模組XYS3580](other\_sensor/gao-jing-du-sheng-jiang-ya-dian-yuan-mo-zu-xys3580.md)
 * [MCS Lite 介紹及感測器網頁遠端監控](mcs-lite/README.md)
   * [5-4 MCS Lite 介紹及MCS Lite 環境建置](mcs-lite/mcs-lite-introduction-environment.md)
   * [5-5 網頁遠端監控LED](mcs-lite/mcs-lite-control-led.md)

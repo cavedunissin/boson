@@ -16,7 +16,7 @@ tone(5, 1000);
 
 使蜂鳴器發出設定好的頻率的聲音，透過迴圈使蜂鳴器發出電話鈴響的聲音。
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 ## Arduino 程式
 
