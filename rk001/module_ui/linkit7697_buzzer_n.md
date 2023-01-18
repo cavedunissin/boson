@@ -107,7 +107,7 @@ basic.forever(function () {
 
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -117,7 +117,7 @@ basic.forever(function () {
 
 
 
-Arduino 程(Passive\_buzzer.ino)如下:
+Arduino程式(Passive\_buzzer.ino)如下:
 
 ```arduino
 void setup()

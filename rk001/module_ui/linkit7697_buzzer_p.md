@@ -100,11 +100,11 @@ basic.forever(function () {
 * [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * 有源蜂鳴器模組
 
-> 有源蜂鳴器模組是數位訊號輸出，僅能發出單一頻率的聲音， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」
+> 有源蜂鳴器模組是數位訊號輸出，僅能發出單一頻率的聲音， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」。
 
 
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -112,7 +112,9 @@ basic.forever(function () {
 
 > 每一秒控制有源蜂鳴器模組發出聲音和靜音。
 
-Arduino 程式(Active\_buzzer.ino)如下:
+
+
+Arduino程式(Active\_buzzer.ino)如下:
 
 ```arduino
 void setup()

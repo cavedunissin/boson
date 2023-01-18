@@ -85,3 +85,61 @@ basic.forever(function () {
     }
 })
 ```
+
+
+
+
+
+## Raspberry Pi Pico 專案說明
+
+使用「Raspberry Pi Pico」連接「震動開關模組」, 記錄震動次數。此 **震動開關模組**包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+
+
+
+### 震動開關模組電路圖
+
+* [Raspberry Pi Pico](https://robotkingdom.com.tw/product/raspberry-pi-pico/)[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
+* 震動開關模組
+
+> 震動開關模組是**數位訊號**輸出， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」。
+
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Arduino IDE程式
+
+計算震動開關模組目前累計震動次數。
+
+
+
+Arduino程式(vibration\_switch.ino)如下:
+
+```arduino
+int item;
+
+void setup()
+{
+  item = 0;
+  pinMode(7, INPUT);
+  Serial.begin(9600);
+
+}
+
+void loop()
+{
+  if (!digitalRead(7)) {
+    item = item + 1;
+    Serial.println(item);
+
+  }
+}
+
+```
+
+
+
+### 程式執行結果
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
