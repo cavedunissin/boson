@@ -4,7 +4,7 @@
 
 ## LinkIt 7697 專案說明
 
-使用「LinkIt 7697 NANO Breakout」連接「微動開關模組」,，每0.2秒讀取微動開關模組按下和放開。
+使用「LinkIt 7697 NANO Breakout」連接「微動開關模組」,每0.2秒讀取微動開關模組按下和放開。
 
 此**微動開關模組**包含於「[**洞洞么教學材料包**](https://www.robotkingdom.com.tw/product/rk-education-kit-001/) 」內。
 
@@ -73,3 +73,54 @@ basic.forever(function () {
 })
 
 ```
+
+
+
+
+
+## Raspberry Pi Pico 專案說明
+
+使用「Raspberry Pi Pico」連接「微動開關模組」, 每0.2秒讀取微動開關模組按下和放開。此**微動開關模組**包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+
+
+
+### 微動開關模組電路圖
+
+* [Raspberry Pi Pico](https://robotkingdom.com.tw/product/raspberry-pi-pico/)[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
+* 微動開關模組
+
+> **微動開關模組**是**數位訊號**輸出， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」。
+
+
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Arduino IDE程式
+
+> 每0.2秒讀取微動開關模組按下和放開。
+
+
+
+Arduino 程式(Micro\_Switch.ino)如下:
+
+```arduino
+void setup()
+{
+  pinMode(7, INPUT);
+  Serial.begin(9600);
+}
+void loop()
+{
+  Serial.println(digitalRead(7));
+  delay(200);
+}
+```
+
+&#x20;
+
+### **程式執行結果**
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

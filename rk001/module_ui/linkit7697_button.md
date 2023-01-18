@@ -77,7 +77,7 @@ basic.forever(function () {
 
 ## Raspberry Pi Pico 專案說明
 
-使用「Raspberry Pi Pico」連接「按鈕模組」, 讀取按鈕模組按下或放開的狀態。此 按鈕模組包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+使用「Raspberry Pi Pico」連接「按鈕模組」, 讀取按鈕模組按下或放開的狀態。此**按鈕模組**包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 
 
 
@@ -119,4 +119,4 @@ void loop()
 
 ### **程式執行結果**
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -80,7 +80,7 @@ basic.forever(function () {
 
 ## Raspberry Pi Pico 專案說明
 
-使用「Raspberry Pi Pico」連接「按鈕模組」, 讀取按鈕模組按下或放開的狀態。此 按鈕模組包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+使用「Raspberry Pi Pico」連接「光敏模組」, 讀取按鈕模組按下或放開的狀態。此**光敏模組**包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 
 
 
@@ -92,7 +92,7 @@ basic.forever(function () {
 
 > **光敏模組**是**類比訊號**輸入， 可以接「A0\~ A2」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「A0」。
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -121,4 +121,4 @@ void loop()
 
 ### **程式執行結果**
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>

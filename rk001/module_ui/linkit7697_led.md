@@ -80,7 +80,7 @@ basic.forever(function () {
 
 ## Raspberry Pi Pico 專案說明
 
-使用「Raspberry Pi Pico」連接「LED模組」, 每兩秒鐘LED模組閃爍一次。此 LED模組包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+使用「Raspberry Pi Pico」連接「LED模組」, 每兩秒鐘LED模組閃爍一次。此**LED模組**包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 
 
 

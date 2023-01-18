@@ -161,7 +161,7 @@ basic.forever(function () {
 
 ## Raspberry Pi Pico 專案說明
 
-使用「Raspberry Pi Pico」連接「LED模組(三色)」, 每0.5秒依序發出紅光、綠光和藍光。此 LED模組(三色)包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+使用「Raspberry Pi Pico」連接「LED模組(三色)」, 每0.5秒依序發出紅光、綠光和藍光。此 **LED模組(三色)**包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
 
 
 
@@ -187,7 +187,7 @@ basic.forever(function () {
 >
 > 當 R / B / G 的腳位拉低， 電流就會流過。 LED 就會點亮，本範例R / B / G連接到「D10、D9、D8」 。
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### LED模組(三色共陽)Arduino 程式
 
@@ -230,11 +230,11 @@ void loop()
 下圖範例使用的 LED模組(三色) 為共陰極 LED， 由下圖 把腳位V 接到 3.3V / 5V 的電源， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 當 R / B / G 的腳位拉高到 3.3V/5V,電流就會流過。 LED 就會點亮，本範例R / B / G連接到「D10、D9、D8」 。 當 R / B / G 的腳位拉低，電流就不會流過, LED 就不會點亮 。
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### LED模組(三色共陰)Arduino 程式
 
