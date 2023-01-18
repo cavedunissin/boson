@@ -1,10 +1,6 @@
-# Raspberry Pi Pico介紹
+# 😎 Raspberry Pi Pico介紹
 
-**Raspberry Pi Pico X 洞洞么模組**
-
-**接線說明**
-
-### Raspberry Pi Pico介紹 <a href="#_toc124882494" id="_toc124882494"></a>
+## Raspberry Pi Pico介紹 <a href="#_toc124882494" id="_toc124882494"></a>
 
 ![一張含有 電子用品, 電路 的圖片
 
@@ -24,7 +20,7 @@ Raspberry PI PICO 是一款低成本、高性能且介面能靈活應用的微�
 * MicroPython語言，即為Python程式語言。
 * Arduino IDE
 
-### Raspberry Pi Pico腳位介紹 <a href="#_hlk124870888" id="_hlk124870888"></a>
+## **Raspberry Pi Pico腳位介紹** <a href="#_hlk124870888" id="_hlk124870888"></a>
 
 ![一張含有 文字, 電子用品, 螢幕擷取畫面 的圖片
 
