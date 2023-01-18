@@ -85,3 +85,59 @@ basic.forever(function () {
     basic.pause(1000)
 })
 ```
+
+
+
+
+
+## Raspberry Pi Pico 專案說明
+
+使用「Raspberry Pi Pico」連接「伺服機」，控制伺服機順時針轉和逆時針轉。此**伺服機**包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。。
+
+
+
+### 超音波測距感測器模組電路圖
+
+* [Raspberry Pi Pico](https://robotkingdom.com.tw/product/raspberry-pi-pico/)[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
+* 伺服機
+
+> **伺服機**是**脈衝寬度調變(Pulse Width Modulation)訊號**輸出， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」。
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Arduino IDE程式
+
+> 控制伺服機順時針旋轉及逆時旋轉。
+
+
+
+Arduino程式(SERVO.ino)如下:
+
+```arduino
+#include <Servo.h>
+
+int i;
+
+Servo __myservo7;
+
+void setup()
+{
+  __myservo7.attach(7);
+}
+
+
+void loop()
+{
+  for (i = 0; i <= 180; i++) {
+    __myservo2.write(i);
+    delay(50);
+  }
+  for (i = 180; i >= 0; i--) {
+    __myservo2.write(i);
+    delay(50);
+  }
+}
+```

@@ -96,7 +96,7 @@ basic.forever(function () {
 
 > **滾珠開關模組**是**數位訊號**輸出， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」。
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -108,7 +108,7 @@ basic.forever(function () {
 
 
 
-Arduino程式((advanceball\_switch.ino))如下:
+Arduino程式(advanceball\_switch.ino)如下:
 
 ```arduino
 void setup()
@@ -129,4 +129,4 @@ void loop()
 
 ### 程式執行結果
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>

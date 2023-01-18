@@ -104,3 +104,63 @@ basic.forever(function () {
 })
 ```
 
+
+
+
+
+
+
+## Raspberry Pi Pico 專案說明
+
+使用「Raspberry Pi Pico」連接「超音波測距感測器模組」, 每0.5秒讀取超音波測距感測器所測到的距離。此**超音波測距感測器模組**包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+
+
+
+### 超音波測距感測器模組電路圖
+
+* [Raspberry Pi Pico](https://robotkingdom.com.tw/product/raspberry-pi-pico/)[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
+* 超音波測距感測器模組
+
+> **超音波測距感測器模組**是**類比訊號輸出**， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D8」、「D9」。
+
+{% hint style="info" %}
+超音波測距感測器是由發射器、接收器以及控制電路所組成，若待測物體距離太遠，或者發射器、接收器其中一個被遮蔽，皆會導致量測距離結果錯誤。
+{% endhint %}
+
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Arduino IDE程式
+
+> 每0.5秒鐘會讀取一次超音波測距感測器所測得的距離。
+
+
+
+Arduino程式(Ultrasonic.ino)如下:
+
+```arduino
+#include <Ultrasonic.h>
+
+Ultrasonic ultrasonic_9_10(9, 10);
+
+void setup()
+{
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(ultrasonic_9_10.convert(ultrasonic_9_10.timing(), Ultrasonic::CM));
+  delay(500);
+}
+```
+
+
+
+### 程式執行結果
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
