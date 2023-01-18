@@ -6,9 +6,7 @@
 
 {% embed url="https://www.dropbox.com/sh/zuq5l832sx66ft3/AABOQT1-RZ0kF8QdrXMjj017a?dl=0" %}
 
-![一張含有 文字 的圖片
-
-自動產生的描述](<../.gitbook/assets/0 (2)>)
+![](<../.gitbook/assets/0 (2)>)
 
 ****
 
@@ -26,9 +24,7 @@
 
 **開啟Arduino IDE，即可使用Raspberry Pi Pico**
 
-![一張含有 文字 的圖片
-
-自動產生的描述](../.gitbook/assets/3)
+![](../.gitbook/assets/3)
 
 ### Raspberry Pi Pico 上傳程式 <a href="#_hlk124512920" id="_hlk124512920"></a>
 
@@ -54,21 +50,21 @@
 
 * 按下**上傳**鍵。
 
-![一張含有 文字 的圖片
-
-自動產生的描述](../.gitbook/assets/6)
+![](../.gitbook/assets/6)
 
 此時顯示**設定**訊息
 
-![一張含有 文字, 電子用品, 顯示, 螢幕擷取畫面 的圖片
-
-自動產生的描述](../.gitbook/assets/7)
+![](../.gitbook/assets/7)
 
 之後，燒錄程式時即可選Com port 編號，路徑為:
 
 **工具->序列埠->COM XX(Raspberry Pi Pico)**
 
 ![](../.gitbook/assets/8)
+
+
+
+
 
 ## 洞洞么套件模組程式下載
 

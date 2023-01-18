@@ -8,27 +8,27 @@
 
 **各個組件功能名稱，如下表所示:**
 
-![一張含有 桌 的圖片
-
-自動產生的描述](../.gitbook/assets/1)
+![](../.gitbook/assets/1)
 
 ## **擴充板供電使用方法**
 
 由於Raspberry Pi Pico 開發板上無電源指示燈，故在Raspberry Pi Pico 擴充板中，便設計了一顆電源指示LED燈，以了解目前是否為供電狀態。
 
+
+
 ### **由Raspberry Pi Pico USB供電**
 
 使用Micro USB供電，可以將電源切換開關切到INT\_5V(INTERNAL，內部電源)，如下圖所示:
 
-![一張含有 文字, 電子用品, 電路 的圖片
+![](<../.gitbook/assets/2 (1)>)
 
-自動產生的描述](<../.gitbook/assets/2 (1)>)
+
 
 使用Micro USB供電，也可將電源切換開關切到EXT\_5V(EXTERNAL，外部電源)，如下圖所示:
 
-![一張含有 文字, 電子用品, 電路 的圖片
+![](<../.gitbook/assets/3 (1)>)
 
-自動產生的描述](<../.gitbook/assets/3 (1)>)
+****
 
 ### **由Raspberry Pi Pico USB供電**
 
@@ -42,12 +42,8 @@ DC變壓器的接頭尺寸需為<mark style="color:red;">**5.5mm/2.0mm**</mark>�
 
 由外部電源接頭供電，若未切換至EXT\_5V，則電源指示LED燈熄滅，表示未供電，如下圖所示:
 
-![一張含有 文字, 電子用品, 電路 的圖片
-
-自動產生的描述](<../.gitbook/assets/4 (1)>)
+![](<../.gitbook/assets/4 (1)>)
 
 若切至EXT\_5V，則電源供應指示LED燈亮起，此時代表供電中，如下圖所示:
 
-![一張含有 文字, 電子用品, 電路 的圖片
-
-自動產生的描述](<../.gitbook/assets/5 (1)>)
+![](<../.gitbook/assets/5 (1)>)
