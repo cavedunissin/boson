@@ -40,7 +40,7 @@
 
 ![](../.gitbook/assets/4)
 
-* 燒錄程式
+* **燒錄程式**
 
 由於Raspberry Pi Pico 在第一次燒錄時，裝置管理員並沒有顯示COM Port(序列埠)編號，所以先直接燒錄即可。以Blink程式為例，程式路徑:
 

@@ -33,9 +33,9 @@
 ### **由Raspberry Pi Pico USB供電**
 
 {% hint style="info" %}
-DC變壓器的接頭尺寸需為**5.5mm/2.0mm**，並且**接頭需內部為正極，外部為負極，如果內外極性相反，則會溶斷保險絲。**若保險絲已溶斷，可到電子材料行購買，替換即可。
+DC變壓器的接頭尺寸需為<mark style="color:red;">**5.5mm/2.0mm**</mark>，並且<mark style="color:red;">**接頭需內部為正極，外部為負極，如果內外極性相反，則會溶斷保險絲**</mark>**。**若保險絲已溶斷，可到電子材料行購買，替換即可。
 
-但請注意，使用外部供電之DC變壓器，一定**只需能5V的電源輸出，不可大於5V。**若高於5V，則Raspberry Pi Pico開發板可能會損毀。
+但請注意，使用外部供電之DC變壓器，一定<mark style="color:red;">**只需能5V的電源輸出，不可大於5V**</mark>**。**若高於5V，則Raspberry Pi Pico開發板可能會損毀。
 {% endhint %}
 
 

@@ -44,7 +44,7 @@
   * [資源鏈結](boson/yuan.md)
 * [LinkIt 7697 BlocklyDuino 使用指南](linkit-7697-blocklyduino-shi-yong-zhi-nan/README.md)
 * [LinkIt 7697 - Arduino IDE 開發指南](LinkIt-7697-ArduinoIDE.md)
-* [😎 Raspberry Pi Pico介紹](Raspberry\_Pi\_Pico\_info/README.md)
+* [💻 Raspberry Pi Pico介紹](Raspberry\_Pi\_Pico\_info/README.md)
   * [Raspberry Pi Pico 擴充板](Raspberry\_Pi\_Pico\_info/Raspberry\_Pi\_Pico\_breakout.md)
   * [Raspberry Pi Pico 使用Arduino IDE](Raspberry\_Pi\_Pico\_info/raspberry-pi-pico-shi-yong-arduino-ide.md)
 * [洞洞么教學材料包](rk001/README.md)
