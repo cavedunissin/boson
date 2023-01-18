@@ -127,3 +127,6 @@
   * [5-6 雲端溫濕度監控](mcs-lite/mcs-lite-cloud-sensor-control.md)
 * [初學Jetson Nano不說No-CAVEDU教你一次懂](jetsonnano\_cavedu/README.md)
   * [書籍更新修改內容](jetsonnano\_cavedu/chu-xue-jetson-nano-bu-shui-nocavedu-jiao-ni-yi-ci-dong-geng-xin-xiu-gai-nei-rong.md)
+* [【Pico】Rasbperry Pi Pico X 洞洞么模組](picorasbperry-pi-picox-dong-dong-mo-mo-zu/README.md)
+  * [Page 1](picorasbperry-pi-picox-dong-dong-mo-mo-zu/page-1.md)
+  * [Page 2](picorasbperry-pi-picox-dong-dong-mo-mo-zu/page-2.md)
