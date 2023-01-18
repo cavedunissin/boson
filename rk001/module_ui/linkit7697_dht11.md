@@ -145,7 +145,7 @@ DHT11溫溼度感應器套件安裝網址：[https://github.com/alankrantas/pxt-
 
 新增後在上方可以看見增加的DHT11/DHT22套件
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 ### Microsoft MakeCode積木畫布 (適用microbit v2)
 

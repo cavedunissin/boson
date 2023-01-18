@@ -193,6 +193,8 @@ basic.forever(function () {
 
 > 透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 此範例使用的是共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D10／D9／D8）為低電位狀態時， 電流才會流過並發亮。
 
+
+
 Arduino 程式(Three\_colors\_LED\_anode.ino)如下:
 
 ```arduino
@@ -228,7 +230,7 @@ void loop()
 下圖範例使用的 LED模組(三色) 為共陰極 LED， 由下圖 把腳位V 接到 3.3V / 5V 的電源， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 > 當 R / B / G 的腳位拉高到 3.3V/5V,電流就會流過。 LED 就會點亮，本範例R / B / G連接到「D10、D9、D8」 。 當 R / B / G 的腳位拉低，電流就不會流過, LED 就不會點亮 。
 
@@ -237,6 +239,8 @@ void loop()
 ### LED模組(三色共陰)Arduino 程式
 
 > 透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 使用共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D10／D9／D8）為高電位狀態時， 電流才會流過並發亮。
+
+
 
 Arduino 程式(Three\_colors\_LED\_cathode.ino)如下:
 

@@ -116,7 +116,6 @@ void loop()
   digitalWrite(7, LOW);
   delay(2000);
 }
-
 ```
 
 

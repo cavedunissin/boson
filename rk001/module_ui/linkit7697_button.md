@@ -1,7 +1,5 @@
 # 按鈕模組
 
-![](../../.gitbook/assets/linkit7697\_button\_00.png)
-
 ## LinkIt 7697 專案說明
 
 使用「LinkIt 7697 NANO Breakout」連接「按鈕模組」， 讀取按鈕模組按下或放開的狀態。
@@ -87,17 +85,19 @@ basic.forever(function () {
 
 * [Raspberry Pi Pico](https://robotkingdom.com.tw/product/raspberry-pi-pico/)[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
 * [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
-* 按鈕模組電路圖
+* 按鈕模組
 
 > **按鈕模組**是**數位訊號**輸入， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」。
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Arduino IDE程式
 
 > 每0.2秒鐘會讀取按鈕模組狀態一次， 並可透過序列埠監控視窗看到按鈕模組的狀態 。
+>
+>
 
 Arduino 程式(Button.ino)如下:
 
@@ -113,7 +113,6 @@ void loop()
   Serial.println(digitalRead(7));
   delay(200);
 }
-
 ```
 
 
