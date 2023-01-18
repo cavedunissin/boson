@@ -90,7 +90,7 @@ basic.forever(function () {
 * [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * LED模組
 
-&#x20;LED模組是數位/類比訊號輸出，  可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。  本範例連接到「D7」
+> LED模組是數位/類比訊號輸出，  可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。  本範例連接到「D7」
 
 &#x20;
 
@@ -101,7 +101,7 @@ basic.forever(function () {
 
 ### Arduino 程式
 
-每兩秒鐘會切換LED的亮暗一次。
+> 每兩秒鐘會切換LED的亮暗一次。
 
 ```arduino
 void setup()

@@ -171,7 +171,7 @@ basic.forever(function () {
 * [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * LED模組(三色)
 
-&#x20;**LED模組(三色)**是**數位/類比訊號**輸出， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。
+> **LED模組(三色)**是**數位/類比訊號**輸出， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。
 
 
 
