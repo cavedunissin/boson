@@ -46,7 +46,7 @@
 * [LinkIt 7697 - Arduino IDE 開發指南](LinkIt-7697-ArduinoIDE.md)
 * [💻 Raspberry Pi Pico介紹](Raspberry\_Pi\_Pico\_info/README.md)
   * [Raspberry Pi Pico 擴充板](Raspberry\_Pi\_Pico\_info/Raspberry\_Pi\_Pico\_breakout.md)
-  * [Raspberry Pi Pico 使用Arduino IDE](Raspberry\_Pi\_Pico\_info/raspberry-pi-pico-shi-yong-arduino-ide.md)
+  * [Raspberry Pi Pico 使用Arduino IDE](Raspberry\_Pi\_Pico\_info/Pico\_Arduino\_IDE.md)
 * [洞洞么教學材料包](rk001/README.md)
   * [新版LinkIt 7697開發板 V1.1版使用序列埠印出指令亂碼問題](rk001/xin-ban-linkit-7697-kai-fa-ban-v1.1-ban-shi-yong-xu-lie-bu-yin-chu-zhi-ling-luan-ma-wen-ti-gong-gao.md)
   * [模組使用教學](rk001/module\_ui/README.md)
