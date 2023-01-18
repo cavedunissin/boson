@@ -139,7 +139,7 @@ DHT11溫溼度感應器套件安裝網址：[https://github.com/alankrantas/pxt-
 
 ![進階；擴展套件的位置](<../../.gitbook/assets/image (13) (1).png>)
 
-![使用網址安裝sensors的套件](<../../.gitbook/assets/image (9) (1).png>)
+![使用網址安裝sensors的套件](<../../.gitbook/assets/image (9) (1) (1).png>)
 
 ![使用搜尋DHT11安裝sensors的套件](<../../.gitbook/assets/image (10) (1).png>)
 

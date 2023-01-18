@@ -83,3 +83,53 @@ basic.forever(function () {
     basic.pause(1000)
 })
 ```
+
+
+
+
+
+## Raspberry Pi Pico 專案說明
+
+使用「Raspberry Pi Pico」連接「紅外線偵測模組」, 每秒讀取紅外線偵測模組偵測到白線或黑線。此紅外線偵測模組包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+
+
+
+### 紅外線偵測模組電路圖
+
+* [Raspberry Pi Pico](https://robotkingdom.com.tw/product/raspberry-pi-pico/)[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
+* 紅外線偵測模組
+
+> **紅外線偵測模組**是**類比訊號**輸出， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」。
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Arduino IDE程式
+
+> 每秒鐘讀取紅外線偵測模組偵測白線或黑線一次 ，並顯示在序列埠監控視窗上。
+
+
+
+Arduino程式(infrared.ino)如下:
+
+```arduino
+void setup()
+{
+  pinMode(7, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(digitalRead(7));
+  delay(1000);
+}
+```
+
+
+
+### 程式執行結果
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>

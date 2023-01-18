@@ -16,7 +16,7 @@
 
 **光敏模組**是**類比訊號**輸入， 可以接「A0 \~ A3」的 LinkIt 7697 NANO Breakout訊號端上，「A0 \~ A3」腳位在程式碼中以「14 \~ 17」表示。 本範例連接到「**A0**」，程式碼中為「**14**」。
 
-![光感測器](<../../.gitbook/assets/image (5) (1).png>)
+![光感測器](<../../.gitbook/assets/image (5) (1) (1).png>)
 
 ![](../../.gitbook/assets/linkit7697\_light\_01.png)
 
@@ -121,4 +121,4 @@ void loop()
 
 ### **程式執行結果**
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>

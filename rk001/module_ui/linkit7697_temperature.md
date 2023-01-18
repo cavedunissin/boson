@@ -77,3 +77,54 @@ basic.forever(function () {
     basic.showNumber(pins.analogReadPin(AnalogPin.P0))
 })
 ```
+
+
+
+
+
+## Raspberry Pi Pico 專案說明
+
+使用「Raspberry Pi Pico」連接「熱敏（溫度）模組」, 每0.5秒讀取熱敏（溫度）模組的溫度訊號比例。此 **熱敏（溫度）模組**包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+
+
+
+### 熱敏（溫度）模組電路圖
+
+* [Raspberry Pi Pico](https://robotkingdom.com.tw/product/raspberry-pi-pico/)[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
+* 熱敏（溫度）模組
+
+> 熱敏（溫度）模組是數位/類比訊號輸出， 可以接「D0 \~ D28、A0 \~ A2」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」、「A0」。
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Arduino IDE程式
+
+> 每0.5秒鐘讀取熱敏（溫度）模組溫度的類比及數位資訊一次 。
+
+
+
+Arduino程式(temperature.ino)如下:
+
+```arduino
+void setup()
+{
+  pinMode(9, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println(digitalRead(9));
+  Serial.println(analogRead(A0));
+  delay(500);
+}
+```
+
+
+
+### 程式執行結果
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
