@@ -232,7 +232,7 @@ void loop()
 
 > 當 R / B / G 的腳位拉高到 3.3V/5V,電流就會流過。 LED 就會點亮，本範例R / B / G連接到「D10、D9、D8」 。 當 R / B / G 的腳位拉低，電流就不會流過, LED 就不會點亮 。
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### LED模組(三色共陰)Arduino 程式
 
