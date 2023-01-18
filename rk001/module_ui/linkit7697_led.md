@@ -74,6 +74,10 @@ basic.forever(function () {
 })
 ```
 
+
+
+
+
 ## Raspberry Pi Pico 專案說明
 
 使用「Raspberry Pi Pico」連接「LED模組」, 每兩秒鐘LED模組閃爍一次。此 LED模組包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
@@ -82,15 +86,15 @@ basic.forever(function () {
 
 ### **LED模組電路圖**
 
-* Raspberry Pi Pico[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
-* Raspberry Pi Pico擴充板[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
+* [Raspberry Pi Pico](https://robotkingdom.com.tw/product/raspberry-pi-pico/)[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
 * LED模組
 
 &#x20;LED模組是數位/類比訊號輸出，  可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。  本範例連接到「D7」
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 \
 
@@ -115,4 +119,5 @@ void loop()
 
 ```
 
-&#x20;
+
+

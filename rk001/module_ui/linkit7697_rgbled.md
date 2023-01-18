@@ -154,3 +154,114 @@ basic.forever(function () {
 })
 
 ```
+
+
+
+
+
+## Raspberry Pi Pico 專案說明
+
+使用「Raspberry Pi Pico」連接「LED模組(三色)」, 每0.5秒依序發出紅光、綠光和藍光。此 LED模組(三色)包含於「[洞洞么教學材料包](https://robotkingdom.com.tw/product/rk-education-kit-001/)」內。
+
+
+
+### LED模組(三色)電路圖
+
+* [Raspberry Pi Pico](https://robotkingdom.com.tw/product/raspberry-pi-pico/)[  ](https://www.robotkingdom.com.tw/product/bbc-microbit-1/)
+* [Raspberry Pi Pico擴充板](https://robotkingdom.com.tw/product/pipico-education-kit-001/)[  ](https://www.robotkingdom.com.tw/product/keyes-microbit-sensor-breakout-v2/)
+* LED模組(三色)
+
+&#x20;**LED模組(三色)**是**數位/類比訊號**輸出， 可以接「D0 \~ D28」的Raspberry Pi Pico擴充板訊號端上。
+
+
+
+#### LED模組(三色共陽)接線圖
+
+{% hint style="info" %}
+下圖範例使用的 LED模組(三色) 為共陽極 LED， 由下圖 把腳位V 接到 3.3V / 5V 的電源， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+> 當 R / B / G 的腳位拉高到 3.3V/5V, 電流就不會流過, LED 就不會點亮 。
+>
+> 當 R / B / G 的腳位拉低， 電流就會流過。 LED 就會點亮，本範例R / B / G連接到「D10、D9、D8」 。
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+### LED模組(三色共陽)Arduino 程式
+
+> 透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 此範例使用的是共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D10／D9／D8）為低電位狀態時， 電流才會流過並發亮。
+
+Arduino 程式(Three\_colors\_LED\_anode.ino)如下:
+
+```arduino
+void setup()
+{
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(2, LOW);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  delay(1000);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, LOW);
+  digitalWrite(4, HIGH);
+  delay(1000);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, LOW);
+  delay(1000);
+}
+```
+
+
+
+#### LED模組(三色共陰)接線圖
+
+{% hint style="info" %}
+下圖範例使用的 LED模組(三色) 為共陰極 LED， 由下圖 把腳位V 接到 3.3V / 5V 的電源， 腳位 R / B / G （Red／Blue／Green）接到數位輸出腳位。
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+> 當 R / B / G 的腳位拉高到 3.3V/5V,電流就會流過。 LED 就會點亮，本範例R / B / G連接到「D10、D9、D8」 。 當 R / B / G 的腳位拉低，電流就不會流過, LED 就不會點亮 。
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### LED模組(三色共陰)Arduino 程式
+
+> 透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 使用共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D10／D9／D8）為高電位狀態時， 電流才會流過並發亮。
+
+Arduino 程式(Three\_colors\_LED\_cathode.ino)如下:
+
+```arduino
+void setup()
+{
+  pinMode(10, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(10, HIGH);
+  digitalWrite(8, LOW);
+  digitalWrite(9, LOW);
+  delay(1000);
+  digitalWrite(10, LOW);
+  digitalWrite(8, HIGH);
+  digitalWrite(9, LOW);
+  delay(1000);
+  digitalWrite(10, LOW);
+  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+  delay(1000);
+}
+
+```

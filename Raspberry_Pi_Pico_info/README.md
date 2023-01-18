@@ -1,4 +1,4 @@
-# 😎 Raspberry Pi Pico介紹
+# 💻 Raspberry Pi Pico介紹
 
 ## Raspberry Pi Pico介紹 <a href="#_toc124882494" id="_toc124882494"></a>
 
