@@ -66,6 +66,7 @@
     * [紅外線偵測模組](rk001/module\_ui/linkit7697\_irsensor.md)
     * [I2C 1602液晶顯示模組](rk001/module\_ui/linkit7697\_i2c1602.md)
     * [熱敏（溫度）模組](rk001/module\_ui/linkit7697\_temperature.md)
+    * [DHT 22溫溼度模組(For Pico)](rk001/module\_ui/dht-22-wen-shi-du-mo-zu-for-pico.md)
   * [micro:bit影片教學](rk001/microbit\_tutorial\_video.md)
 * [洞洞兩教學材料包(貓咪盃硬體組材料包)](rk002/README.md)
   * [模組使用教學](rk002/module/README.md)

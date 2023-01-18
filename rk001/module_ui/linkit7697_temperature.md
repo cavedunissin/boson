@@ -96,7 +96,7 @@ basic.forever(function () {
 
 > 熱敏（溫度）模組是數位/類比訊號輸出， 可以接「D0 \~ D28、A0 \~ A2」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」、「A0」。
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
