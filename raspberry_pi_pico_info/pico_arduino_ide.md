@@ -18,9 +18,9 @@
 
 **按下允許存取，即可開啟Arduino IDE。**
 
-![一張含有 文字 的圖片
+![](../.gitbook/assets/2)
 
-自動產生的描述](../.gitbook/assets/2)
+****
 
 **開啟Arduino IDE，即可使用Raspberry Pi Pico**
 

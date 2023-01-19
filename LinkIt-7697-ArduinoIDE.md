@@ -10,5 +10,5 @@
 
 {% hint style="success" %}
 LinkIt 7697 是基於[聯發科技 MT7697 SOC](https://labs.mediatek.com/zh-tw/chipset/MT7697) 的開發板，提供了 Wi-Fi 以及 Bluetooth Low Energy (BLE) 的無線通訊功能。\
-![](<.gitbook/assets/image (15) (1) (1).png>)
+<img src=".gitbook/assets/image (15) (1) (1).png" alt="" data-size="original">
 {% endhint %}
