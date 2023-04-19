@@ -3,22 +3,22 @@
 ## MCS Lite 介紹
 
 **MediaTek Cloud Sandbox Lite Edition（後面簡稱MCS Lite），是根據聯發科技物聯網雲端平台 MediaTek Cloud Sandbox（後面簡稱 MCS）的核心功能改寫，開發成一個跨平臺的輕量級桌面應用程式，可運行在 Windows, Linux 和 Mac OS 等常用作業系統上。而MCS在2021年4月16日後會被關閉，但仍然可以使用MCS Lite功能，本範例將執行在 Windows 系統中。**\
-****
+
 
 **MCS Lite 將運行網路應用平台所需的元件，包括資料庫，網頁伺服器與系統管理介面等都封裝在一個執行檔內，可以直接透過電腦成為區域網路的物聯網服務平台，開始與網路上的物聯網裝置溝通，收集裝置產生的數據或進行遠端操控與設定。**\
-****
+
 
 ## **下載MCS Lite**
 
 **MCS Lite 的各平台載點:**\
-&#x20;**** [**https://github.com/mcs-lite/mcs-lite-app/releases/tag/v1.2.2**](https://github.com/mcs-lite/mcs-lite-app/releases/tag/v1.2.2)
+&#x20;[**https://github.com/mcs-lite/mcs-lite-app/releases/tag/v1.2.2**](https://github.com/mcs-lite/mcs-lite-app/releases/tag/v1.2.2)
 
 **本範例下載Win 64的版本執行，如下圖所示。**
 
 ![](https://lh4.googleusercontent.com/LfHScJ82LZ2hb3IrOGMEMtiX3sZ9xECIUJK6RWS0qhTYu-fKegNgrqsP7sMhM8sTyu4aDrqnq30Izvem49po8eFwlRRUiBlGvEnYWvYe510pPWRs7RHjofdAxRgXhbtQA3wx33CXaLfuSBgo9w)
 
-****\
-****
+\
+
 
 ## **安裝MCS Lite並執行在電腦中**
 
@@ -42,8 +42,8 @@
 
 ![](https://lh3.googleusercontent.com/zPIo3it0s\_mT\_fiGjygqNdO-xZUVLxo285VQMNOmMQasVDww5mty1lYsGU-5tV6oN1BFSBmfBQJGI86MQXLhr2xVBtcPz-j85zQzMYXbzEx6DxDvFEuQgKCortRWtPheV9xJZyyqufAAuOGjgg)
 
-****\
-****
+\
+
 
 ![](https://lh5.googleusercontent.com/Mf87hLS5gv6IgQV790Lb2p4VscyCwOgTce7RDZW4V-FjF3jXKx-omr-amNWiGVoCesQlmzEM\_9l51hndK5\_T3c\_6eVLA8\_nzuZ66G4ziRTtRSdzopuVaFIf2leP6CIi9k6pc3yh6pKKJGhR0lQ)
 

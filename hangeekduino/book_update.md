@@ -1,4 +1,4 @@
-# 書籍更新\_202012更新
+# 書籍內容更新\_202012更新
 
 ## 根據原廠文件更新我們新增修改了部分書籍內容，詳細內容請參考以下說明。
 
@@ -151,7 +151,7 @@ pin（腳位）: 要寫入的 Arduino 腳位（pin）。
 tone(pin, value);
 ```
 
-[https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/output_module/buzzer](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/output_module/buzzer)
+[https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/output\_module/buzzer](https://cavedu.gitbook.io/cavedu/hangeekduino/samplecode/output\_module/buzzer)
 
 **PWM用法**
 
@@ -237,7 +237,7 @@ map () 函式只接受整數，因此就算運算結果有小數點，一樣會�
 ## 06. 聲音感測器
 
 **\*\*\* P42 程式碼部分修改註解內容\*\*\***\
-****程式碼後面加上//本行修改部分為須更改之程式碼AND註解
+程式碼後面加上//本行修改部分為須更改之程式碼AND註解
 
 ```
 //Sound Control Light

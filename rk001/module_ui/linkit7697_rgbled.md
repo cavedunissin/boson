@@ -40,7 +40,7 @@
 ### BlocklyDuino 積木畫布
 
 **共陽極三色LED程式**\
-****透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 此範例使用的是共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D2／D3／D4）為低電位狀態時， 電流才會流過並發亮。
+透過控制數位腳位的高低電位來使 RBG 三色亮或暗。 此範例使用的是共陽極的 RGB 全彩 LED， 所以該顏色（R / B / G）對應的腳位（D2／D3／D4）為低電位狀態時， 電流才會流過並發亮。
 
 ![](../../.gitbook/assets/linkit7697\_rgbled\_03.png)
 
@@ -187,7 +187,7 @@ basic.forever(function () {
 >
 > 當 R / B / G 的腳位拉低， 電流就會流過。 LED 就會點亮，本範例R / B / G連接到「D10、D9、D8」 。
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### LED模組(三色共陽)Arduino 程式
 

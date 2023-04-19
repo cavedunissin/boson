@@ -28,7 +28,7 @@
 
 ![](<../.gitbook/assets/3 (1)>)
 
-****
+
 
 ### **由Raspberry Pi Pico USB供電**
 

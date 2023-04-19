@@ -4,7 +4,7 @@
 
 P229\
 **sudo add-apt-repository "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo bionic main" -u**\
-****修改成\
+修改成\
 **sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo bionic main" -u**
 
 
@@ -20,16 +20,16 @@ P229\
 
 **RealSense原廠github資料:**
 
-[**https://github.com/IntelRealSense/librealsense/wiki/Release-Notes#release-2430**](https://github.com/IntelRealSense/librealsense/wiki/Release-Notes#release-2430)****\
-****
+[**https://github.com/IntelRealSense/librealsense/wiki/Release-Notes#release-2430**](https://github.com/IntelRealSense/librealsense/wiki/Release-Notes#release-2430)\
+
 
 **使用錯誤連結下載過修改辦法:**\
-****
+
 
 **這裡我們首先介紹按照書籍安裝時出現錯誤無法安裝的解決辦法**
 
 **如果已經使用錯誤的網址安裝套件時，之後就算使用新的網址安裝依然會報錯，這是因為套件網址清單已經被寫入設定檔中，需要修改設定檔的內容才能使用正確的網址更新套件。**\
-****
+
 
 **修改方法如下:**
 
@@ -39,7 +39,7 @@ P229\
 | ---------------- |
 
 **接著執行ls這個指令可以查看有sources.list這個檔案()**\
-****
+
 
 | **ls** |
 | ------ |
@@ -47,17 +47,17 @@ P229\
 ![](https://lh6.googleusercontent.com/bVlGEgN\_5aJjBeG5RYfs1tjwd78\_zK28Y2wh72py8sck6-qykGK1IKN0UkZyp9pz4wV2yBeTdmjX4OrR0KH5VHIAopiES9FEPPdJ5YQzqG48LNIydQhYKdgD5GazTDQ4l4KDT2Tb)
 
 **接著修改檔案內容，把舊的網址刪掉或是註解掉，如果有使用新的網址下載過也可以把新的網址取消註解，執行以下指令修改sources.list檔案。(記得使用sudo權限否則無法儲存檔案)**\
-****
+
 
 **舊的網址: http://realsense-hw-public.s3.amazonaws.com/ 相關網址**
 
 **deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo bionic main(需刪掉或註解掉)**\
-****
+
 
 **新的網址:https://librealsense.intel.com 開頭**
 
 **deb https://librealsense.intel.com/Debian/apt-repo bionic main**\
-****
+
 
 | **sudo nano sources.list** |
 | -------------------------- |

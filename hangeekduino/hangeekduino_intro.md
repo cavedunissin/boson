@@ -6,7 +6,7 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 
 ### **軟體下載連結:**
 
-****[https://drive.google.com/drive/folders/1iHQyfQvjbS4lhob-3mF5auntte\_G86\_f](https://drive.google.com/drive/folders/1iHQyfQvjbS4lhob-3mF5auntte\_G86\_f)&#x20;
+[https://drive.google.com/drive/folders/1iHQyfQvjbS4lhob-3mF5auntte\_G86\_f](https://drive.google.com/drive/folders/1iHQyfQvjbS4lhob-3mF5auntte\_G86\_f)&#x20;
 
 ## &#x20;如何打開Hangeekduino
 
@@ -25,6 +25,10 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 第一次使用Hangeekduino軟體或Arduino首次接觸就上手的人，需要先安裝CP2102 USB驅動程式才可以正常燒錄程式，根據以下網址選擇您電腦所對應的作業系統下載對應的安裝檔並安裝CP2102 USB驅動程式。
 
 {% embed url="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers" %}
+
+注意WINDOWS一鍵安裝版本下載位置改為以下CP210x VCP Windows檔案(如下圖紅框所示)，CP210x Universal Windows Driver為從裝置管理員安裝的版本。
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 成功安裝完CP2102 USB驅動程式後，將板子上的USB線插入電腦中即可在畫面右上方選擇電腦抓到的COM Port-序列埠(如下圖橘框處所示)，這裡我們選擇COM3。
 

@@ -26,11 +26,11 @@
 
 使用軟體為BlocklyDuino裡內建的arduino-1.8.5。\
 由於Grove–VOC與eCO2 氣體感測器是函式庫型模組，所以需要先在Arduino上下載函式庫，下載方法如下。 首先先從github上下載Seeed SGP30 library 函式庫，從草稿碼選項中匯入ZIP檔程式庫。(如下圖)\
-****[https://github.com/Seeed-Studio/SGP30\_Gas_Sensor](https://github.com/Seeed-Studio/SGP30\_Gas_Sensor)
+[https://github.com/Seeed-Studio/SGP30\_Gas\_Sensor](https://github.com/Seeed-Studio/SGP30\_Gas\_Sensor)
 
 ![](../.gitbook/assets/SPG307697lib.JPG)
 
-原廠詳細資料如下: [https://wiki.seeedstudio.com/cn/Grove-VOC_and_eCO2\_Gas_Sensor-SGP30/](https://wiki.seeedstudio.com/cn/Grove-VOC_and_eCO2\_Gas_Sensor-SGP30/)
+原廠詳細資料如下: [https://wiki.seeedstudio.com/cn/Grove-VOC\_and\_eCO2\_Gas\_Sensor-SGP30/](https://wiki.seeedstudio.com/cn/Grove-VOC\_and\_eCO2\_Gas\_Sensor-SGP30/)
 
 ```
 #include <Arduino.h>

@@ -8,19 +8,19 @@
 
 ![](<../.gitbook/assets/0 (2)>)
 
-****
+
 
 **下載至電腦後，請解壓縮程式，開啟執行檔。**
 
 ![](<../.gitbook/assets/1 (4)>)
 
-****
+
 
 **按下允許存取，即可開啟Arduino IDE。**
 
 ![](../.gitbook/assets/2)
 
-****
+
 
 **開啟Arduino IDE，即可使用Raspberry Pi Pico**
 
