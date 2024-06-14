@@ -92,6 +92,8 @@
     * [WS2812 RGB12燈燈環模組](rk002/module/002\_ws2812\_rgb12.md)
 * [洞洞五教學材料包](dong-dong-wu-jiao-xue-cai-liao-bao/README.md)
   * [Raspberry Pi Pico W 介紹](dong-dong-wu-jiao-xue-cai-liao-bao/raspberry-pi-picow-jie-shao.md)
+  * [程式撰寫軟體下載](dong-dong-wu-jiao-xue-cai-liao-bao/cheng-shi-zhuan-xie-ruan-ti-xia-zai.md)
+  * [模組使用教學](dong-dong-wu-jiao-xue-cai-liao-bao/mo-zu-shi-yong-jiao-xue.md)
 * [Arduino首次接觸就上手](hangeekduino/README.md)
   * [認識Hangeekduino圖形化介面](hangeekduino/hangeekduino\_intro.md)
   * [Hangeekduino範例程式](hangeekduino/samplecode/README.md)
