@@ -90,6 +90,13 @@
     * [LCD1602液晶模組](rk002/module/002\_lcd1602.md)
     * [Max7219 8X8 矩陣LED模組](rk002/module/002\_max7219.md)
     * [WS2812 RGB12燈燈環模組](rk002/module/002\_ws2812\_rgb12.md)
+
+## 洞洞五教學材料包
+
+* [Raspberry Pi Pico W 介紹](dong-dong-wu-jiao-xue-cai-liao-bao/raspberry-pi-picow-jie-shao.md)
+
+***
+
 * [Arduino首次接觸就上手](hangeekduino/README.md)
   * [認識Hangeekduino圖形化介面](hangeekduino/hangeekduino\_intro.md)
   * [Hangeekduino範例程式](hangeekduino/samplecode/README.md)
