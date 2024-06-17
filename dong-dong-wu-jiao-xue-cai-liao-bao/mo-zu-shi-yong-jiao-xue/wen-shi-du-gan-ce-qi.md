@@ -40,8 +40,25 @@
 
 ### &#x20;Arduino 程式(DHT22.ino)如下
 
-| <p><code>#include &#x3C;DHT_mini.h></code></p><p> </p><p><code>DHT dht22_p7(7, DHT22);</code></p><p> </p><p><code>void setup()</code></p><p><code>{</code></p><p>  <code>dht22_p7.begin();</code></p><p>  <code>Serial.begin(9600);</code></p><p><code>}</code></p><p> </p><p><code>void loop()</code></p><p><code>{</code></p><p>  <code>Serial.println((String("溫度 : ")+String(dht22_p7.readTemperature())+String("  ")+String("濕度 : ")+String(dht22_p7.readHumidity())));</code></p><p>  <code>delay(3000);</code></p><p><code>}</code></p> |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+
+```
+#include <DHT_mini.h>
+
+DHT dht22_p7(7, DHT22);
+
+void setup()
+{
+  dht22_p7.begin();
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println((String("溫度 : ")+String(dht22_p7.readTemperature())+String("  ")+String("濕度 : ")+String(dht22_p7.readHumidity())));
+  delay(3000);
+}
+```
 
 ### &#x20;程式執行結果:&#x20;
 
