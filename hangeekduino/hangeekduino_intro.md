@@ -28,7 +28,7 @@ Hangeekduino是根據BlocklyDuino所新增首次接觸就上手套件相關積�
 
 注意WINDOWS一鍵安裝版本下載位置改為以下CP210x VCP Windows檔案(如下圖紅框所示)，CP210x Universal Windows Driver為從裝置管理員安裝的版本。
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 成功安裝完CP2102 USB驅動程式後，將板子上的USB線插入電腦中即可在畫面右上方選擇電腦抓到的COM Port-序列埠(如下圖橘框處所示)，這裡我們選擇COM3。
 

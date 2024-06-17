@@ -17,11 +17,11 @@
 | OLED 顯示器模組是I2C訊號輸入。本範例連接到模組SDA腳位需接至Raspberry Pi Pico擴充板D4腳位，模組SCL腳位需接至Raspberry Pi Pico擴充板D5腳位。  |
 | ------------------------------------------------------------------------------------------------ |
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20;BlocklyDuino 程式 (OLED)
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### &#x20; Arduino 程式(OLED.ino)如下
 

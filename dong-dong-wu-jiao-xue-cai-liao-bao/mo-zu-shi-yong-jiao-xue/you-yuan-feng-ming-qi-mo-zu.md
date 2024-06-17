@@ -1,4 +1,4 @@
-# 【9】有源蜂鳴器模組
+# 有源蜂鳴器模組
 
 ### 有源蜂鳴器模組 <a href="#hlk168942250" id="hlk168942250"></a>
 
@@ -14,38 +14,26 @@
 
 **有源蜂鳴器模組**是**數位訊號**輸入， 可以接「D0\~ D28」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「D7」。
 
-![一張含有 電子產品, 電子元件, 電路元件, 電路 的圖片
+![](<../../.gitbook/assets/0 (21).png>)
 
-自動產生的描述](<../../.gitbook/assets/0 (21).png>)
-
-**BlocklyDuino 程式(Buzzer)**
+### **BlocklyDuino 程式(Buzzer)**
 
 蜂鳴器會被開啟一秒後，關閉一秒，如此周而復始，直到 Raspberry Pi Pico W 斷電為止。
 
-![一張含有 文字, 螢幕擷取畫面, 字型, 數字 的圖片
+![](<../../.gitbook/assets/1 (23).png>)
 
-自動產生的描述](<../../.gitbook/assets/1 (23).png>)
+### **Arduino 程式(Buzzer.ino)如下**
 
-**Arduino 程式(Buzzer.ino)如下**
-
+```
 void setup()
-
 {
-
 pinMode(7, OUTPUT);
-
 }
-
 void loop()
-
 {
-
 digitalWrite(7, HIGH);
-
 delay(1000);
-
 digitalWrite(7, LOW);
-
 delay(1000);
-
 }
+```
