@@ -104,7 +104,7 @@
     * [SG90伺服馬達模組](dong-dong-wu-jiao-xue-cai-liao-bao/mo-zu-shi-yong-jiao-xue/sg90-si-fu-ma-da-mo-zu.md)
     * [PIR生物紅外線感測器模組](dong-dong-wu-jiao-xue-cai-liao-bao/mo-zu-shi-yong-jiao-xue/pir-sheng-wu-hong-wai-xian-gan-ce-qi-mo-zu.md)
     * [氣體感測器Gas Sensor(MQ7)模組](dong-dong-wu-jiao-xue-cai-liao-bao/mo-zu-shi-yong-jiao-xue/qi-ti-gan-ce-qi-gas-sensormq7-mo-zu.md)
-    * [【13】數位式光強度感測器模組](dong-dong-wu-jiao-xue-cai-liao-bao/mo-zu-shi-yong-jiao-xue/13-shu-wei-shi-guang-qiang-du-gan-ce-qi-mo-zu.md)
+    * [數位式光強度感測器模組](dong-dong-wu-jiao-xue-cai-liao-bao/mo-zu-shi-yong-jiao-xue/shu-wei-shi-guang-qiang-du-gan-ce-qi-mo-zu.md)
 * [Arduino首次接觸就上手](hangeekduino/README.md)
   * [認識Hangeekduino圖形化介面](hangeekduino/hangeekduino\_intro.md)
   * [Hangeekduino範例程式](hangeekduino/samplecode/README.md)

@@ -1,12 +1,12 @@
 # 按鈕模組
 
-### 按鈕模組 <a href="#toc124882502" id="toc124882502"></a>
+## 按鈕模組 <a href="#toc124882502" id="toc124882502"></a>
 
 **專案說明**
 
 使用「Raspberry Pi Pico W」連接「按鈕模組」, 讀取按鈕模組的數值變化。此**按鈕模組**包含於「洞洞五教學材料包」內。
 
-**按鈕模組電路圖**
+### **按鈕模組電路圖**
 
 * Raspberry Pi Pico W
 * Raspberry Pi Pico W 擴充板
@@ -24,7 +24,7 @@
 
 ![](<../../.gitbook/assets/1 (21).png>)
 
-**BlocklyDuino 程式 (Button)**
+### **BlocklyDuino 程式 (Button)**
 
 兩款的程式都是相同的，請見下圖。
 
@@ -45,7 +45,7 @@ delay(500);
 }
 ```
 
-**程式執行結果:**
+### **程式執行結果:**
 
 兩款模組操作上有差異，**有**寫「**digital Push Button Module V2.0**」的按鈕模組接線圖，是**按鈕壓下為1，放開為0。**
 

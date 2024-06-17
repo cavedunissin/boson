@@ -6,8 +6,6 @@
 
 使用「Raspberry Pi Pico W」連接「旋轉電位計模組」, 可顯示RFID模組偵測的卡號。此 RFID模組包含於「洞洞五教學材料包」內。
 
-&#x20;
-
 ### RFID模組電路圖
 
 ·        Raspberry Pi Pico W
@@ -16,20 +14,14 @@
 
 ·        RFID模組
 
-&#x20;
-
 | RFID模組是SPI訊號輸入，  需接「D10」、「D16」、「D18」、「D19」的Raspberry Pi Pico擴充板訊號端上。 |
 | -------------------------------------------------------------------- |
-
-&#x20;
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### BlocklyDuino 程式 (RFID)&#x20;
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-&#x20;
 
 ### &#x20;Arduino 程式(RFID.ino)如下&#x20;
 
@@ -87,9 +79,7 @@ RFID模組一秒讀取一次，若偵測到卡片，則顯示卡號。
 
 &#x20;
 
-&#x20;
-
-【補充】
+### 【補充】
 
 RFID模組能偵測和讀取 13.56 MHz的RFID標籤和卡片，這意味著可以讀取 MIFARE系列的產品，如:悠遊卡、具有悠遊卡功能的金融卡或信用卡。
 
