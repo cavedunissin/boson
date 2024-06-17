@@ -1,6 +1,6 @@
-# 【12】氣體感測器Gas Sensor(MQ7)模組
+# 氣體感測器Gas Sensor(MQ7)模組
 
-### 氣體模組(MQ7) <a href="#toc124882502" id="toc124882502"></a>
+## 氣體感測器Gas Sensor(MQ7)模組
 
 **專案說明**
 
@@ -10,11 +10,9 @@
 
 精密電阻旋鈕可以調整氣體濃度測量範圍，如下圖所示。
 
-![一張含有 電子產品, 文字, 電子工程, 圓形 的圖片
+![](<../../.gitbook/assets/0 (23).png>)
 
-自動產生的描述](<../../.gitbook/assets/0 (23).png>)
-
-**氣體模組(MQ7)電路圖**
+### **氣體模組(MQ7)電路圖**
 
 * Raspberry Pi Pico W
 * Raspberry Pi Pico W 擴充板
@@ -22,51 +20,37 @@
 
 **氣體模組(MQ7)**是**類比訊號**輸入， 可以接「A0\~ A2」的Raspberry Pi Pico擴充板訊號端上。 本範例連接到「A0」
 
-![一張含有 電子產品, 電路, 電子元件, 電路元件 的圖片
+![](<../../.gitbook/assets/1 (25).png>)
 
-自動產生的描述](<../../.gitbook/assets/1 (25).png>)
-
-**BlocklyDuino 程式 (GAS)**
+### **BlocklyDuino 程式 (GAS)**
 
 偵測氣體的濃度變化，若**氣體濃度大於500，則顯示「危險!」；反之顯示「安全!」**。
 
-![一張含有 文字, 螢幕擷取畫面, 數字, 字型 的圖片
+![](<../../.gitbook/assets/2 (9).png>)
 
-自動產生的描述](<../../.gitbook/assets/2 (9).png>)
+### **Arduino 程式(GAS.ino)如下**
 
-**Arduino 程式(GAS.ino)如下**
 
+
+```
 void setup()
-
 {
-
 Serial.begin(9600);
-
 }
-
 void loop()
-
 {
-
 int GAS = analogRead(A0);
-
 if (GAS > 500) {
-
 Serial.println("危險!");
-
 } else {
-
 Serial.println("安全!");
-
 }
-
 Serial.println((String("數值 :")+String(GAS)));
-
 delay(100);
-
 }
+```
 
-**程式執行結果:**
+### **程式執行結果:**
 
 偵測氣體的濃度變化，若**氣體濃度大於500，則顯示「危險!」；反之顯示「安全!」**。
 
