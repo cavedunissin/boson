@@ -1,4 +1,4 @@
-# 【7】按鈕模組
+# 按鈕模組
 
 ### 按鈕模組 <a href="#toc124882502" id="toc124882502"></a>
 
@@ -18,45 +18,32 @@
 
 **有**寫「**digital Push Button Module V2.0**」的按鈕模組接線圖
 
-![一張含有 電子產品, 電子元件, 電路元件, 被動元件 的圖片
-
-自動產生的描述](<../../.gitbook/assets/0 (20).png>)
+![](<../../.gitbook/assets/0 (20).png>)
 
 **沒有**寫「**digital Push Button Module V2.0**」的按鈕模組接線圖
 
-![一張含有 電子產品, 電路, 電子元件, 電路元件 的圖片
-
-自動產生的描述](<../../.gitbook/assets/1 (21).png>)
+![](<../../.gitbook/assets/1 (21).png>)
 
 **BlocklyDuino 程式 (Button)**
 
 兩款的程式都是相同的，請見下圖。
 
-![一張含有 文字, 螢幕擷取畫面, 字型, 符號 的圖片
+![](<../../.gitbook/assets/2 (7).png>)
 
-自動產生的描述](<../../.gitbook/assets/2 (7).png>)
+### **Arduino 程式(Button.ino)如下**
 
-**Arduino 程式(Button.ino)如下**
-
+```
 void setup()
-
 {
-
 pinMode(7, INPUT);
-
 Serial.begin(9600);
-
 }
-
 void loop()
-
 {
-
 Serial.println(digitalRead(7));
-
 delay(500);
-
 }
+```
 
 **程式執行結果:**
 
@@ -64,6 +51,4 @@ delay(500);
 
 而**沒有**寫「**digital Push Button Module V2.0**」的按鈕模組接線圖，是**按鈕壓下為0，放開為1。**
 
-![一張含有 螢幕擷取畫面, 文字, 電腦, 陳列 的圖片
-
-自動產生的描述](<../../.gitbook/assets/3 (2).png>)
+![](<../../.gitbook/assets/3 (2).png>)
