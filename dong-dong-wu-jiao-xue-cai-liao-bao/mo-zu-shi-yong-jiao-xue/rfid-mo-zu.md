@@ -25,35 +25,65 @@
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-\
-
-
 ### BlocklyDuino 程式 (RFID)&#x20;
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;
 
-&#x20;Arduino 程式(RFID.ino)如下
+### &#x20;Arduino 程式(RFID.ino)如下&#x20;
 
-| <p>#include &#x3C;SPI.h></p><p> </p><p>#include &#x3C;MFRC522.h></p><p> </p><p>MFRC522 rfid(/*SS_PIN*/ 10, /*RST_PIN*/ UINT8_MAX);</p><p> </p><p>String mfrc522_readID()</p><p>{</p><p>  String ret;</p><p>  if (rfid.PICC_IsNewCardPresent() &#x26;&#x26; rfid.PICC_ReadCardSerial())</p><p>  {</p><p>    MFRC522::PICC_Type piccType = rfid.PICC_GetType(rfid.uid.sak);</p><p> </p><p>    for (byte i = 0; i &#x3C; rfid.uid.size; i++) {</p><p>      ret += (rfid.uid.uidByte[i] &#x3C; 0x10 ? "0" : "");</p><p>      ret += String(rfid.uid.uidByte[i], HEX);</p><p>    }</p><p>  }</p><p> </p><p>  // Halt PICC</p><p>  rfid.PICC_HaltA();</p><p> </p><p>  // Stop encryption on PCD</p><p>  rfid.PCD_StopCrypto1();</p><p>  return ret;</p><p>}</p><p> </p><p>void setup()</p><p>{</p><p>  SPI.begin();</p><p>  rfid.PCD_Init();</p><p> </p><p>  Serial.begin(9600);</p><p>}</p><p> </p><p>void loop()</p><p>{</p><p>  String RFID_id = mfrc522_readID();</p><p>  if (RFID_id != "") {</p><p>    Serial.println((String("偵測到卡片: ")+String(RFID_id)));</p><p>  }</p><p>  delay(1000);</p><p>}</p> |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+```
+#include <SPI.h>
+ 
+#include <MFRC522.h>
+ 
+MFRC522 rfid(/*SS_PIN*/ 10, /*RST_PIN*/ UINT8_MAX);
+ 
+String mfrc522_readID()
+{
+  String ret;
+  if (rfid.PICC_IsNewCardPresent() && rfid.PICC_ReadCardSerial())
+  {
+    MFRC522::PICC_Type piccType = rfid.PICC_GetType(rfid.uid.sak);
+ 
+    for (byte i = 0; i < rfid.uid.size; i++) {
+      ret += (rfid.uid.uidByte[i] < 0x10 ? "0" : "");
+      ret += String(rfid.uid.uidByte[i], HEX);
+    }
+  }
+ 
+  // Halt PICC
+  rfid.PICC_HaltA();
+ 
+  // Stop encryption on PCD
+  rfid.PCD_StopCrypto1();
+  return ret;
+}
+ 
+void setup()
+{
+  SPI.begin();
+  rfid.PCD_Init();
+ 
+  Serial.begin(9600);
+}
+ 
+void loop()
+{
+  String RFID_id = mfrc522_readID();
+  if (RFID_id != "") {
+    Serial.println((String("偵測到卡片: ")+String(RFID_id)));
+  }
+  delay(1000);
+}
+```
 
-&#x20;
-
-\
-
-
-&#x20;
-
-程式執行結果:
+### 程式執行結果:
 
 RFID模組一秒讀取一次，若偵測到卡片，則顯示卡號。
 
-&#x20;
-
-|   |   |
-| - | - |
+&#x20;![](<../../.gitbook/assets/image (22).png>)![](<../../.gitbook/assets/image (23).png>)
 
 &#x20;
 
@@ -62,8 +92,6 @@ RFID模組一秒讀取一次，若偵測到卡片，則顯示卡號。
 【補充】
 
 RFID模組能偵測和讀取 13.56 MHz的RFID標籤和卡片，這意味著可以讀取 MIFARE系列的產品，如:悠遊卡、具有悠遊卡功能的金融卡或信用卡。
-
-&#x20;
 
 而手機開啟悠遊卡功能，RFID 模組也可以讀取到，不過這是透過NFC（近場通訊）技術實現的，而不是直接使用MIFARE晶片。這稱為「卡片模擬」（Card Emulation），即手機的 NFC 晶片模擬實體悠遊卡的行為。這種功能需要手機支援NFC和相應的應用程序來管理虛擬卡的資料。
 
