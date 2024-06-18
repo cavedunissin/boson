@@ -1,6 +1,6 @@
 # 程式撰寫軟體下載
 
-### 程式撰寫軟體下載 <a href="#toc124882497" id="toc124882497"></a>
+## 程式撰寫軟體下載 <a href="#toc124882497" id="toc124882497"></a>
 
 洞洞五模組之程式撰寫介面，請下載Raspberry Pi Pico W專屬程式撰寫軟體，連結:
 
@@ -35,9 +35,9 @@ Raspberry Pi Pico W 在第一次燒錄時，裝置管理員並沒有顯示COM Po
 
 * 燒錄程式
 
-在上傳程式前，先按住Raspberry Pi Pico W 的 BOOTSET 按鈕，再，插上USB 傳輸線連接到電腦。
+在上傳程式前，先按住Raspberry Pi Pico W 的 BOOTSEL 按鈕，再，插上USB 傳輸線連接到電腦。
 
-![](../.gitbook/assets/5.jpeg)
+![](../.gitbook/assets/picow.jpg)
 
 * 選擇UF2 Board
 
@@ -92,9 +92,10 @@ Raspberry Pi Pico W 在第一次燒錄時，裝置管理員並沒有顯示COM Po
 ![](../.gitbook/assets/13.png)
 
 * 積木的開發板要選 Pico
-* ![一張含有 文字, 螢幕擷取畫面, 字型, 數字 的圖片
 
-  自動產生的描述](../.gitbook/assets/14.png)
+![一張含有 文字, 螢幕擷取畫面, 字型, 數字 的圖片
+
+自動產生的描述](../.gitbook/assets/14.png)
 
 至此 Raspberry Pi Pico W 的燒錄腳位皆已設定完成，下一個步驟就是如何透過BlocklyDuino 撰寫及燒錄程式。
 
@@ -124,7 +125,7 @@ Raspberry Pi Pico W 在第一次燒錄時，裝置管理員並沒有顯示COM Po
 
 ![](../.gitbook/assets/18.png)
 
-**材料包程式下載**
+### **材料包程式下載**
 
 **材料包所有程式下載連結:**
 

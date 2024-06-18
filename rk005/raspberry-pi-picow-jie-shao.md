@@ -1,10 +1,8 @@
 # Raspberry Pi Pico W 介紹
 
-### Raspberry Pi Pico W規格介紹 <a href="#hlk124867738" id="hlk124867738"></a>
+## Raspberry Pi Pico W規格介紹 <a href="#hlk124867738" id="hlk124867738"></a>
 
-![一張含有 電子產品, 電子元件, 電路元件, 電路 的圖片
-
-自動產生的描述](<../.gitbook/assets/0 (16).png>)
+![](<../.gitbook/assets/0 (16).png>)
 
 _圖片出處: https://www.farnell.com/datasheets/3759470.pdf_
 
@@ -25,13 +23,11 @@ _圖片出處: https://www.farnell.com/datasheets/3759470.pdf_
 
 ### Raspberry Pi Pico腳位介紹 <a href="#hlk124870888" id="hlk124870888"></a>
 
-![一張含有 文字, 螢幕擷取畫面, 圖表 的圖片
-
-自動產生的描述](<../.gitbook/assets/1 (17).png>)
+![](<../.gitbook/assets/1 (17).png>)
 
 _圖片出處: https://www.farnell.com/datasheets/3759470.pdf_
 
-**Raspberry Pi Pico W 接腳功能介紹:**
+### **Raspberry Pi Pico W 接腳功能介紹:**
 
 * 有26個可程式IO接腳
 * 兩組SPI、兩組I2C
