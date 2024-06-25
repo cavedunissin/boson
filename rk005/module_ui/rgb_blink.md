@@ -1,12 +1,10 @@
-# 【6】RGB全彩LED模組(共陽極)
+# RGB全彩LED模組(共陽極)
 
 ## RGB全彩LED模組(共陽極) <a href="#toc124882502" id="toc124882502"></a>
 
 專案說明
 
 使用「Raspberry Pi Pico W」連接「旋轉電位計模組」, 控制RGB全彩LED模組的顏色變化。此 RGB全彩LED模組包含於「洞洞五教學材料包」內。
-
-&#x20;
 
 ### RGB全彩LED模組電路圖
 
@@ -19,11 +17,7 @@
 | RGB全彩LED模組是數位訊號輸入，  可以接「D0\~ D28」的Raspberry Pi Pico W擴充板訊號端上。  本範例連接到「D8」、「D9」、「D10」上。 |
 | -------------------------------------------------------------------------------------- |
 
-&#x20;
-
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
-
-&#x20;
+<figure><img src="../../.gitbook/assets/圖片3.jpg" alt=""><figcaption></figcaption></figure>
 
 ### BlocklyDuino 程式 (RGB\_Blink)
 
@@ -86,7 +80,5 @@ void loop()
 亮起紅燈、藍燈、綠燈和關燈，並都間隔一秒。
 
 &#x20;![](<../../.gitbook/assets/image (26).png>)![](<../../.gitbook/assets/image (27).png>)![](<../../.gitbook/assets/image (28).png>)![](<../../.gitbook/assets/image (29).png>)
-
-&#x20;
 
 &#x20;
