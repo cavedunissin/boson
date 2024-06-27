@@ -37,4 +37,4 @@ _圖片出處: https://www.farnell.com/datasheets/3759470.pdf_
 **\[註] 但 Raspberry Pi Pico W 在 Arduino 平台上 PWM 解析度是 8 位元的原因**
 
 * 硬體限制：許多 Arduino 板使用 AVR 微控制器，其硬體 PWM 計數器通常設置為 8 位解析度。因此，預設情況下，Arduino 平台上的 analogWrite 函數使用 0 到 255 的範圍。
-* 兼容性：為了與大多數 Arduino 板和現有的 Arduino 程式碼相容，analogWrite 的預設解析度設置為 8 。
+* 相容性：為了與大多數 Arduino 板和現有的 Arduino 程式碼相容，analogWrite 的預設解析度設置為 8 。
